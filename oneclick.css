@@ -105,3 +105,135 @@ body {
         margin: 30px;
         height: 50px;
 }
+#Comedias {
+    color: white;
+}
+#Comedias2 ul {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    justify-content:space-between ;
+}
+
+#Comedias2 ul li{
+    margin: 30px;
+    height: 50px;
+}
+#Aventuras {
+    color: white;
+}
+#Aventuras2 ul {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    justify-content:space-between ;
+}
+
+#Aventuras2 ul li{
+    margin: 30px;
+    height: 50px;
+}
+#Romanticas {
+    color: white;
+}
+#Romanticas2 ul {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    justify-content:space-between ;
+}
+
+#Romanticas2 ul li{
+    margin: 30px;
+    height: 50px;
+}
+
+#Terror {
+    color: white;
+}
+#Terror2 ul {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    justify-content:space-between ;
+}
+
+#Terror2 ul li{
+    margin: 30px;
+    height: 50px;
+}
+
+#CienciaFiccion {
+    color: white;
+}
+#CienciaFiccion2 ul {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    justify-content:space-between ;
+}
+
+#CienciaFiccion2 ul li{
+    margin: 30px;
+    height: 50px;
+}
+#Infantiles {
+    color: white;
+}
+#Infantiles2 ul {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    justify-content:space-between ;
+}
+
+#Infantiles2 ul li{
+    margin: 30px;
+    height: 50px;
+}
+
+#Comics {
+    color: white;
+}
+#Comics2 ul {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    justify-content:space-between ;
+}
+
+#Comics2 ul li{
+    margin: 30px;
+    height: 50px;
+}
+
+#tvshows {
+    color: white;
+}
+#tvshows2 ul {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    justify-content:space-between ;
+}
+
+#tvshows2 ul li{
+    margin: 30px;
+    height: 50px;
+}
