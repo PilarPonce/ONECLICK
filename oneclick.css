@@ -1,0 +1,13 @@
+body {
+
+    background-color: black;
+}
+
+.barranav{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:lightpink;
+    border: 1px lightpink;
+    margin-bottom: 20px;
+}
