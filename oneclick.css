@@ -58,3 +58,50 @@ body {
 #ten ul li{
     margin: 30px;
     height: 100px;
+}
+#generos {
+        color: white;
+}
+#generos2 ul{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        list-style: none;
+        justify-content: space-between;
+        background-color:lightpink;
+}
+#generos2 ul li{
+        margin: 30px;
+        height: 50px;
+}
+#accion {
+        color: white;
+}
+#accion2 ul{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        list-style: none;
+        justify-content: space-between;
+        background-color:lightpink;
+}
+#accion2 ul li{
+        margin: 30px;
+        height: 50px;
+}
+    
+#dramas {
+        color: white;
+}
+#dramas2 ul{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        list-style: none;
+        justify-content: space-between;
+        background-color:lightpink;
+}
+#dramas2 ul li{
+        margin: 30px;
+        height: 50px;
+}
