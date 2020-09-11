@@ -12,10 +12,10 @@ body {
     margin-bottom: 20px;
 }
 
-#accion {
+#Accion {
     color: white;
 }
-#accion2 ul{
+#Accion2 ul{
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -23,15 +23,15 @@ body {
     justify-content: space-between;
     background-color:lightpink;
 }
-#accion2 ul li{
+#Accion2 ul li{
     margin: 30px;
     height: 50px;
 }
 
-#dramas {
+#Dramas {
     color: white;
 }
-#dramas2 ul{
+#Dramas2 ul{
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -39,7 +39,7 @@ body {
     justify-content: space-between;
     background-color:lightpink;
 }
-#dramas2 ul li{
+#Dramas2 ul li{
     margin: 30px;
     height: 50px;
 }
