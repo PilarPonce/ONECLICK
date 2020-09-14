@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+.barranav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid lightpink;
+    background-color: lightpink;
+    margin-bottom: 20px
+    ;
+}
+.fondopeli{
+    background-color:pink;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#listapeli{
+    list-style: none;
+    font-size: 20px;
+}
