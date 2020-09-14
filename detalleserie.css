@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.barranav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid lightpink;
+    background-color: lightpink;
+    margin-bottom: 20px;
+}
+
+.fondoserie {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightpink;
+    color: black;
+}
+
+#listaserie{
+    list-style: none;
+    font-size: 20px;
+}
