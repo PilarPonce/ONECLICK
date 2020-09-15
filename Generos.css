@@ -142,22 +142,7 @@ margin: 30px;
 height: 50px;
 }
 
-#Comics {
-color: white;
-}
-#Comics2 ul {
-background-color: lightpink;
-display: flex;
-flex-direction: row;
-border: 1px solid black;
-list-style: none;
-justify-content:space-between ;
-}
 
-#Comics2 ul li{
-margin: 30px;
-height: 50px;
-}
 
 #tvshows {
 color: white;
