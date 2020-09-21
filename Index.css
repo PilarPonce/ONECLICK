@@ -11,7 +11,16 @@ body {
     border: 1px lightpink;
     margin-bottom: 20px;
 }
-
+#infonav {
+    background-color: lightpink;
+    border: 1px lightpink;
+}
+#infonav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    justify-content: space-between;
+}
 
 #recomendados ul{
     display: flex;
