@@ -21,3 +21,14 @@ body{
     list-style: none;
     font-size: 20px;
 }
+#footerimagenes ul{
+
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5%;
+    list-style: none;
+}
+
+#footertexto {
+    color: white;
+    
+}
