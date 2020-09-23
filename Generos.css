@@ -72,50 +72,50 @@ height: 50px;
 color: white;
 }
 #Aventuras2 ul {
-background-color: lightpink;
-display: flex;
-flex-direction: row;
-border: 1px solid black;
-list-style: none;
-justify-content:space-between ;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    flex-wrap: wrap;
 }
 
 #Aventuras2 ul li{
-margin: 30px;
-height: 50px;
+    margin: 2px;
+    padding: 5px 1px 5px 1px;
 }
 #Romanticas {
 color: white;
 }
 #Romanticas2 ul {
-background-color: lightpink;
-display: flex;
-flex-direction: row;
-border: 1px solid black;
-list-style: none;
-justify-content:space-between ;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    flex-wrap: wrap;
 }
 
 #Romanticas2 ul li{
-margin: 30px;
-height: 50px;
+    margin: 2px;
+    padding: 5px 1px 5px 1px;
 }
 
 #Terror {
 color: white;
 }
 #Terror2 ul {
-background-color: lightpink;
-display: flex;
-flex-direction: row;
-border: 1px solid black;
-list-style: none;
-justify-content:space-between ;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    flex-wrap: wrap;
 }
 
 #Terror2 ul li{
-margin: 30px;
-height: 50px;
+    margin: 2px;
+    padding: 5px 1px 5px 1px;
 }
 
 #CienciaFiccion {
