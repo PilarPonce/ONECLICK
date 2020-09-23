@@ -43,7 +43,6 @@ body {
     flex-wrap: wrap;
 }
 
-
 #top{
     display: flex;
     flex-direction: row;
@@ -71,12 +70,12 @@ body {
         color: white;
 }
 #generos2 ul{
-        display: flex;
-        flex-direction: row;
-        border: 1px solid black;
-        list-style: none;
-        justify-content: space-between;
-        background-color:lightpink;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    flex-wrap: wrap;
 }
 #generos2 ul li{
         margin: 30px;
