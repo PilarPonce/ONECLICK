@@ -29,12 +29,12 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    justify-content: space-between;
     background-color:lightpink;
+    flex-wrap: wrap;
 }
 #Accion2 ul li{
-    margin: 30px;
-    height: 50px;
+    margin: 2px;
+   padding: 5px 1px 5px 1px;
 }
 
 #Dramas {
@@ -45,28 +45,27 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    justify-content: space-between;
     background-color:lightpink;
+    flex-wrap: wrap;
 }
 #Dramas2 ul li{
-    margin: 30px;
-    height: 50px;
+    margin: 2px;
+    padding: 5px 1px 5px 1px;
 }
 #Comedias {
 color: white;
 }
 #Comedias2 ul {
-background-color: lightpink;
-display: flex;
-flex-direction: row;
-border: 1px solid black;
-list-style: none;
-justify-content:space-between ;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    background-color:lightpink;
+    flex-wrap: wrap;
 }
-
 #Comedias2 ul li{
-margin: 30px;
-height: 50px;
+    margin: 2px;
+    padding: 5px 1px 5px 1px;
 }
 #Aventuras {
 color: white;
