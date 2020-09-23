@@ -1,5 +1,4 @@
 body {
-
     background-color: black;
 }
 
@@ -11,19 +10,23 @@ body {
     border: 1px lightpink;
     margin-bottom: 20px;
 }
+
 #infonav {
     background-color: lightpink;
     border: 1px lightpink;
 }
+
 #infonav ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
     justify-content: space-between;
 }
+
 #Accion {
     color: white;
 }
+
 #Accion2 ul{
     display: flex;
     flex-direction: row;
@@ -32,6 +35,7 @@ body {
     background-color:lightpink;
     flex-wrap: wrap;
 }
+
 #Accion2 ul li{
     margin: 2px;
    padding: 5px 1px 5px 1px;
@@ -40,6 +44,7 @@ body {
 #Dramas {
     color: white;
 }
+
 #Dramas2 ul{
     display: flex;
     flex-direction: row;
@@ -48,13 +53,16 @@ body {
     background-color:lightpink;
     flex-wrap: wrap;
 }
+
 #Dramas2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
+
 #Comedias {
 color: white;
 }
+
 #Comedias2 ul {
     display: flex;
     flex-direction: row;
@@ -63,19 +71,22 @@ color: white;
     background-color:lightpink;
     flex-wrap: wrap;
 }
+
 #Comedias2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
+
 #Aventuras {
-color: white;
+    color: white;
 }
+
 #Aventuras2 ul {
     background-color: lightpink;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
-    list-style: none;
+    list-style: none;   
     flex-wrap: wrap;
 }
 
@@ -83,9 +94,11 @@ color: white;
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
+
 #Románticas {
     color: white;
 }
+
 #Románticas2 ul {
     background-color: lightpink;
     display: flex;
