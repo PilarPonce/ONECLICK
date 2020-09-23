@@ -29,6 +29,7 @@ body {
     border: 1px solid black;
     list-style: none;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -39,6 +40,7 @@ body {
     border: 1px solid black;
     list-style: none;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #top{
@@ -59,6 +61,7 @@ body {
     list-style: none;
     flex-wrap: wrap;
     background-color: lightpink;
+    justify-content: space-between;
 }
 #ten ul li{
     margin: 2px;
@@ -74,8 +77,14 @@ body {
     border: 1px solid black;
     list-style: none;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+#generos ul li {
+    
+    margin: 2px;
+    padding: 5px 1px 5px 1px;
+}
 
 #footerimagenes ul{
 
