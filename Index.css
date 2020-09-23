@@ -23,16 +23,14 @@ body {
 }
 
 #recomendados ul{
+    background-color: lightpink;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    justify-content: space-between;
-    background-color: lightpink;
+    flex-wrap: wrap;
 }
-#recomendados ul li{
-    margin: 80px;
-}
+
 
 #continuar ul{
     background-color: lightpink;
