@@ -83,10 +83,10 @@ color: white;
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
-#Romanticas {
+#Románticas {
 color: white;
 }
-#Romanticas2 ul {
+#Románticas2 ul {
     background-color: lightpink;
     display: flex;
     flex-direction: row;
@@ -95,7 +95,7 @@ color: white;
     flex-wrap: wrap;
 }
 
-#Romanticas2 ul li{
+#Románticas2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
