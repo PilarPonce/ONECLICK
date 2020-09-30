@@ -77,24 +77,6 @@ color: white;
     padding: 5px 1px 5px 1px;
 }
 
-.Aventuras {
-    color: white;
-}
-
-.Aventuras2 ul {
-    background-color: #2b2e42;
-    display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    list-style: none;   
-    flex-wrap: wrap;
-}
-
-.Aventuras2 ul li{
-    margin: 2px;
-    padding: 5px 1px 5px 1px;
-}
-
 .Románticas {
     color: white;
 }
@@ -127,61 +109,6 @@ color: white;
 }
 
 .Terror2 ul li{
-    margin: 2px;
-    padding: 5px 1px 5px 1px;
-}
-
-.CienciaFiccion {
-    color: white;
-}
-
-.CienciaFiccion2 ul {
-    background-color: #2b2e42;
-    display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    list-style: none;
-    flex-wrap: wrap;
-}
-
-.CienciaFiccion2 ul li{
-    margin: 2px;
-    padding: 5px 1px 5px 1px;
-}
-
-.Infantiles {
-    color: white;
-}
-
-.Infantiles2 ul {
-    background-color: #2b2e42;
-    display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    list-style: none;
-    flex-wrap: wrap;
-}
-
-.Infantiles2 ul li{
-    margin: 2px;
-    padding: 5px 1px 5px 1px;
-}
-
-
-.tvshows {
-    color: white;
-}
-
-.tvshows2 ul {
-    background-color: #2b2e42;
-    display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    list-style: none;
-    flex-wrap: wrap;
-}
-
-.tvshows2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
