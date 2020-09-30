@@ -11,18 +11,18 @@ body {
     border: 1px #2b2e42;
     margin-bottom: 20px;
 }
-#infonav {
+.infonav {
     background-color: #2b2e42;
     border: 1px #2b2e42;
 }
-#infonav ul{
+.infonav ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
     justify-content: space-between;
 }
 
-#recomendados ul{
+.recomendados ul{
     background-color: #2b2e42;
     display: flex;
     flex-direction: row;
@@ -34,7 +34,7 @@ body {
 }
 
 
-#continuar ul{
+.continuar ul{
     background-color: #2b2e42;;
     display: flex;
     flex-direction: row;
@@ -45,7 +45,7 @@ body {
     align-items: center;
 }
 
-#top{
+.top{
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -56,7 +56,7 @@ body {
 }
 
 
-#ten ul{
+.ten ul{
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -65,14 +65,14 @@ body {
     background-color: #2b2e42;
     justify-content: space-between;
 }
-#ten ul li{
+.ten ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
-#generos {
+.generos {
         color: white;
 }
-#generos2 ul{
+.generos2 ul{
     background-color: #2b2e42;
     display: flex;
     flex-direction: row;
@@ -82,20 +82,20 @@ body {
     justify-content: space-between;
 }
 
-#generos ul li {
+.generos ul li {
     
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-#footerimagenes ul{
+.footerimagenes ul{
 
     display: grid;
     grid-template-columns: 5% 5% 5% 5%;
     list-style: none;
 }
 
-#footertexto {
+.footertexto {
     color: white;
     
 }
