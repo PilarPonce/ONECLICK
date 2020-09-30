@@ -1,5 +1,7 @@
 body {
     background-color: black;
+        
+    
 }
 
 .barranav{
@@ -11,7 +13,7 @@ body {
     margin-bottom: 20px;
 }
 
-.infonav {
+.infonav { 
     background-color: #2b2e42;
     border: 1px #2b2e42;
 }
