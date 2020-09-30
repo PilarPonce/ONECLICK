@@ -8,12 +8,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #2b2e42;
-    border: 1px lightpink;
+    border: 1px #2b2e42;
     margin-bottom: 20px;
 }
 #infonav {
     background-color: #2b2e42;
-    border: 1px lightpink;
+    border: 1px #2b2e42;
 }
 #infonav ul{
     display: grid;
