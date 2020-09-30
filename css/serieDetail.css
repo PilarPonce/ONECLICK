@@ -9,16 +9,19 @@ body{
     background-color: #2b2e42;
     margin-bottom: 20px;
 }
+
 .infonav {
     background-color: #2b2e42;
     border: 1px #2b2e42;
 }
+
 .infonav ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
     justify-content: space-between;
 }
+
 .fondoserie {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -30,6 +33,7 @@ body{
     list-style: none;
     font-size: 20px;
 }
+
 .footerimagenes ul{
 
     display: grid;
