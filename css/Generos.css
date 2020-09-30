@@ -11,23 +11,23 @@ body {
     margin-bottom: 20px;
 }
 
-#infonav {
+.infonav {
     background-color: #2b2e42;
     border: 1px #2b2e42;
 }
 
-#infonav ul{
+.infonav ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
     justify-content: space-between;
 }
 
-#Accion {
+.Accion {
     color: white;
 }
 
-#Accion2 ul{
+.Accion2 ul{
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -36,16 +36,16 @@ body {
     flex-wrap: wrap;
 }
 
-#Accion2 ul li{
+.Accion2 ul li{
     margin: 2px;
    padding: 5px 1px 5px 1px;
 }
 
-#Dramas {
+.Dramas {
     color: white;
 }
 
-#Dramas2 ul{
+.Dramas2 ul{
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -54,16 +54,16 @@ body {
     flex-wrap: wrap;
 }
 
-#Dramas2 ul li{
+.Dramas2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-#Comedias {
+.Comedias {
 color: white;
 }
 
-#Comedias2 ul {
+.Comedias2 ul {
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -72,16 +72,16 @@ color: white;
     flex-wrap: wrap;
 }
 
-#Comedias2 ul li{
+.Comedias2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-#Aventuras {
+.Aventuras {
     color: white;
 }
 
-#Aventuras2 ul {
+.Aventuras2 ul {
     background-color: #2b2e42;
     display: flex;
     flex-direction: row;
@@ -90,16 +90,16 @@ color: white;
     flex-wrap: wrap;
 }
 
-#Aventuras2 ul li{
+.Aventuras2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-#Románticas {
+.Románticas {
     color: white;
 }
 
-#Románticas2 ul {
+.Románticas2 ul {
     background-color: #2b2e42;
     display: flex;
     flex-direction: row;
@@ -108,16 +108,16 @@ color: white;
     flex-wrap: wrap;
 }
 
-#Románticas2 ul li{
+#.Románticas2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-#Terror {
+.Terror {
     color: white;
 }
 
-#Terror2 ul {
+.Terror2 ul {
     background-color: #2b2e42;
     display: flex;
     flex-direction: row;
@@ -126,15 +126,15 @@ color: white;
     flex-wrap: wrap;
 }
 
-#Terror2 ul li{
+.Terror2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-#CienciaFiccion {
+.CienciaFiccion {
     color: white;
 }
-#CienciaFiccion2 ul {
+.CienciaFiccion2 ul {
     background-color: #2b2e42;
     display: flex;
     flex-direction: row;
@@ -143,16 +143,16 @@ color: white;
     flex-wrap: wrap;
 }
 
-#CienciaFiccion2 ul li{
+.CienciaFiccion2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-#Infantiles {
+.Infantiles {
     color: white;
 }
 
-#Infantiles2 ul {
+.Infantiles2 ul {
     background-color: #2b2e42;
     display: flex;
     flex-direction: row;
@@ -161,17 +161,17 @@ color: white;
     flex-wrap: wrap;
 }
 
-#Infantiles2 ul li{
+.Infantiles2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
 
-#tvshows {
+.tvshows {
     color: white;
 }
 
-#tvshows2 ul {
+.tvshows2 ul {
     background-color: #2b2e42;
     display: flex;
     flex-direction: row;
@@ -180,19 +180,19 @@ color: white;
     flex-wrap: wrap;
 }
 
-#tvshows2 ul li{
+.tvshows2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-#footerimagenes ul{
+.footerimagenes ul{
 
     display: grid;
     grid-template-columns: 5% 5% 5% 5%;
     list-style: none;
 }
 
-#footertexto {
+.footertexto {
     color: white;
 }
 
