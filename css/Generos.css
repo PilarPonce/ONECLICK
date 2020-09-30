@@ -1,5 +1,7 @@
 body {
     background-color: black;
+        
+    
 }
 
 .barranav{
@@ -11,7 +13,7 @@ body {
     margin-bottom: 20px;
 }
 
-.infonav {
+.infonav { 
     background-color: #2b2e42;
     border: 1px #2b2e42;
 }
@@ -38,6 +40,7 @@ body {
     list-style: none;
     background-color:#2b2e42;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .Accion2 ul li{
@@ -56,6 +59,7 @@ body {
     list-style: none;
     background-color:#2b2e42;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .Dramas2 ul li{
@@ -74,6 +78,7 @@ color: white;
     list-style: none;
     background-color:#2b2e42;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .Comedias2 ul li{
@@ -92,6 +97,7 @@ color: white;
     border: 1px solid black;
     list-style: none;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .Románticas2 ul li{
@@ -110,6 +116,7 @@ color: white;
     border: 1px solid black;
     list-style: none;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .Terror2 ul li{
