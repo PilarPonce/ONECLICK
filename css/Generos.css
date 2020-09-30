@@ -13,6 +13,14 @@ body {
     margin-bottom: 20px;
 }
 
+.logo img {
+    width: 100px;
+}
+
+.buscar img {
+    width: 170px;
+}
+
 .infonav { 
     background-color: #2b2e42;
     border: 1px #2b2e42;
