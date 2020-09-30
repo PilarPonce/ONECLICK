@@ -45,6 +45,11 @@ body {
     height: 150px;
 }
 
+.continuar ul li img {
+    width: 180px;
+    height: 150px;
+}
+
 .continuar ul{
     background-color: #2b2e42;;
     display: flex;
