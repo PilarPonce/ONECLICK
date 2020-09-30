@@ -6,14 +6,14 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color:lightpink;
-    border: 1px lightpink;
+    background-color:#2b2e42;
+    border: 1px #2b2e42;
     margin-bottom: 20px;
 }
 
 #infonav {
-    background-color: lightpink;
-    border: 1px lightpink;
+    background-color: #2b2e42;
+    border: 1px #2b2e42;
 }
 
 #infonav ul{
@@ -32,7 +32,7 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    background-color:lightpink;
+    background-color:#2b2e42;
     flex-wrap: wrap;
 }
 
@@ -50,7 +50,7 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    background-color:lightpink;
+    background-color:#2b2e42;
     flex-wrap: wrap;
 }
 
@@ -68,7 +68,7 @@ color: white;
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    background-color:lightpink;
+    background-color:#2b2e42;
     flex-wrap: wrap;
 }
 
@@ -82,7 +82,7 @@ color: white;
 }
 
 #Aventuras2 ul {
-    background-color: lightpink;
+    background-color: #2b2e42;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -100,7 +100,7 @@ color: white;
 }
 
 #Románticas2 ul {
-    background-color: lightpink;
+    background-color: #2b2e42;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -118,7 +118,7 @@ color: white;
 }
 
 #Terror2 ul {
-    background-color: lightpink;
+    background-color: #2b2e42;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -135,7 +135,7 @@ color: white;
     color: white;
 }
 #CienciaFiccion2 ul {
-    background-color: lightpink;
+    background-color: #2b2e42;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -153,7 +153,7 @@ color: white;
 }
 
 #Infantiles2 ul {
-    background-color: lightpink;
+    background-color: #2b2e42;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -172,7 +172,7 @@ color: white;
 }
 
 #tvshows2 ul {
-    background-color: lightpink;
+    background-color: #2b2e42;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
