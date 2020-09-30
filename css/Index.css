@@ -107,6 +107,39 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rom{
+    position: absolute;
+    top: 70%;
+    background-color: #2b2e42;
+    color: white;
+
+}
+
+.terr{
+
+    position: absolute;
+    top: 70%;
+    background-color: #2b2e42;
+    color: white;
+}
 .footerimagenes ul{
 
     display: grid;
