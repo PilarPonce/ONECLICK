@@ -4,14 +4,14 @@ body{
 .barranav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid lightpink;
-    background-color: lightpink;
+    border: 1px solid #2b2e42;
+    background-color: #2b2e42;
     margin-bottom: 20px
     ;
 }
 #infonav {
-    background-color: lightpink;
-    border: 1px lightpink;
+    background-color: #2b2e42;
+    border: 1px #2b2e42;
 }
 #infonav ul{
     display: grid;
@@ -20,7 +20,7 @@ body{
     justify-content: space-between;
 }
 .fondopeli{
-    background-color:pink;
+    background-color:#2b2e42;
     color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
