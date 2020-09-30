@@ -6,14 +6,13 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     border: 1px solid #2b2e42;
     background-color: #2b2e42;
-    margin-bottom: 20px
-    ;
+    margin-bottom: 20px;
 }
-#infonav {
+.infonav {
     background-color: #2b2e42;
     border: 1px #2b2e42;
 }
-#infonav ul{
+.infonav ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
@@ -25,18 +24,18 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-#listapeli{
+.listapeli{
     list-style: none;
     font-size: 20px;
 }
-#footerimagenes ul{
+.footerimagenes ul{
 
     display: grid;
     grid-template-columns: 5% 5% 5% 5%;
     list-style: none;
 }
 
-#footertexto {
+.footertexto {
     color: white;
     
 }

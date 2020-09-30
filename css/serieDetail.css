@@ -9,11 +9,11 @@ body{
     background-color: #2b2e42;
     margin-bottom: 20px;
 }
-#infonav {
+.infonav {
     background-color: #2b2e42;
     border: 1px #2b2e42;
 }
-#infonav ul{
+.infonav ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
@@ -26,18 +26,18 @@ body{
     color: black;
 }
 
-#listaserie{
+.listaserie{
     list-style: none;
     font-size: 20px;
 }
-#footerimagenes ul{
+.footerimagenes ul{
 
     display: grid;
     grid-template-columns: 5% 5% 5% 5%;
     list-style: none;
 }
 
-#footertexto {
+.footertexto {
     color: white;
     
 }
