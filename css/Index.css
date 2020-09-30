@@ -40,6 +40,10 @@ body {
     align-items: center;
 }
 
+.recomendados ul li img {
+    width: 180px;
+    height: 150px;
+}
 
 .continuar ul{
     background-color: #2b2e42;;
