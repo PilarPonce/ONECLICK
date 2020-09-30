@@ -85,6 +85,10 @@ color: white;
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
+.Comedias2 ul li img{
+    width: 200px;
+    height: 150;
+}
 
 .Románticas {
     color: white;
@@ -104,6 +108,10 @@ color: white;
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
+.Románticas2 ul li img{
+    width: 200px;
+    height: 150;
+}
 
 .Terror {
     color: white;
@@ -122,6 +130,10 @@ color: white;
 .Terror2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
+}
+.Terror2 ul li img {
+    width: 200px;
+    height: 150;
 }
 
 
