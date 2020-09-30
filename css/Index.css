@@ -13,6 +13,14 @@ body {
     margin-bottom: 20px;
 }
 
+.logo img {
+    width: 100px;
+}
+
+.buscar img {
+    width: 170px;
+}
+
 .infonav {
     background-color: #2b2e42;
     border: 1px #2b2e42;
@@ -161,6 +169,13 @@ body {
     color: white;
     
 }
+
+.footerimagenes ul li img {
+    width: 50%;
+}
+
+
+
 @media only screen and (min-width: 768px) {
 
 }
