@@ -40,6 +40,15 @@ body {
     align-items: center;
 }
 
+.recomendados ul li img {
+    width: 180px;
+    height: 150px;
+}
+
+.continuar ul li img {
+    width: 180px;
+    height: 150px;
+}
 
 .continuar ul{
     background-color: #2b2e42;;
@@ -74,9 +83,12 @@ body {
 }
 
 .ten ul li{
+  
     margin: 2px;
     padding: 5px 1px 5px 1px;
+
 }
+   
 
 .generos {
         color: white;
@@ -97,6 +109,11 @@ body {
     
     margin: 2px;
     padding: 5px 1px 5px 1px;
+}
+
+.generos2 ul li img {
+    width: 170px;
+    height: 150px;
 }
 
 .act{
