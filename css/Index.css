@@ -90,6 +90,7 @@ body {
     list-style: none;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
 }
 
 .generos ul li {
@@ -97,6 +98,14 @@ body {
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
+
+.act{
+    position: absolute;
+    top: 70%;
+    background-color: #2b2e42;
+    color: white;
+}
+
 
 .footerimagenes ul{
 
