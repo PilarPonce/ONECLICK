@@ -50,3 +50,7 @@ body{
     color: white;
     
 }
+
+.footerimagenes ul li img {
+    width: 50%;
+}
