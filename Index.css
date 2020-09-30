@@ -7,12 +7,12 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color:lightpink;
+    background-color: #2b2e42;
     border: 1px lightpink;
     margin-bottom: 20px;
 }
 #infonav {
-    background-color: lightpink;
+    background-color: #2b2e42;
     border: 1px lightpink;
 }
 #infonav ul{
@@ -23,7 +23,7 @@ body {
 }
 
 #recomendados ul{
-    background-color: lightpink;
+    background-color: #2b2e42;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -35,7 +35,7 @@ body {
 
 
 #continuar ul{
-    background-color: lightpink;
+    background-color: #2b2e42;;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -51,7 +51,7 @@ body {
     border: 1px solid black;
     list-style: none;
     justify-content: center;
-    background-color: lightpink;  
+    background-color: #2b2e42;
     margin: 30px; 
 }
 
@@ -62,7 +62,7 @@ body {
     border: 1px solid black;
     list-style: none;
     flex-wrap: wrap;
-    background-color: lightpink;
+    background-color: #2b2e42;
     justify-content: space-between;
 }
 #ten ul li{
@@ -73,7 +73,7 @@ body {
         color: white;
 }
 #generos2 ul{
-    background-color: lightpink;
+    background-color: #2b2e42;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
