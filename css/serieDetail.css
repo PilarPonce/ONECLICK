@@ -21,6 +21,10 @@ body{
     list-style: none;
     justify-content: space-between;
 }
+.buscar {
+    display: flex;
+    align-self: center;
+}
 
 .fondoserie {
     display: grid;

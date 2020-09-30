@@ -23,6 +23,10 @@ body {
     list-style: none;
     justify-content: space-between;
 }
+.buscar {
+    display: flex;
+    align-self: center;
+}
 
 .recomendados ul{
     background-color: #2b2e42;
