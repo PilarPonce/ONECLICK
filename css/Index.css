@@ -1,13 +1,9 @@
 body {
-
-    background-color: black;
-    
+    background-color: black;   
 }
 
 .logo img {
-
     width: 150px;
-
 }
 
 .barranav ul h4{
@@ -21,17 +17,16 @@ body {
     background-color: #2b2e42;
     align-items: center;
     padding: 0%;
-
 }
 
 .buscar img {
     width: 200px;
-    
 }
 
 .usuario img {
     width: 100px;
 }
+
 .recomendados ul{
     background-color: #2b2e42;
     display: flex;
