@@ -230,8 +230,12 @@ body {
         width: 1200px;
     }
     .ten {
-        width: 1500px;
+        width: 1200px;
         
+    }
+    .ten ul li img {
+        width: 195px;
+        height: 150px;
     }
     .none {
         display: none;
@@ -240,5 +244,6 @@ body {
        width: 1200px;
     }
 }
+
 
 
