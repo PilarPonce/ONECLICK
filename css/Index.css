@@ -30,8 +30,8 @@ body {
 }
 
 .banner p img {
-   
     height: 300px;
+    width: 1430px;
   
 }
 .recomendados ul{
@@ -90,6 +90,9 @@ body {
     color: white;
 }
 
+.on420{
+    display: none;
+}
 
 .ten ul{
     display: flex;
@@ -229,6 +232,12 @@ body {
     .top{
         width: 1200px;
     }
+    .no420{
+        display: none;
+    }
+    .on420{
+        display: block;
+    }
     .ten {
         width: 1200px;
         
@@ -244,16 +253,17 @@ body {
        width: 1200px;
     }
     .footertexto h4 {
-        font-size: 22px;
+        font-size: 19px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     }   
 
     .footertexto h5 {
-        font-size: 21px;
+        font-size: 18px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
     }
+
     .none{
 
         display: none;
