@@ -194,9 +194,51 @@ body {
 
 
 
-@media only screen and (min-width: 768px) {
-
+@media only screen and (min-width: 420px) {
+    
+    .barranav {
+        width: 1200px;
+    }
+    .logo img{
+        width: 125px;
+    }
+    .barranav ul li {
+        width: 50px;
+    }
+    .buscar img {
+        width: 120px;
+    }
+    
+    .usuario img {
+        width: 60px;
+        
+    }
+    
+    .banner {
+       display: none;
+      
+    }
+    .recomendados {
+        width: 1200px;
+    }
+    
+    .continuar {
+        width: 1200px;
+    }
+    
+    .top{
+        width: 1200px;
+    }
+    .ten {
+        width: 1500px;
+        
+    }
+    .none {
+        display: none;
+    }
+    .generos2 {
+       width: 1200px;
+    }
 }
-@media only screen and (min-width: 1024px) {
 
-}
+
