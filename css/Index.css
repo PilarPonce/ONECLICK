@@ -4,39 +4,34 @@ body {
     
 }
 
-.barranav{
+.logo img {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #2b2e42;
-    border: 1px #2b2e42;
-    margin-bottom: 20px;
+    width: 150px;
+
 }
 
-.logo img {
-    width: 100px;
+.barranav ul h4{
+    color: white;
+}
+
+.barranav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2b2e42;
+    align-items: center;
+    padding: 0%;
+
 }
 
 .buscar img {
-    width: 170px;
+    width: 200px;
+    
 }
 
-.infonav {
-    background-color: #2b2e42;
-    border: 1px #2b2e42;
+.usuario img {
+    width: 100px;
 }
-
-.infonav ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    list-style: none;
-    justify-content: space-between;
-}
-.buscar {
-    display: flex;
-    align-self: center;
-}
-
 .recomendados ul{
     background-color: #2b2e42;
     display: flex;
