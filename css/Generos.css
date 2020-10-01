@@ -14,7 +14,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    background-color: #2b2e42;
+    background-color: #151518;
     align-items: center;
     padding: 0%;
 }
@@ -36,7 +36,7 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    background-color:#2b2e42;
+    background-color:#151518;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -60,7 +60,7 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    background-color:#2b2e42;
+    background-color:#151518;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -85,7 +85,7 @@ color: white;
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    background-color:#2b2e42;
+    background-color:#151518;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -104,7 +104,7 @@ color: white;
 }
 
 .Románticas2 ul {
-    background-color: #2b2e42;
+    background-color: #151518;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -127,7 +127,7 @@ color: white;
 }
 
 .Terror2 ul {
-    background-color: #2b2e42;
+    background-color: #151518;
     display: flex;
     flex-direction: row;
     border: 1px solid black;

@@ -17,7 +17,7 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    background-color: #2b2e42;
+    background-color: #151518;
     align-items: center;
     padding: 0%;
 
@@ -34,8 +34,8 @@ body{
 .fondoserie {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #2b2e42;
-    color: black;
+    background-color: #151518;
+    color: white;
 }
 
 .listaserie{
