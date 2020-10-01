@@ -49,12 +49,12 @@ body {
 }
 
 .recomendados ul li img {
-    width: 180px;
+    width: 200px;
     height: 150px;
 }
 
 .continuar ul li img {
-    width: 180px;
+    width: 200px;
     height: 150px;
 }
 
@@ -96,6 +96,12 @@ body {
     padding: 5px 1px 5px 1px;
 
 }
+
+.ten ul li img {
+
+    width: 230px;
+    height: 160px;
+}
    
 
 .generos {
@@ -120,7 +126,7 @@ body {
 }
 
 .generos2 ul li img {
-    width: 170px;
+    width: 200px;
     height: 150px;
 }
 
