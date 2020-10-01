@@ -190,8 +190,8 @@ body {
     }
     
     .buscar img {
-        width: 150px;
-        height: 20px;
+        width: 170px;
+        height: 40px;
     }
     
     .usuario img {
@@ -201,11 +201,7 @@ body {
     
     
     .Accion {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white;
-        font-size: 30px;
-        text-align: left;
-        
+        font-size: 25px;
     }
     
     .Accion2 ul{
@@ -214,7 +210,7 @@ body {
     }
 
     .Accion2 ul li img {
-        width: 440px;
+        width: 380px;
         height: 200px; 
         margin-left: -50px;
         margin-right: -50px;
@@ -222,10 +218,7 @@ body {
     }
     
     .Dramas {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white;
-        font-size: 30px;
-        text-align: left;
+        font-size: 25px;
     }
     
     .Dramas2 ul{
@@ -235,17 +228,14 @@ body {
     
     
     .Dramas2 ul li img {
-        width: 440px;
+        width: 380px;
         height: 200px; 
         margin-left: -50px;
         margin-right: -50px;
     }
     
     .Comedias {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white;
-        font-size: 30px;
-        text-align: left;
+        font-size: 25px;
     }
 
     
@@ -256,17 +246,14 @@ body {
     
     
     .Comedias2 ul li img{
-        width: 440px;
+        width: 380px;
         height: 200px; 
         margin-left: -50px;
         margin-right: -50px;
     }
     
     .Románticas {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white;
-        font-size: 30px;
-        text-align: left;
+        font-size: 25px;
     }
     
     .Románticas2 ul {
@@ -276,18 +263,14 @@ body {
     
     
     .Románticas2 ul li img{
-        width: 440px;
-        height: 200px;  
+        width: 380px;
+        height: 200px; 
         margin-left: -50px;
         margin-right: -50px;
     }
     
     .Terror {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white;
-        font-size: 30px;
-        text-align: left;
-      
+        font-size: 25px;
     }
     
     .Terror2 ul {
@@ -295,13 +278,11 @@ body {
         height: 200px;
     }
     
-    
     .Terror2 ul li img {
-        width: 440px;
+        width: 380px;
         height: 200px; 
         margin-left: -50px;
         margin-right: -50px;
-    
     }
 
     .footerimagenes ul {
