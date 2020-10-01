@@ -42,6 +42,7 @@ width: 600px;
 }
 
 .listapeli{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style: none;
     font-size: 20px;
 }
@@ -54,6 +55,7 @@ width: 600px;
 }
 
 .footertexto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     
 }

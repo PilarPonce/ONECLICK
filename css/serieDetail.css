@@ -43,6 +43,7 @@ body{
 .listaserie{
     list-style: none;
     font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footerimagenes ul{
@@ -53,6 +54,7 @@ body{
 }
 
 .footertexto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     
 }
