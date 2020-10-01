@@ -90,6 +90,9 @@ body {
     color: white;
 }
 
+.on420{
+    display: none;
+}
 
 .ten ul{
     display: flex;
@@ -229,6 +232,12 @@ body {
     .top{
         width: 1200px;
     }
+    .no420{
+        display: none;
+    }
+    .on420{
+        display: block;
+    }
     .ten {
         width: 1200px;
         
@@ -254,7 +263,7 @@ body {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
     }
-    
+
     .none{
 
         display: none;
