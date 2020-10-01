@@ -1,12 +1,9 @@
 body{
     background-color: black;
-    
 }
 
 .logo img {
-
     width: 150px;
-
 }
 
 .barranav ul h4{
@@ -25,15 +22,16 @@ body{
 
 .buscar img {
     width: 200px;
-    
 }
 
 .usuario img {
     width: 70px;
 }
+
 .fondopeli img{
 width: 600px;
 }
+
 .fondopeli{
     background-color:#151518;
     color: white;
@@ -48,7 +46,6 @@ width: 600px;
 }
 
 .footerimagenes ul{
-
     display: grid;
     grid-template-columns: 5% 5% 5% 5%;
     list-style: none;
@@ -57,7 +54,6 @@ width: 600px;
 .footertexto {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    
 }
 
 .footerimagenes ul li img {
