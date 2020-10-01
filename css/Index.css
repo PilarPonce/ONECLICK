@@ -14,7 +14,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    background-color: #2b2e42;
+    background-color: #151518;
     align-items: center;
     padding: 0%;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .recomendados ul{
-    background-color: #2b2e42;
+    background-color: #151518;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -49,7 +49,7 @@ body {
 }
 
 .continuar ul{
-    background-color: #2b2e42;;
+    background-color: #151518;;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -65,7 +65,7 @@ body {
     border: 1px solid black;
     list-style: none;
     justify-content: center;
-    background-color: #2b2e42;
+    background-color: #151518;
     margin: 30px; 
 }
 
@@ -76,7 +76,7 @@ body {
     border: 1px solid black;
     list-style: none;
     flex-wrap: wrap;
-    background-color: #2b2e42;
+    background-color: #151518;
     justify-content: space-between;
 }
 
@@ -99,7 +99,7 @@ body {
 }
 
 .generos2 ul{
-    background-color: #2b2e42;
+    background-color: #151518;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -123,26 +123,26 @@ body {
 .act{
     position: absolute;
     top: 70%;
-    background-color: #2b2e42;
+    background-color: #151518;
     color: white;
 }
 .dra{
     position: absolute;
     top: 70%;
-    background-color: #2b2e42;
+    background-color: #151518;
     color: white;
 }
 .com{
     position: absolute;
     top: 70%;
-    background-color: #2b2e42;
+    background-color: #151518;
     color: white;
 }
 
 .rom{
     position: absolute;
     top: 70%;
-    background-color: #2b2e42;
+    background-color: #151518;
     color: white;
 
 }
@@ -151,7 +151,7 @@ body {
 
     position: absolute;
     top: 70%;
-    background-color: #2b2e42;
+    background-color: #151518;
     color: white;
 }
 .footerimagenes ul{
