@@ -103,19 +103,15 @@ body {
 }
 
 .ten ul li{
-  
     margin: 2px;
     padding: 5px 1px 5px 1px;
-
 }
 
 .ten ul li img {
-
     width: 230px;
     height: 160px;
 }
    
-
 .generos {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -133,7 +129,6 @@ body {
 }
 
 .generos ul li {
-    
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
@@ -150,6 +145,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
+
 .dra{
     position: absolute;
     top: 70%;
@@ -157,6 +153,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
+
 .com{
     position: absolute;
     top: 70%;
@@ -171,19 +168,17 @@ body {
     background-color: #151518;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-
 }
 
 .terr{
-
     position: absolute;
     top: 70%;
     background-color: #151518;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
-.footerimagenes ul{
 
+.footerimagenes ul{
     display: grid;
     grid-template-columns: 5% 5% 5% 5%;
     list-style: none;
@@ -192,7 +187,6 @@ body {
 .footertexto {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    
 }
 
 .footerimagenes ul li img {

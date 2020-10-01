@@ -45,14 +45,14 @@ body {
 
 .Accion2 ul li{
     margin: 2px;
-   padding: 5px 1px 5px 1px;
+    padding: 5px 1px 5px 1px;
 }
 
 .Accion2 ul li img {
-
     width: 200px;
     height: 150;
 }
+
 .Dramas {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -98,6 +98,7 @@ body {
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
+
 .Comedias2 ul li img{
     width: 200px;
     height: 150;
@@ -122,6 +123,7 @@ body {
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
+
 .Románticas2 ul li img{
     width: 200px;
     height: 150;
@@ -146,14 +148,13 @@ body {
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
+
 .Terror2 ul li img {
     width: 200px;
     height: 150;
 }
 
-
 .footerimagenes ul{
-
     display: grid;
     grid-template-columns: 5% 5% 5% 5%;
     list-style: none;
@@ -162,7 +163,6 @@ body {
 .footertexto {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    
 }
 
 .footerimagenes ul li img {
