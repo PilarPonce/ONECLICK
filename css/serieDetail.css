@@ -61,6 +61,11 @@ body{
 }
 
 @media only screen and (max-width: 420px){
+
+    .none{
+
+        display: none;
+    }
     .barranav {
         width: 1200px;
     }
