@@ -49,10 +49,12 @@ body {
 }
 
 .rec {
+    font-weight: bold;
     color: white
 }
 
 .con{
+    font-weight: bold;
     color: white;
 }
 
