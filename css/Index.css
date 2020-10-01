@@ -26,10 +26,12 @@ body {
 
 .usuario img {
     width: 70px;
+    
 }
 
 .banner p img {
-    padding: 0%;
+    padding-left: 0px;
+    padding-right: 0px;
     height: 300px;
   
 }
