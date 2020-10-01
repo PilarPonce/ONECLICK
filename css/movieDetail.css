@@ -102,9 +102,15 @@ body{
     
     .footerimagenes ul {
         width: 600px;
+        
     }
     
     .footerimagenes ul li img {
         width: 150%;
+        justify-content: space-between; 
+    }
+
+    .footertexto {
+        font-size: 30px;
     }
 }
