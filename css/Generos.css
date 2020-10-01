@@ -285,14 +285,17 @@ body {
         margin-right: -50px;
     }
 
-    .footerimagenes ul {
-        width: 600px;
-        font-size: 30px;
-    }
     
-    .footerimagenes ul li img {
-        width: 150%;
-    }
+    .footertexto h4 {
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }   
 
+    .footertexto h5 {
+        font-size: 21px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+    }
     
 }

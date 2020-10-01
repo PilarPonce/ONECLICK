@@ -243,6 +243,17 @@ body {
     .generos2 {
        width: 1200px;
     }
+    .footertexto h4 {
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }   
+
+    .footertexto h5 {
+        font-size: 21px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+    }
 }
 
 
