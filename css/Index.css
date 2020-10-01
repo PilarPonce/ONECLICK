@@ -28,9 +28,9 @@ body {
 }
 
 .banner p img {
-    width: 1500px;
+    padding: 0%;
     height: 300px;
-
+  
 }
 .recomendados ul{
     background-color: #151518;
