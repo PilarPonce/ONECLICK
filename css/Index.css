@@ -17,6 +17,7 @@ body {
     background-color: #151518;
     align-items: center;
     padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .buscar img {
@@ -49,11 +50,13 @@ body {
 }
 
 .rec {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: white
 }
 
 .con{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: white;
 }
@@ -82,6 +85,7 @@ body {
     justify-content: center;
     background-color: #151518;
     margin: 30px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 
@@ -111,7 +115,8 @@ body {
    
 
 .generos {
-        color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 .generos2 ul{
@@ -140,18 +145,21 @@ body {
     position: absolute;
     top: 70%;
     background-color: #151518;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 .dra{
     position: absolute;
     top: 70%;
     background-color: #151518;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 .com{
     position: absolute;
     top: 70%;
     background-color: #151518;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 
@@ -159,6 +167,7 @@ body {
     position: absolute;
     top: 70%;
     background-color: #151518;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 
 }
@@ -168,6 +177,7 @@ body {
     position: absolute;
     top: 70%;
     background-color: #151518;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 .footerimagenes ul{
@@ -178,6 +188,7 @@ body {
 }
 
 .footertexto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     
 }
