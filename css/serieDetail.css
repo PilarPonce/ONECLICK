@@ -97,22 +97,23 @@ body{
     }
     
     .listaserie{
+        font-size: 26px;
+    }
+    
+
+
+    .footertexto h4 {
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }   
+
+    .footertexto h5 {
         font-size: 21px;
-    }
-    
-    .footerimagenes ul {
-        width: 600px;
-        font-size: 30px;
-    }
-    
-    .footerimagenes ul li img {
-        width: 150%;
-
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
     }
 
-    .footertexto h4{
-
-   justify-content: space-around;
 }
     
 }

@@ -97,20 +97,20 @@ body{
     }
     
     .listapeli{
-        font-size: 21px;
+        font-size: 26px;
     }
     
-    .footerimagenes ul {
-        width: 600px;
-        
-    }
+   
+    .footertexto h4 {
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     
-    .footerimagenes ul li img {
-        width: 150%;
-        justify-content: space-between; 
-    }
+    }   
 
-    .footertexto {
-        font-size: 30px;
+    .footertexto h5 {
+        font-size: 21px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
     }
+    
 }
