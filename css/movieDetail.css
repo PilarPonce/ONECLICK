@@ -31,7 +31,9 @@ body{
 .usuario img {
     width: 70px;
 }
-
+.fondopeli img{
+width: 600px;
+}
 .fondopeli{
     background-color:#151518;
     color: white;
