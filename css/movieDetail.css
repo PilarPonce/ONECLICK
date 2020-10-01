@@ -61,6 +61,11 @@ body{
 }
 
 @media only screen and (max-width: 420px) {
+
+    .none {
+        display: none;
+    }
+    
     .barranav {
         width: 1200px;
     }
@@ -71,6 +76,7 @@ body{
     
     .barranav ul li {
         width: 50px;
+        font-size: 30px;
     }
     
     .buscar img {
@@ -96,9 +102,15 @@ body{
     
     .footerimagenes ul {
         width: 600px;
+        
     }
     
     .footerimagenes ul li img {
         width: 150%;
+        justify-content: space-between; 
+    }
+
+    .footertexto {
+        font-size: 30px;
     }
 }

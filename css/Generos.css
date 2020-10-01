@@ -168,3 +168,148 @@ body {
 .footerimagenes ul li img {
     width: 50%;
 }
+
+@media only screen and (max-width: 420px) {
+
+    .none {
+        display: none;
+    }
+    
+    .barranav {
+        width: 1300px;
+    }
+    
+    .logo img {
+        width: 150px;
+        height: 130px;
+    }
+    
+    .barranav ul li {
+        width: 50px;
+        font-size: 30px;
+    }
+    
+    .buscar img {
+        width: 170px;
+        height: 40px;
+    }
+    
+    .usuario img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    
+    .Accion {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 30px;
+        text-align: left;
+        
+    }
+    
+    .Accion2 ul{
+        width: 1200px;
+        height: 200px;
+    }
+
+    .Accion2 ul li img {
+        width: 440px;
+        height: 200px; 
+        margin-left: -50px;
+        margin-right: -50px;
+       
+    }
+    
+    .Dramas {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 30px;
+        text-align: left;
+    }
+    
+    .Dramas2 ul{
+        width: 1200px;
+        height: 200px;
+    }
+    
+    
+    .Dramas2 ul li img {
+        width: 440px;
+        height: 200px; 
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    
+    .Comedias {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 30px;
+        text-align: left;
+    }
+
+    
+    .Comedias2 ul {
+        width: 1200px;
+        height: 200px;
+    }
+    
+    
+    .Comedias2 ul li img{
+        width: 440px;
+        height: 200px; 
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    
+    .Románticas {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 30px;
+        text-align: left;
+    }
+    
+    .Románticas2 ul {
+        width: 1200px;
+        height: 200px;
+    }
+    
+    
+    .Románticas2 ul li img{
+        width: 440px;
+        height: 200px;  
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    
+    .Terror {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+        font-size: 30px;
+        text-align: left;
+      
+    }
+    
+    .Terror2 ul {
+        width: 1200px;
+        height: 200px;
+    }
+    
+    
+    .Terror2 ul li img {
+        width: 440px;
+        height: 200px; 
+        margin-left: -50px;
+        margin-right: -50px;
+    
+    }
+
+    .footerimagenes ul {
+        width: 600px;
+        font-size: 30px;
+    }
+    
+    .footerimagenes ul li img {
+        width: 150%;
+    }
+}
