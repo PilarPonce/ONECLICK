@@ -43,6 +43,14 @@ body {
     height: 150px;
 }
 
+.rec {
+    color: white
+}
+
+.con{
+    color: white;
+}
+
 .continuar ul li img {
     width: 200px;
     height: 150px;
@@ -67,6 +75,7 @@ body {
     justify-content: center;
     background-color: #151518;
     margin: 30px; 
+    color: white;
 }
 
 
