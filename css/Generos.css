@@ -1,7 +1,5 @@
 body {
     background-color: black;
-        
-    
 }
 
 .barranav{
@@ -56,6 +54,11 @@ body {
    padding: 5px 1px 5px 1px;
 }
 
+.Accion2 ul li img {
+
+    width: 200px;
+    height: 150;
+}
 .Dramas {
     color: white;
 }
@@ -73,6 +76,12 @@ body {
 .Dramas2 ul li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
+}
+
+.Dramas2 ul li img {
+    width: 200px;
+    height: 150;
+
 }
 
 .Comedias {
