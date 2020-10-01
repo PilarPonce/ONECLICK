@@ -27,6 +27,11 @@ body {
     width: 100px;
 }
 
+.banner p img {
+    width: 1500px;
+    height: 300px;
+
+}
 .recomendados ul{
     background-color: #2b2e42;
     display: flex;
