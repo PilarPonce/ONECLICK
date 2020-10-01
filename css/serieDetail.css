@@ -107,5 +107,12 @@ body{
     
     .footerimagenes ul li img {
         width: 150%;
+
     }
+
+    .footertexto h4{
+
+   justify-content: space-around;
+}
+    
 }
