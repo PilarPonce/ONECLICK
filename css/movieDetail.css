@@ -59,3 +59,46 @@ width: 600px;
 .footerimagenes ul li img {
     width: 50%;
 }
+
+@media only screen and (max-width: 420px) {
+    .barranav {
+        width: 1200px;
+    }
+    
+    .logo img {
+        width: 125px;
+    }
+    
+    .barranav ul li {
+        width: 50px;
+    }
+    
+    .buscar img {
+        width: 120px;
+    }
+    
+    .usuario img {
+        width: 60px;
+    }
+    
+    .fondopeli img{
+        width: 600px;
+        height: 400px;
+    }
+    
+    .fondopeli{
+        width: 1200px;
+    }
+    
+    .listapeli{
+        font-size: 21px;
+    }
+    
+    .footerimagenes ul {
+        width: 600px;
+    }
+    
+    .footerimagenes ul li img {
+        width: 150%;
+    }
+}
