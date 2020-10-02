@@ -106,6 +106,7 @@ body {
     flex-wrap: wrap;
     background-color: #151518;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .ten ul li{
