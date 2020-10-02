@@ -43,11 +43,13 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 .recomendados ul li img {
     width: 200px;
     height: 150px;
+    
 }
 
 .rec {
@@ -76,6 +78,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .top{
