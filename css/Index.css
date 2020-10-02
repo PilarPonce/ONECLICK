@@ -133,16 +133,20 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
+    
 }
 
 .generos ul li {
     margin: 2px;
     padding: 5px 1px 5px 1px;
+    
+
 }
 
 .generos2 ul li img {
     width: 200px;
     height: 150px;
+    
 }
 
 .act{
@@ -151,6 +155,7 @@ body {
     background-color: #151518;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+
 }
 
 .dra{
