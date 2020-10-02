@@ -64,10 +64,6 @@ body {
     color: white;
 }
 
-.continuar ul li img {
-    width: 200px;
-    height: 150px;
-}
 
 .continuar ul{
     background-color: #151518;;
@@ -79,6 +75,10 @@ body {
     justify-content: space-between;
     align-items: center;
     
+}
+.continuar ul li img {
+    width: 200px;
+    height: 150px;
 }
 
 .top{
