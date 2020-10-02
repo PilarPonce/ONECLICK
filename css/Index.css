@@ -74,6 +74,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
     
 }
 .continuar ul li img {
