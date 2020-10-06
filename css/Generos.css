@@ -32,7 +32,7 @@ body {
 }
 
 .banner p img {
-    height: 400px;
+    height: 600px;
     width: 1430px;
   
 }
@@ -213,19 +213,18 @@ body {
         height: 150px;
     }
     
-    .banner {
+    .banner p img {
        
-        width: 375px;
-        height: 400;
-      
+        height: 300px;
+        width: 600px;
     }
-    
     .Accion {
         font-size: 55px;
     }
+
     
     .Accion2 ul{
-        width: 2000px;
+        width: 375px;
         height: 1800px;
         justify-items: right;
     }
@@ -320,4 +319,3 @@ body {
 
         display: none;
     }
-}
