@@ -6,6 +6,8 @@ body {
     width: 150px;
 }
 
+
+
 .barranav ul h4{
     color: white;
 }
@@ -30,7 +32,7 @@ body {
 }
 
 .banner p img {
-    height: 300px;
+    height: 400px;
     width: 1430px;
   
 }
@@ -183,125 +185,134 @@ body {
     
     .barranav {
         width: 1410px;
+        height: 200px;
     }
     
     .logo img {
-        width: 170px;
+        width: 200px;
+        height: 200px;
     
     }
     
     .barranav ul li {
-        width: 50px;
-        font-size: 35px;
+        width: 35px;
+    }
+
+    .barranav ul li h4 {
+        font-size: 44px;
+        text-justify: inter-word;
+
     }
     
     .buscar img {
-        width: 150px;
+        width: 190px;
     }
     
     .usuario img {
-        width: 90px;
+        width: 150px;
+        height: 150px;
     }
     
     .banner {
-        height: 300px;
-        width: 600px;
+       
+        width: 375px;
+        height: 400;
       
     }
     
     .Accion {
-        font-size: 30px;
+        font-size: 55px;
     }
     
     .Accion2 ul{
-        width: 375px;
-        height: 1350px;
-        
+        width: 2000px;
+        height: 1800px;
+        justify-items: right;
     }
 
     .Accion2 ul li img {
-        width: 800px;
-        height: 450px; 
+        width: 1300px;
+        height: 600px; 
         
     }
     
     .Dramas {
-        font-size: 30px;
+        font-size: 55px;
     }
     
     .Dramas2 ul{
-        width: 375px;
-        height: 1350px;
+        width: 2000px;
+        height: 1800px;
         
     }
     
     
     .Dramas2 ul li img {
-        width: 800px;
-        height: 450px; 
+        width: 1300px;
+        height: 600px; 
         
     }
     
     .Comedias {
-        font-size: 30px;
+        font-size: 55px;
     }
 
     
     .Comedias2 ul {
-        width: 375px;
-        height: 1350px;
+        width: 2000px;
+        height: 1800px;
         
     }
     
     
     .Comedias2 ul li img{
-        width: 800px;
-        height: 450px; 
+        width: 1300px;
+        height: 600px; 
       
     }
     
     .Románticas {
-        font-size: 30px;
+        font-size: 55px;
     }
     
     .Románticas2 ul {
-        width: 375px;
-        height: 1350px;
+        width: 2000px;
+        height: 1800px;
         
     }
     
     
     .Románticas2 ul li img{
-        width: 800px;
-        height: 450px; 
+        width: 1300px;
+        height: 600px; 
        
     }
     
     .Terror {
-        font-size: 30px;
+        font-size: 55px;
     }
     
     .Terror2 ul {
-        width: 375px;
-        height: 1350px;
+        width: 2000px;
+        height: 1800px;
         
     }
     
     .Terror2 ul li img {
-        width: 800px;
-        height: 450px; 
+        width: 1300px;
+        height: 600px; 
      
     }
 
     
     .footertexto h4 {
-        font-size: 35px;
+        font-size: 45px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     }   
 
     .footertexto h5 {
-        font-size: 35px;
+        font-size: 45px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
     }
