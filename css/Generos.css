@@ -29,6 +29,11 @@ body {
     width: 100px;
 }
 
+.banner p img {
+    height: 300px;
+    width: 1430px;
+  
+}
 .Accion {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -205,87 +210,87 @@ body {
     }
     
     .Accion {
-        font-size: 25px;
+        font-size: 30px;
     }
     
     .Accion2 ul{
-        width: 1200px;
-        height: 200px;
+        width: 375px;
+        height: 1350px;
+        
     }
 
     .Accion2 ul li img {
-        width: 380px;
-        height: 200px; 
+        width: 800px;
+        height: 450px; 
         
-       
     }
     
     .Dramas {
-        font-size: 25px;
+        font-size: 30px;
     }
     
     .Dramas2 ul{
-        width: 1200px;
-        height: 200px;
+        width: 375px;
+        height: 1350px;
+        
     }
     
     
     .Dramas2 ul li img {
-        width: 380px;
-        height: 200px; 
-        margin-left: -50px;
-        margin-right: -50px;
+        width: 800px;
+        height: 450px; 
+        
     }
     
     .Comedias {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     
     .Comedias2 ul {
-        width: 1200px;
-        height: 200px;
+        width: 375px;
+        height: 1350px;
+        
     }
     
     
     .Comedias2 ul li img{
-        width: 380px;
-        height: 200px; 
-        margin-left: -50px;
-        margin-right: -50px;
+        width: 800px;
+        height: 450px; 
+      
     }
     
     .Románticas {
-        font-size: 25px;
+        font-size: 30px;
     }
     
     .Románticas2 ul {
-        width: 1200px;
-        height: 200px;
+        width: 375px;
+        height: 1350px;
+        
     }
     
     
     .Románticas2 ul li img{
-        width: 380px;
-        height: 200px; 
-        margin-left: -50px;
-        margin-right: -50px;
+        width: 800px;
+        height: 450px; 
+       
     }
     
     .Terror {
-        font-size: 25px;
+        font-size: 30px;
     }
     
     .Terror2 ul {
-        width: 1200px;
-        height: 200px;
+        width: 375px;
+        height: 1350px;
+        
     }
     
     .Terror2 ul li img {
-        width: 380px;
-        height: 200px; 
-        margin-left: -50px;
-        margin-right: -50px;
+        width: 800px;
+        height: 450px; 
+     
     }
 
     
@@ -296,7 +301,7 @@ body {
     }   
 
     .footertexto h5 {
-        font-size: 30px;
+        font-size: 35px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
     }
