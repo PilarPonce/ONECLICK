@@ -208,9 +208,12 @@ body {
 
 
 @media only screen and (max-width: 420px) {
+    .none{
+        display: none;
+    }
     
     .barranav {
-        width: 1200px;
+        width: 1410px;
     }
     
     .logo img {
@@ -232,7 +235,7 @@ body {
     
     .banner {
         height: 300px;
-        width: 1000px;
+        width: 600px;
       
     }
     .recomendados {
