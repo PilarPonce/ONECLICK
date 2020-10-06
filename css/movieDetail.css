@@ -71,7 +71,7 @@ body{
     }
     
     .logo img {
-        width: 125px;
+        width: 150px;
     }
     
     .barranav ul li {
@@ -88,27 +88,33 @@ body{
     }
     
     .fondopeli img{
-        width: 600px;
-        height: 400px;
+        width: 1200px;
+        height: 700px;
+    }
+
+    .fondopeli {
+        display: flex;
+        flex-direction: column;
     }
     
     .fondopeli{
         width: 1200px;
+        height: 1700px;
     }
     
-    .listapeli{
-        font-size: 20px;
+    .listapeli {
+        font-size: 50px;
     }
     
    
     .footertexto h4 {
-        font-size: 19px;
+        font-size: 35px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     }   
 
     .footertexto h5 {
-        font-size: 18px;
+        font-size: 30px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
     }
