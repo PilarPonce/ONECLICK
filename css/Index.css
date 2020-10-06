@@ -212,19 +212,22 @@ body {
     .barranav {
         width: 1200px;
     }
-    .logo img{
-        width: 125px;
+    
+    .logo img {
+        width: 150px;
     }
+    
     .barranav ul li {
         width: 50px;
+        font-size: 30px;
     }
+    
     .buscar img {
         width: 120px;
     }
     
     .usuario img {
         width: 60px;
-        
     }
     
     .banner {
