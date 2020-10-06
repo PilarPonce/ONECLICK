@@ -71,7 +71,7 @@ body{
     }
     
     .logo img {
-        width: 125px;
+        width: 150px;
     }
     
     .barranav ul li {
@@ -103,13 +103,13 @@ body{
 
 
     .footertexto h4 {
-        font-size: 19px;
+        font-size: 35px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     }   
 
     .footertexto h5 {
-        font-size: 18px;
+        font-size: 30px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
     }

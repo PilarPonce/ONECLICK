@@ -176,12 +176,11 @@ body {
     }
     
     .barranav {
-        width: 1300px;
+        width: 1200px;
     }
     
     .logo img {
         width: 150px;
-        height: 130px;
     }
     
     .barranav ul li {
@@ -190,13 +189,11 @@ body {
     }
     
     .buscar img {
-        width: 170px;
-        height: 40px;
+        width: 120px;
     }
     
     .usuario img {
-        width: 70px;
-        height: 70px;
+        width: 60px;
     }
     
     
@@ -286,13 +283,13 @@ body {
 
     
     .footertexto h4 {
-        font-size: 19px;
+        font-size: 35px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     }   
 
     .footertexto h5 {
-        font-size: 18px;
+        font-size: 30px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
     }
