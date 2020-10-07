@@ -196,7 +196,6 @@ body {
         width: 60px;
     }
     
-    
     .Accion {
         font-size: 25px;
     }
@@ -209,8 +208,6 @@ body {
     .Accion2 ul li img {
         width: 380px;
         height: 200px; 
-        
-       
     }
     
     .Dramas {
@@ -222,7 +219,6 @@ body {
         height: 200px;
     }
     
-    
     .Dramas2 ul li img {
         width: 380px;
         height: 200px; 
@@ -233,13 +229,11 @@ body {
     .Comedias {
         font-size: 25px;
     }
-
     
     .Comedias2 ul {
         width: 1200px;
         height: 200px;
     }
-    
     
     .Comedias2 ul li img{
         width: 380px;
@@ -256,7 +250,6 @@ body {
         width: 1200px;
         height: 200px;
     }
-    
     
     .Románticas2 ul li img{
         width: 380px;
@@ -281,11 +274,9 @@ body {
         margin-right: -50px;
     }
 
-    
     .footertexto h4 {
         font-size: 35px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
     }   
 
     .footertexto h5 {
@@ -293,6 +284,7 @@ body {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
     }
+
     .none{
 
         display: none;
