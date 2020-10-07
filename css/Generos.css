@@ -199,7 +199,6 @@ body {
     .barranav ul li h4 {
         font-size: 44px;
         text-justify: inter-word;
-
     }
     
     .barranav ul h4 {
@@ -225,6 +224,7 @@ body {
     .Accion {
         font-size: 55px;
     }
+
     .Accion2{
         width: 1400px;
         height: 2200px; 
@@ -249,14 +249,14 @@ body {
         height: 2200px; 
         border: 5px solid white;
     }
+
     .Dramas2 ul {
         height: 2100px;
     }
 
     .Dramas2 ul li img {
         width: 1300px;
-        height: 700px; 
-        
+        height: 700px;  
     }
     
     .Comedias {
@@ -270,16 +270,12 @@ body {
     }
     
     .Comedias2 ul {
-       
-        
         height: 2100px;
-        
     }
     
     .Comedias2 ul li img{
         width: 1300px;
         height: 700px; 
-      
     }
     
     .Románticas {
@@ -293,15 +289,12 @@ body {
     }
     
     .Románticas2 ul {
-       
         height: 2100px;
-        
     }
     
     .Románticas2 ul li img{
         width: 1350px;
         height: 700px; 
-       
     }
     
     .Terror {
@@ -315,21 +308,17 @@ body {
     }
     
     .Terror2 ul {
-        
         height: 2100px;
-        
     }
     
     .Terror2 ul li img {
         width: 1350px;
         height: 700px; 
-     
     }
 
     .footer{
         width: 1350px; 
     }
-
 
     .footertexto h4 {
         font-size: 35px;
@@ -346,7 +335,6 @@ body {
     }
 
     .none{
-
         display: none;
     }
 }
