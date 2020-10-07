@@ -204,24 +204,18 @@ body {
 
     }
     
+    .barranav ul h4 {
+        font-size: 35px;
+    }
+    
     .buscar img {
-        width: 190px;
+        width: 200px;
     }
     
     .usuario img {
-        width: 150px;
-        height: 150px;
+        width: 80px;
     }
     
-    .banner {
-        height: 450px;
-    }
-
-    .banner p img {
-       width: 1400px;
-       height: 450px;
-    }
-
     .Accion {
         font-size: 55px;
     }
@@ -230,8 +224,8 @@ body {
     }
 
     .Accion2 ul li img {
-        width: 1300px;
-        height: 600px;     
+        width: 380px;
+        height: 200px; 
     }
     
     .Dramas {
@@ -245,7 +239,6 @@ body {
         
     }
     
-    
     .Dramas2 ul li img {
         width: 1300px;
         height: 600px; 
@@ -255,7 +248,6 @@ body {
     .Comedias {
         font-size: 55px;
     }
-
     
     .Comedias2 ul {
        
@@ -263,7 +255,6 @@ body {
         height: 1800px;
         
     }
-    
     
     .Comedias2 ul li img{
         width: 1300px;
@@ -280,7 +271,6 @@ body {
         height: 1800px;
         
     }
-    
     
     .Románticas2 ul li img{
         width: 1300px;
@@ -304,11 +294,9 @@ body {
      
     }
 
-    
     .footertexto h4 {
         font-size: 45px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
     }   
 
     .footertexto h5 {
@@ -316,6 +304,7 @@ body {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
     }
+
     .none{
 
         display: none;
