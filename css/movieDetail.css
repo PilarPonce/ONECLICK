@@ -74,7 +74,6 @@ body{
     .logo img {
         width: 200px;
         height: 200px;
-    
     }
     
     .barranav ul li {
@@ -84,7 +83,6 @@ body{
     .barranav ul li h4 {
         font-size: 44px;
         text-justify: inter-word;
-
     }
     
     .barranav ul h4 {
@@ -118,7 +116,6 @@ body{
         font-size: 50px;
     }
     
-   
     .footertexto{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -137,5 +134,4 @@ body{
         font-style: oblique;
     }
 
-    
 }
