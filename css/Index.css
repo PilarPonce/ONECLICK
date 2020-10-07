@@ -213,7 +213,7 @@ body {
     }
     
     .barranav {
-        width: 1410px;
+        width: 1200px;
     }
     
     .logo img {
@@ -236,6 +236,11 @@ body {
     .banner {
         height: 300px;
         width: 600px;
+      
+    }
+    .banner p img {
+        height: 300px;
+        width: 1200px;
       
     }
     .recomendados {
