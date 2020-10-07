@@ -32,7 +32,7 @@ body {
 }
 
 .banner p img {
-    height: 600px;
+    height: 300px;
     width: 1430px;
   
 }
@@ -213,26 +213,25 @@ body {
         height: 150px;
     }
     
-    .banner p img {
-       
-        height: 300px;
-        width: 600px;
+    .banner {
+        height: 450px;
     }
+
+    .banner p img {
+       width: 1400px;
+       height: 450px;
+    }
+
     .Accion {
         font-size: 55px;
     }
-
-    
     .Accion2 ul{
-        width: 375px;
-        height: 1800px;
-        justify-items: right;
+        height: 1800px; 
     }
 
     .Accion2 ul li img {
         width: 1300px;
-        height: 600px; 
-        
+        height: 600px;     
     }
     
     .Dramas {
@@ -240,7 +239,8 @@ body {
     }
     
     .Dramas2 ul{
-        width: 2000px;
+       
+
         height: 1800px;
         
     }
@@ -258,7 +258,8 @@ body {
 
     
     .Comedias2 ul {
-        width: 2000px;
+       
+        
         height: 1800px;
         
     }
@@ -275,7 +276,7 @@ body {
     }
     
     .Románticas2 ul {
-        width: 2000px;
+       
         height: 1800px;
         
     }
@@ -292,7 +293,7 @@ body {
     }
     
     .Terror2 ul {
-        width: 2000px;
+        
         height: 1800px;
         
     }
