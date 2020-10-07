@@ -67,28 +67,40 @@ body{
     }
     
     .barranav {
-        width: 1200px;
+        width: 1400px;
+        height: 200px;
     }
     
     .logo img {
-        width: 150px;
+        width: 200px;
+        height: 200px;
+    
     }
     
     .barranav ul li {
-        width: 50px;
-        font-size: 30px;
+        width: 35px;
+    }
+
+    .barranav ul li h4 {
+        font-size: 44px;
+        text-justify: inter-word;
+
+    }
+    
+    .barranav ul h4 {
+        font-size: 35px;
     }
     
     .buscar img {
-        width: 120px;
+        width: 200px;
     }
     
     .usuario img {
-        width: 60px;
+        width: 80px;
     }
     
     .fondopeli img{
-        width: 1200px;
+        width: 1400px;
         height: 700px;
     }
 
@@ -98,7 +110,7 @@ body{
     }
     
     .fondopeli{
-        width: 1200px;
+        width: 1400px;
         height: 1700px;
     }
     
