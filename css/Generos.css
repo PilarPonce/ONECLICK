@@ -224,21 +224,17 @@ body {
     }
 
     .Accion2 ul li img {
-        width: 380px;
-        height: 200px; 
-    }
+        width: 1300px;
+        height: 600px; 
     
     .Dramas {
         font-size: 55px;
     }
     
-    .Dramas2 ul{
-       
-
+    .Dramas2 ul {
         height: 1800px;
-        
     }
-    
+
     .Dramas2 ul li img {
         width: 1300px;
         height: 600px; 
