@@ -74,7 +74,6 @@ body{
     .logo img {
         width: 200px;
         height: 200px;
-    
     }
     
     .barranav ul li {
@@ -84,7 +83,6 @@ body{
     .barranav ul li h4 {
         font-size: 44px;
         text-justify: inter-word;
-
     }
     
     .barranav ul h4 {
@@ -135,7 +133,6 @@ body{
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
     }
-
 
 }
     
