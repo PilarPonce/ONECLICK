@@ -225,19 +225,30 @@ body {
     .Accion {
         font-size: 55px;
     }
+    .Accion2{
+        width: 1350px;
+        height: 2200px; 
+        border: 5px solid white;
+    }
+
     .Accion2 ul{
         height: 2100px; 
     }
 
     .Accion2 ul li img {
         width: 1300px;
-        height: 700px;  
+        height: 700px; 
     }
     
     .Dramas {
         font-size: 55px;
     }
     
+    .Dramas2{
+        width: 1350px;
+        height: 2200px; 
+        border: 5px solid white;
+    }
     .Dramas2 ul {
         height: 2100px;
     }
@@ -250,6 +261,12 @@ body {
     
     .Comedias {
         font-size: 55px;
+    }
+
+    .Comedias2{
+        width: 1350px;
+        height: 2200px; 
+        border: 5px solid white;
     }
     
     .Comedias2 ul {
