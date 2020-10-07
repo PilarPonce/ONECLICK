@@ -213,29 +213,38 @@ body {
     .usuario img {
         width: 80px;
     }
+
+    .banner {
+        height: 400px;
+    }
+
+    .banner p img {
+        height: 400px;
+    }
     
     .Accion {
         font-size: 55px;
     }
     .Accion2 ul{
-        height: 1800px; 
+        height: 2100px; 
     }
 
     .Accion2 ul li img {
         width: 1300px;
-        height: 600px;  }
+        height: 700px;  
+    }
     
     .Dramas {
         font-size: 55px;
     }
     
     .Dramas2 ul {
-        height: 1800px;
+        height: 2100px;
     }
 
     .Dramas2 ul li img {
         width: 1300px;
-        height: 600px; 
+        height: 700px; 
         
     }
     
@@ -246,13 +255,13 @@ body {
     .Comedias2 ul {
        
         
-        height: 1800px;
+        height: 2100px;
         
     }
     
     .Comedias2 ul li img{
         width: 1300px;
-        height: 600px; 
+        height: 700px; 
       
     }
     
@@ -262,13 +271,13 @@ body {
     
     .Románticas2 ul {
        
-        height: 1800px;
+        height: 2100px;
         
     }
     
     .Románticas2 ul li img{
         width: 1300px;
-        height: 600px; 
+        height: 700px; 
        
     }
     
@@ -278,13 +287,13 @@ body {
     
     .Terror2 ul {
         
-        height: 1800px;
+        height: 2100px;
         
     }
     
     .Terror2 ul li img {
         width: 1300px;
-        height: 600px; 
+        height: 700px; 
      
     }
 
