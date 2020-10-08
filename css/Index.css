@@ -304,14 +304,15 @@ body {
         display: none;
     }
     .generos {
-        font-size: 20px;
+        width: 600px;
+        font-size: 30px;
         font-weight: bold;
      }
     .generos2 {
        width: 1430px;
     }
     .generos2 ul {
-        border: 3px solid white
+        border: 5px solid white
     }
     .generos2 ul li img {
         width: 276px;
