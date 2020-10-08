@@ -335,8 +335,8 @@ body {
     }
     .footertexto{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 2fr 1fr;
+        justify-content: space-around;
         width: 1430px;
     }
 
