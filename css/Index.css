@@ -266,7 +266,8 @@ body {
     }
     
     .recomendados ul{
-        border: 5px solid white
+        border: 5px solid white;
+        border-radius: 15px 15px 15px 15px;
     }
 
     .continuar {
@@ -277,7 +278,9 @@ body {
         height: 440px;
     }
     .continuar ul{
-        border: 5px solid white
+        border: 5px solid white;
+        border-radius: 15px 15px 15px 15px;
+
     }
     .top{
         width: 1430px;
@@ -296,7 +299,8 @@ body {
         width: 1430px;
     }
     .ten ul {
-        border: 5px solid white
+        border: 5px solid white;
+        border-radius: 15px 15px 15px 15px;
     }
     .ten ul li img {
         width: 460px;
@@ -315,7 +319,8 @@ body {
        width: 1430px;
     }
     .generos2 ul {
-        border: 5px solid white
+        border: 5px solid white;
+        border-radius: 15px 15px 15px 15px;
     }
     .generos2 ul li img {
         width: 345px;
