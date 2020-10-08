@@ -303,12 +303,19 @@ body {
     .none {
         display: none;
     }
-
+    .generos {
+        font-size: 20px;
+        font-weight: bold;
+     }
     .generos2 {
        width: 1430px;
     }
     .generos2 ul {
         border: 3px solid white
+    }
+    .generos2 ul li img {
+        width: 276px;
+        height: 220px;
     }
     .footertexto{
         display: grid;
