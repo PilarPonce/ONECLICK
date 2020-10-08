@@ -75,9 +75,6 @@ body{
     .barranav {
         width: 1400px;
         height: 250px;
-        display: flex;
-        align-items: center;
-        
     }
     
     .logo img {

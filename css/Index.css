@@ -219,20 +219,19 @@ body {
     .barranav {
         width: 1400px;
         height: 250px;
+        
     }
     
     .logo img {
         width: 300px;
-        height: 250px;
-    
+        height: 250px
     }
     
     
 
     .barranav ul li h4 {
         font-size: 44px;
-        text-justify: inter-word;
-
+      
     }
     
     .barranav ul h4 {
@@ -241,12 +240,13 @@ body {
     
     .buscar img {
         width: 800px;
+    
     }
     
     .usuario img {
         width: 200px;
     }
-    
+
     .banner {
         height: 400px;
     }
@@ -271,6 +271,7 @@ body {
 
     .continuar {
         width: 1430px;
+        
     }
     .continuar ul li img {
         width: 680px;
@@ -283,7 +284,7 @@ body {
     }
     .top{
         width: 1430px;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .no420{
@@ -333,6 +334,7 @@ body {
     }
     .terr{
         font-size: 30px;
+       
     }
     .com{
         font-size: 30px;
