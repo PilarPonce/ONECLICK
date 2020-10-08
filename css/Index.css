@@ -318,8 +318,8 @@ body {
         border: 5px solid white
     }
     .generos2 ul li img {
-        width: 276px;
-        height: 220px;
+        width: 345px;
+        height: 345px;
     }
     .act{
         font-size: 30px;
@@ -328,9 +328,6 @@ body {
         font-size: 30px;
     }
     .terr{
-        font-size: 30px;
-    }
-    .dra{
         font-size: 30px;
     }
     .com{
