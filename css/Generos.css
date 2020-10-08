@@ -198,10 +198,7 @@ body {
         height: 250px
     }
     
-    .barranav ul li {
-        width: 1400px;
-       justify-content: center;
-    }
+    
 
     .barranav ul li h4 {
         font-size: 44px;
