@@ -262,6 +262,9 @@ body {
     
     .Comedias2 ul {
         height: 2100px;
+        width: 1300px;   
+        border: solid white 10px;
+        border-radius: 30px 30px 30px 30px;   
         
     }
     
@@ -283,6 +286,9 @@ body {
     
     .Románticas2 ul {
         height: 2100px;
+        width: 1300px;   
+        border: solid white 10px;
+        border-radius: 30px 30px 30px 30px;   
     }
     
     .Románticas2 ul li img{
@@ -303,6 +309,9 @@ body {
     
     .Terror2 ul {
         height: 2100px;
+        width: 1300px;   
+        border: solid white 10px;
+        border-radius: 30px 30px 30px 30px;   
     }
     
     .Terror2 ul li img {
