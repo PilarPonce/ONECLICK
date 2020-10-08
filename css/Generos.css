@@ -228,6 +228,7 @@ body {
     
     .Accion {
         font-size: 55px;
+       text-align: center;
     }
 
     .Accion2{
@@ -237,41 +238,45 @@ body {
     }
 
     .Accion2 ul{
-        height: 2100px; 
-       
+        height: 2200px; 
+        width: 1300px;   
+        border: solid white 10px;
+        border-radius: 30px 30px 30px 30px;        
     }
 
     .Accion2 ul li img {
-        width: 1350px;
+        width: 1290px;
         height: 700px; 
-        
+        margin: auto;   
     }
     
     .Comedias {
         font-size: 55px;
+        text-align: center;
     }
 
     .Comedias2{
-        width: 1370px;
+        width: 375px;
         height: 2200px; 
-      
     }
     
     .Comedias2 ul {
         height: 2100px;
+        
     }
     
     .Comedias2 ul li img{
-        width: 1300px;
+        width: 1350px;
         height: 700px; 
     }
     
     .Románticas {
         font-size: 55px;
+        text-align: center;
     }
 
     .Románticas2{
-        width: 1400px;
+        width: 375px;
         height: 2200px; 
         
     }
@@ -287,10 +292,11 @@ body {
     
     .Terror {
         font-size: 55px;
+        text-align: center;
     }
 
     .Terror2{
-        width: 1400px;
+        width: 375px;
         height: 2200px; 
         
     }
