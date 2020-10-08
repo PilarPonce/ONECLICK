@@ -74,16 +74,17 @@ body{
     
     .barranav {
         width: 1400px;
-        height: 200px;
+        height: 250px;
     }
     
     .logo img {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 250px;
     }
     
     .barranav ul li {
-        width: 35px;
+        width: 1400px;
+        justify-content: center;
     }
 
     .barranav ul li h4 {
@@ -96,7 +97,7 @@ body{
     }
     
     .buscar img {
-        width: 200px;
+        width: 800px;
     }
     
     .usuario img {
