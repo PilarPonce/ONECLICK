@@ -317,6 +317,21 @@ body {
         width: 276px;
         height: 220px;
     }
+    .act{
+        font-size: 30px;
+    }
+    .rom{
+        font-size: 30px;
+    }
+    .terr{
+        font-size: 30px;
+    }
+    .dra{
+        font-size: 30px;
+    }
+    .com{
+        font-size: 30px;
+    }
     .footertexto{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
