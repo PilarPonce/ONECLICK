@@ -267,9 +267,15 @@ body {
     }
 
     .continuar {
-        width: 1200px;
+        width: 1430px;
     }
-    
+    .continuar ul li img {
+        width: 680px;
+        height: 440px;
+    }
+    .continuar ul{
+        border: 5px solid white
+    }
     .top{
         width: 1200px;
     }
@@ -326,8 +332,12 @@ body {
     }
     
     .mobcontinuar {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: bold;
+        font-size: 40px;
         color: white
     }
 
