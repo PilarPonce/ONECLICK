@@ -189,18 +189,19 @@ body {
     
     .barranav {
         width: 1400px;
-        height: 250px;
-        
+        height: 350px;
     }
     
     .logo img {
         width: 300px;
-        height: 250px
+        height: 250px;
     }
+    
 
     .barranav ul li h4 {
         font-size: 44px;
-      
+        text-justify: inter-word;
+        
     }
     
     .barranav ul h4 {
@@ -209,7 +210,6 @@ body {
     
     .buscar img {
         width: 800px;
-    
     }
     
     .usuario img {
