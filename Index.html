@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link rel="stylesheet" href="css/Index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
 </head>
 
 <body>
@@ -23,69 +26,222 @@
       </nav>
     </header>
 
-    <section class="banner">
-        <p> <img src="imagenes/banner/banner.jpg" alt=""></p>
-    </section>
+    <div class=" banner uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
 
+        <ul class=" bannert uk-slideshow-items" >
+            <li>
+                <img src="imagenes/banner/banner.jpg" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="imagenes/banner/banner2.png" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="imagenes/banner/banner3.png" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="imagenes/banner/banner4.png" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="imagenes/banner/banner5.png" alt="" uk-cover>
+            </li>
+        </ul>
+    
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    
+    </div>
    
-    <section class="pagina">
-        <section class="recomendados">
-            <h2 class="mobrecomen">RECOMENDADO PARA TI</h2>
-            <ul>
-                <li> <a href="serieDetail.html"><img src="imagenes/recomendado/blind.jpg" alt=""> </a> </li>
-                <li> <a href="serieDetail.html"><img src="imagenes/recomendado/gossip.jpg" alt="" > </a> </li>
-                <li class="rec">RECOMENDADO PARA TI</li>
-                <li> <a href="serieDetail.html"> <img src="imagenes/recomendado/hotel.jpg" alt="" > </a> </li>
-                <li> <a href="serieDetail.html"> <img src="imagenes/recomendado/vikings.jpg" alt="" > </a> </li>
-            </ul>
-        </section>     
-        <section class="continuar">
-            <h2 class="mobcontinuar">CONTINUAR VIENDO</h2>
-            <ul>
-                <li> <a href="serieDetail.html"> <img src="imagenes/Continuar Viendo/Cont. Viendo 2.png" alt=""> </a> </li>
-                <li> <a href="serieDetail.html"> <img src="imagenes/Continuar Viendo/Cont. Viendo 3.png" alt=""> </a> </li>
-                <li class="con">CONTINUAR VIENDO</li>
-                <li> <a href="movieDetail.html"> <img src="imagenes/Continuar Viendo/Cont. Viendo 4.png" alt=""> </a> </li>
-                <li> <a href="movieDetail.html"> <img src="imagenes/Continuar Viendo/Cont. Viendo 5.png" alt=""> </a> </li>
-            </ul>
-        </section>  
+    <section class="recomendados">
+        <h2 class="mobrecomen">RECOMENDADO PARA TI</h2>
+    </section>    
 
-        <section class="top10">
-            <section class="top">
-                <h2 class="no420">TOP 10 GLOBAL</h2>
-                <h2 class="on420">TOP 3 GLOBAL</h2>
-            </section>
-            <section class="ten">
-                <ul>
-                    <li> <a href="movieDetail.html"> <img src="imagenes/Top10/Top1.jpg" > </a> </li>
-                    <li> <a href="movieDetail.html"> <img src="imagenes/Top10/Top2.jpg" > </a></li>
-                    <li > <a href="movieDetail.html"> <img src="imagenes/Top10/Top3.jpg" > </a></li>
-                    <li class="none"> <a href="movieDetail.html"> <img src="imagenes/Top10/Top4.jpeg" > </a></li>
-                    <li class="none"> <a href="movieDetail.html" > <img src="imagenes/Top10/Top5.jpeg" ></a></li>
-                    <li class="none"> <a href="serieDetail.html"> <img src="imagenes/Top10/Top6.jpeg" ></a></li>
-                    <li class="none"> <a href="serieDetail.html"> <img src="imagenes/Top10/Top7.jpg" > </a></li>
-                    <li class="none"> <a href="serieDetail.html"> <img src="imagenes/Top10/Top8.jpg"  ><a><li>
-                    <li class="none"> <a href="movieDetail.html"> <img src="imagenes/Top10/Top9.jpg" > <a></li>
-                    <li class="none"> <a href="serieDetail.html" > <img src="imagenes/Top10/Top10.jpg" ><a></li>
-                </ul>
-            </section>
-        </section>
+    <div uk-slider>
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+            <ul class=" recomendados uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                <li>
+                    <a href="serieDetail.html"><img src="imagenes/recomendado/blind.jpg" alt=""> </a> 
+                </li>
+                <li>
+                    <a href="serieDetail.html"><img src="imagenes/recomendado/gossip.jpg" alt="" > </a>
+                </li>
+                <li>
+                    <a href="serieDetail.html"> <img src="imagenes/recomendado/hotel.jpg" alt="" > </a> 
+                </li>
+                <li>
+                    <a href="serieDetail.html"> <img src="imagenes/recomendado/vikings.jpg" alt="" > </a>
+                </li>
+                <li>
+                    <a href="serieDetail.html"><img src="imagenes/recomendado/gossip.jpg" alt="" > </a>
+                </li>
+                <li>
+                    <a href="serieDetail.html"> <img src="imagenes/recomendado/hotel.jpg" alt="" > </a> 
+                </li>
+            </ul>
+        
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+        </div>    
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>    
+    </div>
 
-        <section>
-            <section class="generos">
-                <h2>Géneros de Películas</h2>
-            </section>
-            <section class="generos2">
-                <ul>
-                    <li> <a href="movieDetail.html"> <img src="imagenes/accion/1.jpg" alt=""> </a> <h3 class="act">Acción</h3></li>
-                    <li> <a href="movieDetail.html"> <img src="imagenes/Románticas/Romántica 1.png" alt="" > </a> <h3 class="rom"> Románticas</h3></li>
-                    <li> <a href="movieDetail.html"> <img src="imagenes/Terror/Terror 1.png" alt="" > </a> <h3 class="terr"> Terror </h3> </li>
-                    <li class="none"> <a href="movieDetail.html"> <img src="imagenes/drama/1.jpg" alt=""> </a> <h3 class="dra">Drama</h3></li>
-                    <li> <a href="movieDetail.html"> <img src="imagenes/comedia/1.jpg" alt="" > </a> <h3 class="com">Comedia</h3></li>
+    <section class="continuar">
+        <h2 class="mobcontinuar">CONTINUAR VIENDO</h2>
+    </section>  
+
+    <div uk-slider>
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                <ul class=" continuar uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                    <li>
+                        <a href="serieDetail.html"> <img src="imagenes/Continuar Viendo/Cont. Viendo 2.png" alt=""> </a>
+                    </li>
+                    <li>
+                        <a href="serieDetail.html"> <img src="imagenes/Continuar Viendo/Cont. Viendo 3.png" alt=""> </a> </a>
+                    </li>
+                    <li>
+                        <a href="movieDetail.html"> <img src="imagenes/Continuar Viendo/Cont. Viendo 4.png" alt=""> </a>  </a> 
+                    </li>
+                    <li>
+                        <a href="movieDetail.html"> <img src="imagenes/Continuar Viendo/Cont. Viendo 5.png" alt=""> </a> 
+                    </li>
+                    <li>
+                        <a href="movieDetail.html"> <img src="imagenes/Continuar Viendo/Cont. Viendo 4.png" alt=""> </a> 
+                    </li>
+                    <li>
+                        <a href="movieDetail.html"> <img src="imagenes/Continuar Viendo/Cont. Viendo 5.png" alt=""> </a> 
+                    </li>
                 </ul>
-            </section>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+        
+        </div>
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+    </div>
+
+
+    <section class="top10">
+        <section class="top">
+            <h2 class="no420">TOP 10 GLOBAL</h2>
+            <h2 class="on420">TOP 3 GLOBAL</h2>
         </section>
     </section>
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+
+            <ul class=" ten uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid">
+                <li>
+                    <div class="uk-panel">
+                        <a href="movieDetail.html"> <img src="imagenes/Top10/Top1.jpg" > </a> 
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="movieDetail.html"> <img src="imagenes/Top10/Top2.jpg" > </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="movieDetail.html"> <img src="imagenes/Top10/Top3.jpg" > </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="movieDetail.html"> <img src="imagenes/Top10/Top4.jpeg" > </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="movieDetail.html" > <img src="imagenes/Top10/Top5.jpeg" ></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="serieDetail.html"> <img src="imagenes/Top10/Top6.jpeg" ></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="serieDetail.html"> <img src="imagenes/Top10/Top7.jpg" > </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="serieDetail.html"> <img src="imagenes/Top10/Top8.jpg"  ><a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="movieDetail.html"> <img src="imagenes/Top10/Top9.jpg" > <a>
+                    </div>
+                </li>
+                <li>
+                    <div class="uk-panel">
+                        <a href="serieDetail.html" > <img src="imagenes/Top10/Top10.jpg" ><a>
+                    </div>
+                </li>
+            </ul>    
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    </div>
+
+    <section>
+        <section class="generos">
+            <h2>Géneros de Películas</h2>
+        </section>
+    </section>
+
+    <div class=" uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true">
+        <ul class=" generos2 uk-slider-items uk-grid">
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <a href="movieDetail.html"> <img src="imagenes/accion/1.jpg" alt=""> </a>
+                    <div class=" cajatext uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Acción</h3>
+                        <p class="uk-margin-remove">Pulsa aqui para ver toda la variedad de peliculas de accion</p>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <a href="movieDetail.html"> <img src="imagenes/Románticas/Romántica 1.png" alt="" > </a> 
+                    <div class=" cajatext uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Romanticas</h3>
+                        <p class="uk-margin-remove">Pulsa aqui para ver toda la variedad de peliculas romanticas</p>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <a href="movieDetail.html"> <img src="imagenes/Terror/Terror 1.png" alt="" > </a> 
+                    <div class=" cajatext uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Terror</h3>
+                        <p class="uk-margin-remove">Pulsa aqui para ver toda la variedad de peliculas de terror</p>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <a href="movieDetail.html"> <img src="imagenes/drama/1.jpg" alt=""> </a> 
+                    <div class=" cajatext uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Drama</h3>
+                        <p class="uk-margin-remove"> Pulsa aqui para ver toda la variedad de peliculas de drama</p>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <a href="movieDetail.html"> <img src="imagenes/comedia/1.jpg" alt="" > </a>
+                    <div class=" cajatext uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Comedia</h3>
+                        <p class="uk-margin-remove"> Pulsa aqui para ver toda la variedad de peliculas de comedia</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    
+    </div>
 
     <footer class="footer">
             <section class="footerimagenes">
