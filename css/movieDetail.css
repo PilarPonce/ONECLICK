@@ -53,10 +53,15 @@ body{
     font-size: 20px;
 }
 
+
+
+
 .footerimagenes ul{
     display: grid;
     grid-template-rows: 5% 5% 5% 5%;
     list-style: none;
+    width: 300px;
+    height: 100px;
 }
 
 
@@ -116,6 +121,7 @@ body{
     .listapeli {
         font-size: 60px;
     }
+    
 
     .footerimagenes ul {
         display: flex;
