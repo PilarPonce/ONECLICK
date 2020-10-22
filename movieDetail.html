@@ -5,22 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Detail</title>
     <link rel="stylesheet" href="css/movieDetail.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
 </head>
 <body>
-    <header class="barranav">
-        <nav>
-            <ul>
-                <li class="logo"> <a href="Index.html"> <img src="imagenes/imagenesBarraNav/LOGO.JPG" alt="logo"> </a></li>
-                <li class="none"> <a href="Index.html"><h4>Inicio</h4> </a></li>
-                <li class="none"> <a href="movieDetail.html"><h4>Películas</h4> </a></li>
-                <li class="none"> <a href="serieDetail.html"><h4>Series</h4> </a></li>
-                <li class="none"> <a href="Index.html"><h4>Recomendados</h4> </a></li>
-                <li class="none"> <a href="Index.html"><h4>Continuar viendo</h4> </a></li>
-                <li class="buscar"> <img src="imagenes/imagenesBarraNav/LUPA.jpg" alt="Lupa"></li>
-                <li class="usuario"> <img src="imagenes/imagenesBarraNav/persona.jpg" alt=""></li>
+
+<header class="header">
+    <nav class=  " todobarra uk-navbar-container uk-margin" uk-navbar>
+        <div class=" fondonav uk-navbar-left">
+    
+            <a class=" logo uk-navbar-item uk-logo" href="#" alt="logo"> <img src="imagenes/imagenesBarraNav/LOGO.JPG" alt="logo"> </a>
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#">
+                        <button class="uk-button uk-button-default" type="button"> Inicio</button>
+                            <div uk-dropdown>
+                                <ul class=" barranav uk-nav uk-dropdown-nav">
+                                    <li><a href="#">Peliculas</a></li>
+                                    <li><a href="#">Series</a></li>
+                                    <li><a href="#">Recomendados para ti</a></li>
+                                    <li> <a href="#"> Continuar Viendo</a></li>
+                                </ul>
+                        </div>
+                    </a>
+                </li>
             </ul>
-      </nav>
-    </header>
+    
+            <div class="uk-navbar-item">
+
+                <div> <a href="#"> </a>
+                    <button class="uk-button uk-button-default" type="button">Usuarios</button>
+                    <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li class="uk-active"><a href="#"></a></li>
+                            <li><a href="#">Pilar</a></li>
+                            <li><a href="#">Nicole</a> </li>
+                            <li> <a href="#"> Tati</a></li>
+                        </ul>
+                    </div>
+                
+                
+                </div>
+            </div>
+    
+            <div class="uk-navbar-item">
+                <form action="javascript:void(0)">
+                    <input class="uk-input uk-form-width-small" type="text" placeholder=" ">
+                    <button class="uk-button uk-button-default">Buscar</button>
+                </form>
+            </div>
+    
+        </div>
+    </nav>
+</header>
 
     <section>
         <section class="fondopeli">

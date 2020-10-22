@@ -6,9 +6,18 @@ body{
     width: 150px;
 }
 
-.barranav ul h4{
-    color: white;
-    text-decoration: underline #151518;;
+.header {
+    background-color: black;
+}
+
+.todobarra {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.fondonav {
+    background-color: black;
 }
 
 .barranav ul {

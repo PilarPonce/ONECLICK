@@ -45,9 +45,6 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    background-color:#151518;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .Accion2 ul li{
@@ -56,8 +53,7 @@ body {
 }
 
 .Accion2 ul li img {
-    width: 200px;
-    height: 150;
+    width: 600px;
 }
 
 .Dramas {
@@ -70,9 +66,7 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    background-color:#151518;
-    flex-wrap: wrap;
-    justify-content: space-between;
+   
 }
 
 .Dramas2 ul li{
@@ -81,8 +75,7 @@ body {
 }
 
 .Dramas2 ul li img {
-    width: 200px;
-    height: 150;
+    width: 600px;
 
 }
 
@@ -96,9 +89,8 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    background-color:#151518;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    
+    
 }
 
 .Comedias2 ul li{
@@ -107,8 +99,7 @@ body {
 }
 
 .Comedias2 ul li img{
-    width: 200px;
-    height: 150;
+    width: 600px;
 }
 
 .Románticas {
@@ -117,13 +108,12 @@ body {
 }
 
 .Románticas2 ul {
-    background-color: #151518;
+  
     display: flex;
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    
 }
 
 .Románticas2 ul li{
@@ -132,23 +122,22 @@ body {
 }
 
 .Románticas2 ul li img{
-    width: 200px;
-    height: 150;
+    width: 600px;
+
 }
 
 .Terror {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: #ffffff;
 }
 
 .Terror2 ul {
-    background-color: #151518;
+ 
     display: flex;
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    flex-wrap: wrap;
-    justify-content: space-between;
+
 }
 
 .Terror2 ul li{
@@ -157,8 +146,7 @@ body {
 }
 
 .Terror2 ul li img {
-    width: 200px;
-    height: 150;
+    width: 600px;
 }
 
 .footerimagenes ul{
