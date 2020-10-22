@@ -205,11 +205,8 @@ body {
         height: 400px;
     }
     
-    .recomendados {
-        width: 1430px;
-    }
-
-    .recomendados ul li img {
+    
+    .recomendados li div img {
         width: 680px;
         height: 440px;
     }
