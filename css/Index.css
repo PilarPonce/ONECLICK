@@ -30,11 +30,11 @@ body {
     
 }
 
-.banner p img {
-    height: 300px;
-    width: 1430px;
-  
+.banner li p img{
+    height: 130px;
+    width: 3000px;
 }
+
 .recomendados ul{
     background-color: #151518;
     display: flex;
