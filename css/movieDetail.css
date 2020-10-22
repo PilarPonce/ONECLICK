@@ -8,13 +8,15 @@ body{
 
 .header {
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+    display: flex;
+    align-items: ce;
+    align-content: center;
+    
 }
 
-.todobarra {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-}
 
 .fondonav {
     background-color: black;
@@ -29,14 +31,10 @@ body{
     padding: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.buscar img {
-    width: 200px;
-}
-
 .usuario img {
     width: 100px;
 }
+
 
 .fondopeli img{
     width: 600px;
@@ -57,17 +55,19 @@ body{
 
 .footerimagenes ul{
     display: grid;
-    grid-template-columns: 5% 5% 5% 5%;
+    grid-template-rows: 10% 10% 10% 10%;
     list-style: none;
+    justify-content: space-between;
 }
 
-.footertexto {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+.footerimagenes ul li {
+    display: flex;
+    justify-content: space-between;
 }
 
-.footerimagenes ul li img {
-    width: 50%;
+.footerimagenes  {
+    width: 70%;
+
 }
 
 .nuestrosnombres{
