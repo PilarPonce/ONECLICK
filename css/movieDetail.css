@@ -41,7 +41,7 @@ body{
 }
 
 .fondopeli{
-    background-color:#151518;
+   
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -53,22 +53,7 @@ body{
     font-size: 20px;
 }
 
-.footerimagenes ul{
-    display: grid;
-    grid-template-rows: 10% 10% 10% 10%;
-    list-style: none;
-    justify-content: space-between;
-}
 
-.footerimagenes ul li {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footerimagenes  {
-    width: 70%;
-
-}
 
 .nuestrosnombres{
     color: white;
@@ -125,6 +110,17 @@ body{
     
     .listapeli {
         font-size: 60px;
+    }
+
+    .footerimagenes ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .footerimagenes ul li{
+
+        list-style: none;
     }
     
     .footertexto{
