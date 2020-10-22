@@ -212,26 +212,24 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
+
     .none {
         display: none;
     }
     
     .barranav {
         width: 1400px;
-        height: 250px;
-        
+        height: 350px;
     }
     
     .logo img {
-        width: 300px;
-        height: 250px
+        width: 350px;
+        height: 300px;
     }
     
-    
-
     .barranav ul li h4 {
         font-size: 44px;
-      
+        text-justify: inter-word;
     }
     
     .barranav ul h4 {
@@ -240,7 +238,6 @@ body {
     
     .buscar img {
         width: 800px;
-    
     }
     
     .usuario img {
@@ -273,15 +270,17 @@ body {
         width: 1430px;
         
     }
+
     .continuar ul li img {
         width: 680px;
         height: 440px;
     }
+
     .continuar ul{
         border: 5px solid white;
         border-radius: 15px 15px 15px 15px;
-
     }
+
     .top{
         width: 1430px;
         font-size: 40px;
@@ -298,10 +297,12 @@ body {
     .ten {
         width: 1430px;
     }
+
     .ten ul {
         border: 5px solid white;
         border-radius: 15px 15px 15px 15px;
     }
+
     .ten ul li img {
         width: 460px;
         height: 320px;
@@ -310,35 +311,43 @@ body {
     .none {
         display: none;
     }
+
     .generos {
         width: 600px;
         font-size: 30px;
         font-weight: bold;
      }
+
     .generos2 {
        width: 1430px;
     }
+
     .generos2 ul {
         border: 5px solid white;
         border-radius: 15px 15px 15px 15px;
     }
+
     .generos2 ul li img {
         width: 345px;
         height: 345px;
     }
+
     .act{
         font-size: 30px;
     }
+
     .rom{
         font-size: 30px;
     }
+
     .terr{
         font-size: 30px;
-       
     }
+
     .com{
         font-size: 30px;
     }
+    
     .footertexto{
         display: grid;
         grid-template-columns: 1fr 1fr 2fr 1fr;

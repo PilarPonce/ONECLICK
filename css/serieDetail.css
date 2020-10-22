@@ -74,19 +74,17 @@ body{
     
     .barranav {
         width: 1400px;
-        height: 250px;
+        height: 350px;
     }
     
     .logo img {
-        width: 300px;
-        height: 250px;
+        width: 350px;
+        height: 300px;
     }
     
-
     .barranav ul li h4 {
         font-size: 44px;
         text-justify: inter-word;
-        
     }
     
     .barranav ul h4 {
@@ -102,8 +100,8 @@ body{
     }
     
     .fondoserie img{
-        width: 1400px;
-        height: 700px;
+        width: 1440px;
+        height: 1050px;
     }
     
     .fondoserie {
@@ -113,11 +111,11 @@ body{
 
     .fondoserie{
         width: 1400px;
-        height: 1700px;
+        height: 1850px;
     }
     
     .listaserie{
-        font-size: 55px;
+        font-size: 67px;
     }
     
     .footertexto{
