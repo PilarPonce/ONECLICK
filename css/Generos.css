@@ -150,19 +150,24 @@ body {
     width: 600px;
 }
 
+.footerimagenes {
+    width: 1000px;
+    height: 50px;
+
+}
+
 .footerimagenes ul{
-    display: grid;
-    grid-template-columns: 5% 5% 5% 5%;
+    background-color:  black;
+    display: flex;
+    flex-direction: row;
     list-style: none;
+    justify-content: start;
+    margin-left: -1%;
+    
 }
-
 .footertexto {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-}
-
-.footerimagenes ul li img {
-    width: 70%;
+    list-style: none;    
+    height: 250px;
 }
 
 .nuestrosnombres{
