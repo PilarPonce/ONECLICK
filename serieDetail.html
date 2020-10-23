@@ -10,19 +10,96 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
 </head>
 <body>
-    <header class="barranav">
-        <nav>
-            <ul>
-                <li class="logo"> <a href="Index.html"> <img src="imagenes/imagenesBarraNav/LOGO.JPG" alt="logo"> </a></li>
-                <li class="none"> <a href="Index.html"><h4>Inicio</h4> </a></li>
-                <li class="none"> <a href="movieDetail.html"><h4>Películas</h4> </a></li>
-                <li class="none"> <a href="serieDetail.html"><h4>Series</h4> </a></li>
-                <li class="none"> <a href="Index.html"><h4>Recomendados</h4> </a></li>
-                <li class="none"> <a href="Index.html"><h4>Continuar viendo</h4> </a></li>
-                <li class="buscar"> <img src="imagenes/imagenesBarraNav/LUPA.jpg" alt="Lupa"></li>
-                <li class="usuario"> <img src="imagenes/imagenesBarraNav/persona.jpg" alt=""></li>
-            </ul>
-      </nav>
+    <header class="header">
+        <nav class=  " uk-navbar-container uk-margin" uk-navbar>
+            <div class="todobarra fondonav uk-navbar-left">
+        
+                <a class=" logo uk-navbar-item uk-logo" href="#" alt="logo"> <img src="imagenes/imagenesBarraNav/LOGO.JPG" alt="logo"> </a>
+                <ul class="uk-navbar-nav">
+    
+                <div class="uk-navbar-item">
+    
+                    <div> <a href="#"> </a>
+                         <button class="uk-button uk-button-default" type="button">Inicio</button>
+                            <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li class="uk-active"><a href="#"></a></li>
+                                    <li><a href="#">Cuenta</a></li>
+                                    <li><a href="#">Notificaciones</a> </li>
+                                    <li> <a href="#"> Ayuda</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                <li><a href="#">Cerrar Sesión</a></li>
+            
+                                </ul>
+                            </div>
+                        
+                        
+                     </div>
+            
+               <button class="uk-button uk-button-default" type="button">Peliculas</button>
+                     <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li class="uk-active"><a href="#"></a></li>
+                            <li><a href="#">Acción</a></li>
+                            <li><a href="#">Dramas</a></li>
+                            <li><a href="#">Comedias</a></li>
+                            <li><a href="#">Románticas</a></li>
+                            <li><a href="#">Terror</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Inicio</a></li>
+                        </ul>
+                    </div>
+    
+                <button class="uk-button uk-button-default" type="button">Series</button>
+                    <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li class="uk-active"><a href="#"></a></li>
+                            <li><a href="#">Acción</a></li>
+                            <li><a href="#">Dramas</a></li>
+                            <li><a href="#">Comedias</a></li>
+                            <li><a href="#">Románticas</a></li>
+                            <li><a href="#">Terror</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Inicio</a></li>
+                        </ul>
+                    </div>
+    
+    
+                <div class="uk-navbar-item">
+    
+                    <div> <a href="#"> </a>
+                        <button class="uk-button uk-button-default" type="button">Usuarios</button>
+                        <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li class="uk-active"><a href="#"></a></li>
+                                <li><a href="#">Pilar</a></li>
+                                <li><a href="#">Nicole</a> </li>
+                                <li> <a href="#"> Tati</a></li>
+                                <li class="uk-nav-divider"></li>
+                            <li><a href="#">Cambiar de Perfil</a></li>
+        
+                            </ul>
+                        </div>
+                    
+                    
+                    </div>
+                </div>
+        
+                <div class="uk-navbar-item">
+                    <form action="javascript:void(0)">
+                        <input class="uk-input uk-form-width-small" type="text" placeholder=" ">
+                        <button class="uk-button uk-button-default">Buscar</button>
+                    </form>
+                </div>
+    
+                <div class="usuario">
+                    <img src="IMAGENES/imagenesBarraNav/persona.jpg" alt="">
+                </div>
+    
+    
+        
+            </div>
+        </nav>
     </header>
 
     <section>
@@ -36,22 +113,28 @@
         </section>
     </section>
 
-    <footer class="footer">
-        <section class="footerimagenes">
-            <ul>    
-                <li class="none"> <a href="https://www.facebook.com/oneclick.npt.7"> <img src="imagenes/footer/youtube.png" alt="" > </a></li>
-                <li class="none"> <a href="https://www.facebook.com/oneclick.npt.7"> <img src="imagenes/footer/instagram.png" alt="" > </a> </li>
-                <li class="none"> <a href="https://www.facebook.com/oneclick.npt.7"> <img src="imagenes/footer/facebook.png" alt="" > </a> </li>
-                <li class="none"> <a href="https://www.facebook.com/oneclick.npt.7"> <img src="imagenes/footer/twitter.png" alt="" > </a> </li>
-            </ul>
-        </section>
 
-        <section class="footertexto"> 
-            <h4> Ayuda</h4>
-            <h4> Privacidad</h4>
-            <h4> Términos de Uso</h4>
-            <h4> Contactanos</h4>
-        </section>
+
+    <section class="footerimagenes">
+        <ul>
+             <li>
+                <a href="https://www.facebook.com/oneclick.npt.7" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                <a href="https://www.facebook.com/oneclick.npt.7" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                <a href="https://www.facebook.com/oneclick.npt.7" class="uk-icon-button" uk-icon="instagram"></a>
+                <a href="https://www.facebook.com/oneclick.npt.7" class="uk-icon-button" uk-icon="youtube"></a>
+            </li>
+         </ul>
+    </section>
+
+
+
+    <section class="footertexto"> 
+        <h4> Ayuda</h4>
+        <h4> Privacidad</h4>
+        <h4> Términos de Uso</h4>
+        <h4> Contactanos</h4>
+    </section>
+        
         <h5 class="nuestrosnombres"> @2020 Tatiana Katz, Nicole Lapidus, Pilar Ponce</h5>
     </footer>
 
