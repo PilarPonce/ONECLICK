@@ -99,7 +99,7 @@ body{
 .logoapi {
     width: 150px;
     display: flex;
-   
+   align-items: flex-end;
     padding-bottom: 80px;
 }
 
