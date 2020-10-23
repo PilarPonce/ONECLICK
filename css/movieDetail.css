@@ -68,8 +68,10 @@ body{
 }
 
 .footertexto {
+    padding-top: 90px;
     display: flex;
     justify-content: center;
+    padding-bottom: 90px;
    
 }
 
