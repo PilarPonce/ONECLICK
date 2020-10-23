@@ -28,6 +28,7 @@ body{
 .todobarra {
     background-color: black!important;
     display: flex;
+    justify-content: center;
     
 }
 
