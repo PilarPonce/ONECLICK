@@ -83,32 +83,26 @@ body{
     justify-content: center;
 }
 
-.footeryapi ul{
+.footer2 ul{
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.footeryapi ul li h5{
+.footer2 ul li h5{
     display: flex;
     align-items: flex-end;
     
 }
 
-.footeryapi ul li img {
+.footer2 ul li img {
     width: 150px;
     display: flex;
     justify-content: center;
-    lis
 }
 
-.nuestrosnombres{
-    background-color: black;
-    font-size: 13px;
-    color: gray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 
 @media only screen and (max-width: 420px) {
 
