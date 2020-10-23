@@ -6,16 +6,13 @@ body {
     width: 150px;
 }
 
-
 .header {
     background-color: black;
     display: flex;
     width: auto;
     height: auto;
     justify-content: center;    
-
 }
-
 
 .fondonav {
     background-color:black;
@@ -30,12 +27,15 @@ body {
     padding: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .usuario img {
     width: 100px;
 }
+
 .banner  {
     width: auto;
 }
+
 .Accion {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -67,7 +67,6 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-   
 }
 
 .Dramas2 ul li{
@@ -77,7 +76,6 @@ body {
 
 .Dramas2 ul li img {
     width: 600px;
-
 }
 
 .Comedias {
@@ -90,8 +88,6 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    
-    
 }
 
 .Comedias2 ul li{
@@ -109,12 +105,10 @@ body {
 }
 
 .Románticas2 ul {
-  
     display: flex;
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    
 }
 
 .Románticas2 ul li{
@@ -124,7 +118,6 @@ body {
 
 .Románticas2 ul li img{
     width: 600px;
-
 }
 
 .Terror {
@@ -133,12 +126,10 @@ body {
 }
 
 .Terror2 ul {
- 
     display: flex;
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-
 }
 
 .Terror2 ul li{
@@ -153,7 +144,6 @@ body {
 .footerimagenes {
     width: 1000px;
     height: 50px;
-
 }
 
 .footerimagenes ul{
@@ -163,8 +153,8 @@ body {
     list-style: none;
     justify-content: start;
     margin-left: -1%;
-    
 }
+
 .footertexto {
     list-style: none;    
     height: 250px;

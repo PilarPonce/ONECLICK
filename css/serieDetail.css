@@ -2,11 +2,9 @@ body{
     background-color: black;
 }
 
-
 .logo img {
     width: 150px;
 }
-
 
 .header {
     background-color: black;
@@ -14,9 +12,7 @@ body{
     width: auto;
     height: auto;
     justify-content: center;    
-
 }
-
 
 .fondonav {
     background-color:black;
@@ -31,6 +27,7 @@ body{
     padding: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .usuario img {
     width: 100px;
 }
@@ -55,7 +52,6 @@ body{
 .footerimagenes {
     width: 1000px;
     height: 50px;
-
 }
 
 .footerimagenes ul{
@@ -65,13 +61,12 @@ body{
     list-style: none;
     justify-content: start;
     margin-left: -1%;
-    
 }
+
 .footertexto {
     list-style: none;    
     height: 250px;
 }
-
 
 .nuestrosnombres{
     background-color: black;
