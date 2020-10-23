@@ -6,28 +6,32 @@ body {
     width: 150px;
 }
 
-.barranav ul h4{
-    color: white;
-    text-decoration: underline #151518;;
+
+.header {
+    background-color: black;
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;    
+
+}
+
+
+.fondonav {
+    background-color:black;
 }
 
 .barranav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    background-color: #151518;
+    background-color: black;
     align-items: center;
     padding: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.buscar img {
-    width: 200px;
-}
-
 .usuario img {
     width: 100px;
-    
 }
 
 .banner  {
