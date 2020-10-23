@@ -83,10 +83,24 @@ body{
     justify-content: center;
 }
 
-.logoapi {
+.footeryapi ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footeryapi ul li h5{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.footeryapi ul li img {
     width: 150px;
     display: flex;
     justify-content: center;
+    lis
 }
 
 .nuestrosnombres{
