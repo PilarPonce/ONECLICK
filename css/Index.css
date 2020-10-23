@@ -61,6 +61,10 @@ body {
     color: white !important;
 }
 
+.no420 {
+    color: white !important;  
+}
+
 .rec {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -124,8 +128,8 @@ body {
 }
    
 .generos {
+    color: white !important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
 }
 
 .generos2 ul{
@@ -167,6 +171,11 @@ body {
 .footertexto {
     list-style: none;    
     height: 250px;
+    color: white;
+}
+
+.footer1{
+    color: white !important;
 }
 
 .nuestrosnombres{
