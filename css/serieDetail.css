@@ -9,8 +9,9 @@ body{
 
 .usuario {
     width: 150px;
-    display: flex;
-   align-items: flex-end !important;
+    display: flexbox;
+    justify-content: flex-end;
+
 }
 .header {
     background-color: black ;
