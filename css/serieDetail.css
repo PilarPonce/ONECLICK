@@ -50,19 +50,12 @@ body{
 }
 
 .fondoserie {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     background-color: black;
-    color: white;
-}
-
-.fondoserie img{
-    width: 550px;
 }
 
 .listaserie{
     list-style: none;
-    font-size: 20px;
+    font-size: 20px
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
