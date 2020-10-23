@@ -6,24 +6,26 @@ body {
     width: 150px;
 }
 
-.barranav ul h4{
-    color: white;
-    text-decoration: underline #151518;;
+.header {
+    background-color: black;
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;    
+}
+
+.fondonav {
+    background-color:black;
 }
 
 .barranav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    background-color: #151518;
+    background-color: black;
     align-items: center;
     padding: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.buscar img {
-    width: 200px;
-
 }
 
 .usuario img {
@@ -33,6 +35,7 @@ body {
 .banner  {
     width: auto;
 }
+
 .Accion {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -64,7 +67,6 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-   
 }
 
 .Dramas2 ul li{
@@ -74,7 +76,6 @@ body {
 
 .Dramas2 ul li img {
     width: 600px;
-
 }
 
 .Comedias {
@@ -87,8 +88,6 @@ body {
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    
-    
 }
 
 .Comedias2 ul li{
@@ -106,12 +105,10 @@ body {
 }
 
 .Románticas2 ul {
-  
     display: flex;
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-    
 }
 
 .Románticas2 ul li{
@@ -121,7 +118,6 @@ body {
 
 .Románticas2 ul li img{
     width: 600px;
-
 }
 
 .Terror {
@@ -130,12 +126,10 @@ body {
 }
 
 .Terror2 ul {
- 
     display: flex;
     flex-direction: row;
     border: 1px solid black;
     list-style: none;
-
 }
 
 .Terror2 ul li{
@@ -147,19 +141,23 @@ body {
     width: 600px;
 }
 
+.footerimagenes {
+    width: 1000px;
+    height: 50px;
+}
+
 .footerimagenes ul{
-    display: grid;
-    grid-template-columns: 5% 5% 5% 5%;
+    background-color:  black;
+    display: flex;
+    flex-direction: row;
     list-style: none;
+    justify-content: start;
+    margin-left: -1%;
 }
 
 .footertexto {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-}
-
-.footerimagenes ul li img {
-    width: 70%;
+    list-style: none;    
+    height: 250px;
 }
 
 .nuestrosnombres{
