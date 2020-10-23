@@ -14,6 +14,8 @@ body{
     justify-content: center;    
 }
 
+
+
 .fondonav {
     background-color:black;
 }
@@ -150,6 +152,7 @@ body{
         font-size: 40px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
+        
     }   
 
     .nuestrosnombres {
