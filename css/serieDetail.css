@@ -88,12 +88,7 @@ body{
     
 }
 
-.logoapi {
-    width: 150px;
-    display: flex;
-   
-    padding-bottom: 120px;
-}
+
 @media only screen and (max-width: 420px){
 
     .none {
