@@ -6,27 +6,26 @@ body{
     width: 150px;
 }
 
+
 .header {
     background-color: black;
     display: flex;
-    justify-content: space-between;
-    
-    display: flex;
-    align-items: ce;
-    align-content: center;
-    
+    width: auto;
+    height: auto;
+    justify-content: center;    
+
 }
 
 
 .fondonav {
-    background-color: black;
+    background-color:black;
 }
 
 .barranav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    background-color: #151518;
+    background-color: black;
     align-items: center;
     padding: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -41,7 +40,7 @@ body{
 }
 
 .fondopeli{
-   
+    background-color:  black;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -53,20 +52,34 @@ body{
     font-size: 20px;
 }
 
+.footerimagenes {
+    width: 1000px;
+    height: 50px;
+
+}
 
 
 
 .footerimagenes ul{
-    display: grid;
-    grid-template-rows: 5% 5% 5% 5%;
+    background-color:  black;
+    display: flex;
+    flex-direction: row;
     list-style: none;
-    width: 300px;
-    height: 100px;
+    justify-content: start;
+    margin-left: -1%;
+    
+}
+.footertexto {
+    list-style: none;    
+    height: 250px;
 }
 
 
+
 .nuestrosnombres{
-    color: white;
+    background-color: black;
+    font-size: 13px;
+    color: gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
