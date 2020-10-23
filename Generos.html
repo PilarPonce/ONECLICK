@@ -12,19 +12,96 @@
 
 <body>
 
-    <header class="barranav">
-        <nav>
-           <ul>
-               <li class="logo"> <a href="Index.html"> <img src="imagenes/imagenesBarraNav/LOGO.JPG" alt="logo"> </a></li>
-               <li class="none"> <a href="Index.html"><h4>Inicio</h4> </a></li>
-               <li class="none"> <a href="movieDetail.html"><h4>Películas</h4> </a></li>
-               <li class="none"> <a href="serieDetail.html"><h4>Series</h4> </a></li>
-               <li class="none"> <a href="Index.html"><h4>Recomendados</h4> </a></li>
-               <li class="none"> <a href="Index.html"><h4>Continuar viendo</h4> </a></li>
-               <li class="buscar"> <img src="imagenes/imagenesBarraNav/LUPA.jpg" alt="Lupa"></li>
-                <li class="usuario"> <img src="imagenes/imagenesBarraNav/persona.jpg" alt=""></li>
-            </ul>
-         </nav>
+    <header class="header">
+        <nav class=  " uk-navbar-container uk-margin" uk-navbar>
+            <div class="todobarra fondonav uk-navbar-left">
+        
+                <a class=" logo uk-navbar-item uk-logo" href="#" alt="logo"> <img src="imagenes/imagenesBarraNav/LOGO.JPG" alt="logo"> </a>
+                <ul class="uk-navbar-nav">
+    
+                <div class="uk-navbar-item">
+    
+                    <div> <a href="#"> </a>
+                         <button class="uk-button uk-button-default" type="button">Inicio</button>
+                            <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li class="uk-active"><a href="#"></a></li>
+                                    <li><a href="#">Cuenta</a></li>
+                                    <li><a href="#">Notificaciones</a> </li>
+                                    <li> <a href="#"> Ayuda</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                <li><a href="#">Cerrar Sesión</a></li>
+            
+                                </ul>
+                            </div>
+                        
+                        
+                     </div>
+            
+               <button class="uk-button uk-button-default" type="button">Peliculas</button>
+                     <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li class="uk-active"><a href="#"></a></li>
+                            <li><a href="#">Acción</a></li>
+                            <li><a href="#">Dramas</a></li>
+                            <li><a href="#">Comedias</a></li>
+                            <li><a href="#">Románticas</a></li>
+                            <li><a href="#">Terror</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Inicio</a></li>
+                        </ul>
+                    </div>
+    
+                <button class="uk-button uk-button-default" type="button">Series</button>
+                    <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li class="uk-active"><a href="#"></a></li>
+                            <li><a href="#">Acción</a></li>
+                            <li><a href="#">Dramas</a></li>
+                            <li><a href="#">Comedias</a></li>
+                            <li><a href="#">Románticas</a></li>
+                            <li><a href="#">Terror</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Inicio</a></li>
+                        </ul>
+                    </div>
+    
+    
+                <div class="uk-navbar-item">
+    
+                    <div> <a href="#"> </a>
+                        <button class="uk-button uk-button-default" type="button">Usuarios</button>
+                        <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li class="uk-active"><a href="#"></a></li>
+                                <li><a href="#">Pilar</a></li>
+                                <li><a href="#">Nicole</a> </li>
+                                <li> <a href="#"> Tati</a></li>
+                                <li class="uk-nav-divider"></li>
+                            <li><a href="#">Cambiar de Perfil</a></li>
+        
+                            </ul>
+                        </div>
+                    
+                    
+                    </div>
+                </div>
+        
+                <div class="uk-navbar-item">
+                    <form action="javascript:void(0)">
+                        <input class="uk-input uk-form-width-small" type="text" placeholder=" ">
+                        <button class="uk-button uk-button-default">Buscar</button>
+                    </form>
+                </div>
+    
+                <div class="usuario">
+                    <img src="IMAGENES/imagenesBarraNav/persona.jpg" alt="">
+                </div>
+    
+    
+        
+            </div>
+        </nav>
     </header>
     
 
