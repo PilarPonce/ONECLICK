@@ -86,7 +86,7 @@ body{
 .footer2 ul{
     list-style: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -100,8 +100,8 @@ body{
     width: 150px;
     display: flex;
     justify-content: center;
+    
 }
-
 
 
 @media only screen and (max-width: 420px) {
