@@ -72,17 +72,10 @@ body{
     display: flex;
     justify-content: center;
 }
-
-.redes ul{
-    list-style: none;
-
+.redes {
+    padding-bottom: 20px;
+   
 }
-
-.redes ul li {
-    display: flex;
-    justify-content: center;
-}
-
 .footer2 ul{
     list-style: none;
     display: flex;
@@ -101,6 +94,13 @@ body{
     display: flex;
     justify-content: center;
     
+}
+
+.logoapi {
+    width: 150px;
+    display: flex;
+   
+    padding-bottom: 80px;
 }
 
 
