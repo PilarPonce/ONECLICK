@@ -68,26 +68,25 @@ body{
 }
 
 .footertexto {
-    display: flexbox;
+    display: flex;
     justify-content: center;
    
 }
 
-.footerimagenes ul{
-
+.redes ul{
     list-style: none;
+
 }
 
-.redes {
-    display: flexbox;
-    justify-items: center;
-    
-}
-
-.logoapi{
+.redes ul li {
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+}
+
+.logoapi {
     width: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .nuestrosnombres{
