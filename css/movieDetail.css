@@ -82,8 +82,9 @@ body{
 }
 
 .footertexto {
-    list-style: none;    
-    height: 250px;
+    display: flexbox;
+    justify-content: center;
+   
 }
 
 .nuestrosnombres{
