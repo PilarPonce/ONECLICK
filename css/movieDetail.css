@@ -84,6 +84,12 @@ body{
     
 }
 
+.logoapi{
+    display: flex;
+    align-items: flex-end;
+    width: 150px;
+}
+
 .nuestrosnombres{
     background-color: black;
     font-size: 13px;
