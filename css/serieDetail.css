@@ -66,32 +66,41 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.footerimagenes {
-    width: 1000px;
-    height: 50px;
-}
-
-.footerimagenes ul{
-    background-color:  black;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: start;
-    margin-left: -1%;
-}
-
 .footertexto {
-    list-style: none;    
-    height: 250px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.redes {
+    padding-bottom: 20px;
+   
+}
+.footer2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.nuestrosnombres{
-    background-color: black;
-    font-size: 13px;
-    color: gray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.footer2 ul li h5{
+    display: flex;
+    align-items: flex-end;
+    
 }
 
+.footer2 ul li img {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logoapi {
+    width: 150px;
+    display: flex;
+   
+    padding-bottom: 80px;
+}
 @media only screen and (max-width: 420px){
 
     .none {
