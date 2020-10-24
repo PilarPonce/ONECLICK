@@ -29,10 +29,13 @@ body{
 .todobarra {
     background-color: black!important;
     display: flex;
-    justify-content: center;
-    
+ 
 }
+.todobarra2 {
+    background-color: black!important;
+    display: flex;
 
+}
 .fondonav {
     background-color:black;
 }
