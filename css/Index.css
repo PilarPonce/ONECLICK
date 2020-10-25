@@ -164,7 +164,13 @@ body {
     display: none;
 }
 
-
+.fondoten {
+    background-color: rgb(245, 241, 241);
+    padding-bottom: 10px;
+}
+.ten {
+    padding-top: 10px;
+}
 .ten ul{
     border: 1px solid black;
     list-style: none;
