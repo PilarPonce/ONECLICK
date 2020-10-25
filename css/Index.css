@@ -4,13 +4,12 @@ body {
 
 .logo  {
     width: 150px;
-    
 }
 
 .usuario {
     width: 150px;
     display: flex;
-   align-items: flex-end !important;
+    align-items: flex-end !important;
 }
 .header {
     background-color:  rgb(212, 205, 205);
@@ -18,7 +17,6 @@ body {
     width: auto;
     height: auto;
     align-items: center;
-    
 }
 
 .end {
@@ -30,7 +28,6 @@ body {
     background-color: rgb(212, 205, 205)!important;
     display: flex;
     justify-content: center;
-    
 }
 
 .fondonav {
@@ -64,10 +61,10 @@ body {
     background-color: rgb(245, 241, 241);
     height: 355px;
 }
+
 .recomendados ul{
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     list-style: none;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -81,11 +78,6 @@ body {
     padding-top: 10px;
 }
 
-.fondocont {
-    background-color: rgb(245, 241, 241);
-    height: 355px;
-}
-
 .mobrecomen {
     color: rgb(128, 124, 124) !important;
     font-size: 20px !important;
@@ -93,6 +85,11 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 10px;
+}
+
+.fondocont {
+    background-color: rgb(245, 241, 241);
+    height: 355px;
 }
 
 .mobcontinuar {
@@ -120,18 +117,6 @@ body {
     background-color: rgb(212, 205, 205);
 }
 
-.rec {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    color: white
-}
-
-.con{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    color: white;
-}
-
 .continuar ul{
     background-color: #151518;;
     display: flex;
@@ -142,11 +127,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;    
-}
-
-.continuar ul li img {
-    width: 200px;
-    height: 150px;
 }
 
 .top{
