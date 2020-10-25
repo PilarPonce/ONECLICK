@@ -13,11 +13,12 @@ body {
    align-items: flex-end !important;
 }
 .header {
-    background-color: black ;
+    background-color:  rgb(212, 205, 205);
     display: flex;
     width: auto;
     height: auto;
     align-items: center;
+    
 }
 
 .end {
@@ -26,7 +27,7 @@ body {
 }
 
 .todobarra {
-    background-color: black!important;
+    background-color: rgb(212, 205, 205)!important;
     display: flex;
     justify-content: center;
     
@@ -51,6 +52,7 @@ body {
 }
 
 .banner  {
+    padding-top: 30px;
     width: auto;
 }
 
