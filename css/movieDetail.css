@@ -4,7 +4,6 @@ body {
 
 .logo  {
   width: 150px;
-  
 }
 
 .usuario {
@@ -20,7 +19,6 @@ body {
   height: auto;
   align-items: center;
   height: 90px;
-  
 }
 
 .end {
@@ -32,7 +30,6 @@ body {
   background-color: rgb(212, 205, 205)!important;
   display: flex;
   justify-content: center;
-  
 }
 
 .barranav ul {
@@ -46,16 +43,15 @@ body {
 }
 
 .titulopeli {
-  
     width:80%;
-  }
+}
 
 .titulopeli h1{
     font-size: 60px;
     margin-bottom: 0;
     font-weight: lighter;
     margin-top: 2.5%;
-  }
+}
   
   .titulopeli p{
     font-size: 15px;
