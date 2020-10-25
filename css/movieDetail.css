@@ -1,6 +1,5 @@
 .body{
     background-color: white;
-    
   }
   
   .header{
@@ -13,6 +12,7 @@
     width: 100%;
     position: fixed;
     z-index: 5; 
+    
    
   }
   
@@ -38,6 +38,7 @@
     letter-spacing: 2.5px;
     font-weight: lighter;
   }
+  
   
 
 
