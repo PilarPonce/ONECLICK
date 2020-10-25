@@ -50,22 +50,17 @@ body{
     width: 100px;
 }
 
-
-.fondopeli img{
-    width: 600px;
+.detalle {
+    background-color: black;
+    border: solid 3px white;
 }
 
-.fondopeli{
-    background-color:  black;
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.titulo1 {
+    color: white !important;
 }
 
-.listapeli{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    list-style: none;
-    font-size: 20px;
+.descripeli {
+   color: white;
 }
 
 .footertexto {
