@@ -79,6 +79,10 @@ body {
     height: 350px;
 }
 
+.fondocont {
+    background-color: rgb(235, 228, 228);
+}
+
 .mobrecomen {
     color: rgb(128, 124, 124) !important;
     font-size: 20px !important;
