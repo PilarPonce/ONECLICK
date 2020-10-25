@@ -1,15 +1,50 @@
-.body{
-    background-color: white;
-  }
-  
-  .header{
+body{
+    background-color: black;
+}
+
+.logo  {
+    width: 150px;
+    
+}
+
+.usuario {
+    width: 150px;
     display: flex;
-    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
-    color: lightgrey;
-    justify-content: space-between;
-    height: 100px;
+   align-items: flex-end !important;
+}
+.header {
+    background-color: black ;
+    display: flex;
+    width: auto;
+    height: auto;
     align-items: center;
+<<<<<<< HEAD
    
+=======
+<<<<<<< HEAD
+}
+
+.end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.todobarra {
+    background-color: black!important;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fondonav {
+    background-color:black;
+}
+
+.barranav ul {
+    list-style: none;
+=======
+    width: 100%;
+>>>>>>> 8dafa52e8e7d7dbc0fc0caa06cc510118e45aac3
     position: fixed;
     z-index: 5; 
     
@@ -22,8 +57,142 @@
   }
   
  .barranav{
+>>>>>>> 08d01129c213fc3c4049233a9f44fbab98f184b5
     display: flex;
+    justify-content: space-around;
+    background-color: black;
     align-items: center;
+<<<<<<< HEAD
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.usuario img {
+    width: 100px;
+}
+
+.detalle {
+    background-color: black;
+    border: solid 3px white;
+}
+
+.titulo1 {
+    color: white !important;
+}
+
+.descripeli {
+   color: white;
+}
+
+.footertexto {
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.redes {
+    padding-bottom: 20px;
+   
+}
+.footer2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer2 ul li h5{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.footer2 ul li img {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+@media only screen and (max-width: 420px) {
+
+    .none {
+        display: none;
+    }
+    
+    .barranav {
+        width: 1400px;
+        height: 350px;
+    }
+    
+    .logo img {
+        width: 350px;
+        height: 300px;
+    }
+
+    .barranav ul li h4 {
+        font-size: 44px;
+        text-justify: inter-word;
+    }
+    
+    .barranav ul h4 {
+        font-size: 35px;
+    }
+    
+    .buscar img {
+        width: 800px;
+    }
+    
+    .usuario img {
+        width: 200px;
+    }
+    
+    .fondopeli img{
+        width: 1440px;
+        height: 760px;
+    }
+
+    .fondopeli {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fondopeli{
+        width: 1400px;
+        height: 1960px;
+    }
+    
+    .listapeli {
+        font-size: 60px;
+    }
+    
+
+    .footerimagenes ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .footerimagenes ul li{
+
+        list-style: none;
+    }
+    
+    .footertexto{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 1fr;
+        justify-content: space-around;
+        width: 1430px;
+    }
+
+    .footertexto h4 {
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        
+    }   
+=======
     margin-left: 40px;
     
   }
@@ -39,6 +208,19 @@
     font-weight: lighter;
   }
   
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 08d01129c213fc3c4049233a9f44fbab98f184b5
+>>>>>>> 8dafa52e8e7d7dbc0fc0caa06cc510118e45aac3
 
+    .nuestrosnombres {
+        font-size: 40px;
+        color: white;
+        width: 1200px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+    }
 
+}
