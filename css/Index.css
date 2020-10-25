@@ -62,7 +62,7 @@ body {
 
 .fondorec {
     background-color: rgb(245, 241, 241);
-    height: 390px;
+    height: 360px;
 }
 .recomendados ul{
     display: flex;
@@ -76,13 +76,14 @@ body {
 }
 
 .recomendados li img {
-    width: 250px;
-    height: 350px;
+    width: 240px;
+    height: 340px;
+    padding-top: 10px;
 }
 
 .fondocont {
     background-color: rgb(245, 241, 241);
-    height: 390px;
+    height: 360px;
 }
 
 .mobrecomen {
@@ -104,8 +105,9 @@ body {
 }
 
 .continuar li img {
-    width: 250px;
-    height: 350px;
+    width: 240px;
+    height: 340px;
+    padding-top: 10px;
 }
 
 
