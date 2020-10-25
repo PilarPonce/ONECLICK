@@ -1,17 +1,36 @@
 body {
-    background-color: black;   
+    background-color: white;   
 }
 
-.logo img {
+.logo  {
     width: 150px;
+    
 }
 
+.usuario {
+    width: 150px;
+    display: flex;
+   align-items: flex-end !important;
+}
 .header {
-    background-color: black;
+    background-color:  rgb(212, 205, 205);
     display: flex;
     width: auto;
     height: auto;
-    justify-content: center;    
+    align-items: center;
+    
+}
+
+.end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.todobarra {
+    background-color: rgb(212, 205, 205)!important;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .fondonav {
@@ -33,6 +52,7 @@ body {
 }
 
 .banner  {
+    padding-top: 30px;
     width: auto;
 }
 
@@ -40,8 +60,10 @@ body {
     min-height: 292px !important;
 }
 
+.fondorec {
+    background-color: rgb(235, 228, 228);
+}
 .recomendados ul{
-    background-color: #151518;
     display: flex;
     flex-direction: row;
     border: 1px solid black;
@@ -52,27 +74,46 @@ body {
     padding: 10px;
 }
 
-.recomendados ul li img {
-    width: 200px;
-    height: 150px;
+.recomendados li img {
+    width: 250px;
+    height: 350px;
+}
+
+.fondocont {
+    background-color: rgb(235, 228, 228);
 }
 
 .mobrecomen {
-    color: white !important;
+    color: rgb(128, 124, 124) !important;
     font-size: 20px !important;
     margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .mobcontinuar {
-    color: white !important;
+    color: rgb(128, 124, 124) !important;
     font-size: 20px !important;
     margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
 }
 
+.continuar li img {
+    width: 250px;
+    height: 350px;
+}
+
+
 .no420 {
-    color: white !important;
+    color: rgb(128, 124, 124) !important;
     font-size: 30px !important;
-    
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(212, 205, 205);
 }
 
 .rec {
@@ -108,10 +149,9 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     list-style: none;
     justify-content: center;
-    background-color: #151518;
+    background-color: rgb(212, 205, 205);
     margin: 30px; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -138,10 +178,16 @@ body {
 }
    
 .generos {
-    color: white !important;
-    font-size: 20px !important;
-    margin-top: 20px !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 124, 124) !important;
+    font-size: 25px !important;
+    margin-top: 50px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.generos2 {
+    padding-bottom: 30px;
 }
 
 .generos2 ul{
@@ -166,37 +212,37 @@ body {
     font-size: 12px;
 }
 
-.footerimagenes {
-    width: 1000px;
-    height: 50px;
-}
-
-.footerimagenes ul{
-    background-color:  black;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: start;
-    margin-left: -1%;
-}
-
-.footertexto {
-    list-style: none;    
-    height: 250px;
-    color: white;
-}
-
-.footer1{
-    color: white !important;
-}
-
 .footertotal {
-    padding-top: 20px;
+    padding-top: 10px;
+    background-color: rgb(212, 205, 205);
+}
+.footertexto {
+    display: flex;
+    justify-content: center;
+}
+.redes {
+    padding-bottom: 20px;
+   
+}
+.footer2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.nuestrosnombres{
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.footer2 ul li h5{
+    display: flex;
+    align-items: flex-end;
+    color: rgb(128, 124, 124) !important;
+    
+}
+
+.footer2 ul li img {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 @media only screen and (max-width: 420px) {
