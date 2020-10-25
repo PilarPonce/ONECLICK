@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
     background-color: black;
 }
@@ -10,13 +9,6 @@ body{
 
 .usuario {
     width: 150px;
-=======
-.body{
-    background-color: white;
-  }
-  
-  .header{
->>>>>>> 08d01129c213fc3c4049233a9f44fbab98f184b5
     display: flex;
    align-items: flex-end !important;
 }
@@ -26,8 +18,6 @@ body{
     width: auto;
     height: auto;
     align-items: center;
-<<<<<<< HEAD
-}
 
 .end {
     display: flex;
@@ -49,6 +39,7 @@ body{
     list-style: none;
 =======
     width: 100%;
+>>>>>>> 8dafa52e8e7d7dbc0fc0caa06cc510118e45aac3
     position: fixed;
     z-index: 5; 
     
@@ -212,8 +203,12 @@ body{
     font-weight: lighter;
   }
   
+<<<<<<< HEAD
+
+=======
   
 >>>>>>> 08d01129c213fc3c4049233a9f44fbab98f184b5
+>>>>>>> 8dafa52e8e7d7dbc0fc0caa06cc510118e45aac3
 
     .nuestrosnombres {
         font-size: 40px;
