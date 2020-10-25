@@ -2,16 +2,34 @@ body {
     background-color: black;   
 }
 
-.logo img {
+.logo  {
     width: 150px;
+    
 }
 
+.usuario {
+    width: 150px;
+    display: flex;
+   align-items: flex-end !important;
+}
 .header {
-    background-color: black;
+    background-color: black ;
     display: flex;
     width: auto;
     height: auto;
-    justify-content: center;    
+    align-items: center;
+}
+
+.end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.todobarra {
+    background-color: black!important;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .fondonav {
