@@ -58,6 +58,39 @@ body {
     font-weight: lighter;
     margin-top: 0;
 }
+
+.footertotal {
+  padding-top: 10px;
+  background-color: rgb(212, 205, 205);
+}
+.footertexto {
+  display: flex;
+  justify-content: center;
+}
+.redes {
+  padding-bottom: 20px;
+ 
+}
+.footer2 ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer2 ul li h5{
+  display: flex;
+  align-items: flex-end;
+  color: rgb(128, 124, 124) !important;
+  
+}
+
+.footer2 ul li img {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  
+}
   
 
 
