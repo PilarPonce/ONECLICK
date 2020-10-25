@@ -62,7 +62,7 @@ body {
 
 .fondorec {
     background-color: rgb(245, 241, 241);
-    height: 360px;
+    height: 355px;
 }
 .recomendados ul{
     display: flex;
@@ -83,7 +83,7 @@ body {
 
 .fondocont {
     background-color: rgb(245, 241, 241);
-    height: 360px;
+    height: 355px;
 }
 
 .mobrecomen {
@@ -164,6 +164,7 @@ body {
     display: none;
 }
 
+
 .ten ul{
     border: 1px solid black;
     list-style: none;
@@ -180,6 +181,11 @@ body {
     width: 230px;
     height: 160px;
 }
+
+.fondogen {
+    background-color: rgb(245, 241, 241);
+    margin-bottom: 10px;
+}
    
 .generos {
     color: rgb(128, 124, 124) !important;
@@ -191,7 +197,8 @@ body {
 }
 
 .generos2 {
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .generos2 ul{
