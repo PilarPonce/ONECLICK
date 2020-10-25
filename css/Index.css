@@ -86,12 +86,17 @@ body {
     color: black !important;
     font-size: 20px !important;
     margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 .no420 {
     color: black !important;
     font-size: 30px !important;
-    background-color: cornsilk;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(212, 205, 205);
 }
 
 .rec {
@@ -127,10 +132,9 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     list-style: none;
     justify-content: center;
-    background-color: #151518;
+    background-color: rgb(212, 205, 205);
     margin: 30px; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -157,11 +161,13 @@ body {
 }
    
 .generos {
-    color: white !important;
+    color: black !important;
     font-size: 20px !important;
     margin-top: 20px !important;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
+    font-weight: bold;
 }
+
 
 .generos2 ul{
     background-color: #151518;
