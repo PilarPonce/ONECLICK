@@ -168,6 +168,9 @@ body {
     font-weight: bold;
 }
 
+.generos2 {
+    padding-bottom: 30px;
+}
 
 .generos2 ul{
     background-color: #151518;
@@ -191,8 +194,11 @@ body {
     font-size: 12px;
 }
 
+.footertotal {
+    padding-top: 10px;
+    background-color: rgb(212, 205, 205);
+}
 .footertexto {
-    padding-top: 90px;
     display: flex;
     justify-content: center;
 }
