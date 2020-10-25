@@ -92,6 +92,11 @@ body {
     font-weight: bold;
 }
 
+.continuar li img {
+    width: 250px;
+    height: 350px;
+}
+
 
 .no420 {
     color: black !important;
