@@ -70,7 +70,6 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
-    background-color: rgb(228, 220, 220);
 }
 
 .Accion2 ul li{
@@ -95,7 +94,6 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
-    background-color: rgb(228, 220, 220);
 }
 
 .Dramas2 ul li{
@@ -120,7 +118,6 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
-    background-color: rgb(228, 220, 220);
 }
 
 .Comedias2 ul li{
@@ -145,7 +142,6 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
-    background-color: rgb(228, 220, 220);
 }
 
 .Románticas2 ul li{
@@ -170,7 +166,6 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
-    background-color: rgb(228, 220, 220);
 }
 
 .Terror2 ul li{
