@@ -59,10 +59,7 @@ body {
     margin-top: 0;
 }
   
-.footertodo {
-    padding-top: 10px;
-    background-color: rgb(212, 205, 205);
-}
+
 .footertexto {
     display: flex;
     justify-content: center;
@@ -90,10 +87,45 @@ body {
     justify-content: center;
     
 }
+.footer button{
+    background-color: rgba(0, 0, 0, 0);
+    width: 80px;
+    font-size: 16px;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    top: 0;
+    color: red;
+  }
 
+  .footertodo {
+    padding-top: 10px;
+    background-color: rgb(212, 205, 205);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+    
+}
+  /*/
+  .footer{
+    width: 100%;
+    height: 50px;
+    color: rgb(252,0,5);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding-bottom: 0px;
+  }
 
-
-
+  /*/
 @media only screen and (max-width: 420px) {
 
     .none {
