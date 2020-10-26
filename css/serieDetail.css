@@ -42,22 +42,34 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
-  .titulopeli {
-      width:80%;
-  }
-  
   .titulopeli h1{
-      font-size: 60px;
-      margin-bottom: 0;
-      font-weight: lighter;
-      margin-top: 2.5%;
-  }
-    
-  .titulopeli p{
-      font-size: 15px;
-      font-weight: lighter;
-      margin-top: 0;
-  }
+    font-size: 60px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    margin-top: 2.5%;
+}
+
+  
+.titulopeli p{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+.titulopeli h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    margin-top: 2.5%;
+
+}
+
+.titulopeli h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    margin-top: 2.5%;
+}
     
 .footertodo {
     padding-top: 10px;
