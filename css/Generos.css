@@ -1,17 +1,34 @@
 body {
-    background-color:black;
+    background-color: white;   
 }
 
-.logo img {
+.logo  {
     width: 150px;
 }
 
+.usuario {
+    width: 150px;
+    display: flex;
+    align-items: flex-end !important;
+}
 .header {
-    background-color: black;
+    background-color:  rgb(212, 205, 205);
     display: flex;
     width: auto;
     height: auto;
-    justify-content: center;    
+    align-items: center;
+    height: 90px;
+}
+
+.end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.todobarra {
+    background-color: rgb(212, 205, 205)!important;
+    display: flex;
+    justify-content: center;
 }
 
 .fondonav {
@@ -33,6 +50,7 @@ body {
 }
 
 .banner  {
+    padding-top: 30px;
     width: auto;
 }
 
