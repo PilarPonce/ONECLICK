@@ -86,12 +86,22 @@ body {
     position: relative;
 }
 
+.raya {
+    display: flex;
+    
+}
+
 .sacar {
+    display: flex;
+    align-items: center;
     background-color: rgb(245, 241, 241);
     color: black;
+    justify-content: end;
     position: absolute;
-    top: 50%;
-    width: 100;
+    top: 85%;
+    height: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 /*
