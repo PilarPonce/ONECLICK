@@ -82,16 +82,33 @@ body {
     padding: 10px;    
 }
 
+.cajasac {
+    position: relative;
+}
+
+.sacar {
+    background-color: rgb(245, 241, 241);
+    color: black;
+    position: absolute;
+    top: 50%;
+    width: 100;
+}
+
+
+/*
 .sacar {
     background-color: rgb(245, 241, 241);
     color: black;
     margin:0 0 10px;
     overflow:hidden;
-    padding:10px;
+    padding:6px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    width: 100;
 }
-
+*/
 
 
 
