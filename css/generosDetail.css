@@ -51,12 +51,12 @@ body {
 
 
 
-.fondocont {
+.fondodeta {
     background-color: rgb(245, 241, 241);
     height: 355px;
 }
 
-.mobcontinuar {
+.titulo {
     color: rgb(128, 124, 124) !important;
     font-size: 20px !important;
     margin-top: 20px !important;
@@ -65,13 +65,13 @@ body {
     padding-left: 10px;
 }
 
-.continuar li img {
+.deta li img {
     width: 240px;
     height: 340px;
     padding-top: 10px;
 }
 
-.continuar ul{
+.deta ul{
     background-color: #151518;;
     display: flex;
     flex-direction: row;
