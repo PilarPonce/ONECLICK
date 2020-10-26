@@ -162,29 +162,38 @@ body {
     width: 600px;
 }
 
-.footerimagenes {
-    width: 1000px;
-    height: 50px;
+.footertotal {
+    padding-top: 10px;
+    background-color: rgb(212, 205, 205);
 }
-
-.footerimagenes ul{
-    background-color:  black;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: start;
-    margin-left: -1%;
-}
-
 .footertexto {
-    list-style: none;    
-    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.redes {
+    padding-bottom: 20px;
+}
+.footer2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.nuestrosnombres{
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.footer2 ul li h5{
+    display: flex;
+    align-items: flex-end;
+    color: rgb(128, 124, 124) !important;
+    
 }
+
+.footer2 ul li img {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+
 
 @media only screen and (max-width: 420px) {
 
