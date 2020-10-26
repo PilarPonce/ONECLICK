@@ -82,6 +82,9 @@ body {
     padding: 10px;    
 }
 
+.fot1 {
+    margin-left: 12px;
+}
 .cajasac {
     width: 260px;
     position: relative;
@@ -90,7 +93,7 @@ body {
 .raya {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .sacar {
