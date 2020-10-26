@@ -49,6 +49,34 @@ body {
     width: 100px;
 }
 
+.Accion {
+    margin-top: 20px;
+}
+
+.Accion h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.Accion2 {
+    margin-bottom: 20px;
+    background-color: rgb(245, 241, 241);
+}
+
+.Accion2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.Accion2 ul li{
+    margin: 2px;
+    padding: 2px 1px 2px 1px;
+}
+
+.Accion2 ul li img {
+    width: 600px;
+}
 
 .footertotal {
     padding-top: 10px;
