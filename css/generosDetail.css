@@ -50,6 +50,40 @@ body {
 }
 
 
+
+.fondocont {
+    background-color: rgb(245, 241, 241);
+    height: 355px;
+}
+
+.mobcontinuar {
+    color: rgb(128, 124, 124) !important;
+    font-size: 20px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.continuar li img {
+    width: 240px;
+    height: 340px;
+    padding-top: 10px;
+}
+
+.continuar ul{
+    background-color: #151518;;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;    
+}
+
+
 .footertotal {
     padding-top: 10px;
     background-color: rgb(212, 205, 205);
