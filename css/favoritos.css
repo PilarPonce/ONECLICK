@@ -82,8 +82,15 @@ body {
     padding: 10px;    
 }
 
-
-
+.sacar {
+    background-color: rgb(245, 241, 241);
+    color: black;
+    margin:0 0 10px;
+    overflow:hidden;
+    padding:10px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
 
 
 
