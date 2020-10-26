@@ -59,11 +59,19 @@ body {
 }
 .Accion {
     color: rgb(128, 124, 124) !important;
-    font-size: 30px !important;
-    margin-top: 20px !important;
+    font-size: 23px !important;
+    margin-top: 0px !important;
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 10px;
+}
+
+.Accion2 {
+    height: 180px;
+    background-color: rgb(224, 217, 217);
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 8px;
 }
 
 .Accion2 ul{
@@ -83,11 +91,19 @@ body {
 
 .Dramas {
     color: rgb(128, 124, 124) !important;
-    font-size: 30px !important;
+    font-size: 23px !important;
     margin-top: 20px !important;
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 10px;
+}
+
+.Dramas2 {
+    height: 180px;
+    background-color: rgb(224, 217, 217);
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 8px;
 }
 
 .Dramas2 ul{
@@ -107,11 +123,19 @@ body {
 
 .Comedias {
     color: rgb(128, 124, 124) !important;
-    font-size: 30px !important;
+    font-size: 23px !important;
     margin-top: 20px !important;
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 10px;
+}
+
+.Comedias2 {
+    height: 180px;
+    background-color: rgb(224, 217, 217);
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 8px;
 }
 
 .Comedias2 ul {
@@ -131,11 +155,19 @@ body {
 
 .Románticas {
     color: rgb(128, 124, 124) !important;
-    font-size: 30px !important;
+    font-size: 23px !important;
     margin-top: 20px !important;
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 10px;
+}
+
+.Románticas2{
+    height: 180px;
+    background-color: rgb(224, 217, 217);
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 8px;
 }
 
 .Románticas2 ul {
@@ -155,11 +187,19 @@ body {
 
 .Terror {
     color: rgb(128, 124, 124) !important;
-    font-size: 30px !important;
+    font-size: 23px !important;
     margin-top: 20px !important;
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 10px;
+}
+
+.Terror2 {
+    height: 180px;
+    background-color: rgb(224, 217, 217);
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 8px;
 }
 
 .Terror2 ul {
