@@ -1,23 +1,24 @@
-body{
-  background-color: black;
+body {
+  background-color: white;   
 }
 
 .logo  {
   width: 150px;
-  
 }
 
 .usuario {
   width: 150px;
   display: flex;
- align-items: flex-end !important;
+  align-items: flex-end !important;
 }
+
 .header {
-  background-color: black ;
+  color: rgb(212, 205, 205);
   display: flex;
   width: auto;
   height: auto;
   align-items: center;
+  height: 90px;
 }
 
 .end {
@@ -26,14 +27,9 @@ body{
 }
 
 .todobarra {
-  background-color: black!important;
+  background-color: rgb(212, 205, 205)!important;
   display: flex;
   justify-content: center;
-  
-}
-
-.fondonav {
-  background-color:black;
 }
 
 .barranav ul {
@@ -46,43 +42,25 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.usuario img {
-  width: 100px;
+.titulopeli {
+    width:80%;
 }
 
-.fondoserie {
-  background-color: black;
+.titulopeli h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    margin-top: 2.5%;
 }
-
-
-.footertexto {
-  padding-top: 90px;
-  display: flex;
-  justify-content: center;
-}
-.redes {
-  padding-bottom: 20px;
- 
-}
-.footer2 ul{
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.footer2 ul li h5{
-  display: flex;
-  align-items: flex-end;
   
+.titulopeli p{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 0;
 }
-
-.footer2 ul li img {
-  width: 150px;
-  display: flex;
-  justify-content: center;
   
-}
+
+
 
 
 @media only screen and (max-width: 420px) {
