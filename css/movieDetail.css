@@ -1,24 +1,23 @@
-body {
-  background-color: white;   
+body{
+  background-color: black;
 }
 
 .logo  {
   width: 150px;
+  
 }
 
 .usuario {
   width: 150px;
   display: flex;
-  align-items: flex-end !important;
+ align-items: flex-end !important;
 }
-
 .header {
-  color: rgb(212, 205, 205);
+  background-color: black ;
   display: flex;
   width: auto;
   height: auto;
   align-items: center;
-  height: 90px;
 }
 
 .end {
@@ -27,9 +26,14 @@ body {
 }
 
 .todobarra {
-  background-color: rgb(212, 205, 205)!important;
+  background-color: black!important;
   display: flex;
   justify-content: center;
+  
+}
+
+.fondonav {
+  background-color:black;
 }
 
 .barranav ul {
@@ -42,28 +46,17 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.titulopeli {
-    width:80%;
+.usuario img {
+  width: 100px;
 }
 
-.titulopeli h1{
-    font-size: 60px;
-    margin-bottom: 0;
-    font-weight: lighter;
-    margin-top: 2.5%;
-}
-  
-.titulopeli p{
-    font-size: 15px;
-    font-weight: lighter;
-    margin-top: 0;
+.fondoserie {
+  background-color: black;
 }
 
-.footer1 {
-  padding-top: 10px;
-  background-color: rgb(212, 205, 205);
-}
+
 .footertexto {
+  padding-top: 90px;
   display: flex;
   justify-content: center;
 }
@@ -81,7 +74,6 @@ body {
 .footer2 ul li h5{
   display: flex;
   align-items: flex-end;
-  color: rgb(128, 124, 124) !important;
   
 }
 
@@ -91,9 +83,6 @@ body {
   justify-content: center;
   
 }
-  
-
-
 
 
 @media only screen and (max-width: 420px) {
