@@ -83,12 +83,14 @@ body {
 }
 
 .cajasac {
+    width: 260px;
     position: relative;
 }
 
 .raya {
     display: flex;
-    
+    justify-content: flex-end;
+    margin-right: 10px;
 }
 
 .sacar {
@@ -98,27 +100,12 @@ body {
     color: black;
     justify-content: end;
     position: absolute;
-    top: 85%;
+    top: 83%;
     height: 25px;
     padding-left: 8px;
     padding-right: 8px;
+    border: solid 2px rgb(180, 144, 144);
 }
-
-/*
-.sacar {
-    background-color: rgb(245, 241, 241);
-    color: black;
-    margin:0 0 10px;
-    overflow:hidden;
-    padding:6px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    position: absolute;
-    top: 50%;
-    width: 100;
-}
-*/
-
 
 
 
