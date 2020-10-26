@@ -50,6 +50,11 @@ body {
 }
 
 
+.fondofav {
+    background-color: rgb(245, 241, 241);
+    height: 355px;
+}
+
 .titulo {
     color: rgb(128, 124, 124) !important;
     font-size: 20px !important;
@@ -57,6 +62,24 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 10px;
+}
+
+.fav li img {
+    width: 240px;
+    height: 340px;
+    padding-top: 10px;
+}
+
+.fav ul{
+    background-color: #151518;;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;    
 }
 
 
