@@ -52,11 +52,27 @@ body {
     font-weight: lighter;
     margin-top: 2.5%;
 }
+
   
 .titulopeli p{
     font-size: 15px;
     font-weight: lighter;
     margin-top: 0;
+}
+
+.titulopeli h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    margin-top: 2.5%;
+
+}
+
+.titulopeli h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    margin-top: 2.5%;
 }
   
 

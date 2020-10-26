@@ -58,15 +58,19 @@ body {
     min-height: 292px !important;
 }
 .Accion {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: rgb(128, 124, 124) !important;
+    font-size: 30px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .Accion2 ul{
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     list-style: none;
+    background-color: rgb(228, 220, 220);
 }
 
 .Accion2 ul li{
@@ -79,15 +83,19 @@ body {
 }
 
 .Dramas {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: rgb(128, 124, 124) !important;
+    font-size: 30px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .Dramas2 ul{
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     list-style: none;
+    background-color: rgb(228, 220, 220);
 }
 
 .Dramas2 ul li{
@@ -100,15 +108,19 @@ body {
 }
 
 .Comedias {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: rgb(128, 124, 124) !important;
+    font-size: 30px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .Comedias2 ul {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     list-style: none;
+    background-color: rgb(228, 220, 220);
 }
 
 .Comedias2 ul li{
@@ -121,15 +133,19 @@ body {
 }
 
 .Románticas {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: rgb(128, 124, 124) !important;
+    font-size: 30px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .Románticas2 ul {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     list-style: none;
+    background-color: rgb(228, 220, 220);
 }
 
 .Románticas2 ul li{
@@ -142,15 +158,19 @@ body {
 }
 
 .Terror {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #ffffff;
+    color: rgb(128, 124, 124) !important;
+    font-size: 30px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .Terror2 ul {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     list-style: none;
+    background-color: rgb(228, 220, 220);
 }
 
 .Terror2 ul li{
@@ -162,10 +182,6 @@ body {
     width: 600px;
 }
 
-.footertotal {
-    padding-top: 10px;
-    background-color: rgb(212, 205, 205);
-}
 .footertexto {
     display: flex;
     justify-content: center;
@@ -193,6 +209,35 @@ body {
     justify-content: center;
     
 }
+.footer button{
+    background-color: rgba(0, 0, 0, 0);
+    width: 80px;
+    font-size: 16px;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    top: 0;
+    color: red;
+  }
+
+  .footertodo {
+    padding-top: 10px;
+    background-color: rgb(212, 205, 205);
+    height: 180px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+  }
+
+
+.logotmbd {
+    width: 130px;
+    }
+
 
 
 @media only screen and (max-width: 420px) {
