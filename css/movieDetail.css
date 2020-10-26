@@ -1,112 +1,98 @@
-body{
-    background-color: black;
+body {
+  background-color: white;   
 }
 
 .logo  {
-    width: 150px;
-    
+  width: 150px;
 }
 
 .usuario {
-    width: 150px;
-    display: flex;
-   align-items: flex-end !important;
+  width: 150px;
+  display: flex;
+  align-items: flex-end !important;
 }
+
 .header {
-    background-color: black ;
-    display: flex;
-    width: auto;
-    height: auto;
-    align-items: center;
+  color: rgb(212, 205, 205);
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  height: 90px;
+}
 
 .end {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
 .todobarra {
-    background-color: black!important;
-    display: flex;
-    justify-content: center;
-    
-}
-
-.fondonav {
-    background-color:black;
+  background-color: rgb(212, 205, 205)!important;
+  display: flex;
+  justify-content: center;
 }
 
 .barranav ul {
-    list-style: none;
-=======
-    width: 100%;
->>>>>>> 8dafa52e8e7d7dbc0fc0caa06cc510118e45aac3
-    position: fixed;
-    z-index: 5; 
-    
-   
-  }
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  align-items: center;
+  padding: 0%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulopeli {
+    width:80%;
+}
+
+.titulopeli h1{
+    font-size: 60px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    margin-top: 2.5%;
+}
   
- .logo{
-  max-width: 135px;
-  max-height: 95px;
-  }
-  
- .barranav{
->>>>>>> 08d01129c213fc3c4049233a9f44fbab98f184b5
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    align-items: center;
-<<<<<<< HEAD
-    padding: 0%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.titulopeli p{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 0;
 }
 
-.usuario img {
-    width: 100px;
+.footertotal {
+  padding-top: 10px;
+  background-color: rgb(212, 205, 205);
 }
-
-.detalle {
-    background-color: black;
-    border: solid 3px white;
-}
-
-.titulo1 {
-    color: white !important;
-}
-
-.descripeli {
-   color: white;
-}
-
 .footertexto {
-    padding-top: 90px;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .redes {
-    padding-bottom: 20px;
-   
+  padding-bottom: 20px;
+ 
 }
 .footer2 ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer2 ul li h5{
-    display: flex;
-    align-items: flex-end;
-    
+  display: flex;
+  align-items: flex-end;
+  color: rgb(128, 124, 124) !important;
+  
 }
 
 .footer2 ul li img {
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  
 }
+  
+
 
 
 
@@ -185,10 +171,7 @@ body{
         font-size: 40px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
-        
-    }   
-=======
-    margin-left: 40px;
+         margin-left: 40px;
     
   }
   
@@ -203,12 +186,7 @@ body{
     font-weight: lighter;
   }
   
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 08d01129c213fc3c4049233a9f44fbab98f184b5
->>>>>>> 8dafa52e8e7d7dbc0fc0caa06cc510118e45aac3
 
     .nuestrosnombres {
         font-size: 40px;
