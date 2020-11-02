@@ -20,7 +20,7 @@ body {
     height: 90px;
 }
 
-.end {
+.barrausuarios {
     display: flex;
     align-items: flex-end;
 }
@@ -54,7 +54,7 @@ body {
     width: auto;
 }
 
-.bannert {
+.bannerimg {
     min-height: 292px !important;
 }
 
@@ -62,7 +62,7 @@ body {
     margin-left: 15px;
 }
 
-.fondorec {
+.fondorecomendados {
     background-color: rgb(245, 241, 241);
     height: 355px;
 }
@@ -83,7 +83,7 @@ body {
     padding-top: 10px;
 }
 
-.mobrecomen {
+.recomendados2 {
     color: rgb(128, 124, 124) !important;
     font-size: 20px !important;
     margin-top: 20px !important;
@@ -92,12 +92,12 @@ body {
     padding-left: 10px;
 }
 
-.fondocont {
+.fondocontinuar {
     background-color: rgb(245, 241, 241);
     height: 355px;
 }
 
-.mobcontinuar {
+.continuar2 {
     color: rgb(128, 124, 124) !important;
     font-size: 20px !important;
     margin-top: 20px !important;
@@ -166,7 +166,7 @@ body {
     padding-left: 10px;
 }
 
-.fondogen {
+.fondogeneros {
     background-color: rgb(245, 241, 241);
     margin-bottom: 10px;
     margin-bottom: 30px;
@@ -238,21 +238,7 @@ body {
     width: 130px;
     }
 
-  /*/
-  .footer{
-    width: 100%;
-    height: 50px;
-    color: rgb(252,0,5);
-    background-color: black;
-    display: flex;
-    align-items: center;
-    padding: 0;
-    justify-content: space-between;
-    margin-top: 5rem;
-    padding-bottom: 0px;
-  }
-
-  /*/
+ 
 
 @media only screen and (max-width: 420px) {
 
