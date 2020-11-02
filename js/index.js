@@ -8,10 +8,14 @@ window.onload = function (){
         .then(function(data){
             console.log(data);
             
+            for (let i = 0; i < array.length; i++) {
+                const element = array[i];
+                
+            }
         })
 
         .catch(function(mensajeError){
             console.log(`hubo un error: ${mensajeError}`);
         });
-        
+
 };
