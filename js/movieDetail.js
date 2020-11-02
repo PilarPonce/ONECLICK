@@ -7,6 +7,11 @@ window.addEventListener('load' ,function(){
     .then(function (data) {
         console.log(data);
 
+        for (let i = 0; i < array.length; i++) {
+            const element = array[i];
+            
+        }
+
 
     })
     .catch(function (error) {
