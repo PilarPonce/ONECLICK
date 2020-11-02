@@ -23,8 +23,4 @@ window.addEventListener('load' ,function(){
      })
     
 
-
-
-
-
 })
