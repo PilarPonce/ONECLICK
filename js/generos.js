@@ -7,6 +7,15 @@ window.addEventListener('load' ,function(){
     .then(function (data) {
         console.log(data);
 
+        data.results.forEach(actor => {
+            document.querySelector('#Acción').innerHTML += `<Accion2 uk-position-relative uk-visible-toggle uk-light">
+                   <img src="${urlImagen}" alt="">
+                   <h3 class="uk-card-title uk-text-center">${actor.name}</h3>
+                  <p class="uk-text-center">${actor.popularity}</p>
+                </div>`
+
+                // LA VARIABLE "urlImagen" ESTA DEFINIDA EN EL ARCHIVO ATAJOS.JS
+        });
 
     })
     .catch(function (error) {
