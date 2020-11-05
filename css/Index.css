@@ -107,6 +107,7 @@ body {
     width: 240px;
     height: 340px;
     padding-top: 10px;
+    margin-left: 15px;
 }
 
 .continuar ul{
@@ -297,7 +298,6 @@ body {
 
     .continuar {
         width: 1430px;
-        
     }
 
     .continuar ul li img {
