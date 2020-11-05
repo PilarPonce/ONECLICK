@@ -18,7 +18,7 @@ window.onload = function (){
             ul.innerHTML  += `
             <li>
                 <div class=" imten uk-panel">
-                <a> <img src="${linkimagen}${element.poster_path}" alt=""> </a> 
+                <img src="${linkimagen}${element.poster_path}" alt="">
                     
                 </div>
             </li>` 
