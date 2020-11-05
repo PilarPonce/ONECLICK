@@ -156,8 +156,12 @@ body {
     margin-left: 15px;
 }
 
+.ten li {
+    width: 350px;
+}
+
 .ten img {
-    width: 230px;
+    width: 250px;
     height: 350px;
 }
 
