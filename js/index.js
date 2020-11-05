@@ -2,14 +2,31 @@ window.onload = function (){
 
     var key = `e8659a3dae8d207d31ba4797c06188c8`
 
-    //https://developers.themoviedb.org/3/movies/get-top-rated-movies
+    var linkimagen = "https://image.tmdb.org/t/p/w500"
 
-    fetch(``)
+    fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&page=1`)
     .then(function (response) {
         return response.json()
     })
-    .then(function (data) {
-        console.log(data);
+    .then(function (information) {
+        console.log(information);
+
+        var ul = document.querySelector (".ten")
+
+        for (let i = 0; i < information.results.length; i++) {
+            var element = information.results[i];
+            ul.innerHTML  += `
+            <li>
+                <div class=" imten uk-panel">
+                <a> <img src="${linkimagen}${element.poster_path}" alt=""> </a> 
+                    
+                </div>
+            </li>
+        
+
+                   
+            ` 
+        }
 
 
     })
