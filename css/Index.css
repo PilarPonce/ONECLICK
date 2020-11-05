@@ -63,14 +63,8 @@ body {
     height: 355px;
 }
 
-.recomendados ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+.recomendados li {
+    width: 330px;
 }
 
 .recomendados li img {
@@ -110,16 +104,8 @@ body {
     margin-left: 15px;
 }
 
-.continuar ul{
-    background-color: #151518;;
-    display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    list-style: none;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;    
+.recomendados li {
+    width: 330px;
 }
 
 .no420 {
