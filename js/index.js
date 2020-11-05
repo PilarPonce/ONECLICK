@@ -14,6 +14,7 @@ window.onload = function (){
 
         var ul = document.querySelector (".recomendados")
 
+
         for (let i = 0; i < information.results.length; i++) {
             var element = information.results[i];
             ul.innerHTML  += `
