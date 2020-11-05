@@ -21,11 +21,7 @@ window.onload = function (){
                 <a> <img src="${linkimagen}${element.poster_path}" alt=""> </a> 
                     
                 </div>
-            </li>
-        
-
-                   
-            ` 
+            </li>` 
         }
 
 
