@@ -152,6 +152,12 @@ body {
 
 .ten {
     padding-top: 10px;
+    margin-left: 15px;
+}
+
+.ten img {
+    width: 230px;
+    height: 350px;
 }
 
 .generos {
