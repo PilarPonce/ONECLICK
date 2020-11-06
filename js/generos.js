@@ -11,7 +11,7 @@ window.onload = function () {
         .then(function (information) {
             console.log(information);
 
-            var ul = document.querySelector(".ac")
+            var ul = document.querySelector(".acc")
 
             for (let i = 0; i < information.geners.length; i++) {
                 var element = information.geners[i];
