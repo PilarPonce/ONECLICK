@@ -1,0 +1,436 @@
+body {
+    background-color: white;   
+}
+
+.logo  {
+    width: 150px;
+}
+
+.usuario {
+    width: 150px;
+    display: flex;
+    align-items: flex-end !important;
+}
+.header {
+    background-color:  rgb(212, 205, 205);
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    height: 90px;
+}
+
+.end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.todobarra {
+    background-color: rgb(212, 205, 205)!important;
+    display: flex;
+    justify-content: center;
+}
+
+.fondonav {
+    background-color:black;
+}
+
+.barranav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.usuario img {
+    width: 100px;
+}
+
+.banner  {
+    padding-top: 30px;
+    width: auto;
+}
+
+.bannert {
+    min-height: 292px !important;
+}
+
+.Accion {
+    color: rgb(128, 124, 124) !important;
+    font-size: 23px !important;
+    margin-top: 0px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.Accion2 {
+    height: 180px;
+    background-color: rgb(224, 217, 217);
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.Accion2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.Accion2 ul li{
+    margin: 2px;
+    padding: 5px 1px 5px 1px;
+}
+
+.Accion2 ul li img {
+    width: 600px;
+}
+
+.Dramas {
+    color: rgb(128, 124, 124) !important;
+    font-size: 23px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.Dramas2 {
+    height: 180px;
+    background-color: rgb(224, 217, 217);
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.Dramas2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.Dramas2 ul li{
+    margin: 2px;
+    padding: 5px 1px 5px 1px;
+}
+
+.Dramas2 ul li img {
+    width: 600px;
+}
+
+.Comedias {
+    color: rgb(128, 124, 124) !important;
+    font-size: 23px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.Comedias2 {
+    height: 180px;
+    background-color: rgb(224, 217, 217);
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.Comedias2 ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.Comedias2 ul li{
+    margin: 2px;
+    padding: 5px 1px 5px 1px;
+}
+
+.Comedias2 ul li img{
+    width: 600px;
+}
+
+.Románticas {
+    color: rgb(128, 124, 124) !important;
+    font-size: 23px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.Románticas2{
+    height: 180px;
+    background-color: rgb(224, 217, 217);
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.Románticas2 ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.Románticas2 ul li{
+    margin: 2px;
+    padding: 5px 1px 5px 1px;
+}
+
+.Románticas2 ul li img{
+    width: 600px;
+}
+
+.Terror {
+    color: rgb(128, 124, 124) !important;
+    font-size: 23px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.Terror2 {
+    height: 180px;
+    background-color: rgb(224, 217, 217);
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.Terror2 ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.Terror2 ul li{
+    margin: 2px;
+    padding: 5px 1px 5px 1px;
+}
+
+.Terror2 ul li img {
+    width: 600px;
+}
+
+.footertexto {
+    display: flex;
+    justify-content: center;
+}
+.redes {
+    padding-bottom: 20px;
+}
+.footer2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer2 ul li h5{
+    display: flex;
+    align-items: flex-end;
+    color: rgb(128, 124, 124) !important;
+    
+}
+
+.footer2 ul li img {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer button{
+    background-color: rgba(0, 0, 0, 0);
+    width: 80px;
+    font-size: 16px;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    top: 0;
+    color: red;
+  }
+
+  .footertodo {
+    padding-top: 10px;
+    background-color: rgb(212, 205, 205);
+    height: 180px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+  }
+
+
+.logotmbd {
+    width: 130px;
+    }
+
+
+
+@media only screen and (max-width: 420px) {
+
+    .none {
+        display: none;
+    }
+    
+    .barranav {
+        width: 1400px;
+        height: 350px;
+    }
+    
+    .logo img {
+        width: 350px;
+        height: 300px;
+    }
+    
+    .barranav ul li h4 {
+        font-size: 44px;
+        text-justify: inter-word; 
+    }
+    
+    .barranav ul h4 {
+        font-size: 35px;
+    }
+    
+    .buscar img {
+        width: 800px;
+    }
+    
+    .usuario img {
+        width: 200px;
+    }
+
+    .banner {
+        height: 400px;
+    }
+
+    .banner p img {
+        height: 400px;
+    }
+    
+    .Accion {
+        font-size: 55px;
+       text-align: center;
+    }
+
+    .Accion2{
+        width: 1400px;
+        height: 2200px; 
+        
+    }
+
+    .Accion2 ul{
+        height: 2250px;
+        width: 1290px;   
+        border: solid white 10px;
+        border-radius: 30px 30px 30px 30px;        
+    }
+
+    .Accion2 ul li img {
+        width: 1290px;
+        height: 700px; 
+        margin: auto;   
+    }
+    
+    .Comedias {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .Comedias2{
+        width: 375px;
+        height: 2200px; 
+    }
+    
+    .Comedias2 ul {
+        height: 2200px;
+        width: 1290px;   
+        border: solid white 10px;
+        border-radius: 30px 30px 30px 30px;   
+    }
+    
+    .Comedias2 ul li img{
+        width: 1290px;
+        height: 700px; 
+    }
+    
+    .Románticas {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .Románticas2{
+        width: 375px;
+        height: 2200px; 
+    }
+    
+    .Románticas2 ul {
+        height: 2200px;
+        width: 1290px;   
+        border: solid white 10px;
+        border-radius: 30px 30px 30px 30px;   
+    }
+    
+    .Románticas2 ul li img{
+        width: 1290px;
+        height: 700px; 
+    }
+    
+    .Terror {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .Terror2{
+        width: 375px;
+        height: 2200px; 
+        
+    }
+    
+    .Terror2 ul {
+        height: 2200px;
+        width: 1290px;   
+        border: solid white 10px;
+        border-radius: 30px 30px 30px 30px;   
+    }
+    
+    .Terror2 ul li img {
+        width: 1290px;
+        height: 700px; 
+    }
+
+    .footertexto{
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 1fr;
+        justify-content: space-around;
+        width: 1430px;
+    }
+
+    .footertexto h4 {
+        font-size: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }   
+
+    .nuestrosnombres {
+        font-size: 40px;
+        color: white;
+        width: 1300px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+
+    }
+
+    .none{
+        display: none;
+    }
+}
