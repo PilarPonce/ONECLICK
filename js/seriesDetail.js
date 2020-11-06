@@ -1,6 +1,6 @@
 window.addEventListener('load' ,function(){
 
-    var key = `e8659a3dae8d207d31ba4797c06188c8`
+    var Apikey = `e8659a3dae8d207d31ba4797c06188c8`
 
     fetch(``)
     .then(function (response) {
