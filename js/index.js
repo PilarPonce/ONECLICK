@@ -93,7 +93,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
             document.querySelector(".contenedorAccion").innerHTML += `
             <li>
                 <div class="uk-panel"> <a href ="">
-                    <img src="https://image.tmdb.org/t/p/w500 + information[i].posterpath + alt=""> 
+                    <img src="https://image.tmdb.org/t/p/w500 + information[i]posterpath + alt=""> 
                     
                 </div>
             </li>
