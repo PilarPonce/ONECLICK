@@ -1,6 +1,6 @@
 window.onload = function (){
 
-    var Apikey= `e8659a3dae8d207d31ba4797c06188c8`
+    var apiKey= `e8659a3dae8d207d31ba4797c06188c8`
 
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
@@ -80,6 +80,6 @@ window.onload = function (){
 
 //--------------------------------------------------------------------------------
 
-fetch (``)
+
 
 };
