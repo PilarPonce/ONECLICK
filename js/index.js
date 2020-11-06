@@ -79,7 +79,29 @@ window.onload = function (){
      })
 
 //--------------------------------------------------------------------------------
+fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
+    .then(function (response) {
+        return response.json()
+    })
+    .then(function (information) {
+        console.log(information);
 
+        var ul = document.querySelector (".generos2")
+
+        for (let i = 0; i < information.results.length; i++) {
+            var element = information.results[i];
+            ul.innerHTML  += `
+            <li>
+                <div class=" imten uk-panel">
+                <img src="${linkimagen}${element.poster_path}" alt="">
+                    
+                </div>
+            </li>` 
+        }
+    })
+    .catch(function (error) {
+         console.log('El error fue: ' + error);
+     })
 
 
 };
