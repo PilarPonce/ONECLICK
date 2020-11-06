@@ -1,23 +1,31 @@
-window.addEventListener('load' ,function(){
+window.onload = function () {
 
     var key = `e8659a3dae8d207d31ba4797c06188c8`
 
-    fetch(``)
-    .then(function (response) {
-        return response.json()
-    })
-    .then(function (data) {
-        console.log(data);
+    var linkimagen = "https://image.tmdb.org/t/p/w500"
+
+    fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (information) {
+            console.log(information);
+
+            var ul = document.querySelector(".acc")
+
+            for (let i = 0; i < information.results; i++) {
+                var element = information.results[i];
+                ul.innerHTML += `
+                 < li >
+                    <img src="${linkimagen}${element}" alt=""> > 
+                    <div class="uk-position-center uk-panel">
+                </li> `
+            }
 
 
-    })
-    .catch(function (error) {
-         console.log('El error fue: ' + error);
-     })
-    
+        })
+        .catch(function (error) {
+            console.log('El error fue: ' + error);
+        })
 
-
-
-
-
-})
+};
