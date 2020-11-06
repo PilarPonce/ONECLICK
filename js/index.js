@@ -92,11 +92,16 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
             var element = information.results[i];
             ul.innerHTML  += `
             <li>
-                <div class=" imten uk-panel">
-                <img src="${linkimagen}${element.poster_path}" alt="">
-                    
+                <div class=" generos3 uk-panel">
+                <img src="${linkimagen}${element.id}" alt="">
+                    <a href="movieDetail.html"> <img src="imagenes/accion/1.jpg" alt=""> 
+                    <div class=" cajatext uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                    <p class="uk-margin-remove"></p> </a>
+                    </div>
                 </div>
-            </li>` 
+            </li>
+           
+            ` 
         }
     })
     .catch(function (error) {
