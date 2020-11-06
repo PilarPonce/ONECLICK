@@ -4,7 +4,7 @@ window.onload = function () {
 
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
-    fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+    fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
         .then(function (response) {
             return response.json()
         })
