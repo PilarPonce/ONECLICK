@@ -20,7 +20,7 @@ body {
     height: 90px;
 }
 
-.end {
+.barrausuarios {
     display: flex;
     align-items: flex-end;
 }
@@ -54,168 +54,163 @@ body {
     width: auto;
 }
 
-.bannert {
+.bannerimg {
     min-height: 292px !important;
 }
 
-.Accion {
-    color: rgb(128, 124, 124) !important;
-    font-size: 23px !important;
-    margin-top: 0px !important;
-    font-family: sans-serif;
-    font-weight: bold;
-    padding-left: 10px;
+.fondorecomendados {
+    background-color: rgb(245, 241, 241);
+    height: 355px;
+}
+.fondopopulares {
+    background-color: rgb(245, 241, 241);
+    height: 355px;
 }
 
-.Accion2 {
-    height: 180px;
-    background-color: rgb(224, 217, 217);
-    margin-bottom: 0px;
+.listapopulares li img{
+    width: 240px;
+    height: 340px;
     padding-top: 10px;
-    padding-left: 8px;
+    margin-left: 15px;
 }
 
-.Accion2 ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+.listapopulares li {
+    width: 330px;
+}
+.recomendados li {
+    width: 330px;
 }
 
-.Accion2 ul li{
-    margin: 2px;
-    padding: 5px 1px 5px 1px;
+.recomendados li img {
+    width: 240px;
+    height: 340px;
+    padding-top: 10px;
+    margin-left: 15px;
 }
 
-.Accion2 ul li img {
-    width: 600px;
+.listapopulares {
+    width: 240px;
+    height: 340px;
+    padding-top: 10px;
+    margin-left: 15px;
+
 }
 
-.Dramas {
+.fondopopulares{
+    background-color: rgb(245, 241, 241);
+    height: 355px;
+}
+
+.tvalaire2 {
     color: rgb(128, 124, 124) !important;
-    font-size: 23px !important;
+    font-size: 20px !important;
     margin-top: 20px !important;
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 10px;
 }
 
-.Dramas2 {
-    height: 180px;
-    background-color: rgb(224, 217, 217);
-    margin-bottom: 0px;
-    padding-top: 10px;
-    padding-left: 8px;
-}
-
-.Dramas2 ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.Dramas2 ul li{
-    margin: 2px;
-    padding: 5px 1px 5px 1px;
-}
-
-.Dramas2 ul li img {
-    width: 600px;
-}
-
-.Comedias {
+.populares2 {
     color: rgb(128, 124, 124) !important;
-    font-size: 23px !important;
+    font-size: 20px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.fondocontinuar {
+    background-color: rgb(245, 241, 241);
+    height: 355px;
+}
+
+.transmitiendohoy2{
+    color: rgb(128, 124, 124) !important;
+    font-size: 20px !important;
     margin-top: 20px !important;
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 10px;
 }
 
-.Comedias2 {
-    height: 180px;
-    background-color: rgb(224, 217, 217);
-    margin-bottom: 0px;
+.continuar li img {
+    width: 240px;
+    height: 340px;
     padding-top: 10px;
-    padding-left: 8px;
+    margin-left: 15px;
 }
 
-.Comedias2 ul {
+.recomendados li {
+    width: 330px;
+}
+
+.listapopulares{
+    width: 330px;
+}
+
+.no420 {
+    color: rgb(163, 156, 156) !important;
+    font-size: 30px !important;
+    margin-top: 20px !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(228, 220, 220);
+}
+
+.top{
+    color: white;
     display: flex;
     flex-direction: row;
     list-style: none;
+    justify-content: center;
+    background-color: rgb(228, 220, 220);
+    margin: 30px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.Comedias2 ul li{
-    margin: 2px;
-    padding: 5px 1px 5px 1px;
+
+
+.fondoten {
+    background-color: rgb(245, 241, 241);
+    padding-bottom: 10px;
 }
 
-.Comedias2 ul li img{
-    width: 600px;
+.ten {
+    padding-top: 10px;
+    margin-left: 15px;
 }
 
-.Románticas {
+.ten li {
+    width: 350px;
+}
+
+.ten img {
+    width: 250px;
+    height: 350px;
+}
+
+.generos {
     color: rgb(128, 124, 124) !important;
-    font-size: 23px !important;
-    margin-top: 20px !important;
+    font-size: 25px !important;
+    margin-top: 50px !important;
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 10px;
 }
 
-.Románticas2{
-    height: 180px;
-    background-color: rgb(224, 217, 217);
-    margin-bottom: 0px;
+.fondogeneros {
+    background-color: rgb(245, 241, 241);
+    margin-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.generos2 {
     padding-top: 10px;
-    padding-left: 8px;
+    padding-bottom: 10px;
 }
 
-.Románticas2 ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.Románticas2 ul li{
-    margin: 2px;
-    padding: 5px 1px 5px 1px;
-}
-
-.Románticas2 ul li img{
-    width: 600px;
-}
-
-.Terror {
-    color: rgb(128, 124, 124) !important;
-    font-size: 23px !important;
-    margin-top: 20px !important;
-    font-family: sans-serif;
-    font-weight: bold;
-    padding-left: 10px;
-}
-
-.Terror2 {
-    height: 180px;
-    background-color: rgb(224, 217, 217);
-    margin-bottom: 25px;
-    padding-top: 10px;
-    padding-left: 8px;
-}
-
-.Terror2 ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.Terror2 ul li{
-    margin: 2px;
-    padding: 5px 1px 5px 1px;
-}
-
-.Terror2 ul li img {
-    width: 600px;
+.generos2 li div img {
+    width: 400px;
+    height: 250px;
 }
 
 .footertexto {
@@ -274,7 +269,7 @@ body {
     width: 130px;
     }
 
-
+ 
 
 @media only screen and (max-width: 420px) {
 
@@ -294,7 +289,7 @@ body {
     
     .barranav ul li h4 {
         font-size: 44px;
-        text-justify: inter-word; 
+        text-justify: inter-word;
     }
     
     .barranav ul h4 {
@@ -317,97 +312,98 @@ body {
         height: 400px;
     }
     
-    .Accion {
-        font-size: 55px;
-       text-align: center;
+    
+    .recomendados li div img {
+        width: 680px;
+        height: 440px;
+    }
+    
+    .recomendados ul{
+        border: 5px solid white;
+        border-radius: 15px 15px 15px 15px;
     }
 
-    .Accion2{
-        width: 1400px;
-        height: 2200px; 
-        
+    .continuar {
+        width: 1430px;
     }
 
-    .Accion2 ul{
-        height: 2250px;
-        width: 1290px;   
-        border: solid white 10px;
-        border-radius: 30px 30px 30px 30px;        
+    .continuar ul li img {
+        width: 680px;
+        height: 440px;
     }
 
-    .Accion2 ul li img {
-        width: 1290px;
-        height: 700px; 
-        margin: auto;   
-    }
-    
-    .Comedias {
-        font-size: 55px;
-        text-align: center;
+    .continuar ul{
+        border: 5px solid white;
+        border-radius: 15px 15px 15px 15px;
     }
 
-    .Comedias2{
-        width: 375px;
-        height: 2200px; 
-    }
-    
-    .Comedias2 ul {
-        height: 2200px;
-        width: 1290px;   
-        border: solid white 10px;
-        border-radius: 30px 30px 30px 30px;   
-    }
-    
-    .Comedias2 ul li img{
-        width: 1290px;
-        height: 700px; 
-    }
-    
-    .Románticas {
-        font-size: 55px;
-        text-align: center;
+    .top{
+        width: 1430px;
+        font-size: 40px;
     }
 
-    .Románticas2{
-        width: 375px;
-        height: 2200px; 
-    }
-    
-    .Románticas2 ul {
-        height: 2200px;
-        width: 1290px;   
-        border: solid white 10px;
-        border-radius: 30px 30px 30px 30px;   
-    }
-    
-    .Románticas2 ul li img{
-        width: 1290px;
-        height: 700px; 
-    }
-    
-    .Terror {
-        font-size: 55px;
-        text-align: center;
+    .no420{
+        display: none;
     }
 
-    .Terror2{
-        width: 375px;
-        height: 2200px; 
-        
-    }
-    
-    .Terror2 ul {
-        height: 2200px;
-        width: 1290px;   
-        border: solid white 10px;
-        border-radius: 30px 30px 30px 30px;   
-    }
-    
-    .Terror2 ul li img {
-        width: 1290px;
-        height: 700px; 
+    .on420{
+        display: block;
     }
 
+    .ten {
+        width: 1430px;
+    }
+
+    .ten ul {
+        border: 5px solid white;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .ten ul li img {
+        width: 460px;
+        height: 320px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .generos {
+        width: 600px;
+        font-size: 30px;
+        font-weight: bold;
+     }
+
+    .generos2 {
+       width: 1430px;
+    }
+
+    .generos2 ul {
+        border: 5px solid white;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    .generos2 ul li img {
+        width: 345px;
+        height: 345px;
+    }
+
+    .act{
+        font-size: 30px;
+    }
+
+    .rom{
+        font-size: 30px;
+    }
+
+    .terr{
+        font-size: 30px;
+    }
+
+    .com{
+        font-size: 30px;
+    }
+    
     .footertexto{
         display: grid;
         grid-template-columns: 1fr 1fr 2fr 1fr;
@@ -424,13 +420,48 @@ body {
     .nuestrosnombres {
         font-size: 40px;
         color: white;
-        width: 1300px;
+        width: 1200px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: oblique;
-
     }
 
     .none{
         display: none;
     }
+
+    .con {
+        display: none;
+    }
+    
+    .mobcontinuar {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        color: white
+        
+    }
+
+    .rec {
+        display: none;
+    }
+
+    .ab{
+        display: none;
+    }
+
+    .mobrecomen{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        color: white
+    }
 }
+
+
+
