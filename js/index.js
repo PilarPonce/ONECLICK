@@ -86,21 +86,17 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
     .then(function (information) {
         console.log(information);
 
-        var ul = document.querySelector (".generos2")
+        var ul = document.querySelector (".contenedorAccion")
 
         for (let i = 0; i < information.results.length; i++) {
             var element = information.results[i];
-            ul.innerHTML  += `
+            document.querySelector(".contenedorAccion").innerHTML += `
             <li>
-                <div class=" generos3 uk-panel">
-                <img src="${linkimagen}${element.id}" alt="">
-                    <a href="movieDetail.html"> <img src="imagenes/accion/1.jpg" alt=""> 
-                    <div class=" cajatext uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                    <p class="uk-margin-remove"></p> </a>
-                    </div>
+                <div class="uk-panel"> <a href ="">
+                    <img src="https://image.tmdb.org/t/p/w500 + information[i]posterpath + alt=""> 
+                    
                 </div>
             </li>
-           
             ` 
         }
     })
@@ -108,5 +104,115 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
          console.log('El error fue: ' + error);
      })
 
+//--------------------------------------------------------------------------------
+
+    fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
+    .then(function (response) {
+        return response.json()
+    })
+    .then(function (information) {
+        console.log(information);
+
+        var ul = document.querySelector (".contenedorAccion")
+
+        for (let i = 0; i < information.results.length; i++) {
+            var element = information.results[i];
+            ul.innerHTML  += `
+            <li>
+                <div class="uk-panel"> <a href ="">
+                    <img src="${linkimagen} + ${element.poster_path}" alt=""> 
+                    </div>
+                </div>
+            </li>
+            ` 
+        }
+    })
+    .catch(function (error) {
+        console.log('El error fue: ' + error);
+    })
+
+
+//--------------------------------------------------------------------------------
+
+fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
+    .then(function (response) {
+        return response.json()
+    })
+    .then(function (information) {
+        console.log(information);
+
+        var ul = document.querySelector (".contenedorAccion")
+
+        for (let i = 0; i < information.results.length; i++) {
+            var element = information.results[i];
+            ul.innerHTML  += `
+            <li>
+                <div class="uk-panel"> <a href ="">
+                    <img src="${linkimagen} + ${element.poster_path}" alt=""> 
+                    </div>
+                </div>
+            </li>
+            ` 
+        }
+    })
+    .catch(function (error) {
+         console.log('El error fue: ' + error);
+     })
+
+
+ //--------------------------------------------------------------------------------
+
+ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
+ .then(function (response) {
+     return response.json()
+ })
+ .then(function (information) {
+     console.log(information);
+
+     var ul = document.querySelector (".contenedorAccion")
+
+     for (let i = 0; i < information.results.length; i++) {
+         var element = information.results[i];
+         ul.innerHTML  += `
+         <li>
+             <div class="uk-panel"> <a href ="">
+                 <img src="${linkimagen} + ${element.poster_path}" alt=""> 
+                 </div>
+             </div>
+         </li>
+         ` 
+     }
+ })
+ .catch(function (error) {
+      console.log('El error fue: ' + error);
+  })
+
+
+ //--------------------------------------------------------------------------------
+
+ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
+ .then(function (response) {
+     return response.json()
+ })
+ .then(function (information) {
+     console.log(information);
+
+     var ul = document.querySelector (".contenedorAccion")
+
+     for (let i = 0; i < information.results.length; i++) {
+         var element = information.results[i];
+         ul.innerHTML  += `
+         <li>
+             <div class="uk-panel"> <a href ="">
+                 <img src="${linkimagen} + ${element.poster_path}" alt=""> 
+                 </div>
+             </div>
+         </li>
+         ` 
+     }
+ })
+ .catch(function (error) {
+      console.log('El error fue: ' + error);
+  })
 
 };
