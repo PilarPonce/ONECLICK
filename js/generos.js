@@ -13,16 +13,13 @@ window.onload = function () {
 
             var ul = document.querySelector(".acc")
 
-            for (let i = 0; i < information.results; i++) {
-                var element = information.results[i];
+            for (let i = 0; i < information.geners.length; i++) {
+                var element = information.geners[i];
                 ul.innerHTML += `
-                 < li >
-                    <img src="${linkimagen}${element}" alt=""> > 
-                    <div class="uk-position-center uk-panel">
-                </li> `
+            <li>
+            <img src="${linkimagen}${element.__proto__}" alt="">
+            </li>`
             }
-
-
         })
         .catch(function (error) {
             console.log('El error fue: ' + error);
