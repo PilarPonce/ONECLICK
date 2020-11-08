@@ -31,24 +31,6 @@ body {
     justify-content: center;
 }
 
-.fondonav {
-    background-color:black;
-}
-
-.barranav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    align-items: center;
-    padding: 0%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.usuario img {
-    width: 100px;
-}
-
 .banner  {
     padding-top: 30px;
     width: auto;
@@ -74,7 +56,7 @@ body {
     margin-left: 15px;
 }
 
-.tvalaire2 {
+.recomendados2 {
     color: rgb(128, 124, 124) !important;
     font-size: 20px !important;
     margin-top: 20px !important;
@@ -88,7 +70,7 @@ body {
     height: 355px;
 }
 
-.transmitiendohoy2{
+.continuarv2{
     color: rgb(128, 124, 124) !important;
     font-size: 20px !important;
     margin-top: 20px !important;
@@ -108,7 +90,7 @@ body {
     width: 330px;
 }
 
-.no420 {
+.top1 {
     color: rgb(163, 156, 156) !important;
     font-size: 30px !important;
     margin-top: 20px !important;
@@ -127,8 +109,6 @@ body {
     margin: 30px; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
 
 .fondoten {
     background-color: rgb(245, 241, 241);

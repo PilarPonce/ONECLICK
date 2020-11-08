@@ -5,7 +5,6 @@ window.onload = function (){
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
 //--------------------------------------------------------------------------------
-
     fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`)
     .then(function (response) {
         return response.json()
@@ -27,9 +26,7 @@ window.onload = function (){
     .catch(function (error) {
          console.log('El error fue: ' + error);
      })
-
 //--------------------------------------------------------------------------------
-
     fetch(`https://api.themoviedb.org/3/tv/airing_today?api_key=${apiKey}`)
     .then(function (response) {
         return response.json()
@@ -51,9 +48,7 @@ window.onload = function (){
     .catch(function (error) {
          console.log('El error fue: ' + error);
      })
-
 //--------------------------------------------------------------------------------
-
     fetch(`https://api.themoviedb.org/3/tv/on_the_air?api_key=${apiKey}`)
     .then(function (response) {
         return response.json()
@@ -76,6 +71,5 @@ window.onload = function (){
     .catch(function (error) {
          console.log('El error fue: ' + error);
      })
-
-//--------------------------------------------------------------------------------
     }
+//--------------------------------------------------------------------------------
