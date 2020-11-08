@@ -61,7 +61,7 @@ body {
 .Accion {
     color: rgb(128, 124, 124) !important;
     font-size: 23px !important;
-    margin-top: 0px !important;
+    margin-top: 20px !important;
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 10px;
@@ -71,23 +71,24 @@ body {
     height: 180px;
     background-color: rgb(224, 217, 217);
     margin-bottom: 0px;
-    padding-top: 10px;
-    padding-left: 8px;
+    padding-top: 7px;
+    padding-left: 6px;
 }
 
-.Accion2 ul{
+.contenedor-accion {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 
-.Accion2 ul li{
+.contenedor-accion li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-.Accion2 ul li img {
-    width: 600px;
+.contenedor-accion ul li img{
+    width: 180px;
+    justify-content: center;
 }
 
 .Dramas {
@@ -103,23 +104,24 @@ body {
     height: 180px;
     background-color: rgb(224, 217, 217);
     margin-bottom: 0px;
-    padding-top: 10px;
-    padding-left: 8px;
+    padding-top: 7px;
+    padding-left: 6px;
 }
 
-.Dramas2 ul{
+.contenedor-dramas {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 
-.Dramas2 ul li{
+.contenedor-dramas li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-.Dramas2 ul li img {
-    width: 600px;
+.contenedor-dramas ul li img{
+    width: 180px;
+    justify-content: center;
 }
 
 .Comedias {
@@ -135,23 +137,24 @@ body {
     height: 180px;
     background-color: rgb(224, 217, 217);
     margin-bottom: 0px;
-    padding-top: 10px;
-    padding-left: 8px;
+    padding-top: 7px;
+    padding-left: 6px;
 }
 
-.Comedias2 ul {
+.contenedor-comedias {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 
-.Comedias2 ul li{
+.contenedor-comedias li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-.Comedias2 ul li img{
-    width: 600px;
+.contenedor-comedias ul li img{
+    width: 180px;
+    justify-content: center;
 }
 
 .Románticas {
