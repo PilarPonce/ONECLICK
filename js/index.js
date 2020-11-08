@@ -69,7 +69,6 @@ window.onload = function (){
             <li>
                 <div class=" imten uk-panel">
                 <img src="${linkimagen}${element.poster_path}" alt="">
-                    
                 </div>
             </li>` 
         }

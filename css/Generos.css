@@ -164,26 +164,29 @@ body {
 }
 
 .Románticas2{
-    height: 180px;
+    height: 280px;
     background-color: rgb(224, 217, 217);
-    margin-bottom: 0px;
-    padding-top: 10px;
-    padding-left: 8px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    padding-top: 6px;
+    
+   
 }
 
-.Románticas2 ul {
+.contenedor-romanticas {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 
-.Románticas2 ul li{
+.contenedor-romanticas li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-.Románticas2 ul li img{
-    width: 600px;
+.contenedor-romanticas li img{
+    width: 180px;
+    justify-content: center;
 }
 
 .Terror {
@@ -196,26 +199,28 @@ body {
 }
 
 .Terror2 {
-    height: 180px;
+    height: 280px;
     background-color: rgb(224, 217, 217);
-    margin-bottom: 25px;
-    padding-top: 10px;
-    padding-left: 8px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    padding-top: 6px;
+    
 }
 
-.Terror2 ul {
+.contenedor-terror {
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 
-.Terror2 ul li{
+.contenedor-terror li{
     margin: 2px;
     padding: 5px 1px 5px 1px;
 }
 
-.Terror2 ul li img {
-    width: 600px;
+.contenedor-terror li img {
+    width: 180px;
+    justify-content: center;
 }
 
 .footertexto {
