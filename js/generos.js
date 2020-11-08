@@ -3,28 +3,76 @@ window.onload = function () {
     var key = `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
-//-----------ACCION-------------------------------------------------------------------------------
-//    fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
-/*        .then(function (response) {
-            return response.json()
+//---------------ACCION---------------------------------------------------------
+    fetch(`https://api.themoviedb.org/3/discover/movie?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=28`)
+        .then(function (respuesta) {
+            return respuesta.json()
         })
         .then(function (information) {
             console.log(information);
 
-            var ul = document.querySelector(".acc")
+            var ul = document.querySelector(".contenedor-accion")
 
-            for (let i = 0; i < information.geners.length; i++) {
-                var element = information.geners[i];
-                ul.innerHTML += `
-            <li>
-            <img src="${linkimagen}${element.__proto__}" alt="">
-            </li>`
+            for (let i = 0; i < information.results.length; i++)
+                var element = information.results[i]; {
+                document.querySelector(".contenedor-accion").innerHTML +=
+                    ul.innerHTML += `
+          <li>
+          <img src="${linkimagen}${element.poster_path}" alt="">
+          </li>`
             }
         })
+
         .catch(function (error) {
             console.log('El error fue: ' + error);
         })
-        */
+//---------------DRAMAS-------------------------------------------------
+    fetch(`https://api.themoviedb.org/3/discover/movie?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=18`)
+        .then(function (respuesta) {
+            return respuesta.json()
+        })
+        .then(function (information) {
+            console.log(information);
+
+            var ul = document.querySelector(".contenedor-dramas")
+
+            for (let i = 0; i < information.results.length; i++)
+                var element = information.results[i]; {
+                document.querySelector(".contenedor-dramas").innerHTML +=
+                    ul.innerHTML += `
+          <li>
+          <img src="${linkimagen}${element.poster_path}" alt="">
+          </li>`
+            }
+        })
+
+        .catch(function (error) {
+            console.log('El error fue: ' + error);
+        })
+
+//---------------COMEDIAS--------------------------------------------------
+    fetch(`https://api.themoviedb.org/3/discover/movie?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=35`)
+        .then(function (respuesta) {
+            return respuesta.json()
+        })
+        .then(function (information) {
+            console.log(information);
+
+            var ul = document.querySelector(".contenedor-comedias")
+
+            for (let i = 0; i < information.results.length; i++)
+                var element = information.results[i]; {
+                document.querySelector(".contenedor-comedias").innerHTML +=
+                    ul.innerHTML += `
+          <li>
+          <img src="${linkimagen}${element.poster_path}" alt="">
+          </li>`
+            }
+        })
+
+        .catch(function (error) {
+            console.log('El error fue: ' + error);
+        })
 //---------------ROMANTICAS----------------------------------------------------------------------------
 
     fetch (`https://api.themoviedb.org/3/discover/movie?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=10749`)
