@@ -68,11 +68,11 @@ body {
 }
 
 .Accion2 {
-    height: 180px;
+    height: 280px;
     background-color: rgb(224, 217, 217);
-    margin-bottom: 0px;
-    padding-top: 7px;
-    padding-left: 6px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 7px;
 }
 
 .contenedor-accion {
@@ -86,7 +86,7 @@ body {
     padding: 5px 1px 5px 1px;
 }
 
-.contenedor-accion ul li img{
+.contenedor-accion li img{
     width: 180px;
     justify-content: center;
 }
@@ -101,11 +101,11 @@ body {
 }
 
 .Dramas2 {
-    height: 180px;
+    height: 280px;
     background-color: rgb(224, 217, 217);
-    margin-bottom: 0px;
-    padding-top: 7px;
-    padding-left: 6px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 7px;
 }
 
 .contenedor-dramas {
@@ -119,7 +119,7 @@ body {
     padding: 5px 1px 5px 1px;
 }
 
-.contenedor-dramas ul li img{
+.contenedor-dramas li img{
     width: 180px;
     justify-content: center;
 }
@@ -134,11 +134,11 @@ body {
 }
 
 .Comedias2 {
-    height: 180px;
+    height: 280px;
     background-color: rgb(224, 217, 217);
-    margin-bottom: 0px;
-    padding-top: 7px;
-    padding-left: 6px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 7px;
 }
 
 .contenedor-comedias {
@@ -152,7 +152,7 @@ body {
     padding: 5px 1px 5px 1px;
 }
 
-.contenedor-comedias ul li img{
+.contenedor-comedias li img{
     width: 180px;
     justify-content: center;
 }
