@@ -5,21 +5,20 @@ window.onload = function () {
 
 //---------------ACCION---------------------------------------------------------
     fetch(`https://api.themoviedb.org/3/discover/movie?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=28`)
-    .then(function (respuesta) {
-        return respuesta.json()
+    .then(function (response) {
+        return response.json()
     })
     .then(function (information) {
         console.log(information);
 
         var ul = document.querySelector(".contenedor-accion")
 
-        for (let i = 0; i < information.results.length; i++)
-            var element = information.results[i]; {
-            document.querySelector(".contenedor-dramas").innerHTML +=
+        for (let i = 0; i < information.results.length; i++) {
+            var element = information.results[i]; 
                 ul.innerHTML += `
-      <li>
-      <img src="${linkimagen}${element.poster_path}" alt="">
-      </li>`
+            <li>
+            <img src="${linkimagen}${element.poster_path}" alt="">
+            </li>`
         }
     })
 
@@ -28,21 +27,20 @@ window.onload = function () {
     })
 //---------------DRAMAS-------------------------------------------------
     fetch(`https://api.themoviedb.org/3/discover/movie?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=18`)
-    .then(function (respuesta) {
-        return respuesta.json()
+    .then(function (response) {
+        return response.json()
     })
     .then(function (information) {
         console.log(information);
 
         var ul = document.querySelector(".contenedor-dramas")
 
-        for (let i = 0; i < information.results.length; i++)
-            var element = information.results[i]; {
-            document.querySelector(".contenedor-dramas").innerHTML +=
+        for (let i = 0; i < information.results.length; i++){
+            var element = information.results[i]; 
                 ul.innerHTML += `
-      <li>
-      <img src="${linkimagen}${element.poster_path}" alt="">
-      </li>`
+            <li>
+            <img src="${linkimagen}${element.poster_path}" alt="">
+            </li>`
         }
     })
 
@@ -52,21 +50,20 @@ window.onload = function () {
 
 //---------------COMEDIAS--------------------------------------------------
     fetch(`https://api.themoviedb.org/3/discover/movie?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=35`)
-        .then(function (respuesta) {
-            return respuesta.json()
+        .then(function (response) {
+            return response.json()
         })
         .then(function (information) {
             console.log(information);
 
             var ul = document.querySelector(".contenedor-comedias")
 
-            for (let i = 0; i < information.results.length; i++)
-                var element = information.results[i]; {
-                document.querySelector(".contenedor-comedias").innerHTML +=
+            for (let i = 0; i < information.results.length; i++) {
+                var element = information.results[i]; 
                     ul.innerHTML += `
-          <li>
-          <img src="${linkimagen}${element.poster_path}" alt="">
-          </li>`
+                <li>
+                <img src="${linkimagen}${element.poster_path}" alt="">
+                </li>`
             }
         })
 
