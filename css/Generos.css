@@ -167,13 +167,11 @@ body {
 }
 
 .Románticas2{
-    height: 280px;
+    height: 300px;
     background-color: rgb(224, 217, 217);
     padding-left: 10px;
-    padding-bottom: 7px;
-    padding-top: 6px;
-    
-   
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .contenedor-romanticas {
@@ -182,14 +180,8 @@ body {
     list-style: none;
 }
 
-.contenedor-romanticas li{
-    margin: 2px;
-    padding: 5px 1px 5px 1px;
-}
-
 .contenedor-romanticas li img{
-    width: 180px;
-    justify-content: center;
+    width: 200px;
 }
 
 .Terror {
@@ -205,9 +197,8 @@ body {
     height: 280px;
     background-color: rgb(224, 217, 217);
     padding-left: 10px;
-    padding-bottom: 7px;
-    padding-top: 6px;
-    
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .contenedor-terror {
@@ -216,14 +207,8 @@ body {
     list-style: none;
 }
 
-.contenedor-terror li{
-    margin: 2px;
-    padding: 5px 1px 5px 1px;
-}
-
 .contenedor-terror li img {
-    width: 180px;
-    justify-content: center;
+    width: 200px;
 }
 
 .footertexto {
