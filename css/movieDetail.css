@@ -125,7 +125,9 @@ body {
     align-items: center;
     padding: 0;
     justify-content: space-between;
-  }
+    
+}
+  
 
 
 .logotmbd {
@@ -170,7 +172,7 @@ body {
         height: 90px;
         width: 500px; 
 }
-    }
+    
     
 .barrausuarios {
         display: flex;
@@ -198,5 +200,5 @@ body {
     display: flex;
     text-align: center;
 }
-
+}
 
