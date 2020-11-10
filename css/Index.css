@@ -225,20 +225,23 @@ body {
         display: none;
     }
 
-    .favoritos {
+.favoritos {
         display: none;
     }
-    .headertext li {
+.headertext li {
         width: 50px;
     }
    
-
-    .buscador {
-        display: none;
+    .peliculas{
+    display: none;
+    }
+    
+    .series {
+    display: none;
     }
 
-    .logo  {
-        width: 80px;
+    .logo img  {
+        width: 100px;
         padding-top: 25px;
     }
     
@@ -247,6 +250,7 @@ body {
         display: flex;
         align-items: flex-end !important;
     }
+
     .header {
         background-color:  rgb(212, 205, 205);
         display: flex;
@@ -254,17 +258,23 @@ body {
         height: auto;
         align-items: center;
         height: 90px;
+        width: 500px; 
     }
     
     .barrausuarios {
         display: flex;
-        align-items: flex-end;
     }
     
     .todobarra {
         background-color: rgb(212, 205, 205)!important;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .txtmob{
+        display: flex;
+        justify-content: space-around;
+        display: none;
     }
 
     .recomendados li img {
