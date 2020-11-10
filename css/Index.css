@@ -160,13 +160,17 @@ body {
 }
 
 .cajatext {
-    width: 340px;
-    height: 70px;
+    width: 400px;
+    height: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 10px;
+    display: flex;
+    justify-content: center;
 }
 
+.cajatext h3 {
+    font-size: 18px;
+}
 .cajatext p {
     font-size: 13px;
 }
@@ -292,6 +296,10 @@ body {
     .barrausuarios {
         display: flex;
     }
+
+    .banner {
+        height: 250px;
+    }
     
     .todobarra {
         background-color: rgb(212, 205, 205)!important;
@@ -305,9 +313,14 @@ body {
         display: none;
     }
 
+    .recomendados li {
+        width: 720px;
+    }
+
     .recomendados li img {
         padding-top: 10px;
-        margin-left: 55px;
+        margin-left: 75px;
+        padding-right: 20px;
     }
 
     .recomendados2 {
@@ -320,7 +333,7 @@ body {
         justify-content: center;
     }
 
-    .continuar {
+    .continuar li {
         width: 720px;
     }
 
