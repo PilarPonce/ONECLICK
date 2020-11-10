@@ -225,25 +225,28 @@ body {
         display: none;
     }
 
-.favoritos {
+    .favoritos {
         display: none;
     }
+
     .usuarios {
         display: none;
     }
+
     .boton {
         display: none;
     }
+
     .headertext li {
         width: 50px;
     }
-   
+
     .peliculas{
-    display: none;
+        display: none;
     }
 
     .series {
-    display: none;
+        display: none;
     }
 
     .logo {
