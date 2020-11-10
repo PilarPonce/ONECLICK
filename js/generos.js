@@ -1,5 +1,6 @@
 window.onload = function () {
-
+// link con nro generos https://developers.themoviedb.org/3/genres/get-movie-list
+// link https://developers.themoviedb.org/3/discover/movie-discover
     var key = `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
