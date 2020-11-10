@@ -80,7 +80,9 @@ body {
     flex-direction: row;
     list-style: none;
 }
-
+.contenedor-accion li {
+    width: 250px;
+}
 
 .contenedor-accion li img{
     width: 200px;
