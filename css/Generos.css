@@ -397,31 +397,17 @@ body {
         height: 700px; 
     }
 
-    .footertexto{
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr 1fr;
-        justify-content: space-around;
-        width: 1430px;
-    }
-
-    .footertexto h4 {
-        font-size: 40px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-    }   
-
-    .nuestrosnombres {
-        font-size: 40px;
-        color: white;
-        width: 1300px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-style: oblique;
-
-    }
-
-    .none{
+    .redes{
         display: none;
     }
+    .footertodo{
+       width: 500px; 
+    }
+    .footertexto{
+        display: flex;
+        text-align: center;
+    }
+    
 
 }
 
