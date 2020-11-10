@@ -140,7 +140,9 @@ body {
     flex-direction: row;
     list-style: none;
 }
-
+.contenedor-comedias li {
+    width: 250px;
+}
 
 .contenedor-comedias li img{
     width: 200px;
