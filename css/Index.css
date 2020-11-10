@@ -325,6 +325,17 @@ body {
         font-size: 15px;
     }
 
+    .redes{
+        display: none;
+    }
+    .footertodo{
+       width: 500px; 
+    }
+    .footertexto{
+        display: flex;
+        text-align: center;
+    }
+
 }
 
 
