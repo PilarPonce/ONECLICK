@@ -307,28 +307,22 @@ body {
     }
 
     .generos {
-        color: rgb(128, 124, 124) !important;
-        font-size: 25px !important;
-        margin-top: 50px !important;
-        font-family: sans-serif;
-        font-weight: bold;
-        padding-left: 10px;
-    }
-
-    .fondogeneros {
-        background-color: rgb(245, 241, 241);
-        margin-bottom: 10px;
-        margin-bottom: 30px;
-    }
-
-    .generos2 {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
     }
 
     .generos2 li div img {
         width: 400px;
         height: 250px;
+        padding-top: 10px;
+        margin-left: 16px;
+    }
+
+    .cajatext {
+        width: 350px;
+        height: 50px;
+        padding-top: 0px;
+        font-size: 15px;
     }
 
 }
