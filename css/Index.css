@@ -221,10 +221,27 @@ body {
 
 @media only screen and (max-width: 420px) {
 
-    .logo  {
-        width: 150px;
+    .inicio {
+        display: none;
     }
 
+    .favoritos {
+        display: none;
+    }
+    .headertext li {
+        width: 50px;
+    }
+   
+
+    .buscador {
+        display: none;
+    }
+
+    .logo  {
+        width: 80px;
+        padding-top: 25px;
+    }
+    
     .usuario {
         width: 150px;
         display: flex;
@@ -238,27 +255,19 @@ body {
         align-items: center;
         height: 90px;
     }
-
+    
     .barrausuarios {
         display: flex;
         align-items: flex-end;
     }
-
+    
     .todobarra {
         background-color: rgb(212, 205, 205)!important;
         display: flex;
         justify-content: center;
     }
 
-    .banner  {
-        padding-top: 30px;
-        width: auto;
-    }
-
-    .bannerimg {
-        min-height: 292px !important;
-    }
-
+    
     .fondorecomendados {
         background-color: rgb(245, 241, 241);
         height: 355px;
@@ -273,7 +282,7 @@ body {
         width: 240px;
         height: 340px;
         padding-top: 10px;
-        margin-left: 15px;
+        margin-left: 55px;
     }
 
     .recomendados2 {
@@ -376,61 +385,6 @@ body {
         height: 250px;
     }
 
-    .footertexto {
-        display: flex;
-        justify-content: center;
-    }
-    .redes {
-        padding-bottom: 20px;
-    }
-    .footer2 ul{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .footer2 ul li h5{
-        display: flex;
-        align-items: flex-end;
-        color: rgb(128, 124, 124) !important;
-        
-    }
-
-    .footer2 ul li img {
-        width: 150px;
-        display: flex;
-        justify-content: center;
-        
-    }
-    .footer button{
-        background-color: rgba(0, 0, 0, 0);
-        width: 80px;
-        font-size: 16px;
-        padding: 0;
-        height: 100%;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        margin-right: 60px;
-        top: 0;
-        color: red;
-    }
-
-    .footertodo {
-        padding-top: 10px;
-        background-color: rgb(212, 205, 205);
-        height: 180px;
-        display: flex;
-        align-items: center;
-        padding: 0;
-        justify-content: space-between;
-    }
-
-
-    .logotmbd {
-        width: 130px;
-        }
 }
 
 
