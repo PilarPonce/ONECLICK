@@ -309,9 +309,14 @@ body {
         justify-content: center;
     }
 
+    .continuar {
+        width: 720px;
+    }
+
     .continuar li img {
         padding-top: 10px;
-        margin-left: 55px;
+        margin-left: 75px;
+        padding-right: 20px;
     }
 
     .top1 {
@@ -330,7 +335,7 @@ body {
         width: 250px;
         height: 350px;
         padding-top: 10px;
-        margin-left: 55px;
+        margin-left: 10px;
     }
 
     .generos {
