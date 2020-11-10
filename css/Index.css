@@ -287,48 +287,23 @@ body {
         margin-left: 55px;
     }
 
-    .recomendados li {
-        width: 330px;
-    }
-
     .top1 {
-        color: rgb(163, 156, 156) !important;
-        font-size: 30px !important;
-        margin-top: 20px !important;
-        font-family: sans-serif;
-        font-weight: bold;
-        background-color: rgb(228, 220, 220);
+        font-size: 18px !important;
     }
 
     .top{
-        color: white;
         display: flex;
-        flex-direction: row;
-        list-style: none;
         justify-content: center;
-        background-color: rgb(228, 220, 220);
-        margin: 30px; 
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-    .fondoten {
-        background-color: rgb(245, 241, 241);
+        align-self: center;
+        height: 50px;
         padding-bottom: 10px;
-        width: 900px;
-    }
-
-    .ten {
-        padding-top: 10px;
-        margin-left: 15px;
-    }
-
-    .ten li {
-        width: 350px;
     }
 
     .ten img {
         width: 250px;
         height: 350px;
+        padding-top: 10px;
+        margin-left: 55px;
     }
 
     .generos {
