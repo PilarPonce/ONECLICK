@@ -199,7 +199,9 @@ body {
     flex-direction: row;
     list-style: none;
 }
-
+.contenedor-terror li {
+    width: 250px;
+}
 .contenedor-terror li img {
     width: 200px;
 }
