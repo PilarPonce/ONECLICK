@@ -11,6 +11,7 @@ window.onload = function () {
     })
     .then(function (information) {
         console.log(information);
+        var peliculas = information.results
 
         var ul = document.querySelector(".contenedor-accion")
 
@@ -33,6 +34,7 @@ window.onload = function () {
     })
     .then(function (information) {
         console.log(information);
+        var peliculas = information.results
 
         var ul = document.querySelector(".contenedor-dramas")
 
@@ -56,6 +58,7 @@ window.onload = function () {
         })
         .then(function (information) {
             console.log(information);
+            var peliculas = information.results
 
             var ul = document.querySelector(".contenedor-comedias")
 
@@ -80,6 +83,7 @@ window.onload = function () {
     })
     .then(function (information) {
         console.log(information);
+        var peliculas = information.results
 
         var ul = document.querySelector (".contenedor-romanticas")
 
@@ -105,6 +109,7 @@ window.onload = function () {
     })
     .then(function (information) {
         console.log(information);
+        var peliculas = information.results
 
         var ul = document.querySelector (".contenedor-terror")
 
