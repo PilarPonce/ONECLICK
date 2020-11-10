@@ -221,190 +221,216 @@ body {
 
 @media only screen and (max-width: 420px) {
 
-    .none {
-        display: none;
-    }
-    
-    .barranav {
-        width: 1400px;
-        height: 350px;
-    }
-    
-    .logo img {
-        width: 350px;
-        height: 300px;
-    }
-    
-    .barranav ul li h4 {
-        font-size: 44px;
-        text-justify: inter-word;
-    }
-    
-    .barranav ul h4 {
-        font-size: 35px;
-    }
-    
-    .buscar img {
-        width: 800px;
-    }
-    
-    .usuario img {
-        width: 200px;
+    .logo  {
+        width: 150px;
     }
 
-    .banner {
-        height: 400px;
+    .usuario {
+        width: 150px;
+        display: flex;
+        align-items: flex-end !important;
+    }
+    .header {
+        background-color:  rgb(212, 205, 205);
+        display: flex;
+        width: auto;
+        height: auto;
+        align-items: center;
+        height: 90px;
     }
 
-    .banner p img {
-        height: 400px;
-    }
-    
-    
-    .recomendados li div img {
-        width: 680px;
-        height: 440px;
-    }
-    
-    .recomendados ul{
-        border: 5px solid white;
-        border-radius: 15px 15px 15px 15px;
+    .barrausuarios {
+        display: flex;
+        align-items: flex-end;
     }
 
-    .continuar ul li img {
-        width: 680px;
-        height: 440px;
+    .todobarra {
+        background-color: rgb(212, 205, 205)!important;
+        display: flex;
+        justify-content: center;
     }
 
-    .continuar ul{
-        border: 5px solid white;
-        border-radius: 15px 15px 15px 15px;
+    .banner  {
+        padding-top: 30px;
+        width: auto;
+    }
+
+    .bannerimg {
+        min-height: 292px !important;
+    }
+
+    .fondorecomendados {
+        background-color: rgb(245, 241, 241);
+        height: 355px;
+        width: 1900px !important;
+    }
+
+    .recomendados li {
+        width: 330px;
+    }
+
+    .recomendados li img {
+        width: 240px;
+        height: 340px;
+        padding-top: 10px;
+        margin-left: 15px;
+    }
+
+    .recomendados2 {
+        color: rgb(128, 124, 124) !important;
+        font-size: 20px !important;
+        margin-top: 20px !important;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .fondocontinuar {
+        background-color: rgb(245, 241, 241);
+        height: 355px;
+        width: 100% !important;
+    }
+
+    .continuarv2{
+        color: rgb(128, 124, 124) !important;
+        font-size: 20px !important;
+        margin-top: 20px !important;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .continuar li img {
+        width: 240px;
+        height: 340px;
+        padding-top: 10px;
+        margin-left: 15px;
+    }
+
+    .recomendados li {
+        width: 330px;
+    }
+
+    .top1 {
+        color: rgb(163, 156, 156) !important;
+        font-size: 30px !important;
+        margin-top: 20px !important;
+        font-family: sans-serif;
+        font-weight: bold;
+        background-color: rgb(228, 220, 220);
     }
 
     .top{
-        width: 1430px;
-        font-size: 40px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+        background-color: rgb(228, 220, 220);
+        margin: 30px; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
-    .no420{
-        display: none;
-    }
-
-    .on420{
-        display: block;
+    .fondoten {
+        background-color: rgb(245, 241, 241);
+        padding-bottom: 10px;
+        width: 900px;
     }
 
     .ten {
-        width: 1430px;
+        padding-top: 10px;
+        margin-left: 15px;
     }
 
-    .ten ul {
-        border: 5px solid white;
-        border-radius: 15px 15px 15px 15px;
+    .ten li {
+        width: 350px;
     }
 
-    .ten ul li img {
-        width: 460px;
-        height: 320px;
-    }
-
-    .none {
-        display: none;
+    .ten img {
+        width: 250px;
+        height: 350px;
     }
 
     .generos {
-        width: 600px;
-        font-size: 30px;
+        color: rgb(128, 124, 124) !important;
+        font-size: 25px !important;
+        margin-top: 50px !important;
+        font-family: sans-serif;
         font-weight: bold;
-     }
+        padding-left: 10px;
+    }
+
+    .fondogeneros {
+        background-color: rgb(245, 241, 241);
+        margin-bottom: 10px;
+        margin-bottom: 30px;
+    }
 
     .generos2 {
-       width: 1430px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
-    .generos2 ul {
-        border: 5px solid white;
-        border-radius: 15px 15px 15px 15px;
+    .generos2 li div img {
+        width: 400px;
+        height: 250px;
     }
 
-    .generos2 ul li img {
-        width: 345px;
-        height: 345px;
-    }
-
-    .act{
-        font-size: 30px;
-    }
-
-    .rom{
-        font-size: 30px;
-    }
-
-    .terr{
-        font-size: 30px;
-    }
-
-    .com{
-        font-size: 30px;
-    }
-    
-    .footertexto{
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr 1fr;
-        justify-content: space-around;
-        width: 1430px;
-    }
-
-    .footertexto h4 {
-        font-size: 40px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-    }   
-
-    .nuestrosnombres {
-        font-size: 40px;
-        color: white;
-        width: 1200px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-style: oblique;
-    }
-
-    .none{
-        display: none;
-    }
-
-    .con {
-        display: none;
-    }
-    
-    .mobcontinuar {
+    .footertexto {
         display: flex;
         justify-content: center;
-        margin-top: 100px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-weight: bold;
-        font-size: 50px;
-        color: white
+    }
+    .redes {
+        padding-bottom: 20px;
+    }
+    .footer2 ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer2 ul li h5{
+        display: flex;
+        align-items: flex-end;
+        color: rgb(128, 124, 124) !important;
         
     }
 
-    .rec {
-        display: none;
-    }
-
-    .ab{
-        display: none;
-    }
-
-    .mobrecomen{
+    .footer2 ul li img {
+        width: 150px;
         display: flex;
         justify-content: center;
-        margin-top: 100px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-weight: bold;
-        font-size: 50px;
-        color: white
+        
     }
+    .footer button{
+        background-color: rgba(0, 0, 0, 0);
+        width: 80px;
+        font-size: 16px;
+        padding: 0;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-right: 60px;
+        top: 0;
+        color: red;
+    }
+
+    .footertodo {
+        padding-top: 10px;
+        background-color: rgb(212, 205, 205);
+        height: 180px;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        justify-content: space-between;
+    }
+
+
+    .logotmbd {
+        width: 130px;
+        }
 }
 
 
