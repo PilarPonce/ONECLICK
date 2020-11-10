@@ -111,7 +111,9 @@ body {
     list-style: none;
 }
 
-
+.contenedor-dramas li {
+    width: 250px;
+}
 .contenedor-dramas li img{
     width: 200px;
 }
