@@ -4,7 +4,39 @@ window.onload = function () {
     var key = `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
-//---------------ACCION---------------------------------------------------------
+   
+    //--------------------------BANNER------------------------------------------------------
+    fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&page=1`)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (information) {
+            console.log(information);
+
+            var ul = document.querySelector(".bannerimg")
+
+
+            for (let i = 0; i < information.results.length; i++) {
+                var element = information.results[i];
+                ul.innerHTML += `
+        <li>
+        <img src="${linkimagen}${element.backdrop_path}" alt="">
+        </li>`
+            }
+        })
+        .catch(function (error) {
+            console.log('El error fue: ' + error);
+        })
+
+
+
+
+
+
+
+
+
+    //---------------ACCION---------------------------------------------------------
     fetch(`https://api.themoviedb.org/3/discover/movie?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=28`)
     .then(function (response) {
         return response.json()
