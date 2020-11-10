@@ -133,6 +133,60 @@ body {
     }
 
 @media only screen and (max-width: 420px) {
+.inicio {
+        display: none;
+    }
+
+.favoritos {
+        display: none;
+    }
+.headertext li {
+        width: 50px;
+    }
+   
+.peliculas{
+    display: none;
+}
+.series {
+    display: none;
+}
+
+.logo img  {
+        width: 100px;
+        padding-top: 25px;
+    }
+    
+.usuario {
+        width: 150px;
+        display: flex;
+        align-items: flex-end !important;
+    }
+.header {
+        background-color:  rgb(212, 205, 205);
+        display: flex;
+        width: auto;
+        height: auto;
+        align-items: center;
+        height: 90px;
+        width: 500px; 
+}
+    }
+    
+.barrausuarios {
+        display: flex;
+        
+    }
+    
+.todobarra {
+        background-color: rgb(212, 205, 205)!important;
+        display: flex;
+        justify-content: space-around;
+    }
+.txtmob{
+    display: flex;
+   justify-content: space-around;
+    display: none;
+}
 
 .redes{
     display: none;
@@ -146,4 +200,3 @@ body {
 }
 
 
-}
