@@ -4,6 +4,29 @@ window.onload = function (){
 
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
+//--------------------------BANNER------------------------------------------------------
+fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}&language=en-US&page=1`)
+.then(function (response) {
+    return response.json()
+})
+.then(function (information) {
+    console.log(information);
+
+    var ul = document.querySelector (".bannerimg")
+
+
+    for (let i = 0; i < information.results.length; i++) {
+        var element = information.results[i];
+        ul.innerHTML  += `
+        <li>
+        <img src="${linkimagen}${element.poster_path}" alt="">
+        </li>` 
+    }
+})
+.catch(function (error) {
+     console.log('El error fue: ' + error);
+ })
+
 //--------------------------------------------------------------------------------
     fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`)
     .then(function (response) {
@@ -26,6 +49,8 @@ window.onload = function (){
     .catch(function (error) {
          console.log('El error fue: ' + error);
      })
+
+
 //--------------------------------------------------------------------------------
     fetch(`https://api.themoviedb.org/3/tv/airing_today?api_key=${apiKey}`)
     .then(function (response) {
