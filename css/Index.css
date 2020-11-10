@@ -52,15 +52,13 @@ body {
     height: 355px;
 }
 
-.recomendados li {
-    width: 330px;
-}
+
 
 .recomendados li img {
     width: 240px;
     height: 340px;
     padding-top: 10px;
-    margin-left: 15px;
+    margin-left: 55px;
 }
 
 .recomendados2 {
@@ -90,11 +88,7 @@ body {
     width: 240px;
     height: 340px;
     padding-top: 10px;
-    margin-left: 15px;
-}
-
-.recomendados li {
-    width: 330px;
+    margin-left: 55px;
 }
 
 .top1 {
@@ -131,7 +125,7 @@ body {
     width: 350px;
 }
 
-.ten img {
+.ten li img {
     width: 250px;
     height: 350px;
 }
@@ -156,10 +150,31 @@ body {
     padding-bottom: 10px;
 }
 
+.generos2 li {
+    width: 450px;
+}
+
 .generos2 li div img {
     width: 400px;
     height: 250px;
 }
+
+.cajatext {
+    width: 400px;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.cajatext h3 {
+    font-size: 18px;
+}
+.cajatext p {
+    font-size: 13px;
+}
+
 
 .footertexto {
     display: flex;
@@ -228,17 +243,33 @@ body {
     .favoritos {
         display: none;
     }
-    .headertext li {
-        width: 50px;
-    }
-   
 
-    .buscador {
+    .usuarios {
         display: none;
     }
 
-    .logo  {
-        width: 80px;
+    .boton {
+        display: none;
+    }
+
+    .headertext li {
+        width: 50px;
+    }
+
+    .peliculas{
+        display: none;
+    }
+
+    .series {
+        display: none;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .logo img  {
+        width: 100px;
         padding-top: 25px;
     }
     
@@ -247,6 +278,7 @@ body {
         display: flex;
         align-items: flex-end !important;
     }
+
     .header {
         background-color:  rgb(212, 205, 205);
         display: flex;
@@ -254,22 +286,41 @@ body {
         height: auto;
         align-items: center;
         height: 90px;
+        width: 375px; 
+    }
+
+    .buscador {
+        width: 300px;
     }
     
     .barrausuarios {
         display: flex;
-        align-items: flex-end;
+    }
+
+    .banner {
+        height: 250px;
     }
     
     .todobarra {
         background-color: rgb(212, 205, 205)!important;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .txtmob{
+        display: flex;
+        justify-content: space-around;
+        display: none;
+    }
+
+    .recomendados li {
+        width: 720px;
     }
 
     .recomendados li img {
         padding-top: 10px;
-        margin-left: 55px;
+        margin-left: 75px;
+        padding-right: 20px;
     }
 
     .recomendados2 {
@@ -282,9 +333,14 @@ body {
         justify-content: center;
     }
 
+    .continuar li {
+        width: 720px;
+    }
+
     .continuar li img {
         padding-top: 10px;
-        margin-left: 55px;
+        margin-left: 75px;
+        padding-right: 20px;
     }
 
     .top1 {
@@ -303,7 +359,7 @@ body {
         width: 250px;
         height: 350px;
         padding-top: 10px;
-        margin-left: 55px;
+        margin-left: 10px;
     }
 
     .generos {
@@ -329,11 +385,10 @@ body {
         display: none;
     }
     .footertodo{
-       width: 500px; 
+       width: 375px; 
     }
     .footertexto{
-        display: flex;
-        text-align: center;
+        display: none;
     }
 
 }
