@@ -228,16 +228,26 @@ body {
 .favoritos {
         display: none;
     }
-.headertext li {
+    .usuarios {
+        display: none;
+    }
+    .boton {
+        display: none;
+    }
+    .headertext li {
         width: 50px;
     }
    
     .peliculas{
     display: none;
     }
-    
+
     .series {
     display: none;
+    }
+
+    .logo {
+        width: 100px;
     }
 
     .logo img  {
@@ -259,6 +269,10 @@ body {
         align-items: center;
         height: 90px;
         width: 500px; 
+    }
+
+    .buscador {
+        width: 400px;
     }
     
     .barrausuarios {
@@ -339,11 +353,10 @@ body {
         display: none;
     }
     .footertodo{
-       width: 500px; 
+       width: 375px; 
     }
     .footertexto{
-        display: flex;
-        text-align: center;
+        display: none;
     }
 
 }
