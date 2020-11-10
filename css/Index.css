@@ -52,15 +52,13 @@ body {
     height: 355px;
 }
 
-.recomendados li {
-    width: 330px;
-}
+
 
 .recomendados li img {
     width: 240px;
     height: 340px;
     padding-top: 10px;
-    margin-left: 15px;
+    margin-left: 55px;
 }
 
 .recomendados2 {
@@ -90,11 +88,7 @@ body {
     width: 240px;
     height: 340px;
     padding-top: 10px;
-    margin-left: 15px;
-}
-
-.recomendados li {
-    width: 330px;
+    margin-left: 55px;
 }
 
 .top1 {
@@ -131,7 +125,7 @@ body {
     width: 350px;
 }
 
-.ten img {
+.ten li img {
     width: 250px;
     height: 350px;
 }
@@ -156,10 +150,27 @@ body {
     padding-bottom: 10px;
 }
 
+.generos2 li {
+    width: 450px;
+}
+
 .generos2 li div img {
     width: 400px;
     height: 250px;
 }
+
+.cajatext {
+    width: 340px;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+.cajatext p {
+    font-size: 13px;
+}
+
 
 .footertexto {
     display: flex;
