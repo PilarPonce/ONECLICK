@@ -134,102 +134,16 @@ body {
 
 @media only screen and (max-width: 420px) {
 
-    .none {
-        display: none;
-    }
-    
-    .barranav {
-        width: 1400px;
-        height: 350px;
-    }
-    
-    .logo img {
-        width: 350px;
-        height: 300px;
-    }
+.redes{
+    display: none;
+}
+.footertodo{
+   width: 500px; 
+}
+.footertexto{
+    display: flex;
+    text-align: center;
+}
 
-    .barranav ul li h4 {
-        font-size: 44px;
-        text-justify: inter-word;
-    }
-    
-    .barranav ul h4 {
-        font-size: 35px;
-    }
-    
-    .buscar img {
-        width: 800px;
-    }
-    
-    .usuario img {
-        width: 200px;
-    }
-    
-    .fondopeli img{
-        width: 1440px;
-        height: 760px;
-    }
-
-    .fondopeli {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .fondopeli{
-        width: 1400px;
-        height: 1960px;
-    }
-    
-    .listapeli {
-        font-size: 60px;
-    }
-    
-
-    .footerimagenes ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .footerimagenes ul li{
-
-        list-style: none;
-    }
-    
-    .footertexto{
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr 1fr;
-        justify-content: space-around;
-        width: 1430px;
-    }
-
-    .footertexto h4 {
-        font-size: 40px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-         margin-left: 40px;
-    
-  }
-  
-  header a{
-    color: lightgrey;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-left: 15px;
-    letter-spacing: 2.5px;
-    font-weight: lighter;
-  }
-  
-
-
-    .nuestrosnombres {
-        font-size: 40px;
-        color: white;
-        width: 1200px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-style: oblique;
-    }
 
 }
