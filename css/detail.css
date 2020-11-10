@@ -1,0 +1,106 @@
+body {
+    background-color: white;   
+}
+
+.logo  {
+    width: 150px;
+}
+
+.usuario {
+    width: 150px;
+    display: flex;
+    align-items: flex-end !important;
+}
+.header {
+    background-color:  rgb(212, 205, 205);
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    height: 90px;
+}
+
+.end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.todobarra {
+    background-color: rgb(212, 205, 205)!important;
+    display: flex;
+    justify-content: center;
+}
+
+.fondonav {
+    background-color:black;
+}
+
+.barranav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.usuario img {
+    width: 100px;
+}
+.footertexto {
+    display: flex;
+    justify-content: center;
+}
+.redes {
+    padding-bottom: 20px;
+}
+.footer2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer2 ul li h5{
+    display: flex;
+    align-items: flex-end;
+    color: rgb(128, 124, 124) !important;
+    
+}
+
+.footer2 ul li img {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer button{
+    background-color: rgba(0, 0, 0, 0);
+    width: 80px;
+    font-size: 16px;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    top: 0;
+    color: red;
+  }
+
+  .footertodo {
+    padding-top: 10px;
+    background-color: rgb(212, 205, 205);
+    height: 180px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 27px;
+  }
+
+
+.logotmbd {
+    width: 130px;
+    }
