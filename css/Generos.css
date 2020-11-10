@@ -2,6 +2,7 @@ body {
     background-color: white;   
 }
 
+/*---------------------HEADER------------------- */
 .logo  {
     width: 150px;
 }
@@ -49,6 +50,7 @@ body {
     width: 100px;
 }
 
+/* ---------------------BANNER ---------------------*/
 .banner  {
     padding-top: 30px;
     width: auto;
@@ -58,6 +60,7 @@ body {
     min-height: 292px !important;
 }
 
+/* ---------------------GENEROS--------------------- */
 .Accion {
     color: rgb(128, 124, 124) !important;
     font-size: 23px !important;
@@ -206,6 +209,7 @@ body {
     width: 200px;
 }
 
+/* FOOTER */
 .footertexto {
     display: flex;
     justify-content: center;
@@ -263,15 +267,16 @@ body {
     width: 130px;
     }
 
-/*
+/* ---------------------MEDIA QUERIES--------------------- */
 
 @media only screen and (max-width: 420px) {
-    
+   /*  
     .barranav {
         width: 1400px;
         height: 350px;
     }
     
+    */
     .logo img {
         width: 350px;
         height: 300px;
@@ -308,9 +313,8 @@ body {
     }
 
     .Accion2{
-        width: 1400px;
-        height: 2200px; 
-        
+        width: auto;
+        height: auto;
     }
 
     .Accion2 ul{
@@ -419,7 +423,7 @@ body {
         display: none;
     }
 
-*/
+}
 
 
 
