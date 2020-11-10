@@ -271,6 +271,7 @@ body {
 
 @media only screen and (max-width: 420px) {
     
+/* header */
 .inicio {
     display: none;
 }
@@ -298,7 +299,8 @@ body {
     width: 150px;
     display: flex;
     align-items: flex-end !important;
-    }
+}
+
 .header{
     background-color:  rgb(212, 205, 205);
     display: flex;
@@ -309,10 +311,8 @@ body {
     width: 500px; 
 }
     
-    
 .barrausuarios {
     display: flex;
-        
 }
     
 .todobarra {
@@ -320,35 +320,37 @@ body {
     display: flex;
     justify-content: space-around;
 }
-
+/* BANNER */
 .banner {
     height: 400px;
+    width: 500px;
 }
 
 .banner p img {
     height: 400px;
 }
-
+  
+/* GENEROS 
 .Accion {
     font-size: 55px;
     text-align: center;
-    }
+}
 
 .Accion2{
     width: auto;
     height: auto;
-    }
+}
 
 .Accion2 ul{
-    height: 2250px;
-    width: 1290px;   
+    height: 300px;
+    width: 500px;   
     border: solid white 10px;
     border-radius: 30px 30px 30px 30px;        
 }
 
 .Accion2 ul li img {
-    width: 1290px;
-    height: 700px; 
+    width: 100px;
+    height: 50px; 
     margin: auto;   
 }
     
@@ -364,7 +366,7 @@ body {
     
 .Comedias2 ul {
     height: 2200px;
-    width: 1290px;   
+    width: 500px;   
     border: solid white 10px;
     border-radius: 30px 30px 30px 30px;   
 }
@@ -372,54 +374,54 @@ body {
 .Comedias2 ul li img{
     width: 1290px;
     height: 700px; 
-    }
+}
     
-    .Románticas {
+.Románticas {
         font-size: 55px;
         text-align: center;
     }
 
-    .Románticas2{
+.Románticas2{
         width: 375px;
         height: 2200px; 
     }
     
-    .Románticas2 ul {
-        height: 2200px;
-        width: 1290px;   
-        border: solid white 10px;
-        border-radius: 30px 30px 30px 30px;   
-    }
+.Románticas2 ul {
+    height: 2200px;
+    width: 500px;   
+    border: solid white 10px;
+    border-radius: 30px 30px 30px 30px;   
+}
     
-    .Románticas2 ul li img{
-        width: 1290px;
-        height: 700px; 
-    }
+.Románticas2 ul li img{
+    width: 1290px;
+    height: 700px; 
+}
     
-    .Terror {
-        font-size: 55px;
-        text-align: center;
+.Terror {
+    font-size: 55px;
+    text-align: center;
     }
 
-    .Terror2{
-        width: 375px;
-        height: 2200px; 
-        
-    }
+.Terror2{
+    width: 375px;
+    height: 2200px; 
+}
     
-    .Terror2 ul {
-        height: 2200px;
-        width: 1290px;   
-        border: solid white 10px;
-        border-radius: 30px 30px 30px 30px;   
-    }
+.Terror2 ul {
+    height: 2200px;
+    width: 500px;   
+    border: solid white 10px;
+    border-radius: 30px 30px 30px 30px;   
+}
     
-    .Terror2 ul li img {
-        width: 1290px;
-        height: 700px; 
-    }
+.Terror2 ul li img {
+    width: 1290px;
+    height: 700px; 
+}
+*/
 
-    .redes{
+.redes{
         display: none;
     }
     .footertodo{
