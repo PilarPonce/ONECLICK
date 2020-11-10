@@ -5,7 +5,7 @@ window.onload = function (){
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
 //--------------------------BANNER------------------------------------------------------
-fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&page=1`)
+fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}&language=en-US&page=1`)
 .then(function (response) {
     return response.json()
 })
