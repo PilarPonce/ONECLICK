@@ -27,7 +27,6 @@ fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=e8659a3dae8d207d31ba4
      console.log('El error fue: ' + error);
  })
 
-
 //--------------------------------------------------------------------------------
     fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`)
     .then(function (response) {
