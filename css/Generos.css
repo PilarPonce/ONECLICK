@@ -170,7 +170,9 @@ body {
     flex-direction: row;
     list-style: none;
 }
-
+.contenedor-romanticas li {
+    width: 250px;
+}
 .contenedor-romanticas li img{
     width: 200px;
 }
