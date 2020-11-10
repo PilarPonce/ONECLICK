@@ -19,13 +19,14 @@ fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}&language=en
         var element = information.results[i];
         ul.innerHTML  += `
         <li>
-        <img src="${linkimagen}${element.poster_path}" alt="">
+        <img src="${linkimagen}${element.backdrop_path}" alt="">
         </li>` 
     }
 })
 .catch(function (error) {
      console.log('El error fue: ' + error);
  })
+
 
 //--------------------------------------------------------------------------------
     fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`)
