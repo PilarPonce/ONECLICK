@@ -279,18 +279,32 @@ body {
 .favoritos {
     display: none;
 }
+
+.usuarios {
+    display: none;
+}
+
+.boton {
+    display: none;
+}
+
 .headertext li {
     width: 50px;
 }
-   
+
 .peliculas{
     display: none;
 }
+
 .series {
     display: none;
 }
 
-.logo img {
+.logo {
+    width: 100px;
+}
+
+.logo img  {
     width: 100px;
     padding-top: 25px;
 }
@@ -301,33 +315,38 @@ body {
     align-items: flex-end !important;
 }
 
-.header{
+.header {
     background-color:  rgb(212, 205, 205);
     display: flex;
     width: auto;
     height: auto;
     align-items: center;
     height: 90px;
-    width: 500px; 
+    width: 375px; 
 }
-    
+
+.buscador {
+    width: 300px;
+}
+
 .barrausuarios {
     display: flex;
 }
-    
+
+.banner {
+    height: 250px;
+}
+
 .todobarra {
     background-color: rgb(212, 205, 205)!important;
     display: flex;
     justify-content: space-around;
 }
-/* BANNER */
-.banner {
-    height: 400px;
-    width: 500px;
-}
 
-.banner p img {
-    height: 400px;
+.txtmob{
+    display: flex;
+    justify-content: space-around;
+    display: none;
 }
   
 /* GENEROS 
@@ -422,15 +441,14 @@ body {
 */
 
 .redes{
-        display: none;
-    }
-    .footertodo{
-       width: 500px; 
-    }
-    .footertexto{
-        display: flex;
-        text-align: center;
-    }
+    display: none;
+}
+.footertodo{
+   width: 375px; 
+}
+.footertexto{
+    display: none;
+}
     
 
 }
