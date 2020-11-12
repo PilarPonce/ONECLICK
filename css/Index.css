@@ -313,14 +313,14 @@ body {
         display: none;
     }
 
-    .recomendados li {
-        width: 720px;
+    .recomendados {
+        width: 350px;        
     }
 
     .recomendados li img {
         padding-top: 10px;
-        margin-left: 75px;
-        padding-right: 20px;
+        padding-right: 10px;
+        margin-left: 18px;
     }
 
     .recomendados2 {
@@ -333,14 +333,14 @@ body {
         justify-content: center;
     }
 
-    .continuar li {
-        width: 720px;
+    .continuar {
+        width: 350px;  
     }
 
     .continuar li img {
         padding-top: 10px;
-        margin-left: 75px;
-        padding-right: 20px;
+        padding-right: 10px;
+        margin-left: 18px;
     }
 
     .top1 {
