@@ -1,10 +1,12 @@
 body {
-    background-color: white;   
+    background-color:  rgb(212, 205, 205);   
 }
 
 /*---------------------HEADER------------------- */
 .logo  {
     width: 150px;
+    height: 150px;
+    margin-top: 60px;
 }
 
 .usuario {
@@ -72,7 +74,6 @@ body {
 
 .Accion2 {
     height: 300px;
-    background-color: rgb(224, 217, 217);
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -102,7 +103,6 @@ body {
 
 .Dramas2 {
     height: 300px;
-    background-color: rgb(224, 217, 217);
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -132,7 +132,6 @@ body {
 
 .Comedias2 {
     height: 300px;
-    background-color: rgb(224, 217, 217);
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -162,7 +161,6 @@ body {
 
 .Románticas2{
     height: 300px;
-    background-color: rgb(224, 217, 217);
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -191,7 +189,6 @@ body {
 
 .Terror2 {
     height: 280px;
-    background-color: rgb(224, 217, 217);
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
