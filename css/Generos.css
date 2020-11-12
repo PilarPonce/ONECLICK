@@ -1,12 +1,11 @@
 body {
-    background-color:  rgb(212, 205, 205);   
+    background-color:  whitesmoke;   
 }
 
 /*---------------------HEADER------------------- */
 .logo  {
     width: 150px;
-    height: 150px;
-    margin-top: 60px;
+    
 }
 
 .usuario {
@@ -367,7 +366,71 @@ body {
     display: flex;
     text-align: center;
 }
+.contenedor-accion {
+        width: 350px;        
+    }
 
+.contenedor-accion li {
+    width: 211px;
+    }
+
+.contenedor-accion li img {
+        padding-top: 10px;
+        padding-right: 0px;
+        
+}
+.contenedor-dramas {
+        width: 350px;        
+    }
+
+.contenedor-dramas li {
+    width: 211px;
+    }
+
+.contenedor-dramas li img {
+        padding-top: 10px;
+        padding-right: 0px;
+   
+}
+.contenedor-comedias {
+        width: 350px;        
+    }
+
+.contenedor-comedias li {
+    width: 211px;
+    }
+
+.contenedor-comedias li img {
+        padding-top: 10px;
+        padding-right: 0px;
+        
+}
+.contenedor-romanticas {
+        width: 350px;        
+    }
+
+.contenedor-romanticas li {
+    width: 211px;
+    }
+
+.contenedor-romanticas li img {
+        padding-top: 10px;
+        padding-right: 0px;
+        
+}
+.contenedor-terror {
+        width: 350px;        
+    }
+
+.contenedor-terror li {
+    width: 211px;
+    }
+
+.contenedor-terror li img {
+        padding-top: 10px;
+        padding-right: 0px;
+        
+}
 }
 
 
