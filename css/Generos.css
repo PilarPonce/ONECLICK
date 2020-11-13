@@ -4,8 +4,8 @@ body {
 
 /*---------------------HEADER------------------- */
 .logo  {
-    width: 150px;
-    
+    width: 132px;
+    height: 90px;
 }
 
 .usuario {
@@ -19,7 +19,7 @@ body {
     width: auto;
     height: auto;
     align-items: center;
-    height: 90px;
+    height: 89px;
 }
 
 .end {
