@@ -390,7 +390,19 @@ body {
        width: 375px; 
     }
     .footertexto{
-        display: none;
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .contenedor-footer li h5 {
+        font-size: 13px;
+    }
+    
+    .cerrar-sesion {
+        height: 70px;
+        display: flex;
+        text-align: center;
     }
 
 }
