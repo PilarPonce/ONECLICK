@@ -5,7 +5,7 @@ window.onload = function (){
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
 //-------------------------RECOMENDADO-------------------------------------------------------
-    fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`)
+    fetch(`https://api.themoviedb.org/3/tv/on_the_air?api_key=${apiKey}`)
     .then(function (response) {
         return response.json()
     })
@@ -29,7 +29,7 @@ window.onload = function (){
 
 
 //----------------------------------CONTINUAR----------------------------------------------
-    fetch(`https://api.themoviedb.org/3/tv/airing_today?api_key=${apiKey}`)
+    fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}&language=en-US&page=1`)
     .then(function (response) {
         return response.json()
     })
@@ -51,7 +51,7 @@ window.onload = function (){
          console.log('El error fue: ' + error);
      })
 //--------------------------------TOP 10------------------------------------------------
-    fetch(`https://api.themoviedb.org/3/tv/on_the_air?api_key=${apiKey}`)
+    fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`)
     .then(function (response) {
         return response.json()
     })
