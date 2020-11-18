@@ -1,41 +1,38 @@
 body {
     background-color: white;   
-}
-
-.logo  {
+  }
+  
+  .logo  {
     width: 150px;
-}
-
-.usuario {
+  }
+  
+  .usuario {
     width: 150px;
     display: flex;
     align-items: flex-end !important;
-}
-.header {
-    background-color:  rgb(212, 205, 205);
+  }
+  
+  .header {
+    color: rgb(212, 205, 205);
     display: flex;
     width: auto;
     height: auto;
     align-items: center;
     height: 90px;
-}
-
-.end {
+  }
+  
+  .end {
     display: flex;
     align-items: flex-end;
-}
-
-.todobarra {
+  }
+  
+  .todobarra {
     background-color: rgb(212, 205, 205)!important;
     display: flex;
     justify-content: center;
-}
-
-.fondonav {
-    background-color:black;
-}
-
-.barranav ul {
+  }
+  
+  .barranav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -43,64 +40,166 @@ body {
     align-items: center;
     padding: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.usuario img {
-    width: 100px;
-}
-.footertexto {
-    display: flex;
-    justify-content: center;
-}
-.redes {
-    padding-bottom: 20px;
-}
-.footer2 ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.footer2 ul li h5{
-    display: flex;
-    align-items: flex-end;
-    color: rgb(128, 124, 124) !important;
-    
-}
-
-.footer2 ul li img {
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    
-}
-.footer button{
-    background-color: rgba(0, 0, 0, 0);
-    width: 80px;
-    font-size: 16px;
-    padding: 0;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    margin-right: 60px;
-    top: 0;
-    color: red;
   }
-
-  .footertodo {
-    padding-top: 10px;
-    background-color: rgb(212, 205, 205);
-    height: 180px;
-    display: flex;
-    align-items: center;
-    padding: 0;
-    justify-content: space-between;
-    margin-top: 27px;
+  
+  .titulopeli {
+      width:80%;
   }
-
-
-.logotmbd {
-    width: 130px;
+  
+  .titulopeli h1{
+      font-size: 60px;
+      margin-bottom: 0;
+      font-weight: lighter;
+      margin-top: 2.5%;
+  }
+  
+    
+  .titulopeli p{
+      font-size: 15px;
+      font-weight: lighter;
+      margin-top: 0;
+  }
+  
+  .titulopeli h2 {
+      font-size: 30px;
+      margin-bottom: 0;
+      font-weight: lighter;
+      margin-top: 2.5%;
+  
+  }
+  
+  .titulopeli h3 {
+      font-size: 20px;
+      margin-bottom: 0;
+      font-weight: lighter;
+      margin-top: 2.5%;
+  }
+    
+  
+  .footertexto {
+      display: flex;
+      justify-content: center;
+  }
+  .redes {
+      padding-bottom: 20px;
+  }
+  .footer2 ul{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .footer2 ul li h5{
+      display: flex;
+      align-items: flex-end;
+      color: rgb(128, 124, 124) !important;
+      
+  }
+  
+  .footer2 ul li img {
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      
+  }
+  .footer button{
+      background-color: rgba(0, 0, 0, 0);
+      width: 80px;
+      font-size: 16px;
+      padding: 0;
+      height: 100%;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      margin-right: 60px;
+      top: 0;
+      color: red;
     }
+  
+    .footertodo {
+      padding-top: 10px;
+      background-color: rgb(212, 205, 205);
+      height: 180px;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      justify-content: space-between;
+      
+  }
+    
+  
+  
+  .logotmbd {
+      width: 130px;
+      }
+  
+  @media only screen and (max-width: 420px) {
+  .inicio {
+          display: none;
+      }
+  
+  .favoritos {
+          display: none;
+      }
+  .headertext li {
+          width: 50px;
+      }
+     
+  .peliculas{
+      display: none;
+  }
+  .series {
+      display: none;
+  }
+  
+  .logo img  {
+          width: 100px;
+          padding-top: 25px;
+      }
+      
+  .usuario {
+          width: 150px;
+          display: flex;
+          align-items: flex-end !important;
+      }
+  .header {
+          background-color:  rgb(212, 205, 205);
+          display: flex;
+          width: auto;
+          height: auto;
+          align-items: center;
+          height: 90px;
+          width: 500px; 
+  }
+      
+      
+  .barrausuarios {
+          display: flex;
+          
+      }
+      
+  .todobarra {
+          background-color: rgb(212, 205, 205)!important;
+          display: flex;
+          justify-content: space-around;
+      }
+  .txtmob{
+      display: flex;
+     justify-content: space-around;
+      display: none;
+  }
+  
+  .redes{
+      display: none;
+  }
+  .footertodo{
+     width: 500px; 
+  }
+  .footertexto{
+      display: flex;
+      text-align: center;
+  }
+  }
+  
+  
