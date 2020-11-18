@@ -19,10 +19,12 @@ window.onload = function () {
 
         for (let i = 0; i < information.results.length; i++) {
             var element = information.results[i]; 
-                ul.innerHTML += `
+            ul.innerHTML += `
+            <a href="detail.html">
             <li>
             <img src="${linkimagen}${element.poster_path}" alt="">
-            </li>`
+            </li>
+            </a>`
         }
     })
 
@@ -42,10 +44,12 @@ window.onload = function () {
 
         for (let i = 0; i < information.results.length; i++){
             var element = information.results[i]; 
-                ul.innerHTML += `
-            <li>
-            <img src="${linkimagen}${element.poster_path}" alt="">
-            </li>`
+            ul.innerHTML += `
+            <a href="detail.html">
+                <li>
+                <img src="${linkimagen}${element.poster_path}" alt="">
+                </li>
+            <a/>`
         }
     })
 
@@ -66,10 +70,12 @@ window.onload = function () {
 
             for (let i = 0; i < information.results.length; i++) {
                 var element = information.results[i]; 
-                    ul.innerHTML += `
-                <li>
-                <img src="${linkimagen}${element.poster_path}" alt="">
-                </li>`
+                ul.innerHTML += `
+                <a href="detail.html">
+                    <li>
+                    <img src="${linkimagen}${element.poster_path}" alt="">
+                    </li>
+                <a/>`
             }
         })
 
@@ -93,9 +99,11 @@ window.onload = function () {
         for (let i = 0; i < information.results.length; i++) {
             var element = information.results[i];
             ul.innerHTML  += `
-            <li>
-            <img src="${linkimagen}${element.poster_path}" alt="">
-            </li>` 
+            <a href="detail.html">
+                <li>
+                <img src="${linkimagen}${element.poster_path}" alt="">
+                </li>
+            <a/>` 
         }
     })
     .catch(function (error) {
@@ -119,16 +127,15 @@ window.onload = function () {
         for (let i = 0; i < information.results.length; i++) {
             var element = information.results[i];
             ul.innerHTML  += `
-            <li>
-            <img src="${linkimagen}${element.poster_path}" alt="">
-            </li>` 
+            <a href="detail.html">
+                <li>
+                <img src="${linkimagen}${element.poster_path}" alt="">
+                </li>
+            <a/>` 
         }
     })
     .catch(function (error) {
          console.log('El error fue: ' + error);
      })
-   
-
-
      
     }

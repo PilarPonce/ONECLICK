@@ -18,9 +18,11 @@ window.onload = function (){
         for (let i = 0; i < information.results.length; i++) {
             var element = information.results[i];
             ul.innerHTML  += `
-            <li>
-            <img src="${linkimagen}${element.poster_path}" alt="">
-            </li>` 
+            <a href="detail.html">
+                <li>
+                <img src="${linkimagen}${element.poster_path}" alt="">
+                </li>
+            </a>` 
         }
     })
     .catch(function (error) {
@@ -42,9 +44,11 @@ window.onload = function (){
         for (let i = 0; i < information.results.length; i++) {
             var element = information.results[i];
             ul.innerHTML  += `
-            <li>
-            <img src="${linkimagen}${element.poster_path}" alt="">
-            </li>` 
+            <a href="detail.html">
+                <li>
+                <img src="${linkimagen}${element.poster_path}" alt="">
+                </li>
+            </a>` 
         }
     })
     .catch(function (error) {
@@ -63,11 +67,13 @@ window.onload = function (){
         for (let i = 0; i < information.results.length; i++) {
             var element = information.results[i];
             ul.innerHTML  += `
-            <li>
-                <div class=" imten uk-panel">
-                <img src="${linkimagen}${element.poster_path}" alt="">
-                </div>
-            </li>` 
+            <a href="detail.html">
+                <li>
+                    <div class=" imten uk-panel">
+                    <img src="${linkimagen}${element.poster_path}" alt="">
+                    </div>
+                </li>
+            </a>` 
         }
     })
     .catch(function (error) {
