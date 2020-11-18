@@ -227,6 +227,10 @@ body {
     width: 130px;
     }
 
+.mobgen {
+    display: none;
+
+}
  
 
 @media only screen and (max-width: 420px) {
@@ -376,7 +380,14 @@ body {
         font-size: 15px;
     }
 
-    .redes{
+.mobgen {
+    display: block;
+
+}
+.deskgen {
+    display: none;
+}
+.redes{
         display: none;
     }
     .footertodo{
