@@ -1,36 +1,38 @@
 body {
     background-color: white;   
-  }
-  
-  .logo  {
-    width: 150px;
-  }
-  
-  .usuario {
+}
+
+.logo  {
+    width: 132px;
+    height: 90px;
+}
+
+
+.usuario {
     width: 150px;
     display: flex;
     align-items: flex-end !important;
-  }
-  
-  .header {
-    color: rgb(212, 205, 205);
+}
+.header {
+    background-color:  rgb(212, 205, 205);
     display: flex;
     width: auto;
     height: auto;
     align-items: center;
-    height: 90px;
-  }
-  
-  .end {
+    height: 89px;
+}
+
+.barrausuarios {
     display: flex;
     align-items: flex-end;
-  }
-  
-  .todobarra {
+}
+
+.todobarra {
     background-color: rgb(212, 205, 205)!important;
     display: flex;
     justify-content: center;
-  }
+}
+
   
   .barranav ul {
     list-style: none;
@@ -76,85 +78,84 @@ body {
   }
     
   
-  .footertexto {
-      display: flex;
-      justify-content: center;
-  }
-  .redes {
-      padding-bottom: 20px;
-  }
-  .footer2 ul{
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-  }
-  
-  .footer2 ul li h5{
-      display: flex;
-      align-items: flex-end;
-      color: rgb(128, 124, 124) !important;
-      
-  }
-  
-  .footer2 ul li img {
-      width: 150px;
-      display: flex;
-      justify-content: center;
-      
-  }
-  .footer button{
-      background-color: rgba(0, 0, 0, 0);
-      width: 80px;
-      font-size: 16px;
-      padding: 0;
-      height: 100%;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      margin-right: 60px;
-      top: 0;
-      color: red;
+
+.footertexto {
+    display: flex;
+    justify-content: center;
+}
+.redes {
+    padding-bottom: 20px;
+}
+.footer2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .footer2 ul li h5{
+        display: flex;
+        align-items: flex-end;
+        color: rgb(128, 124, 124) !important;
+        
     }
-  
+
+    .footer2 ul li img {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .footer button{
+        background-color: rgba(0, 0, 0, 0);
+        width: 80px;
+        font-size: 16px;
+        padding: 0;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-right: 60px;
+        top: 0;
+        color: red;
+    }
+
     .footertodo {
-      padding-top: 10px;
-      background-color: rgb(212, 205, 205);
-      height: 180px;
-      display: flex;
-      align-items: center;
-      padding: 0;
-      justify-content: space-between;
-      
-  }
+        padding-top: 10px;
+        background-color: rgb(212, 205, 205);
+        height: 180px;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        justify-content: space-between;
+    }
     
-  
-  
-  .logotmbd {
-      width: 130px;
-      }
-  
-  @media only screen and (max-width: 420px) {
-  .inicio {
-          display: none;
-      }
-  
-  .favoritos {
-          display: none;
-      }
-  .headertext li {
-          width: 50px;
-      }
-     
-  .peliculas{
-      display: none;
-  }
-  .series {
-      display: none;
-  }
-  
-  .logo img  {
-          width: 100px;
+    
+    .logotmbd {
+        width: 130px;
+        }
+    
+    @media only screen and (max-width: 420px) {
+    .inicio {
+            display: none;
+        }
+    
+    .favoritos {
+            display: none;
+        }
+    .headertext li {
+            width: 50px;
+        }
+        
+    .peliculas{
+        display: none;
+    }
+    .series {
+        display: none;
+    }
+    
+    .logo img  {
+            width: 100px;
           padding-top: 25px;
       }
       
