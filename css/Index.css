@@ -380,34 +380,34 @@ body {
         font-size: 15px;
     }
 
-.mobgen {
-    display: block;
+    .mobgen {
+        display: block;
 
-}
-.deskgen {
-    display: none;
-}
-.redes{
+    }
+    .deskgen {
         display: none;
     }
+    .redes{
+            display: none;
+    }
     .footertodo{
-       width: 375px; 
+        width: 375px; 
     }
     .footertexto{
-        display: flex;
-        text-align: center;
-        font-size: 15px;
+            display: flex;
+            text-align: center;
+            font-size: 15px;
     }
-    
+        
     .contenedor-footer li h5 {
-        font-size: 13px;
+            font-size: 13px;
     }
-    
+        
     .cerrar-sesion {
-        height: 70px;
-        display: flex;
-        text-align: center;
-    }
+            height: 70px;
+            display: flex;
+            text-align: center;
+        }
 
 }
 
