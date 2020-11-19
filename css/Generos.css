@@ -87,9 +87,10 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
+    width: 1220px;
 }
 .contenedor-accion li {
-    width: 250px;
+    width: 200px;
 }
 
 .contenedor-accion li img{
@@ -116,10 +117,11 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
+    width: 610px;
 }
 
 .contenedor-dramas li {
-    width: 250px;
+    width: 200px;
 }
 .contenedor-dramas li img{
     width: 200px;
@@ -145,9 +147,10 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
+    width: 610px;
 }
 .contenedor-comedias li {
-    width: 250px;
+    width: 200px;
 }
 
 .contenedor-comedias li img{
@@ -174,9 +177,10 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
+    width: 610px;
 }
 .contenedor-romanticas li {
-    width: 250px;
+    width: 200px;
 }
 .contenedor-romanticas li img{
     width: 200px;
@@ -202,9 +206,10 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
+    width: 610px;
 }
 .contenedor-terror li {
-    width: 250px;
+    width: 200px;
 }
 .contenedor-terror li img {
     width: 200px;
