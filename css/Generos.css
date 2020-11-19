@@ -61,6 +61,11 @@ body {
     min-height: 292px !important;
 }
 
+.bannermob {
+    display: none;
+}
+
+
 /* ---------------------GENEROS--------------------- */
 .Accion {
     color: rgb(128, 124, 124) !important;
@@ -330,7 +335,12 @@ body {
 }
 
 .banner {
-        height: 110px;
+    display: none;
+}
+
+.bannermob {
+    display: block;
+    margin-top: 15px;
 }
 
 .todobarra {
@@ -367,68 +377,74 @@ body {
     text-align: center;
 }
 .contenedor-accion {
-        width: 350px;        
+    width: 380px;         
     }
 
 .contenedor-accion li {
-    width: 211px;
+    width: 200px;
     }
 
 .contenedor-accion li img {
-        padding-top: 10px;
-        padding-right: 0px;
+    padding-top: 10px;
+    padding-right: 0px;
+    width: 180px;
         
 }
 .contenedor-dramas {
-        width: 350px;        
+        width: 187px;        
     }
 
 .contenedor-dramas li {
-    width: 211px;
+    width: 200px;
     }
 
 .contenedor-dramas li img {
         padding-top: 10px;
         padding-right: 0px;
+        width: 180px;
+        
    
 }
 .contenedor-comedias {
-        width: 350px;        
+    width: 187px;        
     }
 
 .contenedor-comedias li {
-    width: 211px;
+    width: 200px;
     }
 
 .contenedor-comedias li img {
-        padding-top: 10px;
-        padding-right: 0px;
+    padding-top: 10px;
+    padding-right: 0px;
+    width: 180px;
         
 }
 .contenedor-romanticas {
-        width: 350px;        
+        width: 187px;         
     }
 
 .contenedor-romanticas li {
-    width: 211px;
+    width: 200px;
     }
 
 .contenedor-romanticas li img {
         padding-top: 10px;
-        padding-right: 0px;
+    padding-right: 0px;
+    width: 180px;
         
 }
 .contenedor-terror {
-        width: 350px;        
+        width: 187px;         
     }
 
 .contenedor-terror li {
-    width: 211px;
+    width: 200px;
     }
 
 .contenedor-terror li img {
         padding-top: 10px;
-        padding-right: 0px;
+    padding-right: 0px;
+    width: 180px;
         
 }
 }

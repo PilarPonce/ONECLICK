@@ -7,7 +7,6 @@ body {
     height: 90px;
 }
 
-
 .usuario {
     width: 150px;
     display: flex;
@@ -31,6 +30,10 @@ body {
     background-color: rgb(212, 205, 205)!important;
     display: flex;
     justify-content: center;
+}
+
+.bannermob {
+    display: none;
 }
 
 .banner  {
@@ -297,7 +300,12 @@ body {
     }
 
     .banner {
-        height: 110px;
+        display: none;
+    }
+
+    .bannermob {
+        display: block;
+        margin-top: 15px;
     }
     
     .todobarra {
@@ -352,6 +360,10 @@ body {
         align-self: center;
         height: 50px;
         padding-bottom: 10px;
+    }
+
+    .ten li {
+        width: 400px;
     }
 
     .ten img {
