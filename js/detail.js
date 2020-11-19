@@ -76,9 +76,6 @@ window.onload = function (){
         serie.style.display = "none";
         generos.style.display = "block";
 
-
-
-        
         
     }
 
