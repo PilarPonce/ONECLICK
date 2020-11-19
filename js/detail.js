@@ -1,10 +1,11 @@
 window.onload = function (){ 
 
+    var apiKey = `e8659a3dae8d207d31ba4797c06188c8`
+    var linkimagen = "https://image.tmdb.org/t/p/w500"
 
+    
     var id = 150; //no sabemos cual es el id
-
     var tipo = serie;
-
 
     if (tipo == "serie") {
         contenidoSerie (id);
@@ -13,9 +14,6 @@ window.onload = function (){
         contenidoPelicula (id)
     }
 
-
-
-
     function contenidoSerie (id){
 
         var serie = document.querySelector (".serie");
@@ -23,7 +21,7 @@ window.onload = function (){
         serie.style.display = "none";
 
 
-        fetch(``)
+        fetch(`https://api.themoviedb.org/3/movie` + id + apiKey)
         .then(function (response) {
             return response.json()
         })
