@@ -12,8 +12,10 @@ window.onload = function (){
     if (tipo == "serie") {
         contenidoSerie (id);
         
-    } else {
+    } else if (tipo == "pelicula") {
         contenidoPelicula (id)
+    } else {
+        contenidoGeneros (id)
     }
 
     function contenidoSerie (id){
@@ -21,6 +23,7 @@ window.onload = function (){
         var serie = document.querySelector (".serie");
 
         serie.style.display = "none";
+        generos.style.display = "none";
 
 
         fetch(`https://api.themoviedb.org/3/tv/{tv_id}?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
@@ -46,6 +49,7 @@ window.onload = function (){
 
         pelicula.style.display = "none";
         serie.style.display = "block";
+        generos.style.display = "none";
 
 
 
@@ -64,7 +68,18 @@ window.onload = function (){
 
     }
 
+    function contenidoGeneros (id) {
+
+        var generos = document.querySelector (".generos");
+
+        pelicula.style.display = "none";
+        serie.style.display = "none";
+        generos.style.display = "block";
 
 
+
+        
+        
+    }
 
 }
