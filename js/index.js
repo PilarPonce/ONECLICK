@@ -108,7 +108,7 @@ window.onload = function (){
     }
 //-----------------------BUSCADOR---------------------------------------------------------
 
-fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`)
+fetch(`https://api.themoviedb.org/3/search/company?api_key=e8659a3dae8d207d31ba4797c06188c8&page=1&`)
 
     .then(function(response) {
     
@@ -126,8 +126,13 @@ fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`)
             var element = information.data[i];
             
             buscarpeliculas += `
-            <h1> ${element.title}</h1>
-            <img src="${element.images.original.url}" alt="">`
+            <a href="index.html?id= ${element.id}"> 
+            <h2>${element.name}</h2>
+            </a>
+
+            <img src="${element.logo_path}" alt="">
+
+            `
         }
 
     })
