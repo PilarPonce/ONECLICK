@@ -11,7 +11,7 @@ window.onload = function (){
     console.log(tipo);
 
     if (tipo == "serie") {
-        contenidoSerie (id);
+        contenidoTv (id);
         
     } else if (tipo == "pelicula") {
         contenidoPelicula (id);
@@ -21,7 +21,6 @@ window.onload = function (){
     }
 
     function contenidoPelicula (id){
-       // console.log(document.querySelector('.tv'));
         document.querySelector('.tv').style.display = "none";
         document.querySelector('.generos').style.display = "none";
     
@@ -36,16 +35,16 @@ window.onload = function (){
             var pelicula = document.querySelector (".pelicula")
                 pelicula.innerHTML += `
             
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                    <div class="uk-card-media-left uk-cover-container">
+                <div class=" cajaprincipal uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class=" detalleimg uk-card-media-left uk-cover-container">
                         <img class="imagen" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
-                        <canvas width="600" height="400"></canvas>
                     </div>
                     <div>
-                        <div class="uk-card-body">
+                        <div class=" cajainfo uk-card-body">
                             <h3 class=" titulo uk-card-title">${data.title}</h3>
+                            <h5 class="promedioVotos"> Promedio de votos: ${data.vote_average} </h5>
                             <p class="descripcion">${data.overview}</p>
-                            <p class="promedioVotos"> </p>
+                            
                         </div>
                     </div>
                 </div>
@@ -54,7 +53,7 @@ window.onload = function (){
                     <div class="uk-card-header">
                         <div class="uk-grid-small uk-flex-middle" uk-grid>
                             <div class="uk-width-auto">
-                                <img class="uk-border-circle" width="40" height="40" src="IMAGENES/footer/fotoavatar.jpg">
+                                <img class="uk-border-circle" width="40" height="40" src="imagenes/imagenesBarraNav/Logo.jpg">
                             </div>
                             <div class="uk-width-expand">
                                 <h3 class=" resenas uk-card-title uk-margin-remove-bottom">Reseñas</h3>
@@ -70,33 +69,73 @@ window.onload = function (){
                     </div>
                 </div>
                `
-            
-    
-        })
-        .catch(function (error) {
+            })
+            .catch(function (error) {
             console.log('El error fue: ' + error);
         })
     
     }
 
-    /*
-    function contenidoPelicula (id){
+    
+    function contenidoTv (id){
 
-        var pelicula = document.querySelector (".pelicula");
-
-        pelicula.style.display = "none";
-        serie.style.display = "block";
-        generos.style.display = "none";
+        document.querySelector('.peliculas').style.display = "none";
+        document.querySelector('.generos').style.display = "none";
 
 
 
-        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+        fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
         .then(function (response) {
             return response.json()
         })
         .then(function (data) {
             console.log(data);
 
+            var tv = document.querySelector (".tv")
+            var seriegenero = "";
+            for (let i = 0; i < data.genres.length; i++) {
+                const element = data.genres[i];
+                seriegenero +=`<p class="generoDetalle"> ${element.name} </p>`
+            }
+            
+            
+            tv.innerHTML += `
+            
+            <div class= "cajaentera">
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class=" detalleimg uk-card-media-left uk-cover-container">
+                <img class="imagentv" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
+                </div>
+                <div>
+                    <div class=" cajainfo uk-card-body">
+                        <h3 class=" titulo uk-card-title">${data.name}</h3>
+                        ${seriegenero}
+                        <h4 class="promedioVotos">Fecha de salida: ${data.last_air_date}</h4>
+                        <p class="descripcion">${data.overview}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card uk-card-default uk-width-1-2@m ">
+                    <div class="uk-card-header">
+                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-border-circle" width="40" height="40" src="imagenes/imagenesBarraNav/Logo.jpg">
+                            </div>
+                            <div class="uk-width-expand">
+                                <h3 class=" resenas uk-card-title uk-margin-remove-bottom">Reseñas</h3>
+                                <p class=" uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="#" class="uk-button uk-button-text">Read more</a>
+                    </div>
+            </div>
+            `
+
 
         })
         .catch(function (error) {
@@ -105,16 +144,15 @@ window.onload = function (){
 
     }
 
+
     function contenidoGeneros (id) {
 
+
+        document.querySelector('.peliculas').style.display = "none";
+        document.querySelector('.tv').style.display = "tv";
+
         var generos = document.querySelector (".generos");
-
-        pelicula.style.display = "none";
-        serie.style.display = "none";
-        generos.style.display = "block";
-
         
     
     }
-    */
 }
