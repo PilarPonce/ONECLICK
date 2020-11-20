@@ -106,4 +106,36 @@ window.onload = function (){
          console.log('El error fue: ' + error);
      })
     }
-//--------------------------------------------------------------------------------
+//-----------------------BUSCADOR---------------------------------------------------------
+
+fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}`)
+
+    .then(function(response) {
+    
+      return response.json()
+    
+    })
+    
+    .then(function(information) {
+    
+        console.log(information);
+
+        var buscarpeliculas = ""
+
+        for (let i = 0; i < information.data.length; i++) {
+            var element = information.data[i];
+            
+            buscarpeliculas += `
+            <h1> ${element.title}</h1>
+            <img src="${element.images.original.url}" alt="">`
+        }
+
+    })
+    
+    .catch(function(error) {
+    
+      console.log("Error: " + error);
+    
+    })
+
+
