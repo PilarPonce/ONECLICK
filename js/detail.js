@@ -104,7 +104,7 @@ window.onload = function (){
             <div class= "cajaentera">
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                 <div class=" detalleimg uk-card-media-left uk-cover-container">
-                <img class="imagentv" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
+                <img class="imagen" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
                 </div>
                 <div>
                     <div class=" cajainfo uk-card-body">

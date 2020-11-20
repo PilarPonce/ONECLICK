@@ -165,9 +165,6 @@ body {
         height: 500px;
     }
 
-    .imagentv {
-        width: 300px;
-    }
 
     .cajaentera {
         margin-top: 50px;
@@ -178,46 +175,46 @@ body {
         .inicio {
             display: none;
         }
-
+    
         .favoritos {
             display: none;
         }
-
+    
         .usuarios {
             display: none;
         }
-
+    
         .boton {
             display: none;
         }
-
+    
         .headertext li {
             width: 50px;
         }
-
+    
         .peliculas{
             display: none;
         }
-
+    
         .series {
             display: none;
         }
-
+    
         .logo {
             width: 100px;
         }
-
+    
         .logo img  {
             width: 100px;
             padding-top: 25px;
         }
-
+        
         .usuario {
             width: 150px;
             display: flex;
             align-items: flex-end !important;
         }
-
+    
         .header {
             background-color:  rgb(212, 205, 205);
             display: flex;
@@ -227,50 +224,97 @@ body {
             height: 90px;
             width: 375px; 
         }
-
+    
         .buscador {
             width: 300px;
         }
-
+        
         .barrausuarios {
             display: flex;
         }
-
-        .banner {
-                height: 110px;
-        }
-
+        
         .todobarra {
             background-color: rgb(212, 205, 205)!important;
             display: flex;
             justify-content: space-around;
         }
-
+    
         .txtmob{
             display: flex;
             justify-content: space-around;
             display: none;
         }
 
+
+        .imagen {
+            width: 10px;
+            height: 10px;
+        }
+    
+        .detalleimg {
+            height: 500px;
+            width: 340px;
+            margin-left: 15px;
+        }
+
+        .promedioVotos {
+            font-size: 20px;
+        }
+    
+        .cajaprincipal {
+            margin-top: 50px;
+            height: 500px;
+        }
+    
+        .cajainfo {
+            width: 500px;
+            height: 500px;
+        }
+    
+        .titulo {
+            font-size: 30px;
+        }
+    
+        .descripcion {
+            width: 100px;
+        }
+    
+    
+        .cajaentera {
+            margin-top: 50px;
+        }
+
+
+
+
+
+
+
+
+
+
         .redes{
             display: none;
-        }
-        .footertodo{
+    }
+    .footertodo{
         width: 375px; 
-        }
-        .footertexto{
+    }
+    .footertexto{
             display: flex;
             text-align: center;
             font-size: 15px;
-        }
-
-        .contenedor-footer li h5 {
+    }
+        
+    .contenedor-footer li h5 {
             font-size: 13px;
-        }
+    }
+        
+    .cerrar-sesion {
+        height: 70px;
+        display: flex;
+        text-align: center;
+    }
 
-        .descripcion{
-            width: 200px;
-        }
 }
   
   
