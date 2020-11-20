@@ -20,15 +20,13 @@ window.onload = function (){
         contenidoGeneros (id)
     }
 
-    function contenidoSerie (id){
-
-        var serie = document.querySelector (".serie");
-    
-        serie.style.display = "none";
-        generos.style.display = "none";
+    function contenidoPelicula (id){
+       // console.log(document.querySelector('.tv'));
+        document.querySelector('.tv').style.display = "none";
+        document.querySelector('.generos').style.display = "none";
     
     
-        fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
         .then(function (response) {
             return response.json()
         })
@@ -36,20 +34,17 @@ window.onload = function (){
             console.log(data);
     
             var pelicula = document.querySelector (".pelicula")
-
-            for (let i = 0; i < information.results.length; i++) {
-                var element = information.results[i];
                 pelicula.innerHTML += `
             
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img class="imagen" src="${linkimagen}${element.poster_path}" alt="" uk-cover>
+                        <img class="imagen" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
                         <canvas width="600" height="400"></canvas>
                     </div>
                     <div>
                         <div class="uk-card-body">
-                            <h3 class=" titulo uk-card-title">Media Left</h3>
-                            <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            <h3 class=" titulo uk-card-title">${data.title}</h3>
+                            <p class="descripcion">${data.overview}</p>
                             <p class="promedioVotos"> </p>
                         </div>
                     </div>
@@ -75,8 +70,7 @@ window.onload = function (){
                     </div>
                 </div>
                `
-            }   
-    
+            
     
         })
         .catch(function (error) {
@@ -85,7 +79,7 @@ window.onload = function (){
     
     }
 
-    
+    /*
     function contenidoPelicula (id){
 
         var pelicula = document.querySelector (".pelicula");
@@ -120,8 +114,7 @@ window.onload = function (){
         generos.style.display = "block";
 
         
-    }
     
-
+    }
+    */
 }
-
