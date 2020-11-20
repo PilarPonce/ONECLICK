@@ -77,7 +77,6 @@ window.onload = function (){
                `
             }   
     
-    
         })
         .catch(function (error) {
             console.log('El error fue: ' + error);
@@ -121,6 +120,4 @@ window.onload = function (){
 
         
     }
-    
-
 }
