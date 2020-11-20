@@ -267,6 +267,10 @@ body {
         .contenedor-footer li h5 {
             font-size: 13px;
         }
+
+        .descripcion{
+            width: 200px;
         }
+}
   
   
