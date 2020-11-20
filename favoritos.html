@@ -23,7 +23,7 @@
     
                     <ul class=" headertext uk-navbar-nav">
                         <li class="inicio">
-                            <a href="#">Inicio</a>
+                            <a href="Index.html">Inicio</a>
                             <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
                                 <ul class="uk-nav uk-dropdown-nav">
                                     <li class="uk-active"><a href="#"></a></li>
@@ -41,28 +41,28 @@
                             <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
                                 <ul class="uk-nav uk-dropdown-nav">
                                     <li class="uk-active"><a href="#"></a></li>
-                                    <li><a href="#">Acción</a></li>
-                                    <li><a href="#">Dramas</a></li>
-                                    <li><a href="#">Comedias</a></li>
-                                    <li><a href="#">Románticas</a></li>
-                                    <li><a href="#">Terror</a></li>
+                                    <li><a href="detail.html">Acción</a></li>
+                                    <li><a href="detail.html">Dramas</a></li>
+                                    <li><a href="detail.html">Comedias</a></li>
+                                    <li><a href="detail.html">Románticas</a></li>
+                                    <li><a href="detail.html">Terror</a></li>
                                     <li class="uk-nav-divider"></li>
-                                    <li><a href="#">Inicio</a></li>
+                                    <li><a href="Index.html">Inicio</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="series">
-                            <a href="#" class="txtmob">Series</a>
+                            <a href="Index.html" class="txtmob">Series</a>
                             <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
                                 <ul class="uk-nav uk-dropdown-nav">
                                     <li class="uk-active"><a href="#"></a></li>
-                                    <li><a href="#">Acción</a></li>
-                                    <li><a href="#">Dramas</a></li>
-                                    <li><a href="#">Comedias</a></li>
-                                    <li><a href="#">Románticas</a></li>
-                                    <li><a href="#">Terror</a></li>
+                                    <li><a href="detail.html">Acción</a></li>
+                                    <li><a href="detail.html">Dramas</a></li>
+                                    <li><a href="detail.html">Comedias</a></li>
+                                    <li><a href="detail.html">Románticas</a></li>
+                                    <li><a href="detail.html">Terror</a></li>
                                     <li class="uk-nav-divider"></li>
-                                    <li><a href="#">Inicio</a></li>
+                                    <li><a href="Index.html">Inicio</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -71,11 +71,11 @@
     
                 <div class=" buscador uk-navbar-item">
                     <form action="buscador.html" method="GET">
-                        <input class="uk-input uk-form-width-small" type="text" placeholder="...">
+                        <input name="buscador" class="uk-input uk-form-width-small" type="text" placeholder="...">
                         <a href="buscador.html"> <button class="uk-button uk-button-default">BUSCAR</button></a>
                     </form>
                 </div>
-    
+                <h1 class="fotos"></h1>
                 <div class="uk-position-relative">
     
                     <nav class=" todobarra uk-navbar-container" uk-navbar="dropbar: true">
@@ -83,14 +83,14 @@
                         <div class="uk-navbar-left">
                             <ul class=" end uk-navbar-nav">
                                 <li class="favoritos">
-                                    <a href="#">Favoritos</a>
+                                    <a href="favoritos.html">Favoritos</a>
                                     <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
                                         <ul class="uk-nav uk-dropdown-nav">
                                             <li class="uk-active"><a href="#"></a></li>
-                                            <li><a href="#">Películas</a></li>
-                                            <li><a href="#">Series</a></li>
+                                            <li><a href="Index.html">Películas</a></li>
+                                            <li><a href="Index.html">Series</a></li>
                                             <li class="uk-nav-divider"></li>
-                                            <li><a href="#">Inicio</a></li>
+                                            <li><a href="Index.html">Inicio</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -108,7 +108,7 @@
                                             <li><a href="#">Tati</a></li>
                                             <li><a href="#">Nicky</a></li>
                                             <li class="uk-nav-divider"></li>
-                                            <li><a href="#">Inicio</a></li>
+                                            <li><a href="Index.html">Inicio</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -119,38 +119,7 @@
             </nav>
         </div>
     </header>
-
-     <!--  banner !-->
-    <div class=" banner uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
-    uk-slideshow="ratio: 7:3; animation: push">
-
-    <ul class=" bannerimg uk-slideshow-items">
-
-        <li>
-            <img src="imagenes/banner/banner.jpg" alt="">
-        </li>
-        <li>
-            <img src="imagenes/banner/banner2.png" alt="">
-        </li>
-        <li>
-            <img src="imagenes/banner/banner3.png" alt="">
-        </li>
-        <li>
-            <img src="imagenes/banner/banner4.png" alt="">
-        </li>
-        <li>
-            <img src="imagenes/banner/banner5.png" alt="">
-        </li>
-
-    </ul>
-
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
-        uk-slideshow-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
-        uk-slideshow-item="next"></a>
-
-</div>
-   <!--  
+   
     <section>
         <h2 class="titulo">Tus Favoritos</h2>
     </section>  
