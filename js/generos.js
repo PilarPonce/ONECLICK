@@ -43,7 +43,7 @@ window.onload = function () {
         for (let i = 0; i < information.results.length; i++) {
             var element = information.results[i]; 
             ul.innerHTML += `
-            <a href="detail.html">
+            <a href="detail.html?tipo=movie&movie= ${element.id} ">
                 <li>
                 <img src="${linkimagen}${element.poster_path}" alt="">
                 </li>
@@ -68,7 +68,7 @@ window.onload = function () {
         for (let i = 0; i < information.results.length; i++){
             var element = information.results[i]; 
             ul.innerHTML += `
-            <a href="detail.html">
+            <a href="detail.html?tipo=movie&movie= ${element.id} ">
                 <li>
                 <img src="${linkimagen}${element.poster_path}" alt="">
                 </li>
@@ -94,7 +94,7 @@ window.onload = function () {
             for (let i = 0; i < information.results.length; i++) {
                 var element = information.results[i]; 
                 ul.innerHTML += `
-                <a href="detail.html">
+                <a href="detail.html?tipo=movie&movie= ${element.id} ">
                     <li>
                     <img src="${linkimagen}${element.poster_path}" alt="">
                     </li>
