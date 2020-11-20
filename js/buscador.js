@@ -9,10 +9,10 @@ window.addEventListener('load' ,function(){
   
     var buscador = document.querySelector (".buscador");
 
-    var resultados = queryString.get(".resultados");
+    var loQueBuscoElUsuario = queryString.get("buscador");
 
 
-    fetch(`https://api.themoviedb.org/3/search/multi?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&query=${resultados}&page=1&include_adult=false`)
+    fetch(`https://api.themoviedb.org/3/search/multi?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&query=${loQueBuscoElUsuario}&page=1&include_adult=false`)
     .then(function (response) {
         return response.json()
     })
