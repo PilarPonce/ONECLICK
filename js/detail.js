@@ -151,8 +151,40 @@ window.onload = function (){
         document.querySelector('.peliculas').style.display = "none";
         document.querySelector('.tv').style.display = "tv";
 
-        var generos = document.querySelector (".generos");
-        
+        fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+            .then(function (response) {
+                return response.json()
+            })
+            .then(function (data) {
+                console.log(data);
+
+                var generos = document.querySelector(".generos");
+               for (let i = 0; i < data.genres.length; i++) {
+                   const element = data.genres[i];
+                   generos.innerHTML += `
+                    <section class ="Accion1">
+                         <h2 class="Accion">${element.name}</h2>
+                    </section>
+
+                    <div class="Accion2 uk-position-relative uk-visible-toggle uk-light"  tabindex="-1" uk-slider>
+
+                  <ul class="contenedor-accion uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                    //---------------FALTAAAAAAAAAA----------------
+                    </ul>
+       
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    
+                    </div>
+             
+               `
+               }
+               
+            })
+            .catch(function (error) {
+                console.log('El error fue: ' + error);
+            })
+
     
     }
 }
