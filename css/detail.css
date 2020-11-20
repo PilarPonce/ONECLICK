@@ -133,102 +133,140 @@ body {
     
     .logotmbd {
         width: 130px;
-        }
+    }
+
+
+    .imagen {
+        width: 300px;
+      
+    }
+
+    .detalleimg {
+        height: 500px;
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    .cajaprincipal {
+        margin-top: 50px;
+        height: 500px;
+    }
+
+    .cajainfo {
+        width: 500px;
+        height: 500px;
+    }
+
+    .titulo {
+        font-size: 30px;
+    }
+
+    .descripcion {
+        height: 500px;
+    }
+
+    .imagentv {
+        width: 300px;
+    }
+
+    .cajaentera {
+        margin-top: 50px;
+    }
     
     @media only screen and (max-width: 420px) {
-/* header */
-.inicio {
-    display: none;
-}
+        /* header */
+        .inicio {
+            display: none;
+        }
 
-.favoritos {
-    display: none;
-}
+        .favoritos {
+            display: none;
+        }
 
-.usuarios {
-    display: none;
-}
+        .usuarios {
+            display: none;
+        }
 
-.boton {
-    display: none;
-}
+        .boton {
+            display: none;
+        }
 
-.headertext li {
-    width: 50px;
-}
+        .headertext li {
+            width: 50px;
+        }
 
-.peliculas{
-    display: none;
-}
+        .peliculas{
+            display: none;
+        }
 
-.series {
-    display: none;
-}
+        .series {
+            display: none;
+        }
 
-.logo {
-    width: 100px;
-}
+        .logo {
+            width: 100px;
+        }
 
-.logo img  {
-    width: 100px;
-    padding-top: 25px;
-}
+        .logo img  {
+            width: 100px;
+            padding-top: 25px;
+        }
 
-.usuario {
-    width: 150px;
-    display: flex;
-    align-items: flex-end !important;
-}
+        .usuario {
+            width: 150px;
+            display: flex;
+            align-items: flex-end !important;
+        }
 
-.header {
-    background-color:  rgb(212, 205, 205);
-    display: flex;
-    width: auto;
-    height: auto;
-    align-items: center;
-    height: 90px;
-    width: 375px; 
-}
+        .header {
+            background-color:  rgb(212, 205, 205);
+            display: flex;
+            width: auto;
+            height: auto;
+            align-items: center;
+            height: 90px;
+            width: 375px; 
+        }
 
-.buscador {
-    width: 300px;
-}
+        .buscador {
+            width: 300px;
+        }
 
-.barrausuarios {
-    display: flex;
-}
+        .barrausuarios {
+            display: flex;
+        }
 
-.banner {
-        height: 110px;
-}
+        .banner {
+                height: 110px;
+        }
 
-.todobarra {
-    background-color: rgb(212, 205, 205)!important;
-    display: flex;
-    justify-content: space-around;
-}
+        .todobarra {
+            background-color: rgb(212, 205, 205)!important;
+            display: flex;
+            justify-content: space-around;
+        }
 
-.txtmob{
-    display: flex;
-    justify-content: space-around;
-    display: none;
-}
+        .txtmob{
+            display: flex;
+            justify-content: space-around;
+            display: none;
+        }
 
-.redes{
-    display: none;
-}
-.footertodo{
-   width: 375px; 
-}
-.footertexto{
-    display: flex;
-    text-align: center;
-    font-size: 15px;
-}
+        .redes{
+            display: none;
+        }
+        .footertodo{
+        width: 375px; 
+        }
+        .footertexto{
+            display: flex;
+            text-align: center;
+            font-size: 15px;
+        }
 
-.contenedor-footer li h5 {
-    font-size: 13px;
-}
-  }
+        .contenedor-footer li h5 {
+            font-size: 13px;
+        }
+        }
   
   
