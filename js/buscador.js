@@ -20,7 +20,7 @@ window.addEventListener('load' ,function(){
         console.log(data);
         var arrayDePeliculas = data.results;
 
-        var ul = document.querySelector (".peliculas")
+        var ul = document.querySelector (".listapelis")
 
         for (let index = 0; index < data.results.length; index++) {
             const element = data.results[index];
@@ -29,7 +29,7 @@ window.addEventListener('load' ,function(){
             if (element.media_type == "tv" || element.media_type == "movie") {
                 ul.innerHTML += `
 
-              
+                <li> <img src="${linkimagen}${element.poster_path}" alt="" > </li>
                 `
                  ;
                 
