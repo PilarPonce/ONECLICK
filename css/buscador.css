@@ -31,25 +31,26 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .listapelis  {
     display: flex;
     flex-direction: row;
     list-style: none;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around !important;
     align-items: center;
 }
 
 .listapelis ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
+
 .listapelis ul li {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
+
 
 .peliculas ul  {
     width: 100%;
@@ -58,7 +59,10 @@ body {
 
 .peliculas img{
     width: 300px;
-    height: 380px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .footertexto {
