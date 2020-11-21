@@ -29,8 +29,10 @@ window.addEventListener('load' ,function(){
             if (element.media_type == "tv" || element.media_type == "movie") {
                 ul.innerHTML += `
 
-                <li> <img src="${linkimagen}${element.poster_path}" alt="" > </li>
+                <li> <a href="detail.html?&id=${element.id}"> <img src="${linkimagen}${element.poster_path}" alt=""></a>
+                
                 `
+                //link
                  ;
                 
             }  

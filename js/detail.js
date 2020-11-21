@@ -161,7 +161,7 @@ window.onload = function (){
                 var generos = document.querySelector(".generos");
                for (let i = 0; i < data.genres.length; i++) {
                    const element = data.genres[i];
-                   generos.innerHTML += `
+                  generos.innerHTML += `
                     <section class ="Accion1">
                          <h2 class="Accion">${element.name}</h2>
                     </section>
@@ -185,23 +185,6 @@ window.onload = function (){
                 console.log('El error fue: ' + error);
             })
 
-    
     }
 }
 
-/* TRAILER */
-var url = "https://api.themoviedb.org/3/movie/ "+idPelicula+"/videos?api_key=704bd3935947752adbb2e6021fffa6dd&language=en-US"
-fetch(url)
-  .then(function(response){
-    return response.json();
-    })
-    .then(function(peliculaTrailer) {
-     console.log(peliculaTrailer);
-     console.log(peliculaTrailer.results[0].key);
-      var urlTrailer= '<iframe width="850" height="472" src="https://www.youtube.com/embed/'+ peliculaTrailer.results[0].key +'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-      document.querySelector(".infoDePeli").innerHTML= urlTrailer;
-
-      })
-       .catch(function(error) {
-         console.log("the error was: " + error);
-        })
