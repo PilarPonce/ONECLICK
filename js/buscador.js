@@ -29,9 +29,7 @@ window.addEventListener('load' ,function(){
             if (element.media_type == "tv" || element.media_type == "movie") {
                 ul.innerHTML += `
 
-               <li> <img src="${linkimagen}${element.poster_path}" alt="" style=width:300px;> </li>
-
-
+              
                 `
                  ;
                 
