@@ -106,41 +106,6 @@ window.onload = function (){
          console.log('El error fue: ' + error);
      })
     }
-//-----------------------BUSCADOR---------------------------------------------------------
 
-fetch(`https://api.themoviedb.org/3/search/company?api_key=e8659a3dae8d207d31ba4797c06188c8&page=1&`)
-
-    .then(function(response) {
-    
-      return response.json()
-    
-    })
-    
-    .then(function(information) {
-    
-        console.log(information);
-
-        var buscarpeliculas = ""
-
-        for (let i = 0; i < information.data.length; i++) {
-            var element = information.data[i];
-            
-            buscarpeliculas += `
-            <a href="index.html?id= ${element.id}"> 
-            <h2>${element.name}</h2>
-            </a>
-
-            <img src="${element.logo_path}" alt="">
-
-            `
-        }
-
-    })
-    
-    .catch(function(error) {
-    
-      console.log("Error: " + error);
-    
-    })
 
 

@@ -9,7 +9,7 @@ window.addEventListener('load' ,function(){
   
     var buscador = document.querySelector (".buscador");
 
-    var loQueBuscoElUsuario = queryString.get("buscador");
+    var loQueBuscoElUsuario = queryString.get("inputbuscador");
 
 
     fetch(`https://api.themoviedb.org/3/search/multi?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&query=${loQueBuscoElUsuario}&page=1&include_adult=false`)
@@ -20,20 +20,20 @@ window.addEventListener('load' ,function(){
         console.log(data);
         var arrayDePeliculas = data.results;
 
+        var ul = document.querySelector (".peliculas")
 
         for (let index = 0; index < data.results.length; index++) {
             const element = data.results[index];
             console.log (element.media_type)
 
             if (element.media_type == "tv" || element.media_type == "movie") {
-                buscador.innerHTML += `
-            
-                <a href="index.html?id= ${element.id}"> 
-                <h2>${element.original_title}</h2>
-                </a>
-    
-                <img src="${linkimagen}${element.poster_path}" alt="">
-                ` ;
+                ul.innerHTML += `
+
+               <li> <img src="${linkimagen}${element.poster_path}" alt="" style=width:300px;> </li>
+
+
+                `
+                 ;
                 
             }  
             
