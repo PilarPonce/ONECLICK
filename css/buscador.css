@@ -51,12 +51,12 @@ body {
 }
 
 
-.peliculas ul  {
+.todopeliculas ul  {
     width: 100%;
     list-style: none;
 }
 
-.peliculas img{
+.todopeliculas img{
     width: 300px;
     height: 400px;
     display: flex;
@@ -239,11 +239,12 @@ body {
     }
     
     .todopeliculas img{
-        width: 200px;
-        height: 300px;
+        width: 300px;
+        height: 400px;
         display: flex;
         justify-content: space-around;
         margin-bottom: 20px;
+        margin-left: 120px;
     }
     
     .redes{
