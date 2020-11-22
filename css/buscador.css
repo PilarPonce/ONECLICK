@@ -124,3 +124,148 @@ body {
     display: none;
 
 }
+
+
+
+@media only screen and (max-width: 420px) { 
+
+    /* header */
+    .inicio {
+        display: none;
+    }
+
+    .favoritos {
+        display: none;
+    }
+
+    .usuarios {
+        display: none;
+    }
+
+    .boton {
+        display: none;
+    }
+
+    .peliculas {
+        display: none;
+    }
+
+    .headertext li {
+        width: 50px;
+    }
+
+    .series {
+        display: none;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .logo img  {
+        width: 100px;
+        padding-top: 25px;
+    }
+    
+    .usuario {
+        width: 150px;
+        display: flex;
+        align-items: flex-end !important;
+    }
+
+    .header {
+        background-color:  rgb(212, 205, 205);
+        display: flex;
+        width: auto;
+        height: auto;
+        align-items: center;
+        height: 90px;
+        width: 560px; 
+    }
+
+    .buscador {
+        width: 300px;
+    }
+    
+    .barrausuarios {
+        display: flex;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .bannermob {
+        display: block;
+        margin-top: 15px;
+    }
+    
+    .todobarra {
+        background-color: rgb(212, 205, 205)!important;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .txtmob{
+        display: flex;
+        justify-content: space-around;
+        display: none;
+    }
+    
+    .listapelis  {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-around !important;
+        align-items: center;
+        padding-left: 0px;
+
+    }
+    
+    .listapelis ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .listapelis ul li {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .todopeliculas ul  {
+        width: 100%;
+        list-style: none;
+    }
+    
+    .todopeliculas img{
+        width: 200px;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    
+    .redes{
+        display: none;
+    }
+    .footertodo{
+        width: 560px; 
+    }
+    .footertexto{
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+    }
+        
+    .contenedor-footer li h5 {
+        font-size: 13px;
+    }
+        
+    .cerrar-sesion {
+        height: 70px;
+        display: flex;
+        text-align: center;
+    }
+
+}
