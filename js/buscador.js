@@ -26,16 +26,21 @@ window.addEventListener('load' ,function(){
             const element = data.results[index];
             console.log (element.media_type)
 
-            if (element.media_type == "tv" || element.media_type == "movie") {
+            if (element.media_type == "tv") {
                 ul.innerHTML += `
 
-                <li> <a href="detail.html?&id=${element.id}"> <img src="${linkimagen}${element.poster_path}" alt=""></a>
+                <li> <a href="detail.html?tipo=serie&id=${element.id}"> <img src="${linkimagen}${element.poster_path}" alt=""></a>
                 
                 `
-                //link
-                 ;
+            }  if (element.media_type == "movie") {
+                ul.innerHTML += `
+
+                <li> <a href="detail.html?tipo=pelicula&id=${element.id}"> <img src="${linkimagen}${element.poster_path}" alt=""></a>
                 
-            }  
+                `
+            } else {
+                
+            }
             
     
         }
