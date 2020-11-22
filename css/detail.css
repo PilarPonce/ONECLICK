@@ -221,7 +221,7 @@ body {
             height: auto;
             align-items: center;
             height: 90px;
-            width: 375px; 
+            width: 560px; 
         }
     
         .buscador {
@@ -230,6 +230,15 @@ body {
         
         .barrausuarios {
             display: flex;
+        }
+    
+        .banner {
+            display: none;
+        }
+    
+        .bannermob {
+            display: block;
+            margin-top: 15px;
         }
         
         .todobarra {
@@ -244,16 +253,17 @@ body {
             display: none;
         }
 
-
+    /* contenido */
         .imagen {
-            width: 10px;
+            width: 560px;
             height: 10px;
         }
     
         .detalleimg {
             height: 500px;
             width: 340px;
-            margin-left: 15px;
+            margin-left: 110px;
+    
         }
 
         .promedioVotos {
@@ -262,7 +272,12 @@ body {
     
         .cajaprincipal {
             margin-top: 50px;
-            height: 500px;
+            width: 560px !important;
+        }
+
+        .tv {
+            width: 560px !important;
+            height: 500px !important;
         }
     
         .cajainfo {
@@ -275,7 +290,8 @@ body {
         }
     
         .descripcion {
-            width: 100px;
+            width: 520px;
+            height: 375px;
         }
     
     
@@ -296,7 +312,7 @@ body {
             display: none;
     }
     .footertodo{
-        width: 375px; 
+        width: 560px; 
     }
     .footertexto{
             display: flex;
