@@ -364,14 +364,16 @@ body {
         padding-bottom: 10px;
     }
 
-    .ten li {
-        min-width: 10000px !important;
+    .ten {
+       
     }
 
     .ten li img {
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
+        margin-right: 200px;
         padding-right: 90px;
+        padding-left: 0px; 
     }
 
     .generos {
