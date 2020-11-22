@@ -168,6 +168,9 @@ body {
     .cajaentera {
         margin-top: 50px;
     }
+    .estrella {
+       color:gold;
+    }
     
     @media only screen and (max-width: 420px) {
         /* header */
@@ -283,7 +286,10 @@ body {
             width: 560px !important;
             height: 1350px !important;
         }
-        
+        .pelicula {
+            width: 560px !important;
+            height: 1350px !important;
+        }
     
         .cajainfo {
             width: 500px;
