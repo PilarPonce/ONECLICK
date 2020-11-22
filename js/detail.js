@@ -146,7 +146,7 @@ window.onload = function (){
 
     function contenidoGeneros (id) {
         document.querySelector('.peliculas').style.display = "none";
-        document.querySelector('.tv').style.display = "tv";
+        document.querySelector('.tv').style.display = "none";
 
         var generos = document.querySelector (".generos");
         
