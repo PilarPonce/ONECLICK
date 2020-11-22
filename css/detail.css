@@ -252,9 +252,7 @@ body {
             justify-content: space-around;
             display: none;
         }
-        .footertodo{
-            display: none;
-        }
+        
 
     /* contenido */
         .imagen {
@@ -268,7 +266,10 @@ body {
             margin-left: 110px;
     
         }
-
+        .titulo {
+            display: flex;
+            justify-content: center;
+        }
         .promedioVotos {
             font-size: 20px;
         }
@@ -280,8 +281,9 @@ body {
 
         .tv {
             width: 560px !important;
-            height: 500px !important;
+            height: 1350px !important;
         }
+        
     
         .cajainfo {
             width: 500px;
@@ -295,6 +297,7 @@ body {
         .descripcion {
             width: 520px;
             height: 375px;
+            justify-content: center;
         }
     
     
