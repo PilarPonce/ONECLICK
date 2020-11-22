@@ -283,7 +283,10 @@ body {
             width: 560px !important;
             height: 1350px !important;
         }
-        
+        .pelicula {
+            width: 560px !important;
+            height: 1350px !important;
+        }
     
         .cajainfo {
             width: 500px;
