@@ -41,7 +41,7 @@ window.onload = function (){
                     </div>
                     <div>
                         <div class=" cajainfo uk-card-body">
-                            <h3 class=" titulo uk-card-title">${data.title}</h3>
+                            <h3 class=" titulo uk-card-title">${data.title}</h3>  <a href="favoritos.html" class="estrella" uk-icon ="star"></a>
                             <h5 class="promedioVotos"> Promedio de votos: ${data.vote_average} </h5>
                             <p class="descripcion">${data.overview}</p>
                             
@@ -108,7 +108,7 @@ window.onload = function (){
                 </div>
                 <div>
                     <div class=" cajainfo uk-card-body">
-                        <h3 class=" titulo uk-card-title">${data.name}</h3>
+                        <h3 class=" titulo uk-card-title">${data.name}</h3>   <a href="" class="estrella" uk-icon ="star"></a>
                         ${seriegenero}
                         <h4 class="promedioVotos">Fecha de salida: ${data.last_air_date}</h4>
                         <p class="descripcion">${data.overview}</p>
@@ -151,7 +151,14 @@ window.onload = function (){
         var generos = document.querySelector (".generos");
         
     }
-
-
+var jsonFavoritas = localStorage.getItem ("peliculasFav")
+    if (jsonFavoritas == null) {
+        var favoritas = []
+    } else {
+        var favoritas = JSON.parse (jsonFavoritas)
+        
+    }
+var JSON = JSON.stringify (favoritas)
+localStorage.setItem ("peliculasFav",json)
 }
 
