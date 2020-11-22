@@ -23,7 +23,7 @@ window.onload = function (){
     function contenidoPelicula (id){
         document.querySelector('.tv').style.display = "none";
         document.querySelector('.generos').style.display = "none";
-    
+        
     
         fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
         .then(function (response) {
@@ -49,7 +49,7 @@ window.onload = function (){
                     </div>
                 </div>
         
-                <div class="uk-card uk-card-default uk-width-1-2@m ">
+                <div class=" resenastotal uk-card uk-card-default uk-width-1-2@m ">
                     <div class="uk-card-header">
                         <div class="uk-grid-small uk-flex-middle" uk-grid>
                             <div class="uk-width-auto">
@@ -81,7 +81,6 @@ window.onload = function (){
 
         document.querySelector('.peliculas').style.display = "none";
         document.querySelector('.generos').style.display = "none";
-
 
 
         fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)

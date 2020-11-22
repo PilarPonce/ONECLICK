@@ -305,9 +305,14 @@ body {
             justify-content: center;
         }
     
-    
+        .resenastotal {
+            margin-top: 380px;
+            margin-bottom: 0px;
+        }
+
         .cajaentera {
-            margin-top: 50px;
+            margin-top: 0px;
+            width: 560px !important;
         }
 
         .redes{
