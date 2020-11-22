@@ -307,6 +307,7 @@ body {
 
 .logo {
     width: 100px;
+    padding-right: 0px;
 }
 
 .logo img  {
@@ -327,11 +328,12 @@ body {
     height: auto;
     align-items: center;
     height: 90px;
-    width: 375px; 
+    width: 373px; 
 }
 
 .buscador {
-    width: 300px;
+    width: 273px;
+    padding-left: 0px;
 }
 
 .barrausuarios {
