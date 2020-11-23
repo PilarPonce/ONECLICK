@@ -59,8 +59,5 @@ window.addEventListener('load' ,function(){
     } else {
         
     }
-  
-
-
 
 })
