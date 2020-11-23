@@ -167,7 +167,7 @@ body {
     .cajaentera {
         margin-top: 50px;
     }
-    
+
     .estrella {
        color:gold;
     }
@@ -258,12 +258,13 @@ body {
         
 
     /* contenido */
-        .imagendetail {
+
+        .imagen {
             width: 560px;
             height: 10px;
         }
     
-        .imagendetail1 {
+        .detalleimg {
             height: 500px;
             width: 340px;
             margin-left: 110px;
@@ -272,12 +273,13 @@ body {
         .titulo {
             display: flex;
             justify-content: center;
+            font-size: 30px;
         }
         .promedioVotos {
             font-size: 20px;
         }
     
-        .cajadetail {
+        .cajainfo {
             margin-top: 50px;
             width: 560px !important;
         }
@@ -285,10 +287,6 @@ body {
         .tv {
             width: 560px !important;
             height: 1350px !important;
-        }
-    
-        .titulodetail {
-            font-size: 30px;
         }
     
         .descripcion {
@@ -300,11 +298,7 @@ body {
         .resenastotal {
             margin-top: 380px;
             margin-bottom: 0px;
-        }
-
-        .cajaentera {
-            margin-top: 0px;
-            width: 560px !important;
+            width: 5060px !important;
         }
 
         /* footer */
