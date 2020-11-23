@@ -18,23 +18,48 @@ window.addEventListener('load' ,function(){
         console.log (element)
     }
 
-    fetch(`https://api.themoviedb.org/3/movie/${element.id}?api_key=${apikey}&language=en-US&page=1`)
-    .then(function (response) {
-        return response.json()
-    })
-    .then(function (Object) {
-        console.log(Object);
 
-        tusFavoritos.innerHTML += `
-            <div>
-                <a href="detail.html?tipo${Object.media_type}&id=${Object.id}"> <img src="${linkimagen}${element.backdrop_path}" alt=""></a>
-            </div>
+    if (tipo == "pelicula") {
+        fetch(`https://api.themoviedb.org/3/movie/${element.id}?api_key=${apikey}&language=en-US&page=1`)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (Object) {
+            console.log(Object);
+    
+            tusFavoritos.innerHTML += `
+                <div>
+                    <a href="detail.html?tipo${Object.media_type}&id=${Object.id}"> <img src="${linkimagen}${element.backdrop_path}" alt=""></a>
+                </div>
+            
+            `
+        })
+        .catch(function (error) {
+            console.log('El error fue: ' + error);
+        })
+    } if (tipo == "serie") {
+        fetch(`https://api.themoviedb.org/3/tv/${element.id}?api_key=${apikey}&language=en-US&page=1`)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (Object) {
+            console.log(Object);
+    
+            tusFavoritos.innerHTML += `
+                <div>
+                    <a href="detail.html?tipo${Object.media_type}&id=${Object.id}"> <img src="${linkimagen}${element.backdrop_path}" alt=""></a>
+                </div>
+            
+            `
+        })
+        .catch(function (error) {
+            console.log('El error fue: ' + error);
+        })
         
-        `
-    })
-    .catch(function (error) {
-        console.log('El error fue: ' + error);
-    })
+    } else {
+        
+    }
+  
 
 
 
