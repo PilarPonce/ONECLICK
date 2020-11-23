@@ -48,6 +48,30 @@ window.onload = function (){
                         </div>
                     </div>
                 </div>
+    
+               `
+            })
+            .catch(function (error) {
+            console.log('El error fue: ' + error);
+        })
+
+        fetch(`https://api.themoviedb.org/3/movie/${id}/reviews?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&page=1`)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (data) {
+            console.log(data);
+
+            var pelicula = document.querySelector (".pelicula")
+            var resena = "";
+            var autor = "";
+            for (let i = 0; i < data.results.length; i++) {
+                const element = data.results[i];
+                resena += `<p>${element.content}</p>`
+                autor += `${element.author}`
+            }
+            
+                pelicula.innerHTML += `
         
                 <div class=" resenastotal uk-card uk-card-default uk-width-1-2@m ">
                     <div class="uk-card-header">
@@ -57,12 +81,12 @@ window.onload = function (){
                             </div>
                             <div class="uk-width-expand">
                                 <h3 class=" resenas uk-card-title uk-margin-remove-bottom">Reseñas</h3>
-                                <p class=" uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                                <p class=" uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Autor de reseña: ${autor}</time></p>
                             </div>
                         </div>
                     </div>
                     <div class="uk-card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        ${resena}
                     </div>
                     <div class="uk-card-footer">
                         <a href="#" class="uk-button uk-button-text">Read more</a>
