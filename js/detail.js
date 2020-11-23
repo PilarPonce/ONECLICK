@@ -109,7 +109,7 @@ window.onload = function (){
                 </div>
                 <div>
                     <div class=" cajainfo uk-card-body">
-                        <h3 class=" titulo uk-card-title">${data.name}</h3>   <a href="" class="estrella" uk-icon ="star"></a>
+                        <h3 class=" titulo uk-card-title">${data.name}</h3>   
                         ${seriegenero}
                         <h4 class="promedioVotos">Fecha de salida: ${data.last_air_date}</h4>
                         <p class="descripcion">${data.overview}</p>
@@ -145,8 +145,8 @@ window.onload = function (){
 
     }
 
-    var favoritos = document.querySelector (`.estrella`)
-    favoritos.addEventListener ("click", function () {
+    var favoritos = document.querySelector (".estrella")
+    favoritos.innerHTML.addEventListener ("click", function () {
         alert ("apretaste el boton!")
         var favs = localStorage.getItem ("favoritos")
 
