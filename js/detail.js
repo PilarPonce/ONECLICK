@@ -146,7 +146,7 @@ window.onload = function (){
     }
 
     var favoritos = document.querySelector (".estrella")
-    favoritos.innerHTML.addEventListener ("click", function () {
+    favoritos.addEventListener ("click", function () {
         alert ("apretaste el boton!")
         var favs = localStorage.getItem ("favoritos")
 
