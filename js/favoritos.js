@@ -16,7 +16,7 @@ window.addEventListener('load' ,function(){
     for (let i = 0; i < favoritos.length; i++) {
         const element = favoritos [i];
         console.log (element)
-    }
+    
 
 
     if (tipo == "pelicula") {
@@ -29,7 +29,9 @@ window.addEventListener('load' ,function(){
     
             tusFavoritos.innerHTML += `
                 <div>
-                    <a href="detail.html?tipo${Object.media_type}&id=${Object.id}"> <img src="${linkimagen}${element.backdrop_path}" alt=""></a>
+                    <a href="detail.html?tipo${Object.media_type}&id=${Object.id}"> 
+                    <img src="${linkimagen}${element.backdrop_path}" alt="">
+                    </a>
                 </div>
             
             `
@@ -47,7 +49,9 @@ window.addEventListener('load' ,function(){
     
             tusFavoritos.innerHTML += `
                 <div>
-                    <a href="detail.html?tipo${Object.media_type}&id=${Object.id}"> <img src="${linkimagen}${element.backdrop_path}" alt=""></a>
+                    <a href="detail.html?tipo${Object.media_type}&id=${Object.id}">
+                    <img src="${linkimagen}${element.backdrop_path}" alt="">
+                    </a>
                 </div>
             
             `
@@ -56,5 +60,5 @@ window.addEventListener('load' ,function(){
             console.log('El error fue: ' + error);
         })
         
-    } 
+    } }
 })

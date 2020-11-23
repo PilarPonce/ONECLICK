@@ -146,6 +146,7 @@ window.onload = function (){
     }
 
     var favoritos = document.querySelector (".estrella")
+
     favoritos.addEventListener ("click", function () {
         alert ("apretaste el boton!")
         var favs = localStorage.getItem ("favoritos")
@@ -158,35 +159,28 @@ window.onload = function (){
           arrayDeFavoritos = JSON.parse (localStorage.getItem("favoritos"))
         }
 
-        arrayDeFavoritos.push ({
-
-            tipo: tipo,
-            id: id
-        })
+        arrayDeFavoritos.push ("tipo", "id")
         
 
         localStorage.setItem ("favoritos", JSON.stringify (arrayDeFavoritos))
     })
+        var boton = document.querySelector (".estrella")
+        
+        boton.addEventListener ("click", function () {
+        if(estrella.style.backgroundColor == "yellow") {
+            estrella.style.backgroundColor == "white"
+        
+        } else {
+            estrella.style.backgroundColor == "yellow"
+        }
+
+
     
+    array.splice (1,1 )
+    //ELIMINAR FAVORITOS se ponen los numeros que queres sacar del array. 
 
+        
+    
+        }
 
-
-
-
- //  function contenidoGeneros (id) {
- //     document.querySelector('.tv').style.display = "none";
-//
-//        var generos = document.querySelector (".generos");
-//        
-  //  }
-//var jsonFavoritas = localStorage.getItem ("peliculasFav")
-//    if (jsonFavoritas == null) {
- //       var favoritas = []
- //   } else {
-  //      var favoritas = JSON.parse (jsonFavoritas)
-  //      
-   // }
-//var JSON = JSON.stringify (favoritas)
-//localStorage.setItem ("peliculasFav",json)
-}
 
