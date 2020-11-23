@@ -1,4 +1,5 @@
 window.onload = function (){ 
+
     var apiKey = `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
@@ -34,36 +35,19 @@ window.onload = function (){
             var pelicula = document.querySelector (".pelicula")
                 pelicula.innerHTML += `
             
-                <div class=" cajadetail uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                    <div class=" imagendetail1 uk-card-media-left uk-cover-container">
-                        <img class="imagendetail" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
+                <div class=" cajaprincipal uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class=" detalleimg uk-card-media-left uk-cover-container">
+                        <img class="imagen" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
                     </div>
                     <div>
                         <div class=" cajainfo uk-card-body">
-                            <h3 class=" titulodetail uk-card-title">${data.title}</h3>  <p> class="estrella" uk-icon ="star" </p>
+                            <h3 class=" titulo uk-card-title">${data.title}</h3>  <p> class="estrella" uk-icon ="star" </p>
                             <h5 class="promedioVotos"> Promedio de votos: ${data.vote_average} </h5>
                             <p class="descripcion">${data.overview}</p>
                             
                         </div>
                     </div>
                 </div>
-        
-               `
-            })
-            .catch(function (error) {
-            console.log('El error fue: ' + error);
-        })
-    
-
-        fetch(`https://api.themoviedb.org/3/movie/${id}/reviews?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&page=1`)
-        .then(function (response) {
-            return response.json()
-        })
-        .then(function (data) {
-            console.log(data);
-    
-            var pelicula = document.querySelector (".pelicula")
-                pelicula.innerHTML += `
         
                 <div class=" resenastotal uk-card uk-card-default uk-width-1-2@m ">
                     <div class="uk-card-header">
@@ -89,6 +73,7 @@ window.onload = function (){
             .catch(function (error) {
             console.log('El error fue: ' + error);
         })
+    
     }
 
     
@@ -115,14 +100,14 @@ window.onload = function (){
             
             tv.innerHTML += `
             
-            <div class= "cajadetail">
+            <div class= "cajaentera">
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                <div class=" imagendetail1 uk-card-media-left uk-cover-container">
-                <img class="imagendetail" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
+                <div class=" detalleimg uk-card-media-left uk-cover-container">
+                <img class="imagen" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
                 </div>
                 <div>
                     <div class=" cajainfo uk-card-body">
-                        <h3 class=" titulodetail uk-card-title">${data.name}</h3>   
+                        <h3 class=" titulo uk-card-title">${data.name}</h3>   
                         ${seriegenero}
                         <h4 class="promedioVotos">Fecha de salida: ${data.last_air_date}</h4>
                         <p class="descripcion">${data.overview}</p>
@@ -158,6 +143,39 @@ window.onload = function (){
 
     }
 
-   
+    var favoritos = document.querySelector (".estrella")
 
-    }
+    favoritos.addEventListener ("click", function () {
+        alert ("apretaste el boton!")
+        var favs = localStorage.getItem ("favoritos")
+
+        var arrayDeFavoritos = ""; 
+        if (favs == null) {
+          arrayDeFavoritos = [];
+
+        } else {
+          arrayDeFavoritos = JSON.parse (localStorage.getItem("favoritos"))
+        }
+
+        arrayDeFavoritos.push ("tipo", "id")
+        
+
+        localStorage.setItem ("favoritos", JSON.stringify (arrayDeFavoritos))
+    })
+        var boton = document.querySelector (".estrella")
+        
+        boton.addEventListener ("click", function () {
+        if(estrella.style.backgroundColor == "yellow") {
+            estrella.style.backgroundColor == "white"
+        
+        } else {
+            estrella.style.backgroundColor == "yellow"
+        }
+    })
+
+    
+    array.splice (1,1 )
+    //ELIMINAR FAVORITOS se ponen los numeros que queres sacar del array. 
+
+}
+
