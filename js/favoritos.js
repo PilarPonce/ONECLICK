@@ -1,28 +1,40 @@
 window.addEventListener('load' ,function(){
 
-    var apiKey = `e8659a3dae8d207d31ba4797c06188c8`
+    var apiKey = `e8659a3dae8d207d31ba4797c06188c8` 
+    var linkimagen = "https://image.tmdb.org/t/p/w500"
+
+    var queryString = location.search;
+    var queryStringObj = new URLSearchParams(queryString);
+    var id = queryStringObj.get ("id");
 
     var jsonFavoritas = localStorage.getItem("peliculasFav")
 
-    if (jsonFavoritas == null) {
-        var favoritas = []
-    } else {
-        // Paso 2 - Desempaqueto el json
-        var favoritas = JSON.parse(jsonFavoritas)
+    var tusFavoritos = document.querySelector (".tusFavoritos")
+
+    var favoritos = JSON.parse (localStorage.getItem ("favoritos"))
+
+    for (let i = 0; i < favoritos.length; i++) {
+        const element = favoritos [i];
+        console.log (element)
     }
 
-    for (var i = 0; i < favoritas.length; i++) {
-        fetch("https://api.themoviedb.org/3/movie/ " + favoritas[i] + " ?api_key=704bd3935947752adbb2e6021fffa6dd&language=en-US")
-            .then(function (respuesta) {
-                return respuesta.json()
-            })
-            .then(function (pelicula) {
+    fetch(`https://api.themoviedb.org/3/movie/${element.id}?api_key=${apikey}&language=en-US&page=1`)
+    .then(function (response) {
+        return response.json()
+    })
+    .then(function (Object) {
+        console.log(Object);
 
-
-
-                document.querySelector(".peliculasfavoritas").innerHTML += '<li><div class="uk-panel"><a href="detalle.html?idPelicula=' + pelicula.id + '"><img src="https://image.tmdb.org/t/p/original/' + pelicula.poster_path + '" alt=""></a><div class="uk-position-center uk-panel"><h1></h1></div></div></li>'
-
-            })
+        tusFavoritos.innerHTML += `
+            <div>
+                <a href="detail.html?tipo${Object.media_type}&id=${Object.id}"> <img src="${linkimagen}${element.backdrop_path}" alt=""></a>
+            </div>
+        
+        `
+    })
+    .catch(function (error) {
+        console.log('El error fue: ' + error);
+    })
 
 
 

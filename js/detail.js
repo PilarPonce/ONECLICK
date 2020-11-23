@@ -1,5 +1,28 @@
 window.onload = function (){ 
 
+    var favoritos = document.querySelector (`.estrella`)
+        favoritos.addEventListener ("click", function () {
+
+            var favs = localStorage.getItem ("favoritos")
+
+            var arrayDeFavoritos; 
+            if (favs == null) {
+            var arrayDeFavoritos = [];
+
+            } else {
+                arrayDeFavoritos = JSON.parse (localStorage.getItem("favoritos"))
+            }
+
+            arrayDeFavoritos.push ({
+
+                tipo: tipo,
+                id: id
+            })
+            
+
+            localStorage.setItem ("favoritos", JSON.stringify (arrayDeFavoritos))
+        })
+
     var apiKey = `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
@@ -41,7 +64,7 @@ window.onload = function (){
                     </div>
                     <div>
                         <div class=" cajainfo uk-card-body">
-                            <h3 class=" titulo uk-card-title">${data.title}</h3>  <a href="favoritos.html" class="estrella" uk-icon ="star"></a>
+                            <h3 class=" titulo uk-card-title">${data.title}</h3>  <p> class="estrella" uk-icon ="star" </p>
                             <h5 class="promedioVotos"> Promedio de votos: ${data.vote_average} </h5>
                             <p class="descripcion">${data.overview}</p>
                             
@@ -143,21 +166,26 @@ window.onload = function (){
 
     }
 
-    function contenidoGeneros (id) {
-        document.querySelector('.peliculas').style.display = "none";
-        document.querySelector('.tv').style.display = "none";
+    
 
-        var generos = document.querySelector (".generos");
-        
-    }
-var jsonFavoritas = localStorage.getItem ("peliculasFav")
-    if (jsonFavoritas == null) {
-        var favoritas = []
-    } else {
-        var favoritas = JSON.parse (jsonFavoritas)
-        
-    }
-var JSON = JSON.stringify (favoritas)
-localStorage.setItem ("peliculasFav",json)
+
+
+
+
+ //  function contenidoGeneros (id) {
+ //     document.querySelector('.tv').style.display = "none";
+//
+//        var generos = document.querySelector (".generos");
+//        
+  //  }
+//var jsonFavoritas = localStorage.getItem ("peliculasFav")
+//    if (jsonFavoritas == null) {
+ //       var favoritas = []
+ //   } else {
+  //      var favoritas = JSON.parse (jsonFavoritas)
+  //      
+   // }
+//var JSON = JSON.stringify (favoritas)
+//localStorage.setItem ("peliculasFav",json)
 }
 
