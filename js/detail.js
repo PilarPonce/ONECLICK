@@ -150,12 +150,12 @@ window.onload = function (){
         alert ("apretaste el boton!")
         var favs = localStorage.getItem ("favoritos")
 
-        var arrayDeFavoritos; 
+        var arrayDeFavoritos = ""; 
         if (favs == null) {
-        var arrayDeFavoritos = [];
+          arrayDeFavoritos = [];
 
         } else {
-            arrayDeFavoritos = JSON.parse (localStorage.getItem("favoritos"))
+          arrayDeFavoritos = JSON.parse (localStorage.getItem("favoritos"))
         }
 
         arrayDeFavoritos.push ({
