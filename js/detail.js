@@ -37,13 +37,13 @@ window.onload = function (){
             var pelicula = document.querySelector (".pelicula")
                 pelicula.innerHTML += `
             
-                <div class=" cajaprincipal uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                    <div class=" detalleimg uk-card-media-left uk-cover-container">
-                        <img class="imagen" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
+                <div class=" cajadetail uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class=" imagendetail1 uk-card-media-left uk-cover-container">
+                        <img class="imagendetail" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
                     </div>
                     <div>
                         <div class=" cajainfo uk-card-body">
-                            <h3 class=" titulo uk-card-title">${data.title}</h3>  <p> class="estrella" uk-icon ="star" </p>
+                            <h3 class=" titulodetail uk-card-title">${data.title}</h3>  <p> class="estrella" uk-icon ="star" </p>
                             <h5 class="promedioVotos"> Promedio de votos: ${data.vote_average} </h5>
                             <p class="descripcion">${data.overview}</p>
                             
@@ -102,14 +102,14 @@ window.onload = function (){
             
             tv.innerHTML += `
             
-            <div class= "cajaentera">
+            <div class= "cajadetail">
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                <div class=" detalleimg uk-card-media-left uk-cover-container">
-                <img class="imagen" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
+                <div class=" imagendetail1 uk-card-media-left uk-cover-container">
+                <img class="imagendetail" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
                 </div>
                 <div>
                     <div class=" cajainfo uk-card-body">
-                        <h3 class=" titulo uk-card-title">${data.name}</h3>   
+                        <h3 class=" titulodetail uk-card-title">${data.name}</h3>   
                         ${seriegenero}
                         <h4 class="promedioVotos">Fecha de salida: ${data.last_air_date}</h4>
                         <p class="descripcion">${data.overview}</p>
