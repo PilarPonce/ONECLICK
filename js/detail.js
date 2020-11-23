@@ -1,7 +1,4 @@
 window.onload = function (){ 
-
-    
-
     var apiKey = `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
@@ -161,42 +158,6 @@ window.onload = function (){
 
     }
 
-    var favoritos = document.querySelector (".estrella")
+   
 
-    favoritos.addEventListener ("click", function () {
-        alert ("apretaste el boton!")
-        var favs = localStorage.getItem ("favoritos")
-
-        var arrayDeFavoritos = ""; 
-        if (favs == null) {
-          arrayDeFavoritos = [];
-
-        } else {
-          arrayDeFavoritos = JSON.parse (localStorage.getItem("favoritos"))
-        }
-
-        arrayDeFavoritos.push ("tipo", "id")
-        
-
-        localStorage.setItem ("favoritos", JSON.stringify (arrayDeFavoritos))
-    })
-        var boton = document.querySelector (".estrella")
-        
-        boton.addEventListener ("click", function () {
-        if(estrella.style.backgroundColor == "yellow") {
-            estrella.style.backgroundColor == "white"
-        
-        } else {
-            estrella.style.backgroundColor == "yellow"
-        }
-
-
-    
-    array.splice (1,1 )
-    //ELIMINAR FAVORITOS se ponen los numeros que queres sacar del array. 
-
-        
-    
-        }
-
-
+    }
