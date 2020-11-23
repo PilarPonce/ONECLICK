@@ -167,6 +167,7 @@ body {
     .cajaentera {
         margin-top: 50px;
     }
+    
     .estrella {
        color:gold;
     }
@@ -257,12 +258,12 @@ body {
         
 
     /* contenido */
-        .imagen {
+        .imagendetail {
             width: 560px;
             height: 10px;
         }
     
-        .detalleimg {
+        .imagendetail1 {
             height: 500px;
             width: 340px;
             margin-left: 110px;
@@ -276,7 +277,7 @@ body {
             font-size: 20px;
         }
     
-        .cajaprincipal {
+        .cajadetail {
             margin-top: 50px;
             width: 560px !important;
         }
@@ -285,17 +286,8 @@ body {
             width: 560px !important;
             height: 1350px !important;
         }
-        .pelicula {
-            width: 560px !important;
-            height: 1350px !important;
-        }
     
-        .cajainfo {
-            width: 500px;
-            height: 500px;
-        }
-    
-        .titulo {
+        .titulodetail {
             font-size: 30px;
         }
     
@@ -315,6 +307,7 @@ body {
             width: 560px !important;
         }
 
+        /* footer */
         .redes{
             display: none;
     }
