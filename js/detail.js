@@ -191,6 +191,21 @@ window.onload = function (){
         })
     }
 
+    function contenidoGeneros (id){ 
+        document.querySelector('.peliculas').style.display = "none";
+        document.querySelector('.tv').style.display = "none";
+
+        var generos = document.querySelector (`.generos`);
+
+        if (tipo == "pelicula") {
+            
+        } else if (tipo == "serie"){
+            
+        }
+    }
+
+    
+
     var favoritos = document.querySelector (".estrella")
 
     favoritos.addEventListener ("click", function () {
