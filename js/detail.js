@@ -51,6 +51,23 @@ window.onload = function (){
                     </div>
                 </div>
         
+               `
+            })
+            .catch(function (error) {
+            console.log('El error fue: ' + error);
+        })
+    
+
+        fetch(`https://api.themoviedb.org/3/movie/${id}/reviews?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&page=1`)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (data) {
+            console.log(data);
+    
+            var pelicula = document.querySelector (".pelicula")
+                pelicula.innerHTML += `
+        
                 <div class=" resenastotal uk-card uk-card-default uk-width-1-2@m ">
                     <div class="uk-card-header">
                         <div class="uk-grid-small uk-flex-middle" uk-grid>
@@ -75,7 +92,6 @@ window.onload = function (){
             .catch(function (error) {
             console.log('El error fue: ' + error);
         })
-    
     }
 
     
