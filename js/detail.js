@@ -1,27 +1,6 @@
 window.onload = function (){ 
 
-    var favoritos = document.querySelector (`.estrella`)
-        favoritos.addEventListener ("click", function () {
-
-            var favs = localStorage.getItem ("favoritos")
-
-            var arrayDeFavoritos; 
-            if (favs == null) {
-            var arrayDeFavoritos = [];
-
-            } else {
-                arrayDeFavoritos = JSON.parse (localStorage.getItem("favoritos"))
-            }
-
-            arrayDeFavoritos.push ({
-
-                tipo: tipo,
-                id: id
-            })
-            
-
-            localStorage.setItem ("favoritos", JSON.stringify (arrayDeFavoritos))
-        })
+    
 
     var apiKey = `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
@@ -166,6 +145,28 @@ window.onload = function (){
 
     }
 
+    var favoritos = document.querySelector (`.estrella`)
+    favoritos.addEventListener ("click", function () {
+        alert ("apretaste el boton!")
+        var favs = localStorage.getItem ("favoritos")
+
+        var arrayDeFavoritos; 
+        if (favs == null) {
+        var arrayDeFavoritos = [];
+
+        } else {
+            arrayDeFavoritos = JSON.parse (localStorage.getItem("favoritos"))
+        }
+
+        arrayDeFavoritos.push ({
+
+            tipo: tipo,
+            id: id
+        })
+        
+
+        localStorage.setItem ("favoritos", JSON.stringify (arrayDeFavoritos))
+    })
     
 
 
