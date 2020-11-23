@@ -56,8 +56,5 @@ window.addEventListener('load' ,function(){
             console.log('El error fue: ' + error);
         })
         
-    } else {
-        
-    }
-
+    } 
 })
