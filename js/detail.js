@@ -124,7 +124,7 @@ window.onload = function (){
             
             tv.innerHTML += `
             
-            <div class= "cajaentera">
+            <div class= "cajaprincipal">
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                 <div class=" detalleimg uk-card-media-left uk-cover-container">
                 <img class="imagen" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
