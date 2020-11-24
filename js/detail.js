@@ -204,6 +204,18 @@ window.onload = function (){
             case `28`:
                 tituloVista = "Accion";
                 break;
+            case `10749`:
+                tituloVista = "Románticas";
+                break;
+            case `35`:
+                tituloVista = "Comedias";
+                break;
+            case `18`:
+                tituloVista = "Dramas";
+                break;
+            case `53`:
+                tituloVista = "Terror";
+                break;
         
             default:
                 tituloVista = "error"
