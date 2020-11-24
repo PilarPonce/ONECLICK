@@ -232,7 +232,7 @@ window.onload = function (){
         .then(function (data) {
             console.log(data);
 
-            var generos = document.querySelector(`.generos`);
+            var generos = document.querySelector(".listageneros");
 
             for (let i = 0; i < data.results.length; i++) {
                 const element = data.results[i];
