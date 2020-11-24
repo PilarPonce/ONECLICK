@@ -197,97 +197,35 @@ window.onload = function (){
         document.querySelector('.pelicula').style.display = "none";
         document.querySelector('.tv').style.display = "none";
 
-        var generos = document.querySelector(`.generos`);
 
-        if (tipo == "pelicula") {
-            fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=en-US&page=1`)
-                .then(function (response) {
-                    return response.json()
-                })
-                .then(function (data) {
-                    console.log(data);
+        fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=${id}`)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (data) {
+            console.log(data);
 
-                    titulo.innerHTML += `
-                        <h2> ${nombreGenero}</h2>
-                        `
-                    for (let i = 0; i < 10; i++) {
-                        var resultados = data.results[i]; generos.innerHTML += ` 
-                            
-                            <a class="clickpeli" href="detalle.html?id${resultados.id}&tipo=pelicula">
-                            <img src="${linkimagen}${resultados.poster_path}" alt="">
-                            </a>
-                            `
-                    }
+            var generos = document.querySelector(`.generos`);
+
+            generos.innerHTML += `
+            <div class="titulo">
+
+            </div>
+            <div class="div">
+    
+            </div>
+            
+            `
+
             })
+            .catch(function (error) {
+            console.log('El error fue: ' + error);
+        })
 
-                .catch(function (error) {
-                    console.log('El error fue: ' + error);
-                })
-
-        } else if (tipo == "serie") {
-            fetch(`https://api.themoviedb.org/3/discover/tv?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
-                .then(function (response) {
-                    return response.json()
-                })
-                .then(function (data) {
-                    console.log(data);
-
-                    titulo.innerHTML += `
-                        <div class="titulo">
-                            <h2> ${nombreGenero}
-                            </h2>
-                        </div>
-                        `
-                    for (let i = 0; i < 10; i++) {
-                        var resultados = data.results[i]; carrousel.innerHTML += ` <article class="article-div">
-                            <a class="clickpeli" href="detalle.html?id${resultados.id}&tipo=pelicula">
-                            <img src="${linkimagen}${resultados.poster_path}" alt="">
-                            </a>
-                            </article>
-                        `
-                    }
-                })
-
-                .catch(function (error) {
-                    console.log('El error fue: ' + error);
-                })
-
-        }
+        
     }
     
 
-    var favoritos = document.querySelector (".estrella")
-
-    favoritos.addEventListener ("click", function () {
-        alert ("apretaste el boton!")
-        var favs = localStorage.getItem ("favoritos")
-
-        var arrayDeFavoritos = ""; 
-            if (favs == null) {
-          arrayDeFavoritos = [];
-
-        } else {
-          arrayDeFavoritos = JSON.parse (localStorage.getItem("favoritos"))
-        }
-
-        arrayDeFavoritos.push ("tipo", "id")
-        
-
-        localStorage.setItem ("favoritos", JSON.stringify (arrayDeFavoritos))
-    })
-        var boton = document.querySelector (".estrella")
-        
-        boton.addEventListener ("click", function () {
-            if(estrella.style.backgroundColor == "yellow") {
-            estrella.style.backgroundColor == "white"
-        
-        }   else {
-            estrella.style.backgroundColor == "yellow"
-        }
-    })
-
-    
-   // array.splice (1,1 )
-    //ELIMINAR FAVORITOS se ponen los numeros que queres sacar del array. 
+   
 
 }

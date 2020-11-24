@@ -53,22 +53,6 @@ window.onload = function () {
     })
 
     //---------------ACCION---------------------------------------------------------
-    
-    fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apikey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=28`)
-    .then(function (response) {
-        return response.json()
-    })
-    .then(function (information) {
-        console.log(information);
-        var titulo = document.querySelector(".Accion1");
-        titulo.innerHTML += `<a href="detail.html"><h2 class="Accion">Acción</h2></a>`
-        
-    })
-
-    .catch(function (error) {
-        console.log('El error fue: ' + error);
-    })
-  
   
     fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apikey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=28`)
     .then(function (response) {
