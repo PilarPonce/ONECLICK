@@ -143,8 +143,9 @@ body {
 
 .titulogenero {
     font-size: 40px;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+    color: rgb(128, 124, 124);
+    font-family: sans-serif;
+    font-weight: bold;
     display: flex;
     justify-content: center;
 }
