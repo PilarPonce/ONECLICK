@@ -29,7 +29,7 @@ window.onload = function () {
         console.log('El error fue: ' + error);
     })
 
-    //ARRAY DE GENEROS 
+    //--------------------------ARRAY DE GENEROS --------------------------------
 
     var queryString = location.search;
     var queryStringObj = new URLSearchParams(queryString);
@@ -53,6 +53,7 @@ window.onload = function () {
     })
 
     //---------------ACCION---------------------------------------------------------
+  
     fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apikey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=28`)
     .then(function (response) {
         return response.json()
@@ -61,12 +62,12 @@ window.onload = function () {
         console.log(information);
         var peliculas = information.results
 
-        var ul = document.querySelector(".contenedor-accion")
+        var ul = document.querySelector(".contenedor-accion");
 
         for (let i = 0; i < information.results.length; i++) {
             var element = information.results[i]; 
             ul.innerHTML += `
-            <a href="detail.html?tipo=${element.media_type}&id=${element.id}">
+            <a href="detail.html?tipo=pelicula&id=${element.id}">
                 <li>
                 <img src="${linkimagen}${element.poster_path}" alt="">
                 </li>
