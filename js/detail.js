@@ -240,7 +240,7 @@ window.onload = function (){
                 generos.innerHTML += `
                     <a href="detail.html?tipo=pelicula&id=${element.id}">
                     <li>
-                        <img src="${linkimagen}${element.poster_path}" alt="">
+                        <img class = "fotodet" src="${linkimagen}${element.poster_path}" alt="">
                     </li>
                     <a/>
                     `

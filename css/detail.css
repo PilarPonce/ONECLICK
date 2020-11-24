@@ -312,6 +312,15 @@ body {
         width: 5060px !important;
     }
 
+    .titulogenero {
+        font-size: 50px;
+        margin-left: 150px;
+    }
+
+    .fotodet {
+        margin-left: 100px;
+    }
+
     /* footer */
     .redes{
         display: none;
