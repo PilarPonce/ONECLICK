@@ -29,7 +29,7 @@ window.onload = function () {
         console.log('El error fue: ' + error);
     })
 
-    //ARRAY DE GENEROS 
+    //--------------------------ARRAY DE GENEROS --------------------------------
 
     var queryString = location.search;
     var queryStringObj = new URLSearchParams(queryString);
