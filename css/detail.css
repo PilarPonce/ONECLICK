@@ -140,6 +140,16 @@ body {
 .estrella {
     color:gold;
 }
+
+.titulogenero {
+    font-size: 40px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ; 
+    display: flex;
+    justify-content: center;
+}
+
+
     
 @media only screen and (max-width: 420px) {
     /* header */

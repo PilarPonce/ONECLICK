@@ -54,6 +54,8 @@ window.onload = function (){
             .catch(function (error) {
             console.log('El error fue: ' + error);
         })
+
+        //REVIEWS MOVIE
         fetch(`https://api.themoviedb.org/3/movie/${id}/reviews?api_key=${apiKey}&language=en-US&page=1`)
         .then(function (response) {
             return response.json()
@@ -145,7 +147,7 @@ window.onload = function (){
             console.log('El error fue: ' + error);
         })
 
-
+//REVIEWS TV
         fetch(`https://api.themoviedb.org/3/tv/${id}/reviews?api_key=${apiKey}&language=en-US&page=1`)
         .then(function (response) {
             return response.json()
@@ -190,6 +192,8 @@ window.onload = function (){
         })
     }
     
+
+//DETALLE GENEROS
     function contenidoGeneros(id) {
         document.querySelector('.pelicula').style.display = "none";
         document.querySelector('.tv').style.display = "none";
@@ -199,7 +203,7 @@ window.onload = function (){
 
         switch (id) {
             case `28`:
-                tituloVista = "Accion";
+                tituloVista = "Acción";
                 break;
             case `10749`:
                 tituloVista = "Románticas";
@@ -234,23 +238,12 @@ window.onload = function (){
                 const element = data.results[i];
                 
                 generos.innerHTML += `
-
-                <div>
-                    <h2 class="titulo"> ${element.title}</h2>
-                </div>
-                <div class="div">
-                    <div class=" uk-position-relative uk-visible-toggle uk-light"  tabindex="-1" uk-slider>
-                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
-                            <a href="detail.html?tipo=pelicula&id=${element.id}">
-                                <li>
-                                    <img src="${linkimagen}${element.poster_path}" alt="">
-                                </li>
-                            <a/>
-                        </ul>
-                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-                    </div>
-                </div>`
+                    <a href="detail.html?tipo=pelicula&id=${element.id}">
+                    <li>
+                        <img src="${linkimagen}${element.poster_path}" alt="">
+                    </li>
+                    <a/>
+                    `
                 
             }
         
