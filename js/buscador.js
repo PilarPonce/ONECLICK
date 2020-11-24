@@ -29,13 +29,21 @@ window.addEventListener('load' ,function(){
             if (element.media_type == "tv") {
                 ul.innerHTML += `
 
-                <li> <a href="detail.html?tipo=serie&id=${element.id}"> <img src="${linkimagen}${element.poster_path}" alt=""></a>
+                <li> 
+                <a href="detail.html?tipo=serie&id=${element.id}"> 
+                <img src="${linkimagen}${element.poster_path}" alt="">
+                </a>
+                </li>
                 
                 `
             }  if (element.media_type == "movie") {
                 ul.innerHTML += `
 
-                <li> <a href="detail.html?tipo=pelicula&id=${element.id}"> <img src="${linkimagen}${element.poster_path}" alt=""></a>
+                <li> 
+                <a href="detail.html?tipo=pelicula&id=${element.id}"> 
+                <img src="${linkimagen}${element.poster_path}" alt="">
+                </a>
+                </li>
                 
                 `
             } 
