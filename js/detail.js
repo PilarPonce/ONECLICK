@@ -79,7 +79,7 @@ window.onload = function (){
     
     function contenidoTv (id){
 
-        document.querySelector('.peliculas').style.display = "none";
+        document.querySelector('.pelicula').style.display = "none";
         document.querySelector('.generos').style.display = "none";
 
 
