@@ -206,15 +206,35 @@ window.onload = function (){
             console.log(data);
 
             var generos = document.querySelector(`.generos`);
+            var tituloDetalle = "";
+            for (let i = 0; i < data.results.length; i++) {
+                const element = data.results[i];
+                tituloDetalle += `${element.title}`
+            }
+
+            var fotoDetalle = "";
+            for (let i = 0; i < data.results.length; i++) {
+                const element = data.results[i];
+                fotoDetalle += `${linkimagen}${element.poster_path}`
+            }
 
             generos.innerHTML += `
             <div class="titulo">
-
+                <h2 class="Accion">${tituloDetalle}</h2>
             </div>
             <div class="div">
-    
+                <div class=" uk-position-relative uk-visible-toggle uk-light"  tabindex="-1" uk-slider>
+                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                        <a href="detail.html?tipo=pelicula&id=${element.id}">
+                            <li>
+                                <img src="${fotoDetalle}" alt="">
+                            </li>
+                        <a/>
+                    </ul>
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                </div>
             </div>
-            
             `
 
             })
