@@ -189,9 +189,6 @@ window.onload = function (){
             console.log('El error fue: ' + error);
         })
     }
-
-
-//---------GENEROS DETAIL------------------------------------------------------
     
     function contenidoGeneros(id) {
         document.querySelector('.pelicula').style.display = "none";
@@ -256,7 +253,6 @@ window.onload = function (){
                 </div>`
                 
             }
-
         
             })
             .catch(function (error) {
@@ -284,6 +280,7 @@ window.onload = function (){
         }
         localStorage.setItem("favoritos",JSON.stringify(arrayDeFavoritos))
     })
+    
     /*
     var estrella = document.querySelector (“.estrella”)
     estrella.addEventListener (“click”, function () {
@@ -292,10 +289,11 @@ window.onload = function (){
     }   else {
         estrella.style.backgroundColor == “yellow”
     }
-})*/
-   // array.splice (1,1 )
+    })*/
+
+
+    // array.splice (1,1 )
     //ELIMINAR FAVORITOS se ponen los numeros que queres sacar del array.
 
    
-
 }
