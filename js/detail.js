@@ -25,7 +25,7 @@ window.onload = function (){
         document.querySelector('.generos').style.display = "none";
         
     
-        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}&language=en-US&page=1`)
         .then(function (response) {
             return response.json()
         })
@@ -83,7 +83,7 @@ window.onload = function (){
         document.querySelector('.generos').style.display = "none";
 
 
-        fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+        fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=${apiKey}&language=en-US&page=1`)
         .then(function (response) {
             return response.json()
         })
