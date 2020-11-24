@@ -203,7 +203,72 @@ window.onload = function (){
             
         }
     }
+    function contenidoGeneros(id) {
+        document.querySelector('.peliculas').style.display = "none";
+        document.querySelector('.tv').style.display = "none";
 
+        var generos = document.querySelector(`.generos`);
+
+        if (tipo == "pelicula") {
+            fetch(`https://api.themoviedb.org/3/discover/movie?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+                .then(function (response) {
+                    return response.json()
+                })
+                .then(function (data) {
+                    console.log(data);
+
+                    titulo.innerHTML += `
+                <div class="titulo">
+                     <h2> ${nombreGenero}
+                    </h2>
+                </div>
+                `
+                    for (let i = 0; i < 10; i++) {
+                        var resultados = data.results[i]; generos.innerHTML += ` <article class="article-div">
+
+                 <a class="clickpeli" href="detalle.html?id${resultados.id}&tipo=pelicula">
+                 <img src="${linkimagen}${resultados.poster_path}" alt="">
+                </a>
+                </article>
+                `
+                    }
+            })
+
+                .catch(function (error) {
+                    console.log('El error fue: ' + error);
+                })
+
+        } else if (tipo == "serie") {
+            fetch(`https://api.themoviedb.org/3/discover/tv?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+                .then(function (response) {
+                    return response.json()
+                })
+                .then(function (data) {
+                    console.log(data);
+
+                    titulo.innerHTML += `
+                <div class="titulo">
+                    <h2> ${nombreGenero}
+                    </h2>
+                </div>
+                `
+                    for (let i = 0; i < 10; i++) {
+                        var resultados = data.results[i]; carrousel.innerHTML += ` <article class="article-div">
+
+                <a class="clickpeli" href="detalle.html?id${resultados.id}&tipo=pelicula">
+                <img src="${linkimagen}${resultados.poster_path}" alt="">
+                </a>
+                </article>
+                 `
+                    }
+                })
+
+                .catch(function (error) {
+                    console.log('El error fue: ' + error);
+                })
+
+        }
+    }
     
 
     var favoritos = document.querySelector (".estrella")
