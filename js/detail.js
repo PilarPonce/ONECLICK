@@ -131,7 +131,7 @@ window.onload = function (){
                 </div>
                 <div>
                     <div class=" cajainfo uk-card-body">
-                        <h3 class=" titulo uk-card-title">${data.name}</h3>   
+                        <h3 class=" cajaprincipal uk-card-title">${data.name}</h3>   
                         ${seriegenero}
                         <h4 class="promedioVotos">Fecha de salida: ${data.last_air_date}</h4>
                         <p class="descripcion">${data.overview}</p>

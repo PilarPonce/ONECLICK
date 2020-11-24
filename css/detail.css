@@ -11,6 +11,7 @@ body {
     display: flex;
     align-items: flex-end !important;
 }
+
 .header {
     background-color:  rgb(212, 205, 205);
     display: flex;
@@ -32,7 +33,7 @@ body {
 }
 
   
-  .barranav ul {
+.barranav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -40,42 +41,7 @@ body {
     align-items: center;
     padding: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  .titulopeli {
-      width:80%;
-  }
-  
-  .titulopeli h1{
-      font-size: 60px;
-      margin-bottom: 0;
-      font-weight: lighter;
-      margin-top: 2.5%;
-  }
-  
-    
-  .titulopeli p{
-      font-size: 15px;
-      font-weight: lighter;
-      margin-top: 0;
-  }
-  
-  .titulopeli h2 {
-      font-size: 30px;
-      margin-bottom: 0;
-      font-weight: lighter;
-      margin-top: 2.5%;
-  
-  }
-  
-  .titulopeli h3 {
-      font-size: 20px;
-      margin-bottom: 0;
-      font-weight: lighter;
-      margin-top: 2.5%;
-  }
-    
-  
+}
 
 .footertexto {
     display: flex;
@@ -91,242 +57,241 @@ body {
     justify-content: space-between;
 }
 
-    .footer2 ul li h5{
-        display: flex;
-        align-items: flex-end;
-        color: rgb(128, 124, 124) !important;
-        
+.footer2 ul li h5{
+    display: flex;
+    align-items: flex-end;
+    color: rgb(128, 124, 124) !important;
+    
+}
+
+.footer2 ul li img {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer button{
+    background-color: rgba(0, 0, 0, 0);
+    width: 80px;
+    font-size: 16px;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    top: 0;
+    color: red;
+}
+
+.footertodo {
+    padding-top: 10px;
+    background-color: rgb(212, 205, 205);
+    height: 180px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+}
+
+
+.logotmbd {
+    width: 130px;
+}
+
+
+.imagen {
+    width: 300px;
+    
+}
+
+.detalleimg {
+    height: 500px;
+    width: 350px;
+    margin-left: 20px;
+}
+
+.cajaprincipal {
+    margin-top: 50px;
+    height: 500px;
+}
+
+.cajainfo {
+    width: 500px;
+    height: 500px;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.descripcion {
+    height: 500px;
+}
+
+.resenastotal {
+    width: 3000px;
+}
+
+.cajaentera {
+    margin-top: 50px;
+}
+
+.estrella {
+    color:gold;
+}
+    
+@media only screen and (max-width: 420px) {
+    /* header */
+    .inicio {
+        display: none;
     }
 
-    .footer2 ul li img {
+    .favoritos {
+        display: none;
+    }
+
+    .usuarios {
+        display: none;
+    }
+
+    .boton {
+        display: none;
+    }
+
+    .headertext li {
+        width: 50px;
+    }
+
+    .peliculas{
+        display: none;
+    }
+
+    .series {
+        display: none;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .logo img  {
+        width: 100px;
+        padding-top: 25px;
+    }
+    
+    .usuario {
         width: 150px;
         display: flex;
-        justify-content: center;
-        
+        align-items: flex-end !important;
     }
-    .footer button{
-        background-color: rgba(0, 0, 0, 0);
-        width: 80px;
-        font-size: 16px;
-        padding: 0;
-        height: 100%;
-        text-align: center;
+
+    .header {
+        background-color:  rgb(212, 205, 205);
         display: flex;
+        width: auto;
+        height: auto;
         align-items: center;
-        margin-right: 60px;
-        top: 0;
-        color: red;
+        height: 90px;
+        width: 560px; 
     }
 
-    .footertodo {
-        padding-top: 10px;
-        background-color: rgb(212, 205, 205);
-        height: 180px;
-        display: flex;
-        align-items: center;
-        padding: 0;
-        justify-content: space-between;
-    }
-    
-    
-    .logotmbd {
-        width: 130px;
-    }
-
-
-    .imagen {
+    .buscador {
         width: 300px;
-      
+    }
+    
+    .barrausuarios {
+        display: flex;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .bannermob {
+        display: block;
+        margin-top: 15px;
+    }
+    
+    .todobarra {
+        background-color: rgb(212, 205, 205)!important;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .txtmob{
+        display: flex;
+        justify-content: space-around;
+        display: none;
+    }
+        
+
+    /* contenido */
+    .imagen {
+        width: 560px;
+        height: 10px;
     }
 
     .detalleimg {
         height: 500px;
-        width: 350px;
-        margin-left: 20px;
+        width: 340px;
+        margin-left: 110px;
+
+    }
+    .titulo {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .promedioVotos {
+        font-size: 20px;
     }
 
-    .cajaprincipal {
-        margin-top: 50px;
-        height: 500px;
-    }
 
     .cajainfo {
-        width: 500px;
-        height: 500px;
+        margin-top: 50px;
+        width: 560px !important;
     }
 
-    .titulo {
-        font-size: 30px;
+    .tv {
+        width: 560px !important;
+        height: 1350px !important;
     }
 
     .descripcion {
-        height: 500px;
+        width: 520px;
+        height: 375px;
+        justify-content: center;
     }
 
     .resenastotal {
-        width: 3000px;
+        margin-top: 380px;
+        margin-bottom: 0px;
+        width: 5060px !important;
     }
 
-
-    .cajaentera {
-        margin-top: 50px;
+    /* footer */
+    .redes{
+        display: none;
     }
-
-    .estrella {
-       color:gold;
+    .footertodo{
+        width: 560px; 
     }
-    
-    @media only screen and (max-width: 420px) {
-        /* header */
-        .inicio {
-            display: none;
-        }
-    
-        .favoritos {
-            display: none;
-        }
-    
-        .usuarios {
-            display: none;
-        }
-    
-        .boton {
-            display: none;
-        }
-    
-        .headertext li {
-            width: 50px;
-        }
-    
-        .peliculas{
-            display: none;
-        }
-    
-        .series {
-            display: none;
-        }
-    
-        .logo {
-            width: 100px;
-        }
-    
-        .logo img  {
-            width: 100px;
-            padding-top: 25px;
-        }
+    .footertexto{
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+    }
         
-        .usuario {
-            width: 150px;
-            display: flex;
-            align-items: flex-end !important;
-        }
-    
-        .header {
-            background-color:  rgb(212, 205, 205);
-            display: flex;
-            width: auto;
-            height: auto;
-            align-items: center;
-            height: 90px;
-            width: 560px; 
-        }
-    
-        .buscador {
-            width: 300px;
-        }
+    .contenedor-footer li h5 {
+        font-size: 13px;
+    }
         
-        .barrausuarios {
-            display: flex;
-        }
-    
-        .banner {
-            display: none;
-        }
-    
-        .bannermob {
-            display: block;
-            margin-top: 15px;
-        }
-        
-        .todobarra {
-            background-color: rgb(212, 205, 205)!important;
-            display: flex;
-            justify-content: space-around;
-        }
-    
-        .txtmob{
-            display: flex;
-            justify-content: space-around;
-            display: none;
-        }
-        
-
-    /* contenido */
-        .imagen {
-            width: 560px;
-            height: 10px;
-        }
-    
-        .detalleimg {
-            height: 500px;
-            width: 340px;
-            margin-left: 110px;
-    
-        }
-        .titulo {
-            display: flex;
-            justify-content: center;
-            font-size: 30px;
-        }
-        .promedioVotos {
-            font-size: 20px;
-        }
-
-    
-        .cajainfo {
-            margin-top: 50px;
-            width: 560px !important;
-        }
-
-        .tv {
-            width: 560px !important;
-            height: 1350px !important;
-        }
-    
-        .descripcion {
-            width: 520px;
-            height: 375px;
-            justify-content: center;
-        }
-    
-        .resenastotal {
-            margin-top: 380px;
-            margin-bottom: 0px;
-            width: 5060px !important;
-        }
-
-        /* footer */
-        .redes{
-            display: none;
-        }
-        .footertodo{
-            width: 560px; 
-        }
-        .footertexto{
-            display: flex;
-            text-align: center;
-            font-size: 15px;
-        }
-            
-        .contenedor-footer li h5 {
-            font-size: 13px;
-        }
-            
-        .cerrar-sesion {
-            height: 70px;
-            display: flex;
-            text-align: center;
-        }
+    .cerrar-sesion {
+        height: 70px;
+        display: flex;
+        text-align: center;
+    }
 
 }
   
