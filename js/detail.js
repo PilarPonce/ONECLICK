@@ -41,7 +41,7 @@ window.onload = function (){
                     </div>
                     <div>
                         <div class=" cajainfo uk-card-body">
-                            <h3 class=" titulo uk-card-title">${data.title}</h3>  <p> class="estrella" uk-icon ="star" </p>
+                            <h3 class=" titulo uk-card-title">${data.title}</h3>  
                             <h5 class="promedioVotos"> Promedio de votos: ${data.vote_average} </h5>
                             <p class="descripcion">${data.overview}</p>
                             
