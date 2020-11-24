@@ -61,7 +61,7 @@ window.onload = function () {
     .then(function (information) {
         console.log(information);
         var titulo = document.querySelector(".Accion1");
-        titulo.innerHTML += `<a href="detail.html?tipo=generos"><h2 class="Accion">Acción</h2></a>`
+        titulo.innerHTML += `<a href="detail.html"><h2 class="Accion">Acción</h2></a>`
         
     })
 
