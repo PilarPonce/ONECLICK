@@ -189,14 +189,37 @@ window.onload = function (){
             console.log('El error fue: ' + error);
         })
     }
-
-
-//---------GENEROS DETAIL------------------------------------------------------
     
     function contenidoGeneros(id) {
         document.querySelector('.pelicula').style.display = "none";
         document.querySelector('.tv').style.display = "none";
+       
+        var tituloGenero = document.querySelector('.titulogenero')
+        var tituloVista = "";
 
+        switch (id) {
+            case `28`:
+                tituloVista = "Accion";
+                break;
+            case `10749`:
+                tituloVista = "Románticas";
+                break;
+            case `35`:
+                tituloVista = "Comedias";
+                break;
+            case `18`:
+                tituloVista = "Dramas";
+                break;
+            case `53`:
+                tituloVista = "Terror";
+                break;
+        
+            default:
+                tituloVista = "error"
+                break;
+        }
+
+        tituloGenero.innerHTML = `${tituloVista}`
 
         fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=${id}`)
         .then(function (response) {
@@ -207,16 +230,30 @@ window.onload = function (){
 
             var generos = document.querySelector(`.generos`);
 
-            generos.innerHTML += `
-            <div class="titulo">
+            for (let i = 0; i < data.results.length; i++) {
+                const element = data.results[i];
+                
+                generos.innerHTML += `
 
-            </div>
-            <div class="div">
-    
-            </div>
-            
-            `
-
+                <div>
+                    <h2 class="titulo"> ${element.title}</h2>
+                </div>
+                <div class="div">
+                    <div class=" uk-position-relative uk-visible-toggle uk-light"  tabindex="-1" uk-slider>
+                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                            <a href="detail.html?tipo=pelicula&id=${element.id}">
+                                <li>
+                                    <img src="${linkimagen}${element.poster_path}" alt="">
+                                </li>
+                            <a/>
+                        </ul>
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+                </div>`
+                
+            }
+        
             })
             .catch(function (error) {
             console.log('El error fue: ' + error);
@@ -243,6 +280,7 @@ window.onload = function (){
         }
         localStorage.setItem("favoritos",JSON.stringify(arrayDeFavoritos))
     })
+    
     /*
     var estrella = document.querySelector (“.estrella”)
     estrella.addEventListener (“click”, function () {
@@ -251,10 +289,11 @@ window.onload = function (){
     }   else {
         estrella.style.backgroundColor == “yellow”
     }
-})*/
-   // array.splice (1,1 )
+    })*/
+
+
+    // array.splice (1,1 )
     //ELIMINAR FAVORITOS se ponen los numeros que queres sacar del array.
 
    
-
 }
