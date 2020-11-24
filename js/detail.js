@@ -25,7 +25,7 @@ window.onload = function (){
         document.querySelector('.generos').style.display = "none";
         
     
-        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+        fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}&language=en-US&page=1`)
         .then(function (response) {
             return response.json()
         })
@@ -54,8 +54,8 @@ window.onload = function (){
             .catch(function (error) {
             console.log('El error fue: ' + error);
         })
-
-        fetch(`https://api.themoviedb.org/3/movie/${id}/reviews?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&page=1`)
+//-----------------REVIEWS-------------------------------------------------------------
+        fetch(`https://api.themoviedb.org/3/movie/${id}/reviews?api_key=${apiKey}&language=en-US&page=1`)
         .then(function (response) {
             return response.json()
         })
@@ -107,7 +107,7 @@ window.onload = function (){
         document.querySelector('.generos').style.display = "none";
 
 
-        fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+        fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=${apiKey}&language=en-US&page=1`)
         .then(function (response) {
             return response.json()
         })
@@ -147,7 +147,7 @@ window.onload = function (){
         })
 
 
-        fetch(`https://api.themoviedb.org/3/tv/${id}/reviews?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&page=1`)
+        fetch(`https://api.themoviedb.org/3/tv/${id}/reviews?api_key=${apiKey}&language=en-US&page=1`)
         .then(function (response) {
             return response.json()
         })
@@ -191,18 +191,9 @@ window.onload = function (){
         })
     }
 
-    function contenidoGeneros (id){ 
-        document.querySelector('.peliculas').style.display = "none";
-        document.querySelector('.tv').style.display = "none";
 
-        var generos = document.querySelector (`.generos`);
-
-        if (tipo == "pelicula") {
-            
-        } else if (tipo == "serie"){
-            
-        }
-    }
+//---------GENEROS DETAIL------------------------------------------------------
+    
     function contenidoGeneros(id) {
         document.querySelector('.pelicula').style.display = "none";
         document.querySelector('.tv').style.display = "none";
@@ -210,7 +201,7 @@ window.onload = function (){
         var generos = document.querySelector(`.generos`);
 
         if (tipo == "pelicula") {
-            fetch(`https://api.themoviedb.org/3/discover/movie?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+            fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=en-US&page=1`)
                 .then(function (response) {
                     return response.json()
                 })
@@ -218,18 +209,15 @@ window.onload = function (){
                     console.log(data);
 
                     titulo.innerHTML += `
-                <div class="titulo">
-                     <h2> ${nombreGenero}
-                    </h2>
-                </div>
-                `
+                        <h2> ${nombreGenero}</h2>
+                        `
                     for (let i = 0; i < 10; i++) {
-                        var resultados = data.results[i]; generos.innerHTML += ` <article class="article-div">
-                 <a class="clickpeli" href="detalle.html?id${resultados.id}&tipo=pelicula">
-                 <img src="${linkimagen}${resultados.poster_path}" alt="">
-                </a>
-                </article>
-                `
+                        var resultados = data.results[i]; generos.innerHTML += ` 
+                            
+                            <a class="clickpeli" href="detalle.html?id${resultados.id}&tipo=pelicula">
+                            <img src="${linkimagen}${resultados.poster_path}" alt="">
+                            </a>
+                            `
                     }
             })
 
@@ -246,18 +234,18 @@ window.onload = function (){
                     console.log(data);
 
                     titulo.innerHTML += `
-                <div class="titulo">
-                    <h2> ${nombreGenero}
-                    </h2>
-                </div>
-                `
+                        <div class="titulo">
+                            <h2> ${nombreGenero}
+                            </h2>
+                        </div>
+                        `
                     for (let i = 0; i < 10; i++) {
                         var resultados = data.results[i]; carrousel.innerHTML += ` <article class="article-div">
-                <a class="clickpeli" href="detalle.html?id${resultados.id}&tipo=pelicula">
-                <img src="${linkimagen}${resultados.poster_path}" alt="">
-                </a>
-                </article>
-                 `
+                            <a class="clickpeli" href="detalle.html?id${resultados.id}&tipo=pelicula">
+                            <img src="${linkimagen}${resultados.poster_path}" alt="">
+                            </a>
+                            </article>
+                        `
                     }
                 })
 
@@ -276,7 +264,7 @@ window.onload = function (){
         var favs = localStorage.getItem ("favoritos")
 
         var arrayDeFavoritos = ""; 
-        if (favs == null) {
+            if (favs == null) {
           arrayDeFavoritos = [];
 
         } else {
@@ -291,16 +279,16 @@ window.onload = function (){
         var boton = document.querySelector (".estrella")
         
         boton.addEventListener ("click", function () {
-        if(estrella.style.backgroundColor == "yellow") {
+            if(estrella.style.backgroundColor == "yellow") {
             estrella.style.backgroundColor == "white"
         
-        } else {
+        }   else {
             estrella.style.backgroundColor == "yellow"
         }
     })
 
     
-    array.splice (1,1 )
+   // array.splice (1,1 )
     //ELIMINAR FAVORITOS se ponen los numeros que queres sacar del array. 
 
 }
