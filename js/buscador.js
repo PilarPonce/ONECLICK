@@ -38,9 +38,7 @@ window.addEventListener('load' ,function(){
                 <li> <a href="detail.html?tipo=pelicula&id=${element.id}"> <img src="${linkimagen}${element.poster_path}" alt=""></a>
                 
                 `
-            } else {
-                
-            }
+            } 
             
     
         }
