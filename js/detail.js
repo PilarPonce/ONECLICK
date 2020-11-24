@@ -197,6 +197,21 @@ window.onload = function (){
         document.querySelector('.pelicula').style.display = "none";
         document.querySelector('.tv').style.display = "none";
        
+        var tituloGenero = document.querySelector('.titulogenero')
+        var tituloVista = "";
+
+        switch (id) {
+            case `28`:
+                tituloVista = "Accion";
+                break;
+        
+            default:
+                tituloVista = "error"
+                break;
+        }
+
+        tituloGenero.innerHTML = `${tituloVista}`
+
         fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=${id}`)
         .then(function (response) {
             return response.json()
@@ -210,28 +225,27 @@ window.onload = function (){
                 const element = data.results[i];
                 
                 generos.innerHTML += `
-                
+
+                <div>
+                    <h2 class="titulo"> ${element.title}</h2>
+                </div>
                 <div class="div">
                     <div class=" uk-position-relative uk-visible-toggle uk-light"  tabindex="-1" uk-slider>
                         <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
                             <a href="detail.html?tipo=pelicula&id=${element.id}">
                                 <li>
-                                    <img src="${element.poster_path}" alt="">
+                                    <img src="${linkimagen}${element.poster_path}" alt="">
                                 </li>
                             <a/>
                         </ul>
                         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
                         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
                     </div>
-                </div>
-            `
+                </div>`
                 
             }
 
-            
-
-           
-
+        
             })
             .catch(function (error) {
             console.log('El error fue: ' + error);
