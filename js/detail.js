@@ -54,7 +54,6 @@ window.onload = function (){
             .catch(function (error) {
             console.log('El error fue: ' + error);
         })
-//-----------------REVIEWS-------------------------------------------------------------
         fetch(`https://api.themoviedb.org/3/movie/${id}/reviews?api_key=${apiKey}&language=en-US&page=1`)
         .then(function (response) {
             return response.json()
