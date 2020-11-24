@@ -4,34 +4,37 @@ window.onload = function (){
 
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
-
-
-//-------------------------BANNER-------------------------------------------------------
-
-    fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}&language=en-US&page=1`)
+//-------------GENEROS BARRA NAV PELICULAS---------------------------
+fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
     .then(function (response) {
         return response.json()
     })
-    .then(function (information) {
-        console.log(information);
+    .then(function (data) {
+        console.log(data);
 
-        var ul = document.querySelector (".bannerimgm")
+        var listageneros = document.querySelector (".listageneros-pelis")
 
 
-        for (let i = 0; i < information.results.length; i++) {
-            var element = information.results[i];
+        for (let i = 0; i < data.genres.length; i++) {
+            var element = data.genres[i];
+            var listageneros = document.querySelector (".listageneros-pelis")
+
             ul.innerHTML  += `
             <li>
-            <img src="${linkimagen}${element.backdrop_path}" alt="">
-            </li>` 
+            <a href="generos.html?tipo=movie&id=${element.id}">
+            <p> ${element.name} </p>
+            </a>
+            </li>
+                ` 
+            console.log (element)
         }
     })
     .catch(function (error) {
-        console.log('El error fue: ' + error);
-    })
+         console.log('El error fue: ' + error);
+     })
 
 //-------------------------RECOMENDADO-------------------------------------------------------
-    fetch(`https://api.themoviedb.org/3/tv/on_the_air?api_key=${apiKey}`)
+    fetch(`https://api.themoviedb.org/3/tv/on_the_air?api_key=${apiKey}&language=en-US&page=1`)
     .then(function (response) {
         return response.json()
     })
@@ -44,11 +47,13 @@ window.onload = function (){
         for (let i = 0; i < information.results.length; i++) {
             var element = information.results[i];
             ul.innerHTML  += `
-            <a href="detail.html?tipo=serie&id=${element.id}">
+            
                 <li>
+                <a href="detail.html?tipo=serie&id=${element.id}">
                 <img src="${linkimagen}${element.poster_path}" alt="">
+                </a>
                 </li>
-            </a>` 
+            ` 
         }
     })
     .catch(function (error) {
