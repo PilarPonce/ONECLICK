@@ -32,7 +32,6 @@ body {
     justify-content: center;
 }
 
-  
 .barranav ul {
     list-style: none;
     display: flex;
@@ -325,14 +324,13 @@ body {
         display: none;
     }
     .footertodo{
-        width: 560px; 
+        width: 630px; 
     }
     .footertexto{
         display: flex;
         text-align: center;
         font-size: 15px;
     }
-        
     .contenedor-footer li h5 {
         font-size: 13px;
     }

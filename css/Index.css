@@ -373,33 +373,6 @@ body {
         margin-left: 0px;
     }
 
-
-    .generos {
-        display: flex;
-        justify-content: center;
-    }
-
-    .generos2 li div img {
-        width: 400px;
-        height: 250px;
-        padding-top: 10px;
-        margin-left: 16px;
-    }
-
-    .cajatext {
-        width: 350px;
-        height: 50px;
-        padding-top: 0px;
-        font-size: 15px;
-    }
-
-    .mobgen {
-        display: block;
-
-    }
-    .deskgen {
-        display: none;
-    }
     .redes{
             display: none;
     }
@@ -420,7 +393,7 @@ body {
             height: 70px;
             display: flex;
             text-align: center;
-        }
+    }
 
 }
 
