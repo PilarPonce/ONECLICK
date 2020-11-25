@@ -31,6 +31,12 @@ body {
     justify-content: center;
 }
 
+.botonfiltro {
+    margin-left: 1250px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
 .listapelis  {
     display: flex;
     flex-direction: row;
@@ -49,7 +55,6 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-
 
 .todopeliculas ul  {
     width: 100%;
