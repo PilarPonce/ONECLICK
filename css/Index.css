@@ -372,6 +372,11 @@ body {
         padding-left: 0px; 
     }
 
+    .imten img {
+        margin-left: 0px;
+    }
+
+
     .generos {
         display: flex;
         justify-content: center;
