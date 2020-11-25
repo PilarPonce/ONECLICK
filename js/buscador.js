@@ -14,16 +14,15 @@ window.addEventListener('load' ,function(){
 
     
     
-    /*
+    
     var opcion1 = document.querySelector (".opcion1")
     
-    bot.addEventListener ("click", function (){
+    opcion1.addEventListener ("click", function (){
 
-        document.querySelector('.tv').style.display = "none";
+       alert ("apretasre boton");
 
+    });
 
-    })
-*/
 
     fetch(`https://api.themoviedb.org/3/search/multi?api_key=${apikey}&language=en-US&query=${loQueBuscoElUsuario}&page=1&include_adult=false`)
     .then(function (response) {
