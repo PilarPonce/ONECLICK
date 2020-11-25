@@ -1,9 +1,30 @@
 window.onload = function (){
 
     var apiKey= `e8659a3dae8d207d31ba4797c06188c8`
-
     var linkimagen = "https://image.tmdb.org/t/p/w500"
+    //-------------------------BANNER-------------------------------------------------------
 
+    fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}&language=en-US&page=1`)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (information) {
+            console.log(information);
+
+            var ul = document.querySelector(".bannerimgm")
+
+
+            for (let i = 0; i < information.results.length; i++) {
+                var element = information.results[i];
+                ul.innerHTML += `
+            <li>
+            <img src="${linkimagen}${element.backdrop_path}" alt="">
+            </li>`
+            }
+        })
+        .catch(function (error) {
+            console.log('El error fue: ' + error);
+        })
     //-------------GENEROS BARRA NAV PELICULAS---------------------------
     fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
         .then(function (response) {

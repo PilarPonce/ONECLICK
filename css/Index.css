@@ -31,10 +31,6 @@ body {
     justify-content: center;
 }
 
-.bannermob {
-    display: none;
-}
-
 .banner  {
     padding-top: 30px;
     width: auto;
@@ -44,12 +40,13 @@ body {
     min-height: 292px !important;
 }
 
+.bannermob {
+    display: none;
+}
 .fondorecomendados {
     background-color: rgb(245, 241, 241);
     height: 355px;
 }
-
-
 
 .recomendados li img {
     width: 240px;
