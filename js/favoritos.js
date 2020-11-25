@@ -29,10 +29,10 @@ window.addEventListener('load', function () {
             
             contenedorfavoritos.innerHTML += ` 
             <a href="detail.html?tipo=pelicula&id=${element.id}">
-                    <li>
-                        <img src="${linkimagen}${element.poster_path}" alt="">
-                    </li>
-                    <a/>
+                <li>
+                    <img src="${linkimagen}${element.poster_path}" alt="">
+                </li>
+            <a/>
             `
             })
         

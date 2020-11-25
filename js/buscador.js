@@ -3,7 +3,7 @@ window.addEventListener('load' ,function(){
     load.style.display = "none";
     
     var loQueQueremos = document.querySelector (`.noqueremos`)
-    setTimeout(function(){  }, 5000);
+    setTimeout(function(){  }, 9000);
     
 
 
