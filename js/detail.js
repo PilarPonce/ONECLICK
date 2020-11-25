@@ -147,7 +147,7 @@ window.onload = function (){
         })
     }
     
-    
+
     function contenidoGeneros(id) {
         document.querySelector('.pelicula').style.display = "none";
         document.querySelector('.tv').style.display = "none";
@@ -217,12 +217,8 @@ window.onload = function (){
         } else {
             arrayDeFavoritos = JSON.parse(favs) //lo hace objeto para poder manipularlo
         }
-        const indexMovieID = arrayDeFavoritos.indexOf(id); //busca id de la pelicula. find element in array js es el 3 link
-        if (indexMovieID !== -1) { //se fija si la pelicula esta o no. -1 es si no existe
-            arrayDeFavoritos.push(id) //agrega a favs
-        } else {
-            arrayDeFavoritos.splice(indexMovieID, 1) //saca. el 1 es cuantas borro desde esa posicion.
-        }
+        
+        
         localStorage.setItem("favoritos",JSON.stringify(arrayDeFavoritos))
     })
     
@@ -240,5 +236,23 @@ window.onload = function (){
     // array.splice (1,1 )
     //ELIMINAR FAVORITOS se ponen los numeros que queres sacar del array.
 
+    /*var favoritos = document.querySelector(".estrella")
+    favoritos.addEventListener ("click", function (){
+        alert("apretaste el boton!")
+        var favs = localStorage.getItem("favoritos") //trae string correspondieente al lugar favoritos
+        var arrayDeFavoritos = "";
+        if (favs === null) {
+            arrayDeFavoritos = [];
+        } else {
+            arrayDeFavoritos = JSON.parse(favs) //lo hace objeto para poder manipularlo
+        }
+        const indexMovieID = arrayDeFavoritos.indexOf(id); //busca id de la pelicula. find element in array js es el 3 link
+        if (indexMovieID !== -1) { //se fija si la pelicula esta o no. -1 es si no existe
+            arrayDeFavoritos.push(id) //agrega a favs
+        } else {
+            arrayDeFavoritos.splice(indexMovieID, 1) //saca. el 1 es cuantas borro desde esa posicion.
+        }
+        localStorage.setItem("favoritos",JSON.stringify(arrayDeFavoritos))
+    })*/
    
 }
