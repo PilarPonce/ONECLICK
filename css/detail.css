@@ -94,7 +94,6 @@ body {
     justify-content: space-between;
 }
 
-
 .logotmbd {
     width: 130px;
 }
@@ -235,7 +234,7 @@ body {
         height: auto;
         align-items: center;
         height: 90px;
-        width: 560px; 
+        width: 615px; 
     }
 
     .buscador {
@@ -309,7 +308,16 @@ body {
     .resenastotal {
         margin-top: 380px;
         margin-bottom: 0px;
-        width: 5060px !important;
+        width: 1060px !important;
+    }
+
+    .titulogenero {
+        font-size: 50px;
+        margin-left: 150px;
+    }
+
+    .fotodet {
+        margin-left: 100px;
     }
 
     /* footer */

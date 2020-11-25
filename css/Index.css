@@ -31,10 +31,6 @@ body {
     justify-content: center;
 }
 
-.bannermob {
-    display: none;
-}
-
 .banner  {
     padding-top: 30px;
     width: auto;
@@ -44,12 +40,13 @@ body {
     min-height: 292px !important;
 }
 
+.bannermob {
+    display: none;
+}
 .fondorecomendados {
     background-color: rgb(245, 241, 241);
     height: 355px;
 }
-
-
 
 .recomendados li img {
     width: 240px;
@@ -215,7 +212,7 @@ body {
     color: red;
   }
 
-  .footertodo {
+.footertodo {
     padding-top: 10px;
     background-color: rgb(212, 205, 205);
     height: 180px;
@@ -371,6 +368,11 @@ body {
         padding-right: 90px;
         padding-left: 0px; 
     }
+
+    .imten img {
+        margin-left: 0px;
+    }
+
 
     .generos {
         display: flex;
