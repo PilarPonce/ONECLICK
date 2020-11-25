@@ -18,12 +18,16 @@ window.addEventListener('load' ,function(){
 
     
     
+    var peliculas = document.querySelector (".opcion1")
     
-    var opcion1 = document.querySelector (".opcion1")
-    
-    opcion1.addEventListener ("click", function (){
+    peliculas.addEventListener ("click", function (){
+         alert ("apretaste boton");
+    });
 
-       alert ("apretasre boton");
+    var series = document.querySelector (".opcion2")
+    
+    series.addEventListener ("click", function (){
+         alert ("apretaste boton");
 
     });
 
