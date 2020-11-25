@@ -207,5 +207,62 @@ window.onload = function (){
         })
     }
     
+    var favoritos = document.querySelector(".estrella")
+    favoritos.addEventListener ("click", function (){
+        alert("apretaste el boton!")
+        var favs = localStorage.getItem("favoritos") //trae string correspondieente al lugar favoritos
+        var arrayDeFavoritos = "";
+        if (favs === null) {
+            arrayDeFavoritos = [];
+        } else {
+            arrayDeFavoritos = JSON.parse(favs) //lo hace objeto para poder manipularlo
+        }
+        arrayDeFavoritos.push ({
+            tipo: tipo,
+            id: id
+        });
+
+        localStorage.setItem("favoritos",JSON.stringify(arrayDeFavoritos))
+    })
+    
+    
+
+
+
+
+
+
+    /*
+    var estrella = document.querySelector (“.estrella”)
+    estrella.addEventListener (“click”, function () {
+        if(estrella.style.backgroundColor == “yellow”) {
+        estrella.style.backgroundColor == “white”
+    }   else {
+        estrella.style.backgroundColor == “yellow”
+    }
+    })*/
+
+
+    // array.splice (1,1 )
+    //ELIMINAR FAVORITOS se ponen los numeros que queres sacar del array.
+
+    /*var favoritos = document.querySelector(".estrella")
+    favoritos.addEventListener ("click", function (){
+        alert("apretaste el boton!")
+        var favs = localStorage.getItem("favoritos") //trae string correspondieente al lugar favoritos
+        var arrayDeFavoritos = "";
+        if (favs === null) {
+            arrayDeFavoritos = [];
+        } else {
+            arrayDeFavoritos = JSON.parse(favs) //lo hace objeto para poder manipularlo
+        }
+        const indexMovieID = arrayDeFavoritos.indexOf(id); //busca id de la pelicula. find element in array js es el 3 link
+        if (indexMovieID !== -1) { //se fija si la pelicula esta o no. -1 es si no existe
+            arrayDeFavoritos.push(id) //agrega a favs
+        } else {
+            arrayDeFavoritos.splice(indexMovieID, 1) //saca. el 1 es cuantas borro desde esa posicion.
+        }
+        localStorage.setItem("favoritos",JSON.stringify(arrayDeFavoritos))
+    })*/
    
 }
