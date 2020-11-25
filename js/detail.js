@@ -147,13 +147,10 @@ window.onload = function (){
         })
     }
     
-
-//DETALLE GENEROS
+    
     function contenidoGeneros(id) {
         document.querySelector('.pelicula').style.display = "none";
         document.querySelector('.tv').style.display = "none";
-
-        
        
         var tituloGenero = document.querySelector('.titulogenero')
         var tituloVista = "";
@@ -175,9 +172,9 @@ window.onload = function (){
             case `53`:
                 tituloVista = "Terror";
                 break;
-        
+
             default:
-                tituloVista = `error`
+                tituloVista = ``
                 break;
         }
 
