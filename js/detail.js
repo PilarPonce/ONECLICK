@@ -4,11 +4,10 @@ window.onload = function (){
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
     var queryString = location.search;
-    var queryStringObj = new URLSearchParams(queryString);
+    var queryStringObj = new URLSearchParams(queryString);  //
 
     var id = queryStringObj.get ("id");
     var tipo = queryStringObj.get ("tipo");
-    console.log(tipo);
 
     if (tipo == "serie") {
         contenidoTv (id);
@@ -55,7 +54,7 @@ window.onload = function (){
             console.log('El error fue: ' + error);
         })
 
-        //REVIEWS MOVIE
+        //REVIEWS MOVIE (en peliculas hay seccion peliculas reviews)
         fetch(`https://api.themoviedb.org/3/movie/${id}/reviews?api_key=${apiKey}&language=en-US&page=1`)
         .then(function (response) {
             return response.json()
@@ -199,16 +198,13 @@ window.onload = function (){
                         <img class = "fotodet" src="${linkimagen}${element.poster_path}" alt="">
                     </li>
                     <a/>
-                    `
-                
+                    `  
             }
         
             })
             .catch(function (error) {
             console.log('El error fue: ' + error);
         })
-
-        
     }
     
     var favoritos = document.querySelector(".estrella")

@@ -29,29 +29,6 @@ window.onload = function () {
         console.log('El error fue: ' + error);
     })
 
-    //--------------------------ARRAY DE GENEROS --------------------------------
-
-    var queryString = location.search;
-    var queryStringObj = new URLSearchParams(queryString);
-
-    var id = queryStringObj.get ("id");
-
-    fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apikey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=28`)
-    .then(function (response) {
-        return response.json()
-    })
-    .then(function (information) {
-        console.log(information);
-        
-
-       
-
-        for (let i = 0; i < information.results.length; i++) {
-            var element = information.results[i]; 
-            
-        }
-    })
-
     //---------------ACCION---------------------------------------------------------
   
     fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apikey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=28`)
