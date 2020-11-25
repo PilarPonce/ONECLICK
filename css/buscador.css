@@ -69,6 +69,9 @@ body {
     margin-bottom: 20px;
 }
 
+.spinner {
+    margin-left: 600px;
+}
 .footertexto {
     display: flex;
     justify-content: center;
