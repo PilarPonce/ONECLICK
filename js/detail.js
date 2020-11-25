@@ -147,8 +147,7 @@ window.onload = function (){
         })
     }
     
-
-//DETALLE GENEROS
+    
     function contenidoGeneros(id) {
         document.querySelector('.pelicula').style.display = "none";
         document.querySelector('.tv').style.display = "none";
