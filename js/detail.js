@@ -9,6 +9,7 @@ window.onload = function (){
     var id = queryStringObj.get ("id");
     var tipo = queryStringObj.get ("tipo");
 
+    
     if (tipo == "serie") {
         contenidoTv (id);
         
@@ -131,7 +132,7 @@ window.onload = function (){
                 </div>
                 <div>
                     <div class=" cajainfo uk-card-body">
-                        <h3 class=" titulo uk-card-title">${data.name}</h3>  <a href="" class ="estrella" uk-icon ="star"></a>
+                        <h3 class=" titulo uk-card-title">${data.name}</h3>  
                         <a href="detail.html?tipo=generos&id=${id}"> ${seriegenero}</a>
                         <h4 class="promedioVotos">Fecha de salida: ${data.last_air_date}</h4>
                         <p class="descripcion">${data.overview}</p>
@@ -147,7 +148,7 @@ window.onload = function (){
         })
     }
     
-
+//generos detail
     function contenidoGeneros(id) {
         document.querySelector('.pelicula').style.display = "none";
         document.querySelector('.tv').style.display = "none";
@@ -207,16 +208,22 @@ window.onload = function (){
         })
     }
     
+
+ //favs
+    var favs = localStorage.getItem("favoritos") //trae string correspondiente al lugar favoritos
     var favoritos = document.querySelector(".estrella")
+    var arrayDeFavoritos = "";
+
+    if (favs === null) {
+        arrayDeFavoritos = [];
+    } else {
+        arrayDeFavoritos = JSON.parse(favs) //lo hace objeto para poder manipularlo
+    }
+
     favoritos.addEventListener ("click", function (){
-        alert("apretaste el boton!")
-        var favs = localStorage.getItem("favoritos") //trae string correspondieente al lugar favoritos
-        var arrayDeFavoritos = "";
-        if (favs === null) {
-            arrayDeFavoritos = [];
-        } else {
-            arrayDeFavoritos = JSON.parse(favs) //lo hace objeto para poder manipularlo
-        }
+    alert("apretaste el boton!")
+
+     
         arrayDeFavoritos.push ({
             tipo: tipo,
             id: id
@@ -224,8 +231,9 @@ window.onload = function (){
 
         localStorage.setItem("favoritos",JSON.stringify(arrayDeFavoritos))
     })
+  
     
-    
+
 
 
 

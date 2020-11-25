@@ -45,70 +45,55 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.usuario img {
-    width: 100px;
-}
-
-
-.fondofav {
-    background-color: rgb(245, 241, 241);
-    height: 355px;
-}
-
-.titulo {
-    color: rgb(128, 124, 124) !important;
-    font-size: 20px !important;
-    margin-top: 20px !important;
+.titulofavoritos {
+    font-size: 40px;
+    color: rgb(128, 124, 124);
     font-family: sans-serif;
     font-weight: bold;
-    padding-left: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.fav li img {
-    width: 240px;
-    height: 340px;
-    padding-top: 10px;
-}
-
-.fav ul{
-    background-color: #151518;;
+.listafavoritos  {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     list-style: none;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around !important;
     align-items: center;
-    padding: 10px;    
 }
 
-.fot1 {
-    margin-left: 12px;
-}
-.cajasac {
-    width: 260px;
-    position: relative;
-}
-
-.raya {
+.listafavoritos ul{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 8px;
+    flex-wrap: wrap;
 }
 
-.sacar {
+.listafavoritos ul li {
     display: flex;
-    align-items: center;
-    background-color: rgb(245, 241, 241);
-    color: black;
-    justify-content: end;
-    position: absolute;
-    top: 83%;
-    height: 25px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border: solid 2px rgb(180, 144, 144);
+    flex-wrap: wrap;
 }
+
+.todofavoritos ul  {
+    width: 100%;
+    list-style: none;
+}
+
+.todofavoritos img{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+.footertexto {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 .footertexto {
     display: flex;
@@ -166,19 +151,107 @@ body {
     width: 130px;
     }
 
-
-/*/
-.footer{
-    width: 100%;
-    height: 50px;
-    color: rgb(252,0,5);
-    background-color: black;
-    display: flex;
-    align-items: center;
-    padding: 0;
-    justify-content: space-between;
-    margin-top: 5rem;
-    padding-bottom: 0px;
-  }
-
-/*/
+    @media only screen and (max-width: 420px) {
+        /* header */
+        .inicio {
+            display: none;
+        }
+    
+        .favoritos {
+            display: none;
+        }
+    
+        .usuarios {
+            display: none;
+        }
+    
+        .boton {
+            display: none;
+        }
+    
+        .headertext li {
+            width: 50px;
+        }
+    
+        .peliculas{
+            display: none;
+        }
+    
+        .series {
+            display: none;
+        }
+    
+        .logo {
+            width: 100px;
+        }
+    
+        .logo img  {
+            width: 100px;
+            padding-top: 25px;
+        }
+        
+        .usuario {
+            width: 150px;
+            display: flex;
+            align-items: flex-end !important;
+        }
+    
+        .header {
+            background-color:  rgb(212, 205, 205);
+            display: flex;
+            width: auto;
+            height: auto;
+            align-items: center;
+            height: 90px;
+            width: 615px; 
+        }
+    
+        .buscador {
+            width: 300px;
+        }
+        
+        .barrausuarios {
+            display: flex;
+        }
+    
+        .banner {
+            display: none;
+        }
+    
+        .bannermob {
+            display: block;
+            margin-top: 15px;
+        }
+        
+        .todobarra {
+            background-color: rgb(212, 205, 205)!important;
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        .txtmob{
+            display: flex;
+            justify-content: space-around;
+            display: none;
+        }
+        .redes{
+            display: none;
+        }
+        .footertodo{
+            width: 630px; 
+        }
+        .footertexto{
+            display: flex;
+            text-align: center;
+            font-size: 15px;
+        }
+        .contenedor-footer li h5 {
+            font-size: 13px;
+        }
+            
+        .cerrar-sesion {
+            height: 70px;
+            display: flex;
+            text-align: center;
+        }
+}    
