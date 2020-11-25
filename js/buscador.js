@@ -1,6 +1,6 @@
 window.addEventListener('load' ,function(){
 
-   
+   document.getElementById (`loader`).classList.toggle(`loader2`)
 
     var apikey = `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
@@ -14,7 +14,7 @@ window.addEventListener('load' ,function(){
     var loQueBuscoElUsuario = queryString.get("inputbuscador");
 
 
-    fetch(`https://api.themoviedb.org/3/search/multi?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US&query=${loQueBuscoElUsuario}&page=1&include_adult=false`)
+    fetch(`https://api.themoviedb.org/3/search/multi?api_key=${apikey}&language=en-US&query=${loQueBuscoElUsuario}&page=1&include_adult=false`)
     .then(function (response) {
         return response.json()
     })
