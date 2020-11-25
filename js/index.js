@@ -3,33 +3,7 @@ window.onload = function (){
     var apiKey= `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
-    document.getElementById('user2').addEventListener('click', function(){
-        document.querySelector('.bg-modal').style.display = 'flex'
-      })
-    
-      document.querySelector('.close').addEventListener('click', function(){
-        document.querySelector('.bg-modal').style.display = 'none'
-      })
-    
-    
-      document.getElementById('hamburguer').addEventListener('click', function(){
-        document.getElementById('hamburguer').style.display = 'none'
-        document.querySelector('.responsivo').style.display = 'flex'
-      })
-    
-      document.querySelector('.cerrar').addEventListener('click', function(){
-        document.querySelector('.responsivo').style.display = 'none'
-        document.getElementById('hamburguer').style.display = 'flex'
-      })
-    
-      document.getElementById('logoutbutton').addEventListener('click', function(){
-        document.querySelector('.paginalogout').style.display = 'flex'
-      })
-    
-      document.getElementById('nobutton').addEventListener('click', function(){
-        document.querySelector('.paginalogout').style.display = 'none'
-      })
-    
+   
     //-------------------------BANNER-------------------------------------------------------
 
     fetch(`https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}&language=en-US&page=1`)
