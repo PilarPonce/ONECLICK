@@ -173,9 +173,9 @@ window.onload = function (){
             case `53`:
                 tituloVista = "Terror";
                 break;
-        
+
             default:
-                tituloVista = `error`
+                tituloVista = ``
                 break;
         }
 
