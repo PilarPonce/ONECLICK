@@ -152,8 +152,6 @@ window.onload = function (){
     function contenidoGeneros(id) {
         document.querySelector('.pelicula').style.display = "none";
         document.querySelector('.tv').style.display = "none";
-
-        
        
         var tituloGenero = document.querySelector('.titulogenero')
         var tituloVista = "";
