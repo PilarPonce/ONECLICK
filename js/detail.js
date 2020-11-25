@@ -133,7 +133,7 @@ window.onload = function (){
                 <div>
                     <div class=" cajainfo uk-card-body">
                         <h3 class=" titulo uk-card-title">${data.name}</h3>   
-                        ${seriegenero}
+                        <a href="detail.html?tipo=generos&id=${id}"> ${seriegenero}</a>
                         <h4 class="promedioVotos">Fecha de salida: ${data.last_air_date}</h4>
                         <p class="descripcion">${data.overview}</p>
                     </div>
@@ -144,50 +144,6 @@ window.onload = function (){
 
         })
         .catch(function (error) {
-            console.log('El error fue: ' + error);
-        })
-
-//REVIEWS TV
-        fetch(`https://api.themoviedb.org/3/tv/${id}/reviews?api_key=${apiKey}&language=en-US&page=1`)
-        .then(function (response) {
-            return response.json()
-        })
-        .then(function (data) {
-            console.log(data);
-
-            var tv = document.querySelector (".tv")
-            var resena = "";
-            var autor = "";
-            for (let i = 0; i < data.results.length; i++) {
-                const element = data.results[i];
-                resena += `<p>${element.content}</p>`
-                autor += `${element.author}`
-            }
-            
-                tv.innerHTML += `
-        
-                <div class=" resenastotal uk-card uk-card-default uk-width-1-2@m ">
-                    <div class="uk-card-header">
-                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                            <div class="uk-width-auto">
-                                <img class="uk-border-circle" width="40" height="40" src="imagenes/imagenesBarraNav/Logo.jpg">
-                            </div>
-                            <div class="uk-width-expand">
-                                <h3 class=" resenas uk-card-title uk-margin-remove-bottom">Reseñas</h3>
-                                <p class=" uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">Autor de reseña: ${autor}</time></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="uk-card-body">
-                        ${resena}
-                    </div>
-                    <div class="uk-card-footer">
-                        <a href="#" class="uk-button uk-button-text">Read more</a>
-                    </div>
-                </div>
-               `
-            })
-            .catch(function (error) {
             console.log('El error fue: ' + error);
         })
     }
