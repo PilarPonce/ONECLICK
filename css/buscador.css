@@ -120,7 +120,6 @@ body {
     justify-content: space-between;
 }
 
-
 .logotmbd {
     width: 130px;
 }
@@ -193,6 +192,12 @@ body {
     
     .barrausuarios {
         display: flex;
+    }
+
+    .botonfiltro {
+        margin-left: 420px;
+        margin-top: 7px;
+        font-size: 20px;
     }
 
     .banner {
