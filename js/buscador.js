@@ -2,6 +2,7 @@ window.addEventListener('load' ,function(){
 
    document.getElementById (`loader`).classList.toggle(`loader2`)
 
+
     var apikey = `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
@@ -55,8 +56,6 @@ window.addEventListener('load' ,function(){
          console.log('El error fue: ' + error);
      })
     
-
-
 
 
 
