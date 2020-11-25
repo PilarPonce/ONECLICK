@@ -1,9 +1,12 @@
 window.addEventListener('load' ,function(){
 
+    var load =  document.querySelector (`.spinner`)
     function spinner () {
-        setTimeout(function(){ ; }, 3000);
-      }
-
+        document.querySelector (`.noqueremos`).style.display = "none";
+        setTimeout(function(){ load.value = "5 seconds" }, 5000);
+    }
+    
+    document.querySelector (`.noqueremos`).style.display = "block";
 
     var apikey = `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
