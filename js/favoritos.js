@@ -63,6 +63,14 @@ window.addEventListener('load', function () {
         }
     }
 
+    var user = localStorage.getItem ("UserName")
+    
+    var txtSal = document.querySelector (".saludox")
+    if (user) {
+        txtSal.innerHTML += `<h2> ${user}, estos son tus favoritos </h2>`
+    } else {
+        txtSal.innerHTML += `<h2>Porfavor haga login</h2>`
+    }
     
 
 })

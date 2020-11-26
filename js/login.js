@@ -9,8 +9,9 @@ var avisando = document.getElementById("aviso")
 form.addEventListener("submit", enviar=>{
     enviar.preventDefault()
     var aviso = ""
+    console.log("hola me envio");
     var entrar = false
-    var elEmail = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{3})+$/
+    var elEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
     avisando.innerHTML = ""
     if(nombre.value.length <1){
         aviso += `El nombre es invalido <br>`
@@ -29,6 +30,7 @@ form.addEventListener("submit", enviar=>{
         avisando.innerHTML = aviso
     }else{
         avisando.innerHTML = "Enviado"
+        localStorage.setItem ("UserName", nombre.value)
     }
 })
 
