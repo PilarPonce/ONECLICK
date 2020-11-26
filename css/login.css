@@ -102,19 +102,10 @@ body {
     display: none;
 
 }
-.favsmob{
-    display: none;
-}
 @media only screen and (max-width: 420px) {
 .iniciar-sesion{
-        display: none;
-    }
-   } 
-.favoritos{
     display: none;
 }
-.favsmob{
-    display: block;
-    width: 50px;
-    height: 100px;
-}
+
+
+}  

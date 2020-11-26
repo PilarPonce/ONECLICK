@@ -8,9 +8,9 @@ var avisando = document.getElementById("aviso")
 
 form.addEventListener("submit", enviar=>{
     enviar.preventDefault()
-    let aviso = ""
-    let entrar = false
-    let elEmail = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{3})+$/
+    var aviso = ""
+    var entrar = false
+    var elEmail = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{3})+$/
     avisando.innerHTML = ""
     if(nombre.value.length <1){
         aviso += `El nombre es invalido <br>`
