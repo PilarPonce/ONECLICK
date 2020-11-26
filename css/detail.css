@@ -244,11 +244,6 @@ body {
         width: 100px;
         padding-top: 25px;
     }
-    .usuario {
-        width: 150px;
-        display: flex;
-        align-items: flex-end !important;
-    }
 
     .header {
         background-color:  rgb(212, 205, 205);
