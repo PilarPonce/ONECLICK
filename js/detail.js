@@ -35,7 +35,7 @@ window.onload = function () {
                 var pelicula = document.querySelector(".pelicula")
                 pelicula.innerHTML += `
             
-                <div class=" cajaprincipal uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class=" cajaprincipal uk-card uk-card-default uk-grid-collapse uk-child-width-1-1 uk-margin" uk-grid>
                     <div class=" detalleimg uk-card-media-left uk-cover-container">
                         <img class="imagen" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
                     </div>
@@ -77,7 +77,7 @@ window.onload = function () {
 
                 pelicula.innerHTML += `
         
-                <div class=" resenastotal uk-card uk-card-default uk-width-1-2@m ">
+                <div class=" resenastotal uk-card uk-card-default uk-width-1-1 ">
                     <div class="uk-card-header">
                         <div class="uk-grid-small uk-flex-middle" uk-grid>
                             <div class="uk-width-auto">
@@ -89,8 +89,8 @@ window.onload = function () {
                             </div>
                         </div>
                     </div>
-                    <div class="uk-card-body 1">
-                        <p> ${resena} </p>
+                    <div class="uk-card-body uk-width-1-1">
+                        <p class= "uk-width-1-1"> ${resena} </p>
                     </div>
                     <div class="uk-card-footer">
                         <a href="#" class="uk-button uk-button-text">Read more</a>
@@ -153,7 +153,7 @@ window.onload = function () {
                 tv.innerHTML += `
             
             <div class= "cajaprincipal">
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-1 uk-margin" uk-grid>
                 <div class=" detalleimg uk-card-media-left uk-cover-container">
                 <img class="imagen" src="${linkimagen}${data.poster_path}" alt="" uk-cover>
                 </div>
