@@ -34,4 +34,12 @@ form.addEventListener("submit", enviar=>{
 
 })
 
+var queryString = location.search;
+
+queryString = new URLSearchParams(queryString);
+
+var login = document.querySelector(".completa");
+
+var loQueCompletoElUsuario = queryString.get("input");
+
 

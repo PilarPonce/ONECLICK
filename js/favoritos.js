@@ -8,7 +8,8 @@ window.addEventListener('load', function () {
     var tipo = queryStringObj.get("tipo");
 
     var tusFavoritos = document.querySelector(".todofavoritos") //traemos html
-    var favoritos = JSON.parse(localStorage.getItem("favoritos")) //le decimos al localstorage que me traiga el item fav y que json lo convierta en array para poder manipularlo
+    var favoritos = JSON.parse(localStorage.getItem("favoritos")) //le decimos al localstorage que me traiga el item fav 
+                                                                //y que json lo convierta en array para poder manipularlo
     console.log(favoritos)
 
     
