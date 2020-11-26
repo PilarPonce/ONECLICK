@@ -33,7 +33,7 @@ window.addEventListener("load",function(){
         enviar.preventDefault()
         var aviso = ""
         var entrar = false
-        var elEmail = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{3})+$/
+        var elEmail = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{3})+$/  
         avisando.innerHTML = ""
         if(nombre.value.length <1){
             aviso += `El nombre es invalido <br>`
@@ -52,7 +52,10 @@ window.addEventListener("load",function(){
             avisando.innerHTML = aviso
         }else{
             avisando.innerHTML = "Enviado"
+        
         }
+        var nombrePersona = nombre.value
+        localStorage.setItem("username", nombrePersona)
     })
     
     var queryString = location.search;
