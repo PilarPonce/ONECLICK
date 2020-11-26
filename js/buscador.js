@@ -24,8 +24,8 @@ window.addEventListener('load', function () {
 
     todoBoton.addEventListener("change", function () { //change es cuando cambia de seleccion, de option. 
         var ul = document.querySelector(".listapelis")
-        ul.innerHTML = "";
-        //se fija cual es el valor
+        ul.innerHTML = ""; 
+    //se fija cual es el valor
         if (todoBoton.value === "Peliculas") { //si el valor es pelicula que muestre esto:
             fetch(`https://api.themoviedb.org/3/search/multi?api_key=${apikey}&language=en-US&query=${loQueBuscoElUsuario}&page=1&include_adult=false`)
                 .then(function (response) {
@@ -37,11 +37,11 @@ window.addEventListener('load', function () {
 
 
                     for (let index = 0; index < data.results.length; index++) {
-                        const element = data.results[index];
+                        const element = data.results[index]; 
                         console.log(element.media_type)
 
-
-                        if (element.media_type == "movie") { //aca se fija si son peliculas y si son las muestra
+                        
+                         if (element.media_type == "movie") { //aca se fija si son peliculas y si son las muestra
                             ul.innerHTML += `
 
                 <li> 
@@ -60,21 +60,21 @@ window.addEventListener('load', function () {
 
         } else if (todoBoton.value == "Series") { //si el tipo es serie
             fetch(`https://api.themoviedb.org/3/search/multi?api_key=${apikey}&language=en-US&query=${loQueBuscoElUsuario}&page=1&include_adult=false`)
-                .then(function (response) {
-                    return response.json()
-                })
-                .then(function (data) {
-                    console.log(data);
-                    var arrayDePeliculas = data.results;
-
-                    var ul = document.querySelector(".listapelis")
-
-                    for (let index = 0; index < data.results.length; index++) {
-                        const element = data.results[index];
-                        console.log(element.media_type)
-
-                        if (element.media_type == "tv") {
-                            ul.innerHTML += `
+            .then(function (response) {
+                return response.json()
+            })
+            .then(function (data) {
+                console.log(data);
+                var arrayDePeliculas = data.results;
+    
+                var ul = document.querySelector(".listapelis")
+    
+                for (let index = 0; index < data.results.length; index++) {
+                    const element = data.results[index];
+                    console.log(element.media_type)
+    
+                    if (element.media_type == "tv") {
+                        ul.innerHTML += `
     
                     <li> 
                     <a href="detail.html?tipo=serie&id=${element.id}"> 
@@ -83,31 +83,31 @@ window.addEventListener('load', function () {
                     </li>
                     
                     `
-                        }
                     }
-
-
-                })
-                .catch(function (error) {
-                    console.log('El error fue: ' + error);
-                })
+                }
+    
+    
+            })
+            .catch(function (error) {
+                console.log('El error fue: ' + error);
+            })
         } else { //si no tiene ningun filtro (seleccion)
             fetch(`https://api.themoviedb.org/3/search/multi?api_key=${apikey}&language=en-US&query=${loQueBuscoElUsuario}&page=1&include_adult=false`)
-                .then(function (response) {
-                    return response.json()
-                })
-                .then(function (data) {
-                    console.log(data);
-                    var arrayDePeliculas = data.results;
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (data) {
+            console.log(data);
+            var arrayDePeliculas = data.results;
 
-                    var ul = document.querySelector(".listapelis")
+            var ul = document.querySelector(".listapelis")
 
-                    for (let index = 0; index < data.results.length; index++) {
-                        const element = data.results[index];
-                        console.log(element.media_type)
+            for (let index = 0; index < data.results.length; index++) {
+                const element = data.results[index];
+                console.log(element.media_type)
 
-                        if (element.media_type == "tv") {
-                            ul.innerHTML += `
+                if (element.media_type == "tv") {
+                    ul.innerHTML += `
 
                 <li> 
                 <a href="detail.html?tipo=serie&id=${element.id}"> 
@@ -116,22 +116,22 @@ window.addEventListener('load', function () {
                 </li>
                 
                 `
-                        } if (element.media_type == "movie") {
-                            ul.innerHTML += `
+                } if (element.media_type == "movie") {
+                    ul.innerHTML += `
 
                 <li> 
                 <a href="detail.html?tipo=pelicula&id=${element.id}"> 
                 <img src="${linkimagen}${element.poster_path}" alt="">
                 </a>
                 </li>`
-                        }
-                    }
+                }
+            }
 
 
-                })
-                .catch(function (error) {
-                    console.log('El error fue: ' + error);
-                })
+        })
+        .catch(function (error) {
+            console.log('El error fue: ' + error);
+        })
         }
     });
     //lo dejamos por cuando arranca. Si no usamos el filtrador, necesitamos tener esto
@@ -175,7 +175,7 @@ window.addEventListener('load', function () {
         .catch(function (error) {
             console.log('El error fue: ' + error);
         })
-
+    
 
 
 })
