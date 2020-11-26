@@ -73,49 +73,6 @@ window.addEventListener('load', function () {
         txtSal.innerHTML += `<h2>Porfavor haga login</h2>`
     }
     
-    var queryString = location.search
-    var queryStringObj = new URLSearchParams (queryString)
-    var queryStringObjNombreUsuario = queryStringObj.get(`nombreusuario`)
-  
-    var sectionBienvenido = document.querySelector(`.bienvenido-usuario`)
-
-    var sesionNombre = JSON.parse(sessionStorage.getItem("Nombre"))
-
-    
-
-    if (sesionNombre == null){
-        sesionNombre = []
-    }
-
-    sesionNombre.push(queryStringObjNombreUsuario)
-    sessionStorage.setItem("Nombre", JSON.stringify(sesionNombre))
-    console.log(sesionNombre)
-
-    for (let index = 0; index < sesionNombre.length; index++) {
-        const element = sesionNombre[index];
-        if (sesionNombre.length > 1 && element == null) {
-                var posicionNull = sesionNombre.indexOf(null)
-                    sesionNombre.splice(posicionNull, 1)
-                    sessionStorage.setItem("Nombre", JSON.stringify(sesionNombre))
-        }
-    }
-
-    if (sesionNombre.length > 1) {
-        sesionNombre.splice(0, 1)
-        sessionStorage.setItem("Nombre", JSON.stringify(sesionNombre))
-    }
-
-    if (sesionNombre[0] == null){
-        sesionNombre = []
-    }
-
-    console.log(sessionStorage)
-
-    sectionBienvenido.innerHTML += `<p>Bienvenid@, ${sesionNombre[0]}!</p>`
-
-    if (sesionNombre[0] == undefined){
-        sectionBienvenido.innerHTML = ``
-    }
 })
 
 
