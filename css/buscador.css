@@ -131,6 +131,19 @@ body {
     display: none;
 
 }
+.iniciar-sesion {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    top: 0;
+    color: red;
+    
+}
 
 
 @media only screen and (max-width: 420px) { 

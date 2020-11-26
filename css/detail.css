@@ -11,6 +11,19 @@ body {
     display: flex;
     align-items: flex-end !important;
 }
+.iniciar-sesion {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    top: 0;
+    color: red;
+  
+}
 
 .header {
     background-color:  rgb(212, 205, 205);
