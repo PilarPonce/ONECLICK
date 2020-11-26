@@ -399,11 +399,18 @@ body {
         height: 50px;
         padding-bottom: 10px;
     }
+    
+    .fondoten {
+        margin-bottom: 20px;
+    }
+    .ten li {
+        margin-left: 60px;
+    }
 
     .ten li img {
         width: 250px;
         height: 250px;
-        margin-right: 200px;
+        margin-right: 10px;
         padding-right: 90px;
         padding-left: 0px; 
     }

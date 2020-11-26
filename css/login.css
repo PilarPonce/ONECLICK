@@ -128,14 +128,110 @@ body {
 
 }
 @media only screen and (max-width: 420px) {
+    .inicio {
+        display: none;
+    }
+
+    .favoritos {
+        display: none;
+    }
+
+    .usuarios {
+        display: none;
+    }
+
+    .boton {
+        display: none;
+    }
+
+    .headertext li {
+        width: 50px;
+    }
+    .favsmob{
+     display: block;
+     width: 50px;
+     height: 100px;
+    }
+
+    .peliculas{
+        display: none;
+    }
+
+    .series {
+        display: none;
+    }
+
+    .logo {
+        width: 100px;
+        padding-right: 0px;
+    }
+
+    .logo img  {
+        width: 100px;
+        padding-top: 25px;
+    }
     .iniciar-sesion{
         display: none;
     }
+    .usuario {
+        width: 150px;
+        display: flex;
+        align-items: flex-end !important;
+    }
+
+    .cja {
+        width: 45px;
+        font-size: 10px;
+        padding-left: 0px;
+    }
+
+    .header {
+        background-color:  rgb(212, 205, 205);
+        display: flex;
+        width: auto;
+        height: auto;
+        align-items: center;
+        height: 90px;
+        width: 373px; 
+    }
+
+    .buscador {
+        width: 273px;
+        padding-left: 0px;
+    }
+    
+    .barrausuarios {
+        display: flex;
+    }
+    
+    .banner {
+        display: none;
+    }
+
+    .bannermob {
+        display: block;
+        margin-top: 15px;
+    }
+    
     .todobarra {
         background-color: rgb(212, 205, 205)!important;
         display: flex;
         justify-content: space-around;
         height: 90px;
+    }
+
+    .escri {
+        width: 100px;
+    }
+
+    .ttbarr {
+        max-width: 215px;
+    }
+
+    .txtmob{
+        display: flex;
+        justify-content: space-around;
+        display: none;
     }
 
 

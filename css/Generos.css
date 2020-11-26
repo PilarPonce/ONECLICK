@@ -311,6 +311,11 @@ body {
 .headertext li {
     width: 50px;
 }
+.favsmob{
+ display: block;
+ width: 50px;
+ height: 100px;
+}
 
 .peliculas{
     display: none;
@@ -325,29 +330,23 @@ body {
     padding-right: 0px;
 }
 
-.todobarra {
-    background-color: rgb(212, 205, 205)!important;
-    display: flex;
-    justify-content: space-around;
-    height: 90px;
-}
-
 .logo img  {
     width: 100px;
     padding-top: 25px;
 }
-.favoritos{
+.iniciar-sesion{
     display: none;
-}
-.favsmob{
-    display: block;
-    width: 50px;
-    height: 100px;
 }
 .usuario {
     width: 150px;
     display: flex;
     align-items: flex-end !important;
+}
+
+.cja {
+    width: 45px;
+    font-size: 10px;
+    padding-left: 0px;
 }
 
 .header {
@@ -368,9 +367,7 @@ body {
 .barrausuarios {
     display: flex;
 }
-.iniciar-sesion{
-    display: none;
-}
+
 .banner {
     display: none;
 }
@@ -384,6 +381,15 @@ body {
     background-color: rgb(212, 205, 205)!important;
     display: flex;
     justify-content: space-around;
+    height: 90px;
+}
+
+.escri {
+    width: 100px;
+}
+
+.ttbarr {
+    max-width: 215px;
 }
 
 .txtmob{
