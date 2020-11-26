@@ -300,9 +300,6 @@ body {
     display: none;
 }
 
-.usuarios {
-    display: none;
-}
 
 .boton {
     display: none;
@@ -337,11 +334,7 @@ body {
 .iniciar-sesion{
     display: none;
 }
-.usuario {
-    width: 150px;
-    display: flex;
-    align-items: flex-end !important;
-}
+
 
 .cja {
     width: 45px;
