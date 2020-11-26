@@ -321,9 +321,9 @@ body {
 
     .descripcion {
         width: 420px;
-        height: 275px;
+        height: 575px;
         justify-content: center;
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .resenastotal {
