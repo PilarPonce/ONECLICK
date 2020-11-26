@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,229 +9,252 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
     <link rel="stylesheet" href="css/Generos.css">
-    <script type= "text/javascript" src="js/generos.js"></script>
+    <script type="text/javascript" src="js/generos.js"></script>
 </head>
 
 <body>
-<header class="header">
-    <a href="Index.html">
-        <h2 class="logo"> <img src="imagenes/imagenesBarraNav/Logo.jpg" alt=""></h2>
-    </a>
+    <header class="header">
+        <a href="Index.html">
+            <h2 class="logo"> <img src="imagenes/imagenesBarraNav/Logo.jpg" alt=""></h2>
+        </a>
 
-    <div class="uk-position-relative .uk-width-1-1">
+        <div class="uk-position-relative .uk-width-1-1">
 
-        <nav class=" todobarra uk-navbar-container" uk-navbar="dropbar: true">
+            <nav class=" todobarra uk-navbar-container" uk-navbar="dropbar: true">
 
-            <div class="uk-navbar-left">
+                <div class="uk-navbar-left">
 
-                <ul class=" headertext uk-navbar-nav">
-                    <li class="inicio">
-                        <a href="Index.html">Inicio</a>
-                        <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
-                            <ul class="uk-nav uk-dropdown-nav">
-                                <li class="uk-active"><a href="#"></a></li>
-                                <li><a href="#">Cuenta</a></li>
-                                <li><a href="#">Notificaciones</a> </li>
-                                <li> <a href="#"> Ayuda</a></li>
-                                <li class="uk-nav-divider"></li>
-                                <li><a href="#">Cerrar Sesión</a></li>
+                    <ul class=" headertext uk-navbar-nav">
+                        <li class="inicio">
+                            <a href="Index.html">Inicio</a>
+                            <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li class="uk-active"><a href="#"></a></li>
+                                    <li><a href="#">Cuenta</a></li>
+                                    <li><a href="#">Notificaciones</a> </li>
+                                    <li> <a href="#"> Ayuda</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#">Cerrar Sesión</a></li>
 
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="peliculas">
+                            <a href="Generos.html" class="txtmob">Géneros</a>
+                            <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li class="uk-active"><a href="#"></a></li>
+                                    <li><a href="detail.html?tipo=generos&id=28">Acción</a></li>
+                                    <li><a href="detail.html?tipo=generos&id=18">Dramas</a></li>
+                                    <li><a href="detail.html?tipo=generos&id=35">Comedias</a></li>
+                                    <li><a href="detail.html?tipo=generos&id=10749">Románticas</a></li>
+                                    <li><a href="detail.html?tipo=generos&id=53">Terror</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="Index.html">Inicio</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class=" buscador uk-navbar-item">
+                    <form action="buscador.html" method="GET">
+                        <input name="inputbuscador" class="uk-input uk-form-width-small" type="text" placeholder="...">
+                        <a href="buscador.html"> <button class="uk-button uk-button-default">BUSCAR</button></a>
+                    </form>
+                </div>
+                <h1 class="fotos"></h1>
+                <div class="uk-position-relative">
+
+                    <nav class=" todobarra uk-navbar-container" uk-navbar="dropbar: true">
+
+                        <div class="uk-navbar-left">
+                            <ul class=" end uk-navbar-nav">
+                                <li class="favoritos">
+                                    <a href="favoritos.html">Favoritos</a>
+                                </li>
                             </ul>
                         </div>
-                    </li>
-                    <li class="peliculas">
-                        <a href="Generos.html" class="txtmob">Géneros</a>
-                        <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
-                            <ul class="uk-nav uk-dropdown-nav">
-                                <li class="uk-active"><a href="#"></a></li>
-                                <li><a href="detail.html?tipo=generos&id=28">Acción</a></li>
-                                <li><a href="detail.html?tipo=generos&id=18">Dramas</a></li>
-                                <li><a href="detail.html?tipo=generos&id=35">Comedias</a></li>
-                                <li><a href="detail.html?tipo=generos&id=10749">Románticas</a></li>
-                                <li><a href="detail.html?tipo=generos&id=53">Terror</a></li>
-                                <li class="uk-nav-divider"></li>
-                                <li><a href="Index.html">Inicio</a></li>
+
+                        <div class="uk-navbar-right">
+                            <ul class=" barrausuarios uk-navbar-nav">
+                                <li class="usuarios">
+                                    <a href="#" class="txtmob">Usuarios</a>
+                                    <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                                        <ul class="uk-nav uk-dropdown-nav">
+                                            <li class="uk-active"><a href="#"></a></li>
+                                            <li><a href="#">Pili</a></li>
+                                            <li><a href="#">Tati</a></li>
+                                            <li><a href="#">Nicky</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="Index.html">Inicio</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
-                    </li>
+                    </nav>
+                </div>
+            </nav>
+        </div>
 
-                </ul>
-            </div>
-
-            <div class=" buscador uk-navbar-item">
-                <form action="buscador.html" method="GET">
-                    <input name="inputbuscador" class="uk-input uk-form-width-small" type="text" placeholder="...">
-                    <a href="buscador.html"> <button class="uk-button uk-button-default">BUSCAR</button></a>
-                </form>
-            </div>
-            <h1 class="fotos"></h1>
-            <div class="uk-position-relative">
-
-                <nav class=" todobarra uk-navbar-container" uk-navbar="dropbar: true">
-
-                    <div class="uk-navbar-left">
-                        <ul class=" end uk-navbar-nav">
-                            <li class="favoritos">
-                                <a href="favoritos.html">Favoritos</a>
-                                <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
-                                    <ul class="uk-nav uk-dropdown-nav">
-                                        <li class="uk-active"><a href="#"></a></li>
-                                        <li><a href="Index.html">Películas</a></li>
-                                        <li><a href="Index.html">Series</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="Index.html">Inicio</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="uk-navbar-right">
-                        <ul class=" barrausuarios uk-navbar-nav">
-                            <li class="usuarios">
-                                <a href="#" class="txtmob">Usuarios</a>
-                                <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
-                                    <ul class="uk-nav uk-dropdown-nav">
-                                        <li class="uk-active"><a href="#"></a></li>
-                                        <li><a href="#">Pili</a></li>
-                                        <li><a href="#">Tati</a></li>
-                                        <li><a href="#">Nicky</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="Index.html">Inicio</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </nav>
-    </div>
-</header>
+    </header>
     <!--  banner !-->
-    <div class=" banner uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <div class=" banner uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+        uk-slideshow="ratio: 7:3; animation: push">
 
-        <ul class=" bannerimg uk-slideshow-items" >
-            
+        <ul class=" bannerimg uk-slideshow-items">
+
             <li>
-                <img src="imagenes/banner/banner.jpg" alt="" >
+                <img src="imagenes/banner/banner.jpg" alt="">
             </li>
             <li>
-                <img src="imagenes/banner/banner2.png" alt="" >
+                <img src="imagenes/banner/banner2.png" alt="">
             </li>
             <li>
-                <img src="imagenes/banner/banner3.png" alt="" >
+                <img src="imagenes/banner/banner3.png" alt="">
             </li>
             <li>
-                <img src="imagenes/banner/banner4.png" alt="" >
+                <img src="imagenes/banner/banner4.png" alt="">
             </li>
             <li>
                 <img src="imagenes/banner/banner5.png" alt="">
             </li>
 
         </ul>
-    
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-    
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slideshow-item="next"></a>
+
     </div>
 
-    <div class=" bannermob uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <div class=" bannermob uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+        uk-slideshow="ratio: 7:3; animation: push">
 
-        <ul class=" bannerimgm uk-slideshow-items" >
+        <ul class=" bannerimgm uk-slideshow-items">
 
         </ul>
-    
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-    
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+            uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+            uk-slideshow-item="next"></a>
+
     </div>
     <!-------------  generos !------------>
 
     <div class="generos">
         <div class="todoaccion">
-            <section class ="Accion1">
-                <a href="detail.html?tipo=generos&id=28"><h2 class="Accion">Acción</h2></a>
+            <section class="Accion1">
+                <a href="detail.html?tipo=generos&id=28">
+                    <h2 class="Accion">Acción</h2>
+                </a>
             </section>
 
-            <div class="Accion2 uk-position-relative uk-visible-toggle uk-light"  tabindex="-1" uk-slider>
+            <div class="Accion2 uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
-                <ul class="contenedor-accion uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
-                
+                <ul
+                    class="contenedor-accion uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+
                 </ul>
-            
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-            
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    uk-slider-item="next"></a>
+
             </div>
         </div>
-        <div class= "tododrama">
-            <section class ="Dramas1">
-                <a href="detail.html?tipo=generos&id=18"><h2  class="Dramas" >Dramas</h2></a>
+        <div class="tododrama">
+            <section class="Dramas1">
+                <a href="detail.html?tipo=generos&id=18">
+                    <h2 class="Dramas">Dramas</h2>
+                </a>
             </section>
-                
+
             <div class=" Dramas2 uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
-                <ul class=" contenedor-dramas uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
-                    
+                <ul
+                    class=" contenedor-dramas uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+
                 </ul>
-            
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    uk-slider-item="next"></a>
             </div>
         </div>
         <div class="todocomedia">
-            <section class ="Comedias1">
-                    <a href="detail.html?tipo=generos&id=35"><h2 class="Comedias">Comedias</h2></a>
+            <section class="Comedias1">
+                <a href="detail.html?tipo=generos&id=35">
+                    <h2 class="Comedias">Comedias</h2>
+                </a>
             </section>
-            
+
             <div class="Comedias2 uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
-                <ul class=" contenedor-comedias uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
-                
+                <ul
+                    class=" contenedor-comedias uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+
                 </ul>
-            
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    uk-slider-item="next"></a>
             </div>
         </div>
         <div class="todoromanticas">
             <section class="Románticas1">
-                <a href="detail.html?tipo=generos&id=10749"><h2 class="Románticas">Románticas</h2></a>
+                <a href="detail.html?tipo=generos&id=10749">
+                    <h2 class="Románticas">Románticas</h2>
+                </a>
             </section>
-            
+
             <div class=" Románticas2 uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
-                <ul class=" contenedor-romanticas uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
-                    
+                <ul
+                    class=" contenedor-romanticas uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+
                 </ul>
-            
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                    uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                    uk-slider-item="next"></a>
             </div>
         </div>
         <div class="todoterror">
             <section class="Terror1">
-                <a href="detail.html?tipo=generos&id=53"><h2 class="Terror">Terror</h2></a>
+                <a href="detail.html?tipo=generos&id=53">
+                    <h2 class="Terror">Terror</h2>
+                </a>
             </section>
-            
+
 
             <div class=" Terror2 uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
-                <ul class=" contenedor-terror uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
-            
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-        
+                <ul
+                    class=" contenedor-terror uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                        uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                        uk-slider-item="next"></a>
+
             </div>
         </div>
-    </div>  
+    </div>
 
 
     <footer class="footertodo ">
         <div class="footer2">
             <ul class="contenedor-footer">
-    
+
                 <li class="redes">
                     <a href="https://www.facebook.com/oneclick.npt.7" class="uk-icon-button uk-margin-small-right"
                         uk-icon="twitter"></a>
@@ -245,16 +269,16 @@
                 <li class="loogtmbd"><img src="imagenes/footer/logo tmbd.jpg" alt=""></li>
             </ul>
         </div>
-    
-    
+
+
         <ul class=" footertexto uk-subnav uk-subnav-divider" uk-margin>
-    
+
             <li><a href="#">Ayuda</a></li>
             <li><a href="#">Términos de Uso</a></li>
             <li><a href="#">Contactanos</a></li>
             <li><a href="#">Privacidad</a></li>
         </ul>
-    
+
         <div>
             <p class=" cerrar-sesion uk-margin">
                 <button class=" texto-boton uk-button uk-button-danger">Cerrar Sesión</button>
