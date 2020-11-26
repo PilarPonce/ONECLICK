@@ -6,6 +6,10 @@ body {
     width: 132px;
 }
 
+.favsmob{
+    display: none;
+}
+
 .usuario {
     width: 150px;
     display: flex;
