@@ -116,6 +116,7 @@ body {
     
 }
 
+
 .detalleimg {
     height: 500px;
     width: 350px;
@@ -131,7 +132,9 @@ body {
     width: 500px;
     height: 500px;
 }
-
+.favsmob{
+    display: none;
+}
 .titulo {
     font-size: 30px;
 }
@@ -290,7 +293,17 @@ body {
         justify-content: space-around;
         display: none;
     }
-        
+    .iniciar-sesion{
+        display: none;
+    }   
+    .favoritos{
+        display: none;
+    }
+    .favsmob{
+        display: block;
+        width: 50px;
+        height: 100px;
+    }
 
     /* contenido */
     .imagen {

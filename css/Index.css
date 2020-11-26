@@ -245,6 +245,9 @@ body {
     display: none;
 
 }
+.favsmob{
+    display: none;
+}
  
 
 @media only screen and (max-width: 420px) {
@@ -268,6 +271,11 @@ body {
     .headertext li {
         width: 50px;
     }
+    .favsmob{
+     display: block;
+     width: 50px;
+     height: 100px;
+    }
 
     .peliculas{
         display: none;
@@ -286,7 +294,9 @@ body {
         width: 100px;
         padding-top: 25px;
     }
-    
+    .iniciar-sesion{
+        display: none;
+    }
     .usuario {
         width: 150px;
         display: flex;
@@ -311,7 +321,7 @@ body {
     .barrausuarios {
         display: flex;
     }
-
+    
     .banner {
         display: none;
     }

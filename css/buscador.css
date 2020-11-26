@@ -131,6 +131,9 @@ body {
     display: none;
 
 }
+.favsmob{
+    display: none;
+}
 .iniciar-sesion {
     background-color: rgba(0, 0, 0, 0);
     font-size: 16px;
@@ -180,12 +183,21 @@ body {
     .logo {
         width: 100px;
     }
-
+    .favoritos{
+        display: none;
+    }
+    .favsmob{
+        display: block;
+        width: 50px;
+        height: 100px;
+    }
     .logo img  {
         width: 100px;
         padding-top: 25px;
     }
-    
+    .iniciar-sesion{
+     display: none;
+    }
     .usuario {
         width: 150px;
         display: flex;
