@@ -17,7 +17,7 @@
             <h2 class="logo"> <img src="imagenes/imagenesBarraNav/Logo.jpg" alt=""></h2>
         </a>
 
-        <div class=" ttbarr uk-position-relative uk-width-1-1">
+        <div class="uk-position-relative .uk-width-1-1">
 
             <nav class=" todobarra uk-navbar-container" uk-navbar="dropbar: true">
 
@@ -27,7 +27,6 @@
                         <li class="inicio">
                             <a href="Index.html">Inicio</a>
                         </li>
-                        
                         <li class="peliculas">
                             <a href="Generos.html" class="txtmob">Géneros</a>
                             <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
@@ -49,10 +48,31 @@
 
                 <div class=" buscador uk-navbar-item">
                     <form action="buscador.html" method="GET">
-                        <input name="inputbuscador" class=" escri uk-input uk-form-width-small" type="text" placeholder="...">
+                        <input name="inputbuscador" class="uk-input uk-form-width-small" type="text" placeholder="...">
                         <a href="buscador.html"> <button class=" cja uk-button uk-button-default"> BUSCAR</button></a>
                     </form>
                 </div>
+                <div class="navmobile uk-navbar-left">
+
+                    <ul class=" navmobile headertext uk-navbar-nav">
+                        <li class="navmobile">
+                            <a href="Generos.html" class="txtmob">Mas</a>
+                            <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li class="uk-active"><a href="#"></a></li>
+                                    <li><a href="login.html">Iniciar Sesión</a></li>
+                                    <li><a href="Index.html">Peliculas</a></li>
+                                    <li><a href="Index.html">Series</a></li>
+                                    <li><a href="Generos.html">Generos</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="Index.html">Inicio</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <h1 class="fotos"></h1>
                 <div class="uk-position-relative">
 
                     <nav class=" todobarra uk-navbar-container" uk-navbar="dropbar: true">
@@ -64,6 +84,8 @@
                                 </li>
                             </ul>
                         </div>
+                        
+
                         <div class="uk-navbar-left">
                             <ul class=" end uk-navbar-nav">
                                 <li class="favsmob">
@@ -71,8 +93,9 @@
                                 </li>
                             </ul>
                         </div>
-
                        
+                        
+                
                         <div>
                             <p class=" iniciar-sesion uk-margin">
                             <a href="login.html"> <button class=" texto-boton uk-button uk-button-danger">Iniciar Sesión</button></a>   

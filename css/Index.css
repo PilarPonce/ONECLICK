@@ -1,7 +1,9 @@
 body {
     background-color: white;   
 }
-
+.navmobile {
+    display: none;
+}
 .logo  {
     width: 122px;
 }
@@ -246,6 +248,9 @@ body {
  
 
 @media only screen and (max-width: 420px) {
+    .navmobile{
+        display: inline;
+    }
 
     .inicio {
         display: none;
