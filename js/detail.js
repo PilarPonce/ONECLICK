@@ -41,7 +41,8 @@ window.onload = function () {
                     </div>
                     <div>
                         <div class=" cajainfo uk-card-body">
-                            <h3 class=" titulo uk-card-title">${data.title}</h3> <a href="#" role="button" class="estrella" uk-icon="star"></a>
+                            <h3 class=" titulo uk-card-title">${data.title}</h3> 
+                            <a href="#" role="button" class="estrella" uk-icon="star; ratio: 5"></a>
                             <a href="#" role="button" class="eliminar" uk-icon="trash"></a>
                             <h5 class="promedioVotos"> Promedio de votos: ${data.vote_average} </h5>
                             <p class="descripcion">${data.overview}</p>
@@ -88,8 +89,8 @@ window.onload = function () {
                             </div>
                         </div>
                     </div>
-                    <div class="uk-card-body">
-                        ${resena}
+                    <div class="uk-card-body 1">
+                        <p> ${resena} </p>
                     </div>
                     <div class="uk-card-footer">
                         <a href="#" class="uk-button uk-button-text">Read more</a>
