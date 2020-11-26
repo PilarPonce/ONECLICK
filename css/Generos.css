@@ -352,7 +352,9 @@ body {
 .barrausuarios {
     display: flex;
 }
-
+.iniciar-sesion{
+    display: none;
+}
 .banner {
     display: none;
 }

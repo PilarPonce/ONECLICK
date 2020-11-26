@@ -181,7 +181,9 @@ body {
         .boton {
             display: none;
         }
-    
+        .iniciar-sesion{
+            display: none;
+        }
         .headertext li {
             width: 50px;
         }

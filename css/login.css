@@ -102,3 +102,8 @@ body {
     display: none;
 
 }
+@media only screen and (max-width: 420px) {
+.iniciar-sesion{
+        display: none;
+    }
+   } 

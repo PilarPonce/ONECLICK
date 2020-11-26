@@ -290,7 +290,9 @@ body {
         justify-content: space-around;
         display: none;
     }
-        
+    .iniciar-sesion{
+        display: none;
+    }   
 
     /* contenido */
     .imagen {

@@ -286,7 +286,9 @@ body {
         width: 100px;
         padding-top: 25px;
     }
-    
+    .iniciar-sesion{
+        display: none;
+    }
     .usuario {
         width: 150px;
         display: flex;
