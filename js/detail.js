@@ -160,7 +160,7 @@ window.onload = function () {
                     <div class=" cajainfo uk-card-body">
                         <h3 class=" titulo uk-card-title">${data.name}</h3>  <a href="#" role="button" class="estrella" uk-icon="star"></a>
                         <a href="#" role="button" class="eliminar" uk-icon="trash"></a>
-                        <a href="detail.html?tipo=generos&id=${id}"> ${seriegenero}</a>
+                        <a href="detail.html?tipo=generos&id=${id}" class = "gnrs"> ${seriegenero}</a>
                         <h4 class="promedioVotos">Fecha de salida: ${data.last_air_date}</h4>
                         <p class="descripcion">${data.overview}</p>
                     </div>
