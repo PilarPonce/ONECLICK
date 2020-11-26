@@ -203,7 +203,7 @@ body {
             height: auto;
             align-items: center;
             height: 90px;
-            width: 615px; 
+            width: 645px; 
         }
     
         .buscador {
@@ -233,6 +233,22 @@ body {
             display: flex;
             justify-content: space-around;
             display: none;
+        }
+
+        .todofavoritos h1 {
+            font-size: 30px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .todofavoritos {
+            width: 650px;
+        }
+
+        .imfv img {
+            width: 420px;
+            height: 550px;
+            padding-left: 70px;
         }
         .redes{
             display: none;

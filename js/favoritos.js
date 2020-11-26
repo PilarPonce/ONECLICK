@@ -28,7 +28,7 @@ window.addEventListener('load', function () {
                         var contenedorfavoritos = document.querySelector(".listafavoritos") //converti en variable
                         contenedorfavoritos.innerHTML += `
                         <a href="detail.html?tipo=pelicula&id=${data.id}">
-                            <li>
+                            <li class = "imfv">
                                 <img src="${linkimagen}${data.poster_path}" alt="">
                             </li>
                         <a/>
@@ -48,7 +48,7 @@ window.addEventListener('load', function () {
 
                         contenedorfavoritos.innerHTML += `
                         <a href="detail.html?tipo=serie&id=${data.id}">
-                            <li>
+                            <li class = "imfv">
                                 <img src="${linkimagen}${data.poster_path}" alt="">
                             </li>
                         <a/>
