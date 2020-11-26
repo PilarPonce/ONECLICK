@@ -70,7 +70,7 @@ window.addEventListener('load', function () {
     if (user) {
         txtSal.innerHTML += `<h2> ${user}, estos son tus favoritos </h2>`
     } else {
-        txtSal.innerHTML += `<h2>Porfavor haga login</h2>`
+        txtSal.innerHTML += `<h2>Usuario inicie sesión</h2>`
     }
     
 })
