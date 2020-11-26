@@ -251,6 +251,7 @@ body {
             background-color: rgb(212, 205, 205)!important;
             display: flex;
             justify-content: space-around;
+            height: 90px;
         }
     
         .txtmob{

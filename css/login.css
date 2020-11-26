@@ -128,9 +128,15 @@ body {
 
 }
 @media only screen and (max-width: 420px) {
-.iniciar-sesion{
-    display: none;
-}
+    .iniciar-sesion{
+        display: none;
+    }
+    .todobarra {
+        background-color: rgb(212, 205, 205)!important;
+        display: flex;
+        justify-content: space-around;
+        height: 90px;
+    }
 
 
 }  
