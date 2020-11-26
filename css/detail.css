@@ -5,7 +5,9 @@ body {
 .logo  {
     width: 132px;
 }
-
+.navmobile {
+    display: none;
+}
 .usuario {
     width: 150px;
     display: flex;

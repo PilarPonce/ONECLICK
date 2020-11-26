@@ -5,7 +5,9 @@ body {
 .logo  {
     width: 132px;
 }
-
+.navmobile {
+    display: none;
+}
 .iniciar-sesion {
     background-color: rgba(0, 0, 0, 0);
     font-size: 16px;

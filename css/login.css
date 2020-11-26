@@ -5,6 +5,9 @@ body {
 .logo  {
     width: 132px;
 }
+.navmobile {
+    display: none;
+}
 
 .favsmob{
     display: none;
