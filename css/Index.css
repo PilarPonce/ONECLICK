@@ -6,11 +6,6 @@ body {
     width: 122px;
 }
 
-.usuario {
-    width: 150px;
-    display: flex;
-    align-items: flex-end !important;
-}
 .header {
     background-color:  rgb(212, 205, 205);
     display: flex;
@@ -260,9 +255,6 @@ body {
         display: none;
     }
 
-    .usuarios {
-        display: none;
-    }
 
     .boton {
         display: none;
@@ -297,11 +289,7 @@ body {
     .iniciar-sesion{
         display: none;
     }
-    .usuario {
-        width: 150px;
-        display: flex;
-        align-items: flex-end !important;
-    }
+    
 
     .cja {
         width: 45px;
