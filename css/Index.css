@@ -344,6 +344,14 @@ body {
         height: 90px;
     }
 
+    .escri {
+        width: 100px;
+    }
+
+    .ttbarr {
+        max-width: 215px;
+    }
+
     .txtmob{
         display: flex;
         justify-content: space-around;
