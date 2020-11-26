@@ -1,5 +1,5 @@
 window.addEventListener (`load`,function(){
-
+/* 
 //aca guardo el form con sus elementos
 
 var formulario = document.querySelector (".form");
@@ -96,10 +96,10 @@ function validateName(name) {
 
    
   }
-  
+  */
 
 
-   /* 
+   
 var nombre = document.getElementById("name")
 var email = document.getElementById("email")
 var pass = document.getElementById("password")
@@ -131,7 +131,7 @@ form.addEventListener("submit", enviar=>{
         avisando.innerHTML = "Enviado"
     }
 })
-*/
+
 })
 
 
