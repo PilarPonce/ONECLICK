@@ -1,3 +1,7 @@
+body {
+    background-color: white !important;   
+}
+
 .logo  {
     width: 132px;
 }
@@ -5,7 +9,6 @@
 .usuario {
     width: 150px;
     display: flex;
-    align-items: flex-end !important;
 }
 .header {
     background-color:  rgb(212, 205, 205);
@@ -21,6 +24,12 @@
     align-items: flex-end;
 }
 
+.todobarra {
+    background-color: rgb(212, 205, 205)!important;
+    display: flex;
+    justify-content: center;
+}
+
 .iniciar-sesion {
     background-color: rgba(0, 0, 0, 0);
     font-size: 16px;
@@ -32,65 +41,5 @@
     margin-right: 0px;
     top: 0;
     color: red;
-}
-
-.footertexto {
-    display: flex;
-    justify-content: center;
-}
-.redes {
-    padding-bottom: 20px;
-}
-.footer2 ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.footer2 ul li h5{
-    display: flex;
-    align-items: flex-end;
-    color: rgb(128, 124, 124) !important;
-    
-}
-
-.footer2 ul li img {
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    
-}
-.footer button{
-    background-color: rgba(0, 0, 0, 0);
-    width: 80px;
-    font-size: 16px;
-    padding: 0;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    margin-right: 60px;
-    top: 0;
-    color: red;
-  }
-
-.footertodo {
-    padding-top: 10px;
-    background-color: rgb(212, 205, 205);
-    height: 180px;
-    display: flex;
-    align-items: center;
-    padding: 0;
-    justify-content: space-between;
-  }
-
-
-.logotmbd {
-    width: 130px;
-    }
-
-.mobgen {
-    display: none;
 
 }

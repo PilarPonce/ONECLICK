@@ -55,6 +55,7 @@ body {
     margin-right: 0px;
     top: 0;
     color: red;
+    align-items: flex-end !important;
 }
 .fondorecomendados {
     background-color: rgb(245, 241, 241);
