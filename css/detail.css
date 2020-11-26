@@ -246,7 +246,7 @@ body {
         height: auto;
         align-items: center;
         height: 90px;
-        width: 615px; 
+        width: 626px; 
     }
 
     .buscador {
@@ -294,16 +294,24 @@ body {
     .titulo {
         display: flex;
         justify-content: center;
-        font-size: 30px;
+        font-size: 50px;
     }
     .promedioVotos {
-        font-size: 20px;
+        font-size: 25px;
     }
 
+    .cajaprincipal  {
+        width: 626px;
+    }
 
     .cajainfo {
         margin-top: 50px;
         width: 560px !important;
+        height: 735px;
+    }
+
+    .gnrs {
+        font-size: 20px;
     }
 
     .tv {
@@ -312,15 +320,16 @@ body {
     }
 
     .descripcion {
-        width: 520px;
-        height: 375px;
+        width: 420px;
+        height: 275px;
         justify-content: center;
+        font-size: 25px;
     }
 
     .resenastotal {
-        margin-top: 380px;
+        margin-top: 680px;
         margin-bottom: 0px;
-        width: 1060px !important;
+        width: 11626px !important;
     }
 
     .titulogenero {
