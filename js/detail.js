@@ -51,7 +51,7 @@ window.onload = function () {
                 </div>
     
                `
-               //el role = button y el #: esto es un boton no un link, no me lleves a otro lado
+                //el role = button y el #: esto es un boton no un link, no me lleves a otro lado
             })
             .catch(function (error) {
                 console.log('El error fue: ' + error);
@@ -96,7 +96,7 @@ window.onload = function () {
                     </div>
                 </div>
                `
-               configurarFavoritos (tipo,id);
+                configurarFavoritos(tipo, id);
             })
             .catch(function (error) {
                 console.log('El error fue: ' + error);
@@ -111,7 +111,7 @@ window.onload = function () {
             })
             .then(function (data) {
                 console.log(data);
-                var videoHolder = document.querySelector (`.videoholder`)
+                var videoHolder = document.querySelector(`.videoholder`)
                 var youtubeKey = data.results[0].key
                 if (youtubeKey) {
                     videoHolder.innerHTML += `
@@ -119,7 +119,7 @@ window.onload = function () {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeKey}?rel=0" frameborder="0" allowfullscreen></iframe>
                     `
                 }
-                
+
             })
             .catch(function (error) {
                 console.log('El error fue: ' + error);
@@ -168,7 +168,7 @@ window.onload = function () {
             </div>
             `
 
-            configurarFavoritos (tipo,id);
+                configurarFavoritos(tipo, id);
 
             })
             .catch(function (error) {
@@ -179,24 +179,24 @@ window.onload = function () {
         //https://stackoverflow.com/questions/21845089/get-youtube-video-id-from-embed-iframe-code
         //Buscamos embedyoutubeidvideo (como meter videos de youtube en mi pagina)
         fetch(`https://api.themoviedb.org/3/tv/${id}/videos?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
-        .then(function (response) {
-            return response.json()
-        })
-        .then(function (data) {
-            console.log(data);
-            var videoHolder = document.querySelector (`.videoholder`)
-            var youtubeKey = data.results[0].key
-            if (youtubeKey) {
-                videoHolder.innerHTML += `
+            .then(function (response) {
+                return response.json()
+            })
+            .then(function (data) {
+                console.log(data);
+                var videoHolder = document.querySelector(`.videoholder`)
+                var youtubeKey = data.results[0].key
+                if (youtubeKey) {
+                    videoHolder.innerHTML += `
                 <h2> Videos relacionados: </h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeKey}?rel=0" frameborder="0" allowfullscreen></iframe>
                 `
-            }
-            
-        })
-        .catch(function (error) {
-            console.log('El error fue: ' + error);
-        })
+                }
+
+            })
+            .catch(function (error) {
+                console.log('El error fue: ' + error);
+            })
     }
 
 
@@ -262,12 +262,12 @@ window.onload = function () {
     }
 
 
-    
+
 
 
 }
 
-const configurarFavoritos = function (tipo,id) {
+const configurarFavoritos = function (tipo, id) {
     //favs
     var favs = localStorage.getItem("favoritos") //trae string correspondiente al lugar favoritos
     var favoritos = document.querySelector(".estrella")
@@ -290,7 +290,7 @@ const configurarFavoritos = function (tipo,id) {
             sacar.style.display = "none";
             favoritos.style.display = "block";
         }
-    } 
+    }
 
     if (arrayDeFavoritos.length === 0) { //si un array esta vacia, la longitud del array es 0, osea estoy seguro que no esta en favoritos, muestro el de agregar (estrellita)
         sacar.style.display = "none";
@@ -312,13 +312,13 @@ const configurarFavoritos = function (tipo,id) {
     })
 
     sacar.addEventListener("click", function () { //cuando clickeo, 
-        alert ("Lo sacaste de favoritos!")
+        alert("Lo sacaste de favoritos!")
         sacar.style.display = "none";
         favoritos.style.display = "block";
         for (let i = 0; i < arrayDeFavoritos.length; i++) { //me fijo en todos los favoritos cual es la posicion de mi fav que quiero borrar y cuando coinciden los id, los borro
             const element = arrayDeFavoritos[i];
             if (element.id == id) {
-                arrayDeFavoritos.splice (i,1); //aca digo que en i borre 1 elemento.
+                arrayDeFavoritos.splice(i, 1); //aca digo que en i borre 1 elemento.
                 localStorage.setItem("favoritos", JSON.stringify(arrayDeFavoritos))
             }
         }

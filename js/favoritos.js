@@ -19,45 +19,45 @@ window.addEventListener('load', function () {
             const element = favoritos[i];
             console.log(element)
             if (element.tipo === "pelicula") {
-             fetch(`https://api.themoviedb.org/3/movie/${element.id}?api_key=${apiKey}&language=en-US&page=1`)
-                .then(function (response) {
-                    return response.json()
-        })
-        .then(function (data) {
-            console.log(data);
-            var contenedorfavoritos = document.querySelector(".listafavoritos") //converti en variable
-            contenedorfavoritos.innerHTML += `
+                fetch(`https://api.themoviedb.org/3/movie/${element.id}?api_key=${apiKey}&language=en-US&page=1`)
+                    .then(function (response) {
+                        return response.json()
+                    })
+                    .then(function (data) {
+                        console.log(data);
+                        var contenedorfavoritos = document.querySelector(".listafavoritos") //converti en variable
+                        contenedorfavoritos.innerHTML += `
                         <a href="detail.html?tipo=pelicula&id=${data.id}">
                             <li>
                                 <img src="${linkimagen}${data.poster_path}" alt="">
                             </li>
                         <a/>
                         `
-        })
-        .catch(function (error) {
-            console.log('El error fue: ' + error);
-        })
-} else {
-    fetch(`https://api.themoviedb.org/3/tv/${element.id}?api_key=${apiKey}&language=en-US&page=1`)
-        .then(function (response) {
-            return response.json()
-        })
-        .then(function (data) {
-            console.log(data);
-            var contenedorfavoritos = document.querySelector(".listafavoritos")
+                    })
+                    .catch(function (error) {
+                        console.log('El error fue: ' + error);
+                    })
+            } else {
+                fetch(`https://api.themoviedb.org/3/tv/${element.id}?api_key=${apiKey}&language=en-US&page=1`)
+                    .then(function (response) {
+                        return response.json()
+                    })
+                    .then(function (data) {
+                        console.log(data);
+                        var contenedorfavoritos = document.querySelector(".listafavoritos")
 
-            contenedorfavoritos.innerHTML += `
+                        contenedorfavoritos.innerHTML += `
                         <a href="detail.html?tipo=serie&id=${data.id}">
                             <li>
                                 <img src="${linkimagen}${data.poster_path}" alt="">
                             </li>
                         <a/>
                         `
-        })
-        .catch(function (error) {
-            console.log('El error fue: ' + error);
-        })
-}
+                    })
+                    .catch(function (error) {
+                        console.log('El error fue: ' + error);
+                    })
+            }
         }
     }
 })
