@@ -9,10 +9,10 @@ window.addEventListener('load', function () {
 
     var tusFavoritos = document.querySelector(".todofavoritos") //traemos html
     var favoritos = JSON.parse(localStorage.getItem("favoritos")) //le decimos al localstorage que me traiga el item fav 
-                                                                //y que json lo convierta en array para poder manipularlo
+    //y que json lo convierta en array para poder manipularlo
     console.log(favoritos)
 
-    
+
     if (favoritos === null || favoritos.length === 0) { //triple no es solo contenido de la variable sino que del tipo de dato
         console.log("Todavía no hay favoritos")                              //si favs esta vacio le aviso al usuario que esta vacio
         tusFavoritos.innerHTML = `<h1> ¡No tenes ningún favorito! </h1>`
@@ -64,15 +64,15 @@ window.addEventListener('load', function () {
         }
     }
 
-    var user = localStorage.getItem ("UserName")
-    
-    var txtSal = document.querySelector (".saludox")
+    var user = localStorage.getItem("UserName")
+
+    var txtSal = document.querySelector(".saludox")
     if (user) {
         txtSal.innerHTML += `<h2> ${user}, estos son tus favoritos </h2>`
     } else {
         txtSal.innerHTML += `<h2>Usuario inicie sesión por favor</h2>`
     }
-    
+
 })
 
 
