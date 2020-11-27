@@ -371,7 +371,9 @@ body {
     display: block;
     margin-top: 15px;
 }
-
+.navmobile{
+    display: inline;
+}
 .todobarra {
     background-color: rgb(212, 205, 205)!important;
     display: flex;

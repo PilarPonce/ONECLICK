@@ -260,7 +260,9 @@ body {
     .buscador {
         width: 300px;
     }
-    
+    .navmobile{
+        display: inline;
+    }
     .barrausuarios {
         display: flex;
     }

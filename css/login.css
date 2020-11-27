@@ -152,7 +152,9 @@ body {
     .peliculas{
         display: none;
     }
-
+    .navmobile{
+        display: inline;
+    }
     .series {
         display: none;
     }
