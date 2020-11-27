@@ -309,7 +309,7 @@ body {
         height: auto;
         align-items: center;
         height: 90px;
-        width: 373px; 
+        width: 475px; 
     }
 
     .buscador {
@@ -329,8 +329,8 @@ body {
         display: block;
         margin-top: 15px;
     }
-    .bannerimgm{
-        width: 433px;
+    .bannermob {
+        width: 473px;
     }
     
     .todobarra {
@@ -354,8 +354,16 @@ body {
         display: none;
     }
 
+    .todrec {
+        width: 475px;
+    }
+
     .recomendados {
         width: 350px;        
+    }
+
+    .recomendados1 {
+        margin-left: 80px;
     }
 
     .recomendados li img {
@@ -367,6 +375,14 @@ body {
     .recomendados2 {
         display: flex;
         justify-content: center;
+    }
+
+    .todocon {
+        width: 475px;
+    }
+
+    .continuarv {
+        margin-left: 80px;
     }
 
     .continuarv2{
@@ -394,10 +410,16 @@ body {
         align-self: center;
         height: 50px;
         padding-bottom: 10px;
+        margin-left: 110px;
+        width: 250px;
     }
     
     .fondoten {
         margin-bottom: 20px;
+        width: 2775px;
+    }
+    .ten {
+        width: 2775px;
     }
     .ten li {
         margin-left: 60px;
@@ -419,7 +441,7 @@ body {
             display: none;
     }
     .footertodo{
-        width: 433px; 
+        width: 473px; 
     }
     .footertexto{
             display: flex;
