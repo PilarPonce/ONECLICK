@@ -2,13 +2,14 @@ body {
     background-color:  white;   
 }
 
-/*---------------------HEADER------------------- */
 .logo  {
     width: 132px;
 }
+
 .navmobile {
     display: none;
 }
+
 .iniciar-sesion {
     background-color: rgba(0, 0, 0, 0);
     font-size: 16px;
@@ -19,8 +20,7 @@ body {
     align-items: center;
     margin-right: 0px;
     top: 0;
-    color: red;
-    
+    color: red; 
 }
 
 .usuario {
@@ -28,6 +28,7 @@ body {
     display: flex;
     align-items: flex-end !important;
 }
+
 .header {
     background-color:  rgb(212, 205, 205);
     display: flex;
@@ -66,7 +67,6 @@ body {
     width: 100px;
 }
 
-/* ---------------------BANNER ---------------------*/
 .banner  {
     padding-top: 30px;
     width: auto;
@@ -80,8 +80,6 @@ body {
     display: none;
 }
 
-
-/* ---------------------GENEROS--------------------- */
 .Accion {
     color: rgb(128, 124, 124) !important;
     font-size: 23px !important;
@@ -104,6 +102,7 @@ body {
     list-style: none;
     width: 1220px;
 }
+
 .contenedor-accion li {
     width: 200px;
 }
@@ -138,6 +137,7 @@ body {
 .contenedor-dramas li {
     width: 200px;
 }
+
 .contenedor-dramas li img{
     width: 200px;
 }
@@ -164,6 +164,7 @@ body {
     list-style: none;
     width: 610px;
 }
+
 .contenedor-comedias li {
     width: 200px;
 }
@@ -194,9 +195,11 @@ body {
     list-style: none;
     width: 610px;
 }
+
 .contenedor-romanticas li {
     width: 200px;
 }
+
 .contenedor-romanticas li img{
     width: 200px;
 }
@@ -223,21 +226,24 @@ body {
     list-style: none;
     width: 610px;
 }
+
 .contenedor-terror li {
     width: 200px;
 }
+
 .contenedor-terror li img {
     width: 200px;
 }
 
-/* FOOTER */
 .footertexto {
     display: flex;
     justify-content: center;
 }
+
 .redes {
     padding-bottom: 20px;
 }
+
 .footer2 ul{
     list-style: none;
     display: flex;
@@ -249,15 +255,14 @@ body {
     display: flex;
     align-items: flex-end;
     color: rgb(128, 124, 124) !important;
-    
 }
 
 .footer2 ul li img {
     width: 150px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
+
 .footer button{
     background-color: rgba(0, 0, 0, 0);
     width: 80px;
@@ -270,7 +275,7 @@ body {
     margin-right: 60px;
     top: 0;
     color: red;
-  }
+}
 
 .footertodo {
     padding-top: 10px;
@@ -281,235 +286,238 @@ body {
     padding: 0;
     justify-content: space-between;
     margin-top: 27px;
-  }
-
+}
 
 .logotmbd {
     width: 130px;
-    }
+}
+
 .favsmob{
     display: none;
 }
-/* ---------------------MEDIA QUERIES--------------------- */
+
+
 
 @media only screen and (max-width: 420px) {
-    
-/* header */
-.inicio {
-    display: none;
-}
-
-.favoritos {
-    display: none;
-}
-
-
-.boton {
-    display: none;
-}
-
-.headertext li {
-    width: 50px;
-}
-.favsmob{
- display: block;
- width: 50px;
- height: 100px;
-}
-
-.peliculas{
-    display: none;
-}
-
-.series {
-    display: none;
-}
-
-.logo {
-    width: 100px;
-    padding-right: 0px;
-}
-
-.logo img  {
-    width: 100px;
-    padding-top: 25px;
-}
-.iniciar-sesion{
-    display: none;
-}
-
-.cja {
-    width: 45px;
-    font-size: 10px;
-    padding-left: 0px;
-}
-
-.header {
-    background-color:  rgb(212, 205, 205);
-    display: flex;
-    width: auto;
-    height: auto;
-    align-items: center;
-    height: 90px;
-    width: 475px; 
-}
-
-.buscador {
-    width: 273px;
-    padding-left: 0px;
-}
-
-.barrausuarios {
-    display: flex;
-}
-
-.banner {
+    .inicio {
         display: none;
     }
 
-.bannermob {
+    .favoritos {
+        display: none;
+    }
+
+    .boton {
+        display: none;
+    }
+
+    .headertext li {
+        width: 50px;
+    }
+
+    .favsmob{
+        display: block;
+        width: 50px;
+        height: 100px;
+    }
+
+    .peliculas{
+        display: none;
+    }
+
+    .series {
+        display: none;
+    }
+
+    .logo {
+        width: 100px;
+        padding-right: 0px;
+    }
+
+    .logo img  {
+        width: 100px;
+        padding-top: 25px;
+    }
+
+    .iniciar-sesion{
+        display: none;
+    }
+
+    .cja {
+        width: 45px;
+        font-size: 10px;
+        padding-left: 0px;
+    }
+
+    .header {
+        background-color:  rgb(212, 205, 205);
+        display: flex;
+        width: auto;
+        height: auto;
+        align-items: center;
+        height: 90px;
+        width: 475px; 
+    }
+
+    .buscador {
+        width: 273px;
+        padding-left: 0px;
+    }
+
+    .barrausuarios {
+        display: flex;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .bannermob {
         display: block;
         margin-top: 15px;
     }
-.bannerimgm{
+
+    .bannerimgm{
         width: 473px;
     }
-    
-.navmobile{
-    display: inline;
-}
-.todobarra {
-    background-color: rgb(212, 205, 205)!important;
-    display: flex;
-    justify-content: space-around;
-    height: 90px;
-}
-
-.escri {
-    width: 100px;
-}
-
-.ttbarr {
-    max-width: 215px;
-}
-
-.txtmob{
-    display: flex;
-    justify-content: space-around;
-    display: none;
-}
-
-.redes{
-    display: none;
-}
-.footertodo{
-   width: 473px; 
-}
-.footertexto{
-    display: flex;
-    text-align: center;
-    font-size: 15px;
-}
-
-.contenedor-footer li h5 {
-    font-size: 13px;
-}
-
-.cerrar-sesion {
-    height: 70px;
-    display: flex;
-    text-align: center;
-}
-.contenedor-accion {
-    width: 380px;         
-    }
-
-.contenedor-accion li {
-    width: 200px;
-    }
-
-.contenedor-accion li img {
-    padding-top: 10px;
-    padding-right: 0px;
-    width: 180px;
         
-}
-.contenedor-dramas {
+    .navmobile{
+        display: inline;
+    }
+
+    .todobarra {
+        background-color: rgb(212, 205, 205)!important;
+        display: flex;
+        justify-content: space-around;
+        height: 90px;
+    }
+
+    .escri {
+        width: 100px;
+    }
+
+    .ttbarr {
+        max-width: 215px;
+    }
+
+    .txtmob{
+        display: flex;
+        justify-content: space-around;
+        display: none;
+    }
+
+    .redes{
+        display: none;
+    }
+
+    .footertodo{
+    width: 473px; 
+    }
+
+    .footertexto{
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .contenedor-footer li h5 {
+        font-size: 13px;
+    }
+
+    .cerrar-sesion {
+        height: 70px;
+        display: flex;
+        text-align: center;
+    }
+
+    .contenedor-accion {
+        width: 380px;         
+    }
+
+    .contenedor-accion li {
+        width: 200px;
+    }
+
+    .contenedor-accion li img {
+        padding-top: 10px;
+        padding-right: 0px;
+        width: 180px;     
+    }
+    .contenedor-dramas {
         width: 187px;        
     }
 
-.contenedor-dramas li {
-    width: 200px;
+    .contenedor-dramas li {
+        width: 200px;
     }
 
-.contenedor-dramas li img {
+    .contenedor-dramas li img {
         padding-top: 10px;
         padding-right: 0px;
-        width: 180px;
-        
-   
-}
-.contenedor-comedias {
-    width: 187px;        
+        width: 180px;   
     }
 
-.contenedor-comedias li {
-    width: 200px;
+    .contenedor-comedias {
+        width: 187px;        
     }
 
-.contenedor-comedias li img {
-    padding-top: 10px;
-    padding-right: 0px;
-    width: 180px;
-        
-}
-.contenedor-romanticas {
+    .contenedor-comedias li {
+        width: 200px;
+    }
+
+    .contenedor-comedias li img {
+        padding-top: 10px;
+        padding-right: 0px;
+        width: 180px;      
+    }
+
+    .contenedor-romanticas {
         width: 187px;         
     }
 
-.contenedor-romanticas li {
-    width: 200px;
+    .contenedor-romanticas li {
+        width: 200px;
     }
 
-.contenedor-romanticas li img {
+    .contenedor-romanticas li img {
         padding-top: 10px;
-    padding-right: 0px;
-    width: 180px;
-        
-}
-.contenedor-terror {
+        padding-right: 0px;
+        width: 180px;   
+    }
+
+    .contenedor-terror {
         width: 187px;         
     }
 
-.contenedor-terror li {
-    width: 200px;
+    .contenedor-terror li {
+        width: 200px;
     }
 
-.contenedor-terror li img {
+    .contenedor-terror li img {
         padding-top: 10px;
-    padding-right: 0px;
-    width: 180px;
-        
-}
-.todoaccion {
-    width: 473px;
-}
+        padding-right: 0px;
+        width: 180px; 
+    }
 
-.tododrama{
-    width: 473px;
-}
+    .todoaccion {
+        width: 473px;
+    }
 
-.todocomedia{
-    width: 473px;
-}
+    .tododrama{
+        width: 473px;
+    }
 
-.todoromanticas {
-    width: 473px;
-}
+    .todocomedia{
+        width: 473px;
+    }
 
-.todoterror {
-    width: 473px;
-}
+    .todoromanticas {
+        width: 473px;
+    }
+
+    .todoterror {
+        width: 473px;
+    }
 
 }
 
