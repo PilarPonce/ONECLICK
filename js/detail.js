@@ -42,7 +42,7 @@ window.onload = function () {
                     <div>
                         <div class=" cajainfo uk-card-body">
                             <h3 class=" titulo uk-card-title">${data.title}</h3> 
-                            <a href="#" role="button" class="estrella" uk-icon="star; ratio: 5"></a>
+                            <a href="#" role="button" class="estrella" uk-icon="star"></a>
                             <a href="#" role="button" class="eliminar" uk-icon="trash"></a>
                             <h5 class="promedioVotos"> Promedio de votos: ${data.vote_average} </h5>
                             <p class="descripcion">${data.overview}</p>
@@ -117,7 +117,7 @@ window.onload = function () {
                 if (youtubeKey) {
                     videoHolder.innerHTML += `
                     <h2> Videos relacionados: </h2>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeKey}?rel=0" frameborder="0" allowfullscreen></iframe>
+                <p>   <iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeKey}?rel=0" frameborder="0" allowfullscreen></iframe> </p>
                     `
                 }
 

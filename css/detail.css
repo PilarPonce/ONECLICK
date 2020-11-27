@@ -5,6 +5,9 @@ body {
 .logo  {
     width: 132px;
 }
+.videoholder {
+    
+}
 .navmobile {
     display: none;
 }
@@ -198,7 +201,10 @@ body {
 .videoholder {
     margin-top: 90px;
     margin-left: 20px;
+   
 }
+
+
 
 .videoholder h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
