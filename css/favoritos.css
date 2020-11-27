@@ -165,9 +165,7 @@ body {
 .logotmbd {
     width: 130px;
     }
-.favsmob{
-    display: none;
-}
+
     @media only screen and (max-width: 420px) {
         /* header */
         .inicio {
@@ -190,11 +188,7 @@ body {
         .favoritos{
             display: none;
         }
-        .favsmob{
-             display: block;
-             width: 50px;
-             height: 100px;
-        }
+        
         .peliculas{
             display: none;
         }
