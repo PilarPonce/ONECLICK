@@ -175,6 +175,10 @@ body {
         .favoritos {
             display: none;
         }
+
+        .cja {
+            width: 100px;
+        }
     
         .boton {
             display: none;
@@ -214,7 +218,7 @@ body {
             height: auto;
             align-items: center;
             height: 90px;
-            width: 655px; 
+            width: 675px; 
         }
     
         .buscador {
@@ -249,6 +253,7 @@ body {
         .navmobile{
             display: inline;
         }
+        
         .todofavoritos h1 {
             font-size: 30px;
             display: flex;
@@ -268,7 +273,7 @@ body {
             display: none;
         }
         .footertodo{
-            width: 655px; 
+            width: 675px; 
         }
         .footertexto{
             display: flex;
