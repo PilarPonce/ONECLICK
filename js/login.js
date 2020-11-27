@@ -7,11 +7,16 @@ window.addEventListener(`load`, function () {
     var avisando = document.getElementById("aviso")
 
     form.addEventListener("submit", enviar => {
+
         enviar.preventDefault()
+
         var aviso = ""
-        console.log("hola me envio");
+
+       // console.log("hola me envio");
+
         var entrar = false
         var elEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+        
         avisando.innerHTML = ""
         if (nombre.value.length < 1) {
             aviso += `El nombre es invalido <br>`
