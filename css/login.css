@@ -131,69 +131,68 @@ body {
 
 @media only screen and (max-width: 420px) {
     
-    .favsmob {
-        display: block;
-        width: 50px;
-        height: 100px;
-    }
+.favsmob {
+    display: block;
+    width: 50px;
+    height: 100px;
+}
 
-    .navmobile{
-        display: inline;
-    }
-    
-    .iniciar-sesion{
-        display: none;
-    }
+.navmobile{
+    display: inline;
+}
+.iniciar-sesion{
+    display: none;
+}
 
-    .cja {
-        width: 45px;
-        font-size: 10px;
-        padding-left: 0px;
-    }
+.cja {
+    width: 45px;
+    font-size: 10px;
+    padding-left: 0px;
+}
 
-    .navmobile {
-        display: inline;
-    }
+.navmobile {
+    display: inline;
+}
 
-    .inicio {
-        display: none;
-    }
+.inicio {
+    display: none;
+ }
 
-    .favoritos {
-        display: none;
-    }
+.favoritos {
+    display: none;
+}
 
-    .boton {
-        display: none;
-    }
+.boton {
+    display: none;
+}
 
-    .headertext li {
-        width: 50px;
-    }
+.headertext li {
+    width: 50px;
+}
 
-    .favsmob{
-        display: block;
-        width: 50px;
-        height: 100px;
-    }
+.favsmob{
+    display: block;
+    width: 50px;
+    height: 100px;
+}
 
-    .peliculas{
-        display: none;
-    }
+.peliculas{
+    display: none;
+}
 
-    .series {
-        display: none;
-    }
+.series {
+    display: none;
+}
 
-    .logo {
-        width: 100px;
-        padding-right: 0px;
-    }
+.logo {
+    width: 100px;
+    padding-right: 0px;
+}
 
-    .logo img  {
-        width: 100px;
-        padding-top: 25px;
-    }
+.logo img  {
+    width: 100px;
+    padding-top: 25px;
+}
 
     .iniciar-sesion{
         display: none;
@@ -296,15 +295,15 @@ body {
         font-size: 15px;
     }
         
-    .contenedor-footer li h5 {
-        font-size: 13px;
-    }
+.contenedor-footer li h5 {
+    font-size: 13px;
+}
         
-    .cerrar-sesion {
-        height: 70px;
-        display: flex;
-        text-align: center;
-    }
+.cerrar-sesion {
+    height: 70px;
+    display: flex;
+    text-align: center;
+}
 
 
 }  
