@@ -1,6 +1,6 @@
 window.addEventListener(`load`, function () {
 
-    var nombre = document.getElementById("name")
+    var nombre = document.getElementById("name") //traigo del html los elementos del form
     var email = document.getElementById("email")
     var pass = document.getElementById("password")
     var form = document.getElementById("form")
@@ -8,7 +8,7 @@ window.addEventListener(`load`, function () {
 
     form.addEventListener("submit", enviar => {
 
-        enviar.preventDefault()
+        enviar.preventDefault() //evita que se envie el formulario
 
         var aviso = ""
 
