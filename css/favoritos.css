@@ -107,9 +107,6 @@ body {
     justify-content: center;
 }
 
-
-
-
 .footertexto {
     display: flex;
     justify-content: center;
@@ -149,7 +146,7 @@ body {
     margin-right: 60px;
     top: 0;
     color: red;
-  }
+}
 
 .footertodo {
     padding-top: 10px;
@@ -159,134 +156,136 @@ body {
     align-items: center;
     padding: 0;
     justify-content: space-between;
-  }
+}
 
 
 .logotmbd {
     width: 130px;
+}
+
+
+@media only screen and (max-width: 420px) {
+        /* header */
+    .inicio {
+        display: none;
     }
 
-    @media only screen and (max-width: 420px) {
-        /* header */
-        .inicio {
-            display: none;
-        }
-    
-        .favoritos {
-            display: none;
-        }
+    .favoritos {
+        display: none;
+    }
 
-        .cja {
-            width: 100px;
-        }
-    
-        .boton {
-            display: none;
-        }
-        .iniciar-sesion{
-            display: none;
-        }
-        .headertext li {
-            width: 50px;
-        }
-        .favoritos{
-            display: none;
-        }
-        
-        .peliculas{
-            display: none;
-        }
-    
-        .series {
-            display: none;
-        }
-    
-        .logo {
-            width: 100px;
-        }
-    
-        .logo img  {
-            width: 100px;
-            padding-top: 25px;
-        }
+    .cja {
+        width: 100px;
+    }
 
+    .boton {
+        display: none;
+    }
+    .iniciar-sesion{
+        display: none;
+    }
+    .headertext li {
+        width: 50px;
+    }
+    .favoritos{
+        display: none;
+    }
     
-        .header {
-            background-color:  rgb(212, 205, 205);
-            display: flex;
-            width: auto;
-            height: auto;
-            align-items: center;
-            height: 90px;
-            width: 675px; 
-        }
-    
-        .buscador {
-            width: 300px;
-        }
-        
-        .barrausuarios {
-            display: flex;
-        }
-    
-        .banner {
-            display: none;
-        }
-        
-        .bannermob {
-            display: block;
-            margin-top: 15px;
-        }
-        
-        .todobarra {
-            background-color: rgb(212, 205, 205)!important;
-            display: flex;
-            justify-content: space-around;
-            height: 90px;
-        }
-    
-        .txtmob{
-            display: flex;
-            justify-content: space-around;
-            display: none;
-        }
-        .navmobile{
-            display: inline;
-        }
-        
-        .todofavoritos h1 {
-            font-size: 30px;
-            display: flex;
-            justify-content: space-around;
-        }
+    .peliculas{
+        display: none;
+    }
 
-        .todofavoritos {
-            width: 650px;
-        }
+    .series {
+        display: none;
+    }
 
-        .imfv img {
-            width: 420px;
-            height: 550px;
-            padding-left: 70px;
-        }
-        .redes{
-            display: none;
-        }
-        .footertodo{
-            width: 675px; 
-        }
-        .footertexto{
-            display: flex;
-            text-align: center;
-            font-size: 15px;
-        }
-        .contenedor-footer li h5 {
-            font-size: 13px;
-        }
-            
-        .cerrar-sesion {
-            height: 70px;
-            display: flex;
-            text-align: center;
-        }
+    .logo {
+        width: 100px;
+    }
+
+    .logo img  {
+        width: 100px;
+        padding-top: 25px;
+    }
+
+
+    .header {
+        background-color:  rgb(212, 205, 205);
+        display: flex;
+        width: auto;
+        height: auto;
+        align-items: center;
+        height: 90px;
+        width: 675px; 
+    }
+
+    .buscador {
+        width: 300px;
+    }
+    
+    .barrausuarios {
+        display: flex;
+    }
+
+    .banner {
+        display: none;
+    }
+    
+    .bannermob {
+        display: block;
+        margin-top: 15px;
+    }
+    
+    .todobarra {
+        background-color: rgb(212, 205, 205)!important;
+        display: flex;
+        justify-content: space-around;
+        height: 90px;
+    }
+
+    .txtmob{
+        display: flex;
+        justify-content: space-around;
+        display: none;
+    }
+    .navmobile{
+        display: inline;
+    }
+    
+    .todofavoritos h1 {
+        font-size: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .todofavoritos {
+        width: 650px;
+    }
+
+    .imfv img {
+        width: 420px;
+        height: 550px;
+        padding-left: 70px;
+    }
+    .redes{
+        display: none;
+    }
+    .footertodo{
+        width: 675px; 
+    }
+    .footertexto{
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .contenedor-footer li h5 {
+        font-size: 13px;
+    }
+        
+    .cerrar-sesion {
+        height: 70px;
+        display: flex;
+        text-align: center;
+    }
 }    
