@@ -292,7 +292,6 @@ body {
         display: none;
     }
     
-    /* contenido */
     .imagen {
         width: 560px;
         height: 10px;
@@ -354,7 +353,6 @@ body {
         margin-left: 100px;
     }
 
-    /* footer */
     .redes{
         display: none;
     }

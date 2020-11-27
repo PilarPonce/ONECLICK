@@ -195,8 +195,9 @@ body {
         width: 100px;
         padding-top: 25px;
     }
+
     .iniciar-sesion{
-     display: none;
+        display: none;
     }
     .navmobile{
         display: inline;
