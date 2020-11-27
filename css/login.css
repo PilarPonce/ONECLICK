@@ -127,6 +127,30 @@ body {
 
 }
 @media only screen and (max-width: 420px) {
+    
+    .favsmob{
+     display: block;
+     width: 50px;
+     height: 100px;
+    }
+
+    .navmobile{
+        display: inline;
+    }
+    
+    .iniciar-sesion{
+        display: none;
+    }
+    .cja {
+        width: 45px;
+        font-size: 10px;
+        padding-left: 0px;
+    }
+
+    .navmobile{
+        display: inline;
+    }
+
     .inicio {
         display: none;
     }
@@ -152,9 +176,7 @@ body {
     .peliculas{
         display: none;
     }
-    .navmobile{
-        display: inline;
-    }
+
     .series {
         display: none;
     }
@@ -171,6 +193,8 @@ body {
     .iniciar-sesion{
         display: none;
     }
+    
+
     .cja {
         width: 45px;
         font-size: 10px;
@@ -184,7 +208,16 @@ body {
         height: auto;
         align-items: center;
         height: 90px;
-        width: 373px; 
+        width: 879px; 
+    }
+
+    .buscador {
+        width: 273px;
+        padding-left: 0px;
+    }
+    
+    .barrausuarios {
+        display: flex;
     }
 
     .buscador {
@@ -200,9 +233,27 @@ body {
         display: none;
     }
 
-    .bannermob {
-        display: block;
-        margin-top: 15px;
+    .titulo {
+        font-size: 70px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .inputs {
+        width: 200px;
+        padding-left: 70px;
+        height: 30px;
+        border: solid 4px black;
+        margin-bottom: 10px;
+    }
+    .completa {
+        width: 800px;
+        height: 150px;
+    }
+
+    .palabra {
+        margin-bottom: 5px;
+        font-size: 40px;
     }
     
     .todobarra {
@@ -225,6 +276,28 @@ body {
         justify-content: space-around;
         display: none;
     }
+
+    .redes{
+        display: none;
+}
+.footertodo{
+    width: 883px; 
+}
+.footertexto{
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+}
+    
+.contenedor-footer li h5 {
+        font-size: 13px;
+}
+    
+.cerrar-sesion {
+        height: 70px;
+        display: flex;
+        text-align: center;
+}
 
 
 }  
