@@ -220,7 +220,7 @@ body {
             height: auto;
             align-items: center;
             height: 90px;
-            width: 645px; 
+            width: 655px; 
         }
     
         .buscador {
@@ -272,7 +272,7 @@ body {
             display: none;
         }
         .footertodo{
-            width: 630px; 
+            width: 655px; 
         }
         .footertexto{
             display: flex;
