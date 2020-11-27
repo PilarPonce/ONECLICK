@@ -15,7 +15,7 @@ window.addEventListener('load', function () {
 
     if (favoritos === null || favoritos.length === 0) { //triple no es solo contenido de la variable sino que del tipo de dato
         console.log("Todavía no hay favoritos")                              //si favs esta vacio le aviso al usuario que esta vacio
-        tusFavoritos.innerHTML = `<h1> ¡No tenes ningún favorito! </h1>`
+        tusFavoritos.innerHTML = `<h3> ¡No tenes ningúno seleccionado! </h3>`
     } else {
         //muestro lo que hay dentro por cada favorito en favoritos
         for (let i = 0; i < favoritos.length; i++) {
@@ -68,7 +68,7 @@ window.addEventListener('load', function () {
 
     var txtSal = document.querySelector(".saludox")
     if (user) {
-        txtSal.innerHTML += `<h2> ${user}, estos son tus favoritos </h2>`
+        txtSal.innerHTML += `<h2> ¡Hola ${user}, estas en la página de favoritos! </h2>`
     } else {
         txtSal.innerHTML += `<h2>Usuario inicie sesión por favor</h2>`
     }
