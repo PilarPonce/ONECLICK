@@ -329,6 +329,9 @@ body {
         display: block;
         margin-top: 15px;
     }
+    .bannerimgm{
+        width: 433px;
+    }
     
     .todobarra {
         background-color: rgb(212, 205, 205)!important;
@@ -416,7 +419,7 @@ body {
             display: none;
     }
     .footertodo{
-        width: 375px; 
+        width: 433px; 
     }
     .footertexto{
             display: flex;
