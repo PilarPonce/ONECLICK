@@ -1,9 +1,11 @@
 body {
     background-color: white;   
 }
+
 .navmobile {
     display: none;
 }
+
 .logo  {
     width: 122px;
 }
@@ -177,18 +179,20 @@ body {
 .cajatext h3 {
     font-size: 18px;
 }
+
 .cajatext p {
     font-size: 13px;
 }
-
 
 .footertexto {
     display: flex;
     justify-content: center;
 }
+
 .redes {
     padding-bottom: 20px;
 }
+
 .footer2 ul{
     list-style: none;
     display: flex;
@@ -200,15 +204,14 @@ body {
     display: flex;
     align-items: flex-end;
     color: rgb(128, 124, 124) !important;
-    
 }
 
 .footer2 ul li img {
     width: 150px;
     display: flex;
     justify-content: center;
-    
 }
+
 .footer button{
     background-color: rgba(0, 0, 0, 0);
     width: 80px;
@@ -221,7 +224,7 @@ body {
     margin-right: 60px;
     top: 0;
     color: red;
-  }
+}
 
 .footertodo {
     padding-top: 10px;
@@ -231,12 +234,11 @@ body {
     align-items: center;
     padding: 0;
     justify-content: space-between;
-  }
-
+}
 
 .logotmbd {
     width: 130px;
-    }
+}
 
 .mobgen {
     display: none;
@@ -260,7 +262,6 @@ body {
         display: none;
     }
 
-
     .boton {
         display: none;
     }
@@ -268,10 +269,11 @@ body {
     .headertext li {
         width: 50px;
     }
+
     .favsmob{
-     display: block;
-     width: 50px;
-     height: 100px;
+        display: block;
+        width: 50px;
+        height: 100px;
     }
 
     .peliculas{
@@ -291,11 +293,11 @@ body {
         width: 100px;
         padding-top: 25px;
     }
+
     .iniciar-sesion{
         display: none;
     }
     
-
     .cja {
         width: 45px;
         font-size: 10px;
@@ -329,6 +331,7 @@ body {
         display: block;
         margin-top: 15px;
     }
+
     .bannermob {
         width: 473px;
     }
@@ -418,9 +421,11 @@ body {
         margin-bottom: 20px;
         width: 2775px;
     }
+
     .ten {
         width: 2775px;
     }
+
     .ten li {
         margin-left: 60px;
     }
@@ -438,25 +443,27 @@ body {
     }
 
     .redes{
-            display: none;
+        display: none;
     }
+
     .footertodo{
         width: 473px; 
     }
+
     .footertexto{
-            display: flex;
-            text-align: center;
-            font-size: 15px;
+        display: flex;
+        text-align: center;
+        font-size: 15px;
     }
         
     .contenedor-footer li h5 {
-            font-size: 13px;
+        font-size: 13px;
     }
         
     .cerrar-sesion {
-            height: 70px;
-            display: flex;
-            text-align: center;
+        height: 70px;
+        display: flex;
+        text-align: center;
     }
 
 }
