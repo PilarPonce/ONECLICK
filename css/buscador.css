@@ -199,9 +199,11 @@ body {
     .iniciar-sesion{
         display: none;
     }
+    
     .navmobile{
         display: inline;
     }
+
     .header {
         background-color:  rgb(212, 205, 205);
         display: flex;
