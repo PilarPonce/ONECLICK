@@ -1,5 +1,5 @@
 body {
-    background-color:  whitesmoke;   
+    background-color:  white;   
 }
 
 /*---------------------HEADER------------------- */
@@ -351,7 +351,7 @@ body {
     height: auto;
     align-items: center;
     height: 90px;
-    width: 375px; 
+    width: 475px; 
 }
 
 .buscador {
@@ -372,7 +372,7 @@ body {
         margin-top: 15px;
     }
 .bannerimgm{
-        width: 433px;
+        width: 473px;
     }
     
 .navmobile{
@@ -403,7 +403,7 @@ body {
     display: none;
 }
 .footertodo{
-   width: 433px; 
+   width: 473px; 
 }
 .footertexto{
     display: flex;
@@ -490,6 +490,22 @@ body {
     padding-right: 0px;
     width: 180px;
         
+}
+.todoaccion {
+    width: 473px;
+
+}
+.tododrama{
+    width: 473px;
+}
+.todocomedia{
+    width: 473px;
+}
+.todoromanticas {
+    width: 473px;
+}
+.todoterror {
+    width: 473px;
 }
 }
 
