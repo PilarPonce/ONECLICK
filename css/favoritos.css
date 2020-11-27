@@ -260,6 +260,7 @@ body {
 
     .todofavoritos {
         width: 650px;
+        height: auto;
     }
 
     .imfv img {
