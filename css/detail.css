@@ -217,62 +217,64 @@ body {
     
 @media only screen and (max-width: 420px) {
     /* header */
-    .inicio {
-        display: none;
-    }
+.inicio {
+    display: none;
+}
 
-    .favoritos {
-        display: none;
-    }
+.favoritos {
+    display: none;
+}
 
-    .boton {
-        display: none;
-    }
+.boton {
+    display: none;
+}
 
-    .headertext li {
-        width: 50px;
-    }
+.headertext li {
+    width: 50px;
+}
 
-    .peliculas{
-        display: none;
-    }
+.peliculas{
+    display: none;
+}
 
-    .series {
-        display: none;
-    }
+.series {
+    display: none;
+}
 
-    .logo {
-        width: 100px;
-    }
+.logo {
+    width: 100px;
+}
 
-    .logo img  {
-        width: 100px;
-        padding-top: 25px;
-    }
+.logo img  {
+    width: 100px;
+    padding-top: 25px;
+}
 
-    .header {
-        background-color:  rgb(212, 205, 205);
-        display: flex;
-        width: auto;
-        height: auto;
-        align-items: center;
-        height: 90px;
-        width: 630px; 
-    }
+.header {
+    background-color:  rgb(212, 205, 205);
+    display: flex;       
+    width: auto;
+    height: auto;
+    align-items: center;
+    height: 90px;
+    width: 630px; 
+}
 
-    .buscador {
-        width: 300px;
-    }
-    .navmobile{
-        display: inline;
-    }
-    .barrausuarios {
-        display: flex;
-    }
+.buscador {
+    width: 300px;
+}
 
-    .banner {
-        display: none;
-    }
+.navmobile{
+    display: inline;
+}
+    
+.barrausuarios {
+    display: flex;
+}
+
+.banner {
+    display: none;
+}
 
     .bannermob {
         display: block;
