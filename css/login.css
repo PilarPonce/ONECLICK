@@ -140,9 +140,7 @@ body {
 .navmobile{
     display: inline;
 }
-.iniciar-sesion{
-    display: none;
-}
+
 
 .cja {
     width: 45px;
@@ -194,10 +192,7 @@ body {
     padding-top: 25px;
 }
 
-    .iniciar-sesion{
-        display: none;
-    }
-    
+   
     .cja {
         width: 45px;
         font-size: 10px;
@@ -274,7 +269,9 @@ body {
     .ttbarr {
         max-width: 215px;
     }
-
+.form {
+    height: 700px;
+}
     .txtmob{
         display: flex;
         justify-content: space-around;
