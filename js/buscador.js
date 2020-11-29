@@ -22,10 +22,10 @@ window.addEventListener('load', function () {
 
     var todoBoton = document.querySelector(".todoboton")
 
-    todoBoton.addEventListener("change", function () { //change es cuando cambia de seleccion, de option. 
+    todoBoton.addEventListener("change", function () { //change es cuando cambia de seleccion, de option. Cuando toco el boton cambian las cosas que muestro
         var ul = document.querySelector(".listapelis")
         ul.innerHTML = "";
-        //se fija cual es el valor
+        //se fija cual es el valor. 
         if (todoBoton.value === "Peliculas") { //si el valor es pelicula que muestre esto:
             fetch(`https://api.themoviedb.org/3/search/multi?api_key=${apikey}&language=en-US&query=${loQueBuscoElUsuario}&page=1&include_adult=false`)
                 .then(function (response) {

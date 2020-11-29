@@ -123,6 +123,10 @@ body {
     padding-bottom: 10px;
 }
 
+.fondoten ul {
+    width: 1000px;
+}
+
 .ten {
     padding-top: 10px;
     margin-left: 15px;
@@ -130,7 +134,7 @@ body {
 }
 
 .ten li {
-    width: 350px;
+    width: 1650px;
 }
 
 .ten li img {

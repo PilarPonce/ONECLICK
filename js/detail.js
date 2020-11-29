@@ -3,8 +3,8 @@ window.onload = function () {
     var apiKey = `e8659a3dae8d207d31ba4797c06188c8`
     var linkimagen = "https://image.tmdb.org/t/p/w500"
 
-    var queryString = location.search;
-    var queryStringObj = new URLSearchParams(queryString);  //
+    var queryString = location.search; //traigo lo de despues
+    var queryStringObj = new URLSearchParams(queryString); 
 
     var id = queryStringObj.get("id");
     var tipo = queryStringObj.get("tipo");
@@ -42,17 +42,16 @@ window.onload = function () {
                     <div>
                         <div class=" cajainfo uk-card-body">
                             <h3 class=" titulo uk-card-title">${data.title}</h3> 
-                            <a href="#" role="button" class="estrella" uk-icon="star"></a>
+                            <a href="#" role="button" class="estrella" uk-icon="star"></a> 
                             <a href="#" role="button" class="eliminar" uk-icon="trash"></a>
                             <h5 class="promedioVotos"> Promedio de votos: ${data.vote_average} </h5>
                             <p class="descripcion">${data.overview}</p>
-                            
                         </div>
                     </div>
                 </div>
     
                `
-                //el role = button y el #: esto es un boton no un link, no me lleves a otro lado
+               //el role y button y el # es para que el boton no nos mande a algun link a otro lado. Primero agregamos botones al lado del titulo y despues vemos que hacemos con eso 
             })
             .catch(function (error) {
                 console.log('El error fue: ' + error);
@@ -105,7 +104,7 @@ window.onload = function () {
 
         //TRAILER PELI
         //https://stackoverflow.com/questions/21845089/get-youtube-video-id-from-embed-iframe-code
-        //Buscamos embedyoutubeidvideo (como meter videos de youtube en mi pagina)
+        //buscamos como meter videos en youtube en mi pagina
         fetch(`https://api.themoviedb.org/3/movie/${id}/videos?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
             .then(function (response) {
                 return response.json()
@@ -117,10 +116,10 @@ window.onload = function () {
                 if (youtubeKey) {
                     videoHolder.innerHTML += `
                     <h2> Videos relacionados: </h2>
-                <p>   <iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeKey}?rel=0" frameborder="0" allowfullscreen></iframe> </p>
+                    <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/${youtubeKey}?rel=0" frameborder="0" allowfullscreen></iframe> </p>
                     `
                 }
-
+// el iframe es para meter otro html en el mio y nosotras metimos un video 
             })
             .catch(function (error) {
                 console.log('El error fue: ' + error);
@@ -159,7 +158,8 @@ window.onload = function () {
                 </div>
                 <div>
                     <div class=" cajainfo uk-card-body">
-                        <h3 class=" titulo uk-card-title">${data.name}</h3>  <a href="#" role="button" class="estrella" uk-icon="star"></a>
+                        <h3 class=" titulo uk-card-title">${data.name}</h3>  
+                        <a href="#" role="button" class="estrella" uk-icon="star"></a>
                         <a href="#" role="button" class="eliminar" uk-icon="trash"></a>
                         <a href="generos.html" class = "gnrs"> ${seriegenero}</a>
                         <h4 class="promedioVotos">Fecha de salida: ${data.last_air_date}</h4>
@@ -178,8 +178,7 @@ window.onload = function () {
 
         //TRAILER PELI
         //https://stackoverflow.com/questions/21845089/get-youtube-video-id-from-embed-iframe-code
-        //Buscamos embedyoutubeidvideo (como meter videos de youtube en mi pagina)
-        fetch(`https://api.themoviedb.org/3/tv/${id}/videos?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`)
+        fetch(`https://api.themoviedb.org/3/tv/${id}/videos?api_key=e8659a3dae8d207d31ba4797c06188c8&language=en-US`) //este fetch me devuelve mucho pero tb cusl vslor puedo reemplazar para que me devulvs ideo util
             .then(function (response) {
                 return response.json()
             })
@@ -268,22 +267,23 @@ window.onload = function () {
 
 }
 
-const configurarFavoritos = function (tipo, id) {
+const configurarFavoritos = function (tipo, id) { //declaramos la funcion y despues la invocamos en otras partes.
     //favs
     var favs = localStorage.getItem("favoritos") //trae string correspondiente al lugar favoritos
     var favoritos = document.querySelector(".estrella")
     var sacar = document.querySelector(".eliminar")
-    var arrayDeFavoritos = "";
+    var arrayDeFavoritos = ""; //esta variable va a guardar un array que sirve para las pelis que voy a ir agregando
 
-    if (favs === null) {
+    if (favs === null) { //me fijo si tengo favoritos, y si no tengo, los incializo vacios. 
         arrayDeFavoritos = [];
     } else {
-        arrayDeFavoritos = JSON.parse(favs) //lo hace objeto para poder manipularlo
+        arrayDeFavoritos = JSON.parse(favs) //si tengo favoirtos, lo hace un array para poder manipularlo
     }
 
     for (let i = 0; i < arrayDeFavoritos.length; i++) { //este for hace que por cada favorito en favoritos se fija si esta y dependiendo de si esta o no, muestra un boton o el otro
+        //este for sirve para saber si esta o no. Si esta muestra estrella y si no basura
         const element = arrayDeFavoritos[i];
-        if (element.id == id) {
+        if (element.id == id) { //se fija si coinciden los id para ver que si esta, muestra basura, sino estrella
             sacar.style.display = "block";
             favoritos.style.display = "none";
             break; //me saca del for incluso si no termine la condicion. Lo hago porque si ya encontre el favorito, no tengo que seguir buscandolo
@@ -294,6 +294,7 @@ const configurarFavoritos = function (tipo, id) {
     }
 
     if (arrayDeFavoritos.length === 0) { //si un array esta vacia, la longitud del array es 0, osea estoy seguro que no esta en favoritos, muestro el de agregar (estrellita)
+        //lo hago porque si no esta en favoritos, no puede entrar en el for de arriba, entonces hago otra
         sacar.style.display = "none";
         favoritos.style.display = "block";
     }
@@ -304,23 +305,23 @@ const configurarFavoritos = function (tipo, id) {
         sacar.style.display = "block";
         favoritos.style.display = "none";
 
-        arrayDeFavoritos.push({ //aca agrego un objeto a mis favoritos
+        arrayDeFavoritos.push({ //esto hace que agregue la peli al final del array
             tipo: tipo, //le estoy agregando un elemento a mi objeto con el identificador "tipo" con el valor de esa variable
             id: id //le estoy agregando un elemento a mi objeto con el identificador "id" con el valor de esa variable
         });
 
-        localStorage.setItem("favoritos", JSON.stringify(arrayDeFavoritos)) //agarro nuevos favoritos y la guardo en el local storage. El stringify convierte el objeto de java script en un string
+        localStorage.setItem("favoritos", JSON.stringify(arrayDeFavoritos)) //agarro nuevos favoritos y la guardo en el local storage con el identificador. El stringify convierte el objeto de java script en un string
     })
 
-    sacar.addEventListener("click", function () { //cuando clickeo, 
+    sacar.addEventListener("click", function () { //cuando clickeo para sacarlo
         alert("Lo sacaste de favoritos!")
-        sacar.style.display = "none";
+        sacar.style.display = "none"; //que cambie de boton
         favoritos.style.display = "block";
         for (let i = 0; i < arrayDeFavoritos.length; i++) { //me fijo en todos los favoritos cual es la posicion de mi fav que quiero borrar y cuando coinciden los id, los borro
             const element = arrayDeFavoritos[i];
             if (element.id == id) {
-                arrayDeFavoritos.splice(i, 1); //aca digo que en i borre 1 elemento.
-                localStorage.setItem("favoritos", JSON.stringify(arrayDeFavoritos))
+                arrayDeFavoritos.splice(i, 1); //aca digo que en i borre 1 elemento. Saca el elemento que coincide con el for, en el que estoy
+                localStorage.setItem("favoritos", JSON.stringify(arrayDeFavoritos)) //guardo en el local que lo saque
             }
         }
     })
