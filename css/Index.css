@@ -423,11 +423,11 @@ body {
     
     .fondoten {
         margin-bottom: 20px;
-        width: 2775px;
+        width: 12775px;
     }
 
     .ten {
-        width: 2775px;
+        width: 12775px !important;
     }
 
     .ten li {
